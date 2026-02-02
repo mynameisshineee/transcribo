@@ -1,0 +1,8 @@
+openai-whisper
+moviepy
+torch
+pydub
+opencv-python
+pillow
+numpy
+scikit-image

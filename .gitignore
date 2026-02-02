@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Project specific
+*.log
+*.knowledge.md
+*.txt
+!requirements*.txt
+downloads/
+procesados/
+whisper-cpp-models/
+benchmark_results_*.json
+benchmark_*.txt
+
+# Private documentation (keep only README.md, LICENSE, CLAUDE.md)
+ALTERNATIVAS_*.md
+APPLE_SILICON_*.md
+AYUDAS_*.md
+BASE_DATOS_*.md
+BENCHMARK_*.md
+BIK_*.md
+CLAUDE_SKILLS_*.md
+comparison_*.md
+FASTER_*.md
+FLUIDAUDIO_*.md
+GUIA_*.md
+IMPLEMENTATION_PLAN.md
+INDICE_*.md
+M4_*.md
+MENSAJE_*.md
+MPS_*.md
+OPTIMIZACIONES_*.md
+RESPUESTA_*.md
+RESUMEN_*.md
+SKILLS_*.md
+TAYFUN_*.md
+VCS_*.md
+VIDEO_TO_KNOWLEDGE_BASE_README.md
+ESTRUCTURA_COMPLETA.txt
+
+# Archives
+*.tar.gz
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code (private skills/config)
+.claude/
+import-claude-skills.sh
+
+# Cache
+.cache/
+*.cache
+
+# Media files (don't track large files)
+*.mp4
+*.mp3
+*.wav
+*.mkv
+*.avi
+*.mov
+*.webm
+*.m4a
+*.flac
+*.ogg
+*.aac

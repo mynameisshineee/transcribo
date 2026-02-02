@@ -1,0 +1,138 @@
+# Transcribo Configuration
+# Centralized settings for the transcription pipeline
+
+# =============================================================================
+# PATHS
+# =============================================================================
+paths:
+  knowledge_base_destination: null  # Set your destination folder, e.g. ~/knowledge-base
+  temp_download_dir: "./downloads"
+  output_dir: null  # null = same as input file
+
+# =============================================================================
+# TRANSCRIPTION SETTINGS
+# =============================================================================
+transcription:
+  default_model: medium      # Options: base, small, medium, large-v3
+  default_language: null     # null = auto-detect, or: en, es, fr, de, etc.
+  engine: mlx                # mlx (recommended for Apple Silicon) or openai
+
+  # Frame extraction for knowledge base
+  frame_extraction:
+    enabled: true
+    threshold: 0.3           # Scene change detection threshold (0.0-1.0)
+    min_interval: 5          # Minimum seconds between frames
+    max_frames: 20           # Maximum frames to extract
+
+# =============================================================================
+# MODEL SELECTION BY IMPORTANCE
+# =============================================================================
+importance:
+  # Importance scale: 1-10
+  # 1-3: Low importance (small model)
+  # 4-7: Medium importance (medium model) - DEFAULT
+  # 8-10: High importance (large-v3 model)
+
+  thresholds:
+    low:
+      max_score: 3
+      model: small
+    medium:
+      max_score: 7
+      model: medium
+    high:
+      max_score: 10
+      model: large-v3
+
+  # Auto-detection weights (sum = 1.0)
+  auto_detection:
+    enabled: true
+    weights:
+      duration: 0.25          # Longer videos = more important
+      audio_quality: 0.20     # Higher bitrate = professional content
+      filename_keywords: 0.30 # Keywords in filename
+      source_folder: 0.15     # Folder name hints
+      file_size: 0.10         # Larger files = higher production
+
+  # Keywords for auto-importance detection
+  filename_keywords:
+    high:   # Importance +3
+      - curso
+      - tutorial
+      - formacion
+      - masterclass
+      - conferencia
+      - workshop
+      - certificacion
+    medium: # Importance +1
+      - charla
+      - demo
+      - webinar
+      - presentacion
+      - explicacion
+    low:    # Importance -2
+      - test
+      - prueba
+      - draft
+      - borrador
+      - temp
+
+  # Folder patterns for auto-importance
+  folder_patterns:
+    high:
+      - Formaciones
+      - Cursos
+      - Certificaciones
+    low:
+      - Descargas
+      - Downloads
+      - Temp
+
+# =============================================================================
+# QUALITY VALIDATION
+# =============================================================================
+quality:
+  enabled: true
+
+  # Score thresholds (0.0-1.0)
+  thresholds:
+    accept: 0.8              # >= 0.8: Accept without warnings
+    warn: 0.6                # >= 0.6: Accept with warnings
+    retry: 0.4               # < 0.6: Retry with better model
+    fail: 0.4                # < 0.4: Mark as failed
+
+  # Maximum retry attempts with superior models
+  max_retries: 2
+
+  # Whisper metrics thresholds (for detecting problems)
+  metrics:
+    avg_logprob_min: -0.8        # Below = low confidence
+    compression_ratio_max: 2.4   # Above = possible hallucination
+    no_speech_prob_max: 0.6      # Above with text = suspicious
+    text_density_min: 0.3        # Words/second minimum
+
+# =============================================================================
+# WORKFLOW SETTINGS
+# =============================================================================
+workflow:
+  # Interactive mode
+  ask_importance: true       # Ask user for importance if not specified
+  confirm_before_process: false  # Require confirmation before processing
+
+  # File handling
+  auto_move: true            # Automatically move to destination
+  cleanup_sources: true      # Delete source videos after processing
+  skip_existing: true        # Skip if output already exists
+
+  # YouTube download
+  youtube:
+    format: "best[height<=360]"  # Lower quality = smaller files
+    extract_audio_only: false     # true for audio-only extraction
+
+# =============================================================================
+# LOGGING
+# =============================================================================
+logging:
+  level: INFO                # DEBUG, INFO, WARNING, ERROR
+  save_metrics: true         # Save quality metrics to JSON
+  verbose_progress: true     # Show detailed progress
