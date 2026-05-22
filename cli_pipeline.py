@@ -196,7 +196,8 @@ class VideoPipeline:
     def _get_video_title(self, url: str) -> Optional[str]:
         """Get video title from URL using yt-dlp."""
         try:
-            cmd = ["yt-dlp", "--get-title", "--no-playlist", url]
+            cmd = ["yt-dlp", "--cookies-from-browser", "chrome",
+                   "--get-title", "--no-playlist", url]
             result = subprocess.run(
                 cmd,
                 capture_output=True,
@@ -266,10 +267,10 @@ class VideoPipeline:
 
             cmd = [
                 "yt-dlp",
+                "--cookies-from-browser", "chrome",
                 "-f", yt_format,
                 "-o", "%(title)s.%(ext)s",
                 "--no-playlist",
-                "--extractor-args", "youtube:player_client=android",
                 url,
             ]
 
