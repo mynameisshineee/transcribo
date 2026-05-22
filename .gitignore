@@ -17,6 +17,7 @@ build/
 !requirements*.txt
 !urls_pending_anthropic.txt
 !articles_pending_anthropic.txt
+!articles_pending_competitors.txt
 downloads/
 procesados/
 whisper-cpp-models/

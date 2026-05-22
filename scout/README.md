@@ -15,6 +15,8 @@ Discovery only. Processing is the operator's local job.
 
 ## Sources tracked
 
+### Anthropic orbit → `articles_pending_anthropic.txt` / `urls_pending_anthropic.txt`
+
 | Source | Type | Crawler |
 |---|---|---|
 | anthropic.com/news | text | HTML regex |
@@ -25,7 +27,24 @@ Discovery only. Processing is the operator's local job.
 | youtube.com/@anthropic-ai | video | yt-dlp + HTML fallback |
 | youtube.com/@AndrejKarpathy | video | yt-dlp + HTML fallback |
 | youtube.com/@JEVanClief | video | yt-dlp + HTML fallback |
+| youtube.com/@TaylorAHaren | video | yt-dlp + HTML fallback |
 | karpathy.github.io/feed.xml | text | RSS (Atom) |
+
+### Competitive watch → `articles_pending_competitors.txt`
+
+Routed by source-key prefix (`plane_`, `linear_`, `clickup_`, `monday_`).
+Wiki ingest lands these under `wiki/vigilancia-competitiva/`, NOT in the
+Anthropic-orbit categories.
+
+| Source | Type | Crawler |
+|---|---|---|
+| plane.so/blog | text | HTML regex |
+| plane.so/changelog | text | HTML regex |
+| linear.app/changelog | text | HTML regex |
+| linear.app/now (news + features) | text | HTML regex |
+| linear.app/rss/now.xml (craft blog) | text | RSS (Atom) |
+| clickup.com/blog | text | HTML regex (absolute URLs) |
+| monday.com/blog | text | HTML regex (absolute URLs, 2-segment slugs only) |
 
 X (Twitter) timelines for @bcherny and @karpathy are NOT in scope here —
 they require Chrome MCP which isn't available in the remote CCR env.

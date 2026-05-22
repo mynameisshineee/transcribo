@@ -34,6 +34,7 @@ import ssl
 import subprocess
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -42,6 +43,17 @@ ROOT = Path(__file__).resolve().parent.parent
 MANIFEST_PATH = ROOT / "manifests" / "anthropic_manifest.json"
 VIDEO_QUEUE = ROOT / "urls_pending_anthropic.txt"
 ARTICLE_QUEUE = ROOT / "articles_pending_anthropic.txt"
+COMPETITORS_QUEUE = ROOT / "articles_pending_competitors.txt"
+
+# Source-key prefix that routes articles to the competitor queue instead
+# of the Anthropic-orbit queue. Wiki ingest uses this routing to land
+# competitor content under wiki/vigilancia-competitiva/ rather than diluting
+# the existing Anthropic categories.
+COMPETITOR_PREFIXES = ("plane_", "linear_", "clickup_", "monday_")
+
+
+def is_competitor(key: str) -> bool:
+    return key.startswith(COMPETITOR_PREFIXES)
 
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -118,6 +130,54 @@ HTML_SOURCES = [
         False,
         "https://claude.com",
     ),
+    # --- Competitive watch (vigilancia competitiva) ---------------------
+    (
+        "plane_blog",
+        "https://plane.so/blog",
+        re.compile(r'href="(/blog/[a-z0-9][a-z0-9\-]+)"'),
+        False,
+        "https://plane.so",
+    ),
+    (
+        "plane_changelog",
+        "https://plane.so/changelog",
+        re.compile(r'href="(/changelog/[0-9]{4}-[0-9]{2}-[0-9]{2}[a-z0-9\-]+)"'),
+        False,
+        "https://plane.so",
+    ),
+    (
+        "linear_changelog",
+        "https://linear.app/changelog",
+        re.compile(r'href="(/changelog/[0-9]{4}-[0-9]{2}-[0-9]{2}[a-z0-9\-]+)"'),
+        False,
+        "https://linear.app",
+    ),
+    (
+        "linear_now_news",
+        "https://linear.app/now",
+        re.compile(r'href="(/now/[a-z][a-z0-9\-]+)"'),
+        False,
+        "https://linear.app",
+    ),
+    (
+        # ClickUp emits absolute URLs. Pattern matches blog leaves only —
+        # category index pages (single segment) are unlikely to be valuable.
+        # We accept any single-segment slug; urljoin canonicalizes.
+        "clickup_blog",
+        "https://clickup.com/blog/",
+        re.compile(r'href="(https://clickup\.com/blog/[a-z][a-z0-9\-]+/?)"'),
+        False,
+        None,
+    ),
+    (
+        # monday.com puts blog posts at /blog/<category>/<slug>/ (two segments).
+        # That distinguishes posts from category indexes (single segment).
+        "monday_blog",
+        "https://monday.com/blog",
+        re.compile(r'href="(https://monday\.com/blog/[a-z][a-z0-9\-]+/[a-z][a-z0-9\-]+/?)"'),
+        False,
+        None,
+    ),
 ]
 
 # --- YouTube sources --------------------------------------------------------
@@ -131,6 +191,8 @@ YOUTUBE_SOURCES = [
 # --- RSS sources ------------------------------------------------------------
 RSS_SOURCES = [
     ("karpathy_blog", "https://karpathy.github.io/feed.xml"),
+    # Linear's design/craft blog has a clean Atom feed (better than HTML scrape)
+    ("linear_now_craft", "https://linear.app/rss/now.xml"),
 ]
 
 
@@ -141,14 +203,17 @@ def http_get(url: str, timeout: int = 30) -> str:
     return raw.decode("utf-8", errors="replace")
 
 
-def crawl_html(listing_url: str, link_re: re.Pattern, origin: str) -> set[str]:
+def crawl_html(listing_url: str, link_re: re.Pattern, origin: str | None) -> set[str]:
+    """Crawl listing_url, extract URLs via link_re. Each match is joined with
+    listing_url via urljoin so absolute and relative captures both work."""
     try:
         html = http_get(listing_url)
     except (urllib.error.URLError, TimeoutError) as exc:
         print(f"  ! fetch failed: {exc}", file=sys.stderr)
         return set()
     paths = set(link_re.findall(html))
-    return {canonical(origin + p) for p in paths}
+    base = origin or listing_url
+    return {canonical(urllib.parse.urljoin(base, p)) for p in paths}
 
 
 YT_ID_RE = re.compile(r'"videoId":"([A-Za-z0-9_-]{11})"')
@@ -221,6 +286,7 @@ def main() -> int:
 
     new_videos: list[str] = []
     new_articles: list[str] = []
+    new_competitor_articles: list[str] = []
     per_source_new: dict[str, list[str]] = {}
 
     def diff_and_record(key: str, found: set[str], is_video: bool) -> None:
@@ -233,6 +299,8 @@ def main() -> int:
         manifest[key] = sorted(known | set(delta))
         if is_video:
             new_videos.extend(delta)
+        elif is_competitor(key):
+            new_competitor_articles.extend(delta)
         else:
             new_articles.extend(delta)
         print(f"  + {key}: {len(delta)} new")
@@ -252,7 +320,7 @@ def main() -> int:
         print(f"- {key} <- {url}")
         diff_and_record(key, crawl_rss(url), is_video=False)
 
-    total_new = len(new_videos) + len(new_articles)
+    total_new = len(new_videos) + len(new_articles) + len(new_competitor_articles)
     if total_new == 0:
         print("\nNo new items.")
         return 0
@@ -271,6 +339,7 @@ def main() -> int:
 
     append_queue(VIDEO_QUEUE, sorted(new_videos))
     append_queue(ARTICLE_QUEUE, sorted(new_articles))
+    append_queue(COMPETITORS_QUEUE, sorted(new_competitor_articles))
 
     MANIFEST_PATH.write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n")
 
