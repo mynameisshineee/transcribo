@@ -1,0 +1,331 @@
+# Watch Agent Sources — BiK wiki-watch
+#
+# Config de fuentes monitoreadas para descubrimiento + descarga + transcripción
+# automática. La ingesta al wiki queda MANUAL (Claude interactivo) para preservar
+# el juicio de taxonomía + cross-links + flag de contradicciones.
+#
+# Tipos soportados:
+#   youtube_channel       — canal propio (URL canal)
+#   youtube_search        — búsqueda por keywords
+#   github_user           — atom feed de actividad pública de usuario
+#   github_repo_activity  — atom feed de un repo concreto (commits/issues/releases)
+#   x_account             — manual via Chrome MCP (genera recordatorio en queue)
+#   x_search              — búsqueda X — manual
+#   web_rss               — feed RSS/Atom genérico
+#
+# Frecuencias: daily | weekly | manual
+
+sources:
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # TIER 1 — ANTHROPIC OFICIAL
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  - id: claude_anthropic_youtube
+    type: youtube_channel
+    url: https://www.youtube.com/channel/UCV03SRZXJEz-hchIAogeJOg/videos
+    handle: "@claudeai"
+    frequency: daily
+    priority: 1
+    language: en
+    notes: "Canal oficial @claudeai. Code with Claude keynotes, Cowork, MCP, skills"
+
+  - id: anthropic_main_youtube
+    type: youtube_channel
+    url: https://www.youtube.com/channel/UCrDwWp7EBBv4NwvScIpBDOA/videos
+    handle: "@anthropic-ai"
+    frequency: daily
+    priority: 1
+    language: en
+    backfill_since: "2025-11-01"
+    notes: "Canal PRINCIPAL de Anthropic (distinto de @claudeai). Research, safety, company, entrevistas. Añadido 2026-06-01 por operador. Backfill bajado a 2025-11-01 el 2026-06-05 (operador) para captar 12 vídeos pre-marzo de alto valor: COBOL, Project Vend, donación MCP, Agent Skills, philosopher Q&A, reward hacking. Daily forward."
+
+  - id: anthropic_blog
+    type: web_rss
+    url: https://www.anthropic.com/news
+    post_url_pattern: '^/news/[^/?#]+$'
+    frequency: daily
+    priority: 1
+    notes: "Anthropic news (modelos, agentes, política) — no hay RSS real, scrape HTML index"
+
+  - id: anthropic_engineering_blog
+    type: web_rss
+    url: https://www.anthropic.com/engineering
+    post_url_pattern: '^/engineering/[^/?#]+$'
+    frequency: daily
+    priority: 1
+    notes: "Anthropic engineering blog — scrape HTML index (no RSS real)"
+
+  - id: claudeai_x
+    type: x_account
+    url: https://x.com/AnthropicAI
+    handle: "@AnthropicAI"
+    frequency: manual
+    priority: 1
+    notes: "Anthropic X — recordatorio diario en manual_scan_queue.md"
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # TIER 1 — BORIS CHERNY (priority por feedback memory)
+  # vigilado en TODAS PARTES donde salga
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  - id: bcherny_x
+    type: x_account
+    url: https://x.com/bcherny
+    handle: "@bcherny"
+    frequency: manual
+    priority: 1
+    notes: "Boris Cherny X — el operador es prioridad #1 (memory feedback)"
+
+  - id: bcherny_github
+    type: github_user
+    url: https://github.com/bcherny
+    handle: bcherny
+    frequency: daily
+    priority: 1
+    notes: "Boris Cherny actividad pública GitHub (atom feed)"
+
+  - id: anthropics_claude_code_releases
+    type: github_repo_activity
+    url: https://github.com/anthropics/claude-code
+    feed_type: releases
+    frequency: daily
+    priority: 1
+    notes: "Releases del repo oficial claude-code donde Boris commits"
+
+  - id: anthropics_claude_code_commits
+    type: github_repo_activity
+    url: https://github.com/anthropics/claude-code
+    feed_type: commits
+    frequency: daily
+    priority: 1
+    notes: "Commits de anthropics/claude-code main branch"
+
+  - id: youtube_mentions_boris_cherny
+    type: youtube_search
+    query: "Boris Cherny"
+    frequency: daily
+    priority: 1
+    language: en
+    notes: "YouTube videos mencionando o entrevistando a Boris Cherny"
+
+  - id: bcherny_x_search
+    type: x_search
+    query: "from:bcherny OR \"Boris Cherny\""
+    frequency: manual
+    priority: 1
+    notes: "X menciones de Boris Cherny — manual via Chrome MCP"
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # TIER 1 — ANDREJ KARPATHY
+  # vigilado en TODAS PARTES donde salga
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  - id: karpathy_youtube
+    type: youtube_channel
+    url: https://www.youtube.com/@AndrejKarpathy/videos
+    handle: "@AndrejKarpathy"
+    frequency: daily
+    priority: 1
+    language: en
+    notes: "Karpathy publica raro pero cada vídeo es masterclass"
+
+  - id: karpathy_x
+    type: x_account
+    url: https://x.com/karpathy
+    handle: "@karpathy"
+    frequency: manual
+    priority: 1
+    notes: "Karpathy X — recordatorio diario"
+
+  - id: karpathy_github
+    type: github_user
+    url: https://github.com/karpathy
+    handle: karpathy
+    frequency: daily
+    priority: 1
+    notes: "Karpathy actividad pública GitHub (nanoGPT, llm.c, etc.)"
+
+  - id: karpathy_gists
+    type: github_user
+    url: https://gist.github.com/karpathy
+    handle: karpathy
+    feed_url: https://gist.github.com/karpathy.atom
+    frequency: daily
+    priority: 1
+    notes: "Gists de Karpathy (mini-tutoriales y RAG wiki)"
+
+  - id: youtube_mentions_karpathy
+    type: youtube_search
+    query: "Andrej Karpathy"
+    frequency: daily
+    priority: 1
+    language: en
+    notes: "YouTube videos mencionando o entrevistando a Karpathy"
+
+  - id: karpathy_x_search
+    type: x_search
+    query: "from:karpathy OR \"Andrej Karpathy\""
+    frequency: manual
+    priority: 1
+    notes: "X menciones de Karpathy — manual via Chrome MCP"
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # TIER 1 — J.E. Van Clief (autor ICM, Eduba / University of Edinburgh)
+  # vigilado en YouTube + GitHub + X
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  - id: jevanclief_youtube
+    type: youtube_channel
+    url: https://www.youtube.com/@jevanclief/videos
+    handle: "@jevanclief"
+    frequency: daily
+    priority: 1
+    language: en
+    backfill_since: "2026-02-12"
+    notes: "Van Clief (autor del paper ICM). Backfill últimos 3 meses + daily forward."
+
+  - id: jevanclief_github
+    type: github_user
+    url: https://github.com/RinDig
+    handle: RinDig
+    frequency: daily
+    priority: 1
+    notes: "RinDig (handle GitHub de Van Clief, host del repo ICM)"
+
+  - id: jevanclief_x
+    type: x_account
+    url: https://x.com/jevanclief
+    handle: "@jevanclief"
+    frequency: manual
+    priority: 1
+    notes: "Van Clief X — recordatorio en manual_scan_queue.md"
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # TIER 1 — Thariq Shihipar (@trq212, Anthropic — Claude Agent SDK)
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  - id: trq212_x
+    type: x_account
+    url: https://x.com/trq212
+    handle: "@trq212"
+    frequency: manual
+    priority: 1
+    notes: "Thariq Shihipar (Anthropic, autor Claude Agent SDK Full Workshop) — manual via Chrome MCP"
+
+  - id: trq212_github
+    type: github_user
+    url: https://github.com/thariqs
+    handle: thariqs
+    frequency: daily
+    priority: 1
+    notes: "GitHub Thariq Shihipar — hosts thariqs.github.io/html-effectiveness/ (biblioteca pública de HTML output examples Claude Code)"
+
+  - id: youtube_mentions_thariq
+    type: youtube_search
+    query: "Thariq Shihipar"
+    frequency: weekly
+    priority: 2
+    language: en
+    notes: "YouTube videos featuring Thariq (talks Anthropic Agent SDK)"
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # TIER 2 — Creadores / Canales AI + VC (añadidos 2026-05-29 por operador)
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  - id: johnkim_youtube
+    type: youtube_channel
+    url: https://www.youtube.com/@JohnKimLife/videos
+    handle: "@JohnKimLife"
+    frequency: daily
+    priority: 2
+    language: en
+    notes: "John Kim (Meta Staff Eng). Claude Code workflows, Agent View/Teams, Claude Design, AI engineering career. Backfill 6m hecho manual 2026-05-29; cron forward-only."
+
+  - id: sequoiacapital_youtube
+    type: youtube_channel
+    url: https://www.youtube.com/@sequoiacapital/videos
+    handle: "@sequoiacapital"
+    frequency: daily
+    priority: 2
+    language: en
+    notes: "Sequoia Capital. Mezcla: founder/AI talks (Karpathy Ascent, etc.) relevantes + finanzas/VC off-topic. Operador quiere TODOS los nuevos (2026-05-29). El filtro de relevancia se aplica en el wiki-ingest manual. Backfill 6m manual 2026-05-29; cron forward-only."
+
+  - id: aidotengineer_youtube
+    type: youtube_channel
+    url: https://www.youtube.com/@aiDotEngineer/videos
+    handle: "@aiDotEngineer"
+    frequency: daily
+    priority: 1
+    language: en
+    notes: "AI Engineer (conf talks). Fuente canónica de muchos talks ya ingestados (building-effective-agents, harness-engineering, agent-evaluations, etc.). Firehose: publica sesiones enteras de conferencia. Muchos ya procesados → auto-skip por título. Backfill 6m manual 2026-05-29; cron forward."
+
+  - id: mehulmpt_youtube
+    type: youtube_channel
+    url: https://www.youtube.com/@mehulmpt/videos
+    handle: "@mehulmpt"
+    frequency: daily
+    priority: 2
+    language: en
+    notes: "Mehul Mohan (Codedamn) — coding advice + AI tooling commentary. Ya ingestado su AWS IAM-scoped pattern en wiki (devops-cloud/aws-with-claude.md). 503 vídeos totales pero baja cadencia reciente (2 en últimos 6 meses). Backfill 6m manual 2026-06-04 (los 2 últimos); cron forward."
+
+  - id: lukas_margerie_youtube
+    type: youtube_channel
+    url: https://www.youtube.com/@lukas-margerie/videos
+    handle: "@lukas-margerie"
+    frequency: daily
+    priority: 2
+    language: en
+    notes: "Lukas Margerie — design+Claude Code workflows (Awwwards remix, Relume, Mobbin MCP, Figma→Codex, OpenClaw, AI agencies for local biz). ~98 vídeos en últimos 6 meses (cadencia alta, ~1 cada 1-2 días). Backfill 6m manual 2026-06-04 (97 nuevos); cron forward."
+
+  - id: workos_youtube
+    type: youtube_channel
+    url: https://www.youtube.com/@WorkOS/videos
+    handle: "@WorkOS"
+    frequency: daily
+    priority: 1
+    language: en
+    notes: "WorkOS — auth/identity para AI agents (auth.md, MCP Night, AgentMail, AgentCard), conf talks de su evento aplicado, + entrevistas (Boris Cherny RkQQ7WEor7w ya en kDrive, Acquired/Grinich). Añadido 2026-06-06 por operador. Backfill 15 últimos manual 2026-06-06; cron forward."
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # TIER 3 — Casos de uso B2B España (baja frecuencia)
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  - id: plane_so_blog
+    type: web_rss
+    url: https://plane.so/blog
+    post_url_pattern: '^/blog/[^/?#]+$'
+    frequency: weekly
+    priority: 2
+    notes: "Plane.so blog — releases + ingeniería + comparativas. No expone RSS, scrape HTML index"
+
+  - id: seedrocket_tv_youtube
+    type: youtube_channel
+    url: https://www.youtube.com/@SeedRocketTV/videos
+    handle: "@SeedRocketTV"
+    frequency: weekly
+    priority: 3
+    language: es
+    notes: "SeedRocketTV — entrevistas a fundadores y startups España"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# Configuración global
+# ═══════════════════════════════════════════════════════════════════════════
+
+config:
+  output_dir: /Users/shine/videoatexto
+  canonical_source_dir: "/Users/shine/kDrive/Dropbox/Ministry of Innovation/1 BiK/Administración/Colaboraciones, financiación, compras/Formaciones/0. Conocimiento Albert"
+  backlog_path: /Users/shine/videoatexto/watch/backlog.md
+  manual_scan_queue_path: /Users/shine/videoatexto/watch/manual_scan_queue.md
+  state_path: /Users/shine/videoatexto/watch/state.yaml
+
+  youtube_scan_limit: 30
+  youtube_search_limit: 15        # nº de resultados por búsqueda YT
+  github_activity_limit: 30       # nº de eventos atom por usuario
+
+  min_duration_seconds: 180
+  max_duration_seconds: 18000
+  min_views_for_mention: 500      # filtro de calidad para search results
+
+  whisper_model: medium
+  max_age_days: 30                # no procesar contenido más antiguo

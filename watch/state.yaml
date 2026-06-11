@@ -1,0 +1,59 @@
+state:
+  seedrocket_tv_youtube:
+    last_run: '2026-06-08T23:02:53'
+  youtube_mentions_karpathy:
+    last_run: '2026-06-11T07:04:08'
+  youtube_mentions_boris_cherny:
+    last_run: '2026-06-11T07:01:24'
+  claude_anthropic_youtube:
+    last_run: '2026-06-11T07:00:18'
+  claudeai_x:
+    last_run: '2026-05-11T23:23:34'
+  bcherny_x:
+    last_run: '2026-05-11T23:23:34'
+  bcherny_github:
+    last_run: '2026-06-11T07:00:29'
+  anthropics_claude_code_releases:
+    last_run: '2026-06-11T07:00:29'
+  anthropics_claude_code_commits:
+    last_run: '2026-06-11T07:00:59'
+  bcherny_x_search:
+    last_run: '2026-05-11T23:25:13'
+  karpathy_youtube:
+    last_run: '2026-06-11T07:01:26'
+  karpathy_x:
+    last_run: '2026-05-12T01:14:15'
+  karpathy_github:
+    last_run: '2026-06-11T07:01:58'
+  karpathy_gists:
+    last_run: '2026-06-11T07:01:58'
+  karpathy_x_search:
+    last_run: '2026-05-12T01:16:14'
+  jevanclief_youtube:
+    last_run: '2026-06-11T07:04:20'
+  jevanclief_github:
+    last_run: '2026-06-11T07:04:24'
+  trq212_github:
+    last_run: '2026-06-11T07:04:26'
+  anthropic_blog:
+    last_run: '2026-06-11T07:00:23'
+  plane_so_blog:
+    last_run: '2026-06-08T23:02:52'
+  anthropic_engineering_blog:
+    last_run: '2026-06-11T07:00:27'
+  youtube_mentions_thariq:
+    last_run: '2026-06-08T22:56:21'
+  johnkim_youtube:
+    last_run: '2026-06-11T07:04:46'
+  sequoiacapital_youtube:
+    last_run: '2026-06-11T07:08:01'
+  aidotengineer_youtube:
+    last_run: '2026-06-11T07:13:28'
+  anthropic_main_youtube:
+    last_run: '2026-06-11T07:00:19'
+  mehulmpt_youtube:
+    last_run: '2026-06-11T07:14:19'
+  lukas_margerie_youtube:
+    last_run: '2026-06-11T07:15:58'
+  workos_youtube:
+    last_run: '2026-06-11T07:16:01'

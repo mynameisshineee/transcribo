@@ -85,3 +85,28 @@ import-claude-skills.sh
 *.flac
 *.ogg
 *.aac
+
+# Partial downloads + core dumps (added 2026-06-11 pre-migration)
+*.part
+core
+
+# 64bis internal docs/tooling (private — NOT for this public repo; migrate via disk copy)
+64bis_*.md
+AUTH_LOGIN_*.md
+DEPRECATED_64BISEUS_*.md
+HANDOFF_*.md
+MASTER_PLAN_*.md
+PENDING_*.md
+PHASE_5_*.md
+SENTRY_INTEGRATION_*.md
+TRACK_3_*.md
+iam-policy-*.json
+merge_pr.sh
+resolve_pr.sh
+auto_resolve*.py
+resolve_*.py
+
+# BIK internal analysis (competitive watch / content material — keep private)
+PLANEPOWERS_*.md
+charla-*.md
+

@@ -1,0 +1,15712 @@
+# 📥 Backlog de ingesta wiki — Watch Agent
+
+> Vídeos descubiertos + descargados + transcritos automáticamente.
+> Cuando puedas, abre cada entrada y pídele a Claude que la ingiera al wiki.
+> Comando sugerido: *"Claude, ingiere al wiki la entrada N del backlog"*
+
+> Las entradas se añaden por orden cronológico (último arriba).
+
+---
+
+<!-- WATCH AGENT INSERTS NEW ENTRIES BELOW THIS LINE -->
+
+## 2026-05-11T12:30 — Sesión manual (no auto-descubierta)
+
+> Estos 4 vídeos los procesamos a mano hoy antes de que existiera el watch agent.
+> Los registro aquí para que el watch agent NO los redescubra ni los reprocese.
+
+### 1. `Anthropic_Code_with_Claude_2026_Opening_Keynote` 🔥
+- **Source**: youtube `GMIWm5y90xA` @claudeai 47:29 2026-05-06
+- **Pista**: Keynote oficial *Code with Claude 2026*. CPO Ami Fora. Anuncios cloud-managed agents, outcomes, dreaming, multi-agent orchestration, **routines** (claude code se prompta a sí mismo), rate limit ×2 en pro/max/team/seed. Devs medios → 20h/semana Claude Code. 8 modelos frontier en 12 meses.
+- **Sugerencia ingest**: `claude-code/code-with-claude-2026-keynote.md` (página nueva)
+- **Estado**: `.knowledge.md` en `/Users/shine/videoatexto/` + kDrive source
+
+### 2. `zodchii_anthropic_roadmap` 🔥
+- **Source**: x.com/zodchiii status 2052400272840720565 22min 2026-05-07
+- **Pista**: Conversación interna Anthropic. Alex (Cloud Relations), Brad (PM Cloud Developer Platform), Caitlin (Eng lead CDP). Rebranding **"Anthropic API" → "Claude Developer Platform"**. APIs + SDKs + console + docs unificados. Roadmap agentes 2026.
+- **Sugerencia ingest**: `claude-code/claude-developer-platform.md`
+- **Estado**: `.knowledge.md` en `/Users/shine/videoatexto/` + kDrive source
+
+### 3. `Mehul_Mohan_Just_connect_AI_to_AWS_bro`
+- **Source**: youtube `Xi-16kvbmqc` Mehul Mohan 10:01 2026-05-10
+- **Pista**: IAM user "AWS AI user" sin acceso a consola. Policies precisas para agente con AWS CLI. Tip: no necesitas wrapper Vercel-style, el agente ES el wrapper.
+- **Sugerencia ingest**: sección en `devops-cloud/aws-bedrock-agentcore.md` o nota corta nueva
+- **Estado**: `.knowledge.md` en `/Users/shine/videoatexto/` + kDrive source
+
+### 4. `Laagam_Diego_Arroyo_Puede_la_IA_gestionar_empresa_real`
+- **Source**: youtube `1xUxgNaGkHQ` @SeedRocketTV 33:46 2026-05
+- **Pista**: Podcast Jaume Gomà × Diego Arroyo (CEO La GAM moda online). IA reduce gap entre lo-que-tienes y lo-que-querrías. Host aplicándolo en GoTrendier + 4Founders.
+- **Sugerencia ingest**: `saas-startup-building/` o `ai-agents-strategy/ai-native-companies.md`
+- **Estado**: `.knowledge.md` en `/Users/shine/videoatexto/` + kDrive source
+
+---
+
+## 2026-05-11T23:03 — auto-descubierto · @claudeai
+
+### `O0FGCxkHM-U_The_CLAUDE.md_file.knowledge`
+- **Source**: claude_anthropic_youtube · `O0FGCxkHM-U` · 3:01 · upload NA
+- **URL**: https://www.youtube.com/watch?v=O0FGCxkHM-U
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:03 — auto-descubierto · @claudeai
+
+### `kkBFmwkDzdo_MCP_in_Claude_Code.knowledge`
+- **Source**: claude_anthropic_youtube · `kkBFmwkDzdo` · 3:37 · upload NA
+- **URL**: https://www.youtube.com/watch?v=kkBFmwkDzdo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:05 — auto-descubierto · @claudeai
+
+### `KLCuxMDZSDg_The_expanding_toolkit.knowledge`
+- **Source**: claude_anthropic_youtube · `KLCuxMDZSDg` · 21:23 · upload NA
+- **URL**: https://www.youtube.com/watch?v=KLCuxMDZSDg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:08 — auto-descubierto · @claudeai
+
+### `BrpB-h1e--k_Building_with_Claude_Managed_Agents_and_Asana_AI_teammates.knowledge`
+- **Source**: claude_anthropic_youtube · `BrpB-h1e--k` · 24:57 · upload NA
+- **URL**: https://www.youtube.com/watch?v=BrpB-h1e--k
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:10 — X scan manual @bcherny + @karpathy
+
+### `karpathy_2026_05_11_html_output_extrapolation` 🔥
+- **Source**: x.com `2053872850101285137` 2026-05-11 16:20 UTC · Andrej Karpathy
+- **URL**: https://x.com/karpathy/status/2053872850101285137
+- **Pista**: Tip + tesis amplia. Tip operativo: añade al final de tu prompt *"structure your response as HTML"* y abre el archivo en navegador (también funciona "as slide deck"). Tesis: audio = input preferido humano→IA; visión = output preferido IA→humano (1/3 del cerebro es procesador paralelo de visión, 10-lane superhighway). Progresión visual: texto crudo → markdown (default actual) → HTML (early new default) → … → vídeo/simulación neural interactiva. Endgame: vídeos interactivos generados directamente por red de difusión. También: input necesita gesturing/pointing además de audio. "Mental fusion of input/output between humans and AIs is underway. Hot tip: try asking for HTML."
+- **Sugerencia ingest**: `ai-agents-strategy/llm-best-practices.md` (técnica HTML output) + nota cruzada en `claude-code/workflows-and-patterns.md` (visualización de output Claude)
+
+### `karpathy_2026_04_30_sequoia_ascent_recap` 🔥🔥
+- **Source**: x.com `2049903821095354523` 2026-04-30 17:28 UTC · Andrej Karpathy
+- **URL**: https://x.com/karpathy/status/2049903821095354523
+- **Video embebido**: SÍ (la fireside chat completa). [PENDIENTE: extraer vídeo aparte si se quiere transcripción completa; el thread textual ya contiene los tres temas]
+- **Pista**: Recap fireside chat Sequoia Ascent 2026 (charla ~1 semana antes). Tres temas-clave:
+  1. **Nuevos horizontes LLM** más allá de acelerar lo que existía: *menugen* (app LLM-native, image-in/image-out sin código clásico); **install .md skills en vez de install .sh scripts** (LLM = intérprete avanzado de inglés, target install a tu setup, debug inline); **LLM knowledge bases** sobre datos no estructurados (imposible con código clásico).
+  2. **Jaggedness de LLMs**: cómo el mismo artefacto puede refactorizar 100k LOC *y* decirte que vayas al car wash a lavar el coche. Origen: verificabilidad del dominio + **economía** (revenue/TAM dictan qué empaquetan los frontier labs en datos de entrenamiento RL). "On the rails of RL circuits and flying, or off-roading in the jungle with a machete." Modelo aún no satisfactorio.
+  3. **Agent-native economy**: descomposición de productos en sensors/actuators/logic a través de 1.0/2.0/3.0 computing paradigms. Cómo hacer info legible para LLMs. Agentic engineering skill set y prácticas de hiring. Hint: fully-neural computing con CPU coprocessors clásicos.
+- **Quote-tweet contexto**: @stephzhan (Sequoia): "vibe coding raised the floor. Agentic engineering raises the ceiling." (Karpathy acuñó "vibe coding" en 2025, este año habla de "agentic engineering").
+- **Sugerencia ingest**: nueva página `ai-agents-strategy/karpathy-sequoia-ascent-2026.md` o sección destacada en `karpathy-claudemd.md`. Esta entrada es de las más importantes del año en estrategia LLM.
+
+### `karpathy_2026_04_30_quote_citing` (low signal sin contexto)
+- **Source**: x.com `2049907410303865030` 2026-04-30
+- **Pista**: "This is the quote I've been citing a lot lately." Sin captura de la cita citada. [PENDIENTE: revisar imagen embebida si se vuelve a abrir]
+- **Sugerencia ingest**: skip salvo que la cita resulte relevante.
+
+### `bcherny_2026_05_08_anthropic_research_quote` (Boris repostea Anthropic)
+- **Source**: x.com `2052808787514228772` 2026-05-08 17:52 UTC · Anthropic (reposteado por Boris)
+- **URL**: https://x.com/AnthropicAI/status/2052808787514228772 (status del post original)
+- **Pista**: Anthropic research: "Teaching Claude why." Tras reporte año pasado de chantaje por Claude 4 bajo condiciones experimentales → **eliminado completamente este comportamiento**. ¿Cómo? [PENDIENTE leer el research paper enlazado]. Alta señal técnica.
+- **Sugerencia ingest**: `ai-agents-strategy/llm-best-practices.md` sección alignment/safety.
+
+### `bcherny_2026_05_08_anthropic_swag_quoted` (Boris reposteó quote)
+- **Source**: x.com `2052855651341423099` 2026-05-08 20:58 UTC · Dakshay Mehta quote-tweeting Boris
+- **URL**: https://x.com/dakshaymehta/status/2052855651341423099
+- **Pista**: Anthropic repartió devices con custom memory + Claude en Code with Claude. "Time to add managed agents to this." Personal device hacking. Baja señal técnica.
+- **Sugerencia ingest**: skip.
+
+### `bcherny_2026_05_08_hackathons_sf` (low signal)
+- **Source**: x.com `2052880779466965129` 2026-05-08 22:38 UTC · ClaudeDevs (reposteado por Boris)
+- **Pista**: Co-organizando hackatones SF próxima semana (i.e. ~12 may 2026). Event-only.
+- **Sugerencia ingest**: skip (caduca).
+
+### `bcherny_2026_05_10_umeshu` (personal)
+- **Source**: x.com `2053556256913383898` 2026-05-10 19:22 UTC · Boris Cherny
+- **Pista**: Foto de su perro Clawd con umeshu (vino de ciruela) madurado 12 meses. Personal/lifestyle.
+- **Sugerencia ingest**: skip.
+
+### `bcherny_2026_05_08_paula_he_is_home` (personal)
+- **Source**: x.com `2052781136288661984` 2026-05-08 · reposteado de @paula
+- **Pista**: Personal.
+- **Sugerencia ingest**: skip.
+
+---
+
+> **Resumen X scan**: 9 posts revisados (5 bcherny timeline + 4 karpathy timeline). Alta señal: 3 (Karpathy HTML output, Karpathy Sequoia Ascent recap, Anthropic teaching Claude why repost). Skipear: 5 (personal/eventos/sin contexto). Pendiente extraer: 1 (vídeo embebido Sequoia Ascent del post de Karpathy).
+
+## 2026-05-11T23:12 — auto-descubierto · @claudeai
+
+### `igO8iyca2_g_Running_an_AI-native_engineering_org.knowledge`
+- **Source**: claude_anthropic_youtube · `igO8iyca2_g` · 28:38 · upload NA
+- **URL**: https://www.youtube.com/watch?v=igO8iyca2_g
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:14 — auto-descubierto · @claudeai
+
+### `OXJO4LldSnc_The_thinking_lever.knowledge`
+- **Source**: claude_anthropic_youtube · `OXJO4LldSnc` · 24:02 · upload NA
+- **URL**: https://www.youtube.com/watch?v=OXJO4LldSnc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:17 — auto-descubierto · @claudeai
+
+### `SqHsS737CeA_Building_with_Claude_on_Google_Cloud.knowledge`
+- **Source**: claude_anthropic_youtube · `SqHsS737CeA` · 26:30 · upload NA
+- **URL**: https://www.youtube.com/watch?v=SqHsS737CeA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:19 — auto-descubierto · @claudeai
+
+### `snroDwX1-JU_Evaluating_and_improving_Replit_Agent_at_scale.knowledge`
+- **Source**: claude_anthropic_youtube · `snroDwX1-JU` · 27:43 · upload NA
+- **URL**: https://www.youtube.com/watch?v=snroDwX1-JU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:19 — auto-descubierto · @claudeai
+
+### `BbYSGxtsMic_Giving_coding_agents_their_own_computers__How_Cursor_built_cloud_agents.knowledge`
+- **Source**: claude_anthropic_youtube · `BbYSGxtsMic` · 14:36 · upload NA
+- **URL**: https://www.youtube.com/watch?v=BbYSGxtsMic
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:21 — auto-descubierto · @claudeai
+
+### `RtywqDFBYnQ_Memory_and_dreaming_for_self-learning_agents.knowledge`
+- **Source**: claude_anthropic_youtube · `RtywqDFBYnQ` · 24:29 · upload NA
+- **URL**: https://www.youtube.com/watch?v=RtywqDFBYnQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:21 — auto-descubierto · @claudeai
+
+### `Lbml7IuGJYw_Getting_Started_with_Claude_Cowork.knowledge`
+- **Source**: claude_anthropic_youtube · `Lbml7IuGJYw` · 4:17 · upload NA
+- **URL**: https://www.youtube.com/watch?v=Lbml7IuGJYw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:21 — auto-descubierto · @claudeai
+
+### `IkaPHiMDazM_Hooks_in_Claude_Code.knowledge`
+- **Source**: claude_anthropic_youtube · `IkaPHiMDazM` · 3:22 · upload NA
+- **URL**: https://www.youtube.com/watch?v=IkaPHiMDazM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:22 — auto-descubierto · @claudeai
+
+### `RnOWJoHU_NY_Why_does_bias_exist_in_AI_models_.knowledge`
+- **Source**: claude_anthropic_youtube · `RnOWJoHU_NY` · 4:18 · upload NA
+- **URL**: https://www.youtube.com/watch?v=RnOWJoHU_NY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:22 — auto-descubierto · @claudeai
+
+### `TkSZqH0n7m0_Refining_a_PowerPoint_with_Claude.knowledge`
+- **Source**: claude_anthropic_youtube · `TkSZqH0n7m0` · 6:51 · upload NA
+- **URL**: https://www.youtube.com/watch?v=TkSZqH0n7m0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:22 — auto-descubierto · @claudeai
+
+### `TxS-1invhzg_Building_a_PowerPoint_with_Claude.knowledge`
+- **Source**: claude_anthropic_youtube · `TxS-1invhzg` · 4:05 · upload NA
+- **URL**: https://www.youtube.com/watch?v=TxS-1invhzg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:23 — auto-descubierto · @claudeai
+
+### `005JLRt3gXI_Why_do_AI_models_hallucinate_.knowledge`
+- **Source**: claude_anthropic_youtube · `005JLRt3gXI` · 5:14 · upload NA
+- **URL**: https://www.youtube.com/watch?v=005JLRt3gXI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:23 — auto-descubierto · @claudeai
+
+### `NLWiIj47IdI_What_is_Claude_Managed_Agents_.knowledge`
+- **Source**: claude_anthropic_youtube · `NLWiIj47IdI` · 3:53 · upload NA
+- **URL**: https://www.youtube.com/watch?v=NLWiIj47IdI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.139
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-11
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.139
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added agent view (Research Preview): a single list of every Claude Code session — running, blocked on you, or done. Run <code>claude agents</code> to get started. See 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.138
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.138
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal fixes</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.137
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.137
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>[VSCode] Fixed extension failing to activate on Windows</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.136
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-08
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.136
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>CLAUDE_CODE_ENABLE_FEEDBACK_SURVEY_FOR_OTEL</code> to re-enable the session quality survey for enterprises capturing responses through OpenTelemetry</li>
+<
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.133
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-07
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.133
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>worktree.baseRef</code> setting (<code>fresh</code> | <code>head</code>) to choose whether <code>--worktree</code>, <code>EnterWorktree</code>, and agent-i
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.132
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.132
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>CLAUDE_CODE_SESSION_ID</code> environment variable to the Bash tool subprocess environment, matching the <code>session_id</code> passed to hooks</li>
+<li>A
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.131
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.131
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed VS Code extension failing to activate on Windows due to a hardcoded build path in the bundled SDK (<code>createRequire</code> polyfill bug)</li>
+<li>Fixed Mantle
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.129
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.129
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>--plugin-url &lt;url&gt;</code> flag to fetch a plugin <code>.zip</code> archive from a URL for the current session</li>
+<li>Added <code>CLAUDE_CODE_FORCE_
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.128
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-04
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.128
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bare <code>/color</code> (no args) now picks a random session color</li>
+<li><code>/mcp</code> now shows the tool count for connected servers and flags servers that co
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-11
+- **URL**: https://github.com/anthropics/claude-code/commit/fdfbc06c7a6d9ace49c55b3761b1be05d276da6d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/commit/831608a360511febd4b10c77d4d03b47afda2f5b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/commit/33a87addb4c203062bc524cda814a600f2b857e9
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #56784 from anthropics/devsec/pin-actions
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-08
+- **URL**: https://github.com/anthropics/claude-code/commit/f7ef09f496195d60e585db1cfaceb9debf527b2b
+- **Tipo**: github_repo_commits
+- **Autor**: jportner-ant
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #56784 from anthropics/devsec/pin-actions
+
+Pin GitHub Actions to commit SHAs</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-08
+- **URL**: https://github.com/anthropics/claude-code/commit/2bd8547920ec2867618d1f2ade5a1897bc4c2afc
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-07
+- **URL**: https://github.com/anthropics/claude-code/commit/6cd790cd21d21335b8f968301da710bfdc0d9f88
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update HackerOne links in SECURITY.md (#53949)
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-07
+- **URL**: https://github.com/anthropics/claude-code/commit/fb063cd5e0716c2369955c8a9811849ba85f21d3
+- **Tipo**: github_repo_commits
+- **Autor**: OctavianGuzu
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update HackerOne links in SECURITY.md (#53949)
+
+* Update HackerOne links in SECURITY.md
+
+* Rename VDP heading to Anthropic Bug Bounty</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/commit/60348c95361c632ea4898ae32a8eaae7bcfbb37a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Pin GitHub Actions to commit SHAs
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/commit/52b9f247d10d904d397d6abe6389af4c9ab62ee9
+- **Tipo**: github_repo_commits
+- **Autor**: jportner-ant
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Pin GitHub Actions to commit SHAs</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/commit/71135e41b463a9f7eab76a49a28784c81bc6b49a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/commit/5c0e4f96eba18665ad14f3097a670334d8e8427e
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-04
+- **URL**: https://github.com/anthropics/claude-code/commit/9fce4e6ed16244127de19b1eee02508c6dc2d29e
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-11T23:32 — auto-descubierto · @AndrejKarpathy
+
+### `EWvNQjAaOHw_How_I_use_LLMs.knowledge`
+- **Source**: karpathy_youtube · `EWvNQjAaOHw` · 131:12 · upload NA
+- **URL**: https://www.youtube.com/watch?v=EWvNQjAaOHw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:46 — auto-descubierto · @AndrejKarpathy
+
+### `7xTGNNLPyMI_Deep_Dive_into_LLMs_like_ChatGPT.knowledge`
+- **Source**: karpathy_youtube · `7xTGNNLPyMI` · 211:24 · upload NA
+- **URL**: https://www.youtube.com/watch?v=7xTGNNLPyMI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-11T23:58 — auto-descubierto · @AndrejKarpathy
+
+### `l8pRSuU81PU_Let's_reproduce_GPT-2_(124M).knowledge`
+- **Source**: karpathy_youtube · `l8pRSuU81PU` · 241:26 · upload NA
+- **URL**: https://www.youtube.com/watch?v=l8pRSuU81PU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T00:09 — auto-descubierto · @AndrejKarpathy
+
+### `zduSFxRajkE_Let's_build_the_GPT_Tokenizer.knowledge`
+- **Source**: karpathy_youtube · `zduSFxRajkE` · 133:35 · upload NA
+- **URL**: https://www.youtube.com/watch?v=zduSFxRajkE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T00:15 — auto-descubierto · @AndrejKarpathy
+
+### `zjkBMFhNj_g_[1hr_Talk]_Intro_to_Large_Language_Models.knowledge`
+- **Source**: karpathy_youtube · `zjkBMFhNj_g` · 59:48 · upload NA
+- **URL**: https://www.youtube.com/watch?v=zjkBMFhNj_g
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T00:30 — auto-descubierto · @AndrejKarpathy
+
+### `kCc8FmEb1nY_Let's_build_GPT__from_scratch,_in_code,_spelled_out..knowledge`
+- **Source**: karpathy_youtube · `kCc8FmEb1nY` · 116:20 · upload NA
+- **URL**: https://www.youtube.com/watch?v=kCc8FmEb1nY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T00:35 — auto-descubierto · @AndrejKarpathy
+
+### `t3YJ5hKiMQ0_Building_makemore_Part_5__Building_a_WaveNet.knowledge`
+- **Source**: karpathy_youtube · `t3YJ5hKiMQ0` · 56:22 · upload NA
+- **URL**: https://www.youtube.com/watch?v=t3YJ5hKiMQ0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T00:44 — auto-descubierto · @AndrejKarpathy
+
+### `q8SA3rM6ckI_Building_makemore_Part_4__Becoming_a_Backprop_Ninja.knowledge`
+- **Source**: karpathy_youtube · `q8SA3rM6ckI` · 115:24 · upload NA
+- **URL**: https://www.youtube.com/watch?v=q8SA3rM6ckI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T00:53 — auto-descubierto · @AndrejKarpathy
+
+### `P6sfmUTpUmc_Building_makemore_Part_3__Activations_&_Gradients,_BatchNorm.knowledge`
+- **Source**: karpathy_youtube · `P6sfmUTpUmc` · 115:58 · upload NA
+- **URL**: https://www.youtube.com/watch?v=P6sfmUTpUmc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T00:58 — auto-descubierto · @AndrejKarpathy
+
+### `TCH_1BHY58I_Building_makemore_Part_2__MLP.knowledge`
+- **Source**: karpathy_youtube · `TCH_1BHY58I` · 75:40 · upload NA
+- **URL**: https://www.youtube.com/watch?v=TCH_1BHY58I
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T01:04 — auto-descubierto · @AndrejKarpathy
+
+### `PaCmpygFfXo_The_spelled-out_intro_to_language_modeling__building_makemore.knowledge`
+- **Source**: karpathy_youtube · `PaCmpygFfXo` · 117:45 · upload NA
+- **URL**: https://www.youtube.com/watch?v=PaCmpygFfXo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T01:05 — auto-descubierto · @AndrejKarpathy
+
+### `kVpDARqZdrQ_Stable_diffusion_dreams_of_psychedelic_faces.knowledge`
+- **Source**: karpathy_youtube · `kVpDARqZdrQ` · 4:02 · upload NA
+- **URL**: https://www.youtube.com/watch?v=kVpDARqZdrQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T01:06 — auto-descubierto · @AndrejKarpathy
+
+### `2oKjtvYslMY_Stable_diffusion_dreams_of_steampunk_brains.knowledge`
+- **Source**: karpathy_youtube · `2oKjtvYslMY` · 19:26 · upload NA
+- **URL**: https://www.youtube.com/watch?v=2oKjtvYslMY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T01:13 — auto-descubierto · @AndrejKarpathy
+
+### `VMj-3S1tku0_The_spelled-out_intro_to_neural_networks_and_backpropagation__building_micrograd.knowledge`
+- **Source**: karpathy_youtube · `VMj-3S1tku0` · 145:52 · upload NA
+- **URL**: https://www.youtube.com/watch?v=VMj-3S1tku0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T01:14 — auto-descubierto · @AndrejKarpathy
+
+### `vEnetcj_728_Stable_diffusion_dreams_of__blueberry_spaghetti__for_one_night.knowledge`
+- **Source**: karpathy_youtube · `vEnetcj_728` · 5:03 · upload NA
+- **URL**: https://www.youtube.com/watch?v=vEnetcj_728
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T01:14 — auto-descubierto · github · karpathy
+
+### karpathy commented on an issue in nanochat
+- **Source**: github `karpathy_github` · 2026-05-05
+- **URL**: https://github.com/karpathy/nanochat/issues/743#issuecomment-4380430580
+- **Tipo**: github_user_activity
+- **Autor**: karpathy
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T01:14 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-11
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T01:14 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-11
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T01:14 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-11
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T01:14 — auto-descubierto · github · karpathy
+
+### Training a Neural Network ATARI Pong agent with Policy Gradients from raw pixels
+- **Source**: github `karpathy_gists` · 2026-05-10
+- **URL**: https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5#file-pg-pong-py">pg-pong.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-pg-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T01:14 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-11
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T01:20 — auto-descubierto · @SeedRocketTV
+
+### `FR3hcmqFSU4_Cómo_construir_un_negocio_de_25M€_en_educación_(sin_ser_SaaS)___Caso_Innovamat_-_Andreu_Dotti.knowledge`
+- **Source**: seedrocket_tv_youtube · `FR3hcmqFSU4` · 61:46 · upload NA
+- **URL**: https://www.youtube.com/watch?v=FR3hcmqFSU4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.139
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-11
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.139
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added agent view (Research Preview): a single list of every Claude Code session — running, blocked on you, or done. Run <code>claude agents</code> to get started. See 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.138
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.138
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal fixes</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.137
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.137
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>[VSCode] Fixed extension failing to activate on Windows</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.136
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-08
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.136
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>CLAUDE_CODE_ENABLE_FEEDBACK_SURVEY_FOR_OTEL</code> to re-enable the session quality survey for enterprises capturing responses through OpenTelemetry</li>
+<
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.133
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-07
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.133
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>worktree.baseRef</code> setting (<code>fresh</code> | <code>head</code>) to choose whether <code>--worktree</code>, <code>EnterWorktree</code>, and agent-i
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.132
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.132
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>CLAUDE_CODE_SESSION_ID</code> environment variable to the Bash tool subprocess environment, matching the <code>session_id</code> passed to hooks</li>
+<li>A
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.131
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.131
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed VS Code extension failing to activate on Windows due to a hardcoded build path in the bundled SDK (<code>createRequire</code> polyfill bug)</li>
+<li>Fixed Mantle
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.129
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.129
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>--plugin-url &lt;url&gt;</code> flag to fetch a plugin <code>.zip</code> archive from a URL for the current session</li>
+<li>Added <code>CLAUDE_CODE_FORCE_
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-11
+- **URL**: https://github.com/anthropics/claude-code/commit/fdfbc06c7a6d9ace49c55b3761b1be05d276da6d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/commit/831608a360511febd4b10c77d4d03b47afda2f5b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/commit/33a87addb4c203062bc524cda814a600f2b857e9
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #56784 from anthropics/devsec/pin-actions
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-08
+- **URL**: https://github.com/anthropics/claude-code/commit/f7ef09f496195d60e585db1cfaceb9debf527b2b
+- **Tipo**: github_repo_commits
+- **Autor**: jportner-ant
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #56784 from anthropics/devsec/pin-actions
+
+Pin GitHub Actions to commit SHAs</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-08
+- **URL**: https://github.com/anthropics/claude-code/commit/2bd8547920ec2867618d1f2ade5a1897bc4c2afc
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-07
+- **URL**: https://github.com/anthropics/claude-code/commit/6cd790cd21d21335b8f968301da710bfdc0d9f88
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update HackerOne links in SECURITY.md (#53949)
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-07
+- **URL**: https://github.com/anthropics/claude-code/commit/fb063cd5e0716c2369955c8a9811849ba85f21d3
+- **Tipo**: github_repo_commits
+- **Autor**: OctavianGuzu
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update HackerOne links in SECURITY.md (#53949)
+
+* Update HackerOne links in SECURITY.md
+
+* Rename VDP heading to Anthropic Bug Bounty</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/commit/60348c95361c632ea4898ae32a8eaae7bcfbb37a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Pin GitHub Actions to commit SHAs
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/commit/52b9f247d10d904d397d6abe6389af4c9ab62ee9
+- **Tipo**: github_repo_commits
+- **Autor**: jportner-ant
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Pin GitHub Actions to commit SHAs</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/commit/71135e41b463a9f7eab76a49a28784c81bc6b49a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/commit/5c0e4f96eba18665ad14f3097a670334d8e8427e
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T07:01 — auto-descubierto · Sequoia Capital
+
+### `SlGRN8jh2RI_Anthropic's_Boris_Cherny__Coding's_Printing_Press_Moment.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `SlGRN8jh2RI` · 24:36 · upload ?
+- **URL**: https://www.youtube.com/watch?v=SlGRN8jh2RI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T11:06 — auto-descubierto · Y Combinator
+
+### `PQU9o_5rHC4_Inside_Claude_Code_With_Its_Creator_Boris_Cherny.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `PQU9o_5rHC4` · 50:11 · upload ?
+- **URL**: https://www.youtube.com/watch?v=PQU9o_5rHC4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T11:09 — auto-descubierto · Austin Marchese
+
+### `KWrsLqnB6vA_How_Claude_Code’s_Creator_Starts_EVERY_Project.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `KWrsLqnB6vA` · 12:17 · upload ?
+- **URL**: https://www.youtube.com/watch?v=KWrsLqnB6vA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T11:12 — auto-descubierto · CNBC Television
+
+### `kRgdkOw82F0_Head_of_Claude_Code_on_the_future_of_work_and_productivity.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `kRgdkOw82F0` · 16:37 · upload ?
+- **URL**: https://www.youtube.com/watch?v=kRgdkOw82F0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T11:13 — auto-descubierto · Ryan Peterman
+
+### `mz4UDbi7oBw_Boris_Cherny_(Creator_of_Claude_Code)_On_Scoping_Work_for_100s_of_Engineers.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `mz4UDbi7oBw` · 6:01 · upload ?
+- **URL**: https://www.youtube.com/watch?v=mz4UDbi7oBw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T11:15 — auto-descubierto · Native Notify
+
+### `XFypJiHPyv8__AI_won't_replace_coders...__-_Boris_Cherny_(Anthropic,_Claude_Code).knowledge`
+- **Source**: youtube_mentions_boris_cherny · `XFypJiHPyv8` · 10:27 · upload ?
+- **URL**: https://www.youtube.com/watch?v=XFypJiHPyv8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T11:18 — auto-descubierto · AI Engineer
+
+### `Lue8K2jqfKk_Claude_Code_&_the_evolution_of_agentic_coding_—_Boris_Cherny,_Anthropic.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `Lue8K2jqfKk` · 18:12 · upload ?
+- **URL**: https://www.youtube.com/watch?v=Lue8K2jqfKk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T11:23 — auto-descubierto · Claude
+
+### `DlTCu_pNDHE_Live_coding_session_with_Boris_Cherny_and_Jarred_Sumner.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `DlTCu_pNDHE` · 32:00 · upload ?
+- **URL**: https://www.youtube.com/watch?v=DlTCu_pNDHE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T11:31 — auto-descubierto · Bessemer Venture Partners
+
+### `h-Hlt05REZk_Agentic_coding_with_Claude_Code_creator_Boris_Cherny___Full_discussion.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `h-Hlt05REZk` · 51:56 · upload ?
+- **URL**: https://www.youtube.com/watch?v=h-Hlt05REZk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T11:39 — auto-descubierto · The MAD Podcast with Matt Turck
+
+### `G4yZiAdOBJM_Anthropic's_Surprise_Hit__How_Claude_Code_Became_an_AI_Coding_Powerhouse.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `G4yZiAdOBJM` · 60:24 · upload ?
+- **URL**: https://www.youtube.com/watch?v=G4yZiAdOBJM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T11:39 — auto-descubierto · github · karpathy
+
+### karpathy commented on an issue in nanochat
+- **Source**: github `karpathy_github` · 2026-05-05
+- **URL**: https://github.com/karpathy/nanochat/issues/743#issuecomment-4380430580
+- **Tipo**: github_user_activity
+- **Autor**: karpathy
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T11:39 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-11
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T11:39 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-12
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T11:39 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-12
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T11:39 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-12
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T11:39 — auto-descubierto · github · karpathy
+
+### Training a Neural Network ATARI Pong agent with Policy Gradients from raw pixels
+- **Source**: github `karpathy_gists` · 2026-05-10
+- **URL**: https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5#file-pg-pong-py">pg-pong.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-pg-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T11:39 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-11
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-12T11:39 — auto-descubierto · Sequoia Capital
+
+### `96jN2OCOfLs_Andrej_Karpathy__From_Vibe_Coding_to_Agentic_Engineering.knowledge`
+- **Source**: youtube_mentions_karpathy · `96jN2OCOfLs` · 29:49 · upload ?
+- **URL**: https://www.youtube.com/watch?v=96jN2OCOfLs
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T12:02 — auto-descubierto · Dwarkesh Patel
+
+### `lXUZvyajciY_Andrej_Karpathy_—_“We’re_summoning_ghosts,_not_building_animals”.knowledge`
+- **Source**: youtube_mentions_karpathy · `lXUZvyajciY` · 146:08 · upload ?
+- **URL**: https://www.youtube.com/watch?v=lXUZvyajciY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T12:04 — auto-descubierto · Nate Herk | AI Automation
+
+### `sboNwYmH3AY_Andrej_Karpathy_Just_10x’d_Everyone’s_Claude_Code.knowledge`
+- **Source**: youtube_mentions_karpathy · `sboNwYmH3AY` · 17:47 · upload ?
+- **URL**: https://www.youtube.com/watch?v=sboNwYmH3AY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T12:09 — auto-descubierto · Y Combinator
+
+### `LCEmiRjPEtQ_Andrej_Karpathy__Software_Is_Changing_(Again).knowledge`
+- **Source**: youtube_mentions_karpathy · `LCEmiRjPEtQ` · 39:32 · upload ?
+- **URL**: https://www.youtube.com/watch?v=LCEmiRjPEtQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T12:10 — auto-descubierto · Upgraded
+
+### `VRub1w-APTc_How_to_Build_a_Personal_LLM_Knowledge_Base_(Karpathy’s_Method).knowledge`
+- **Source**: youtube_mentions_karpathy · `VRub1w-APTc` · 10:08 · upload ?
+- **URL**: https://www.youtube.com/watch?v=VRub1w-APTc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T12:12 — auto-descubierto · Teacher's Tech
+
+### `iXd0t60YmMw_Karpathy's_LLM_Wiki_-_Full_Beginner_Setup_Guide.knowledge`
+- **Source**: youtube_mentions_karpathy · `iXd0t60YmMw` · 15:05 · upload ?
+- **URL**: https://www.youtube.com/watch?v=iXd0t60YmMw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T12:22 — auto-descubierto · AI Engineer and Matt Pocock
+
+### `-QFHIoCo-Ko_Full_Walkthrough__Workflow_for_AI_Coding_—_Matt_Pocock.knowledge`
+- **Source**: youtube_mentions_karpathy · `-QFHIoCo-Ko` · 96:30 · upload ?
+- **URL**: https://www.youtube.com/watch?v=-QFHIoCo-Ko
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T18:46 — auto-descubierto · @jevanclief
+
+### `kyBSX0ndYDc_He_Started_an_AI_Company_in_2011._I_asked_him_my_burning_questions_on_the_next_decade..knowledge`
+- **Source**: jevanclief_youtube · `kyBSX0ndYDc` · 12:35 · upload NA
+- **URL**: https://www.youtube.com/watch?v=kyBSX0ndYDc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T18:49 — auto-descubierto · @jevanclief
+
+### `AZ1l-oaD3tk_Afternoon_Tea_#2__Stop_Building_Production-Ready_AI._Solve_for_One_Client_First.knowledge`
+- **Source**: jevanclief_youtube · `AZ1l-oaD3tk` · 54:47 · upload NA
+- **URL**: https://www.youtube.com/watch?v=AZ1l-oaD3tk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T18:50 — auto-descubierto · @jevanclief
+
+### `hALln9wrrQo_How_I_Run_Creative,_Software,_and_Business_Work_as_One_System_(Ai_memory_vs_Human_memory_).knowledge`
+- **Source**: jevanclief_youtube · `hALln9wrrQo` · 14:04 · upload NA
+- **URL**: https://www.youtube.com/watch?v=hALln9wrrQo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T18:51 — auto-descubierto · @jevanclief
+
+### `oQ6tsBFJZzk_You_Think,_Therefore_I_Am__The_400-Year_History_of_Thinking_Machines.knowledge`
+- **Source**: jevanclief_youtube · `oQ6tsBFJZzk` · 12:15 · upload NA
+- **URL**: https://www.youtube.com/watch?v=oQ6tsBFJZzk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-12T19:00 — X scan manual @trq212 (Thariq Shihipar, Anthropic)
+
+### `thariq_2026_05_11_agents_view_thread` 🔥🔥
+- **Source**: x.com `2053979505346425179` + `2053979506827055255` + `2053980352641982816` · 2026-05-11 23:24-23:27 UTC · Thariq
+- **URL**: https://x.com/trq212/status/2053979505346425179
+- **Pista**: ANUNCIO DE PRODUCTO. **"Claude Code agents view"** — native multi-session manager para Claude Code, "tmux diseñado para CC". Lanza con `claude agents` en directorio top-level con todos tus repos (e.g. `~/Projects`). Mantiene registro de qué sesiones necesitan input. Hace trivial reanudar y continuar. Hilo de 3 tweets cerrando con "let me know if you have any feedback! We'll read it all and take action."
+- **Sugerencia ingest**: `claude-code/agents-view-multi-session.md` (página nueva) o sección en `claude-code/cowork-and-teams.md`. Alta prioridad para `claude-code/README.md` updates.
+
+### `thariq_2026_05_11_html_planning_workflow`
+- **Source**: x.com `2053632475294040084` · 2026-05-11 00:25 UTC · Thariq
+- **URL**: https://x.com/trq212/status/2053632475294040084
+- **Pista**: "I've been using HTML for planning, specs, exploration, code review, reports and much more." Sintetiza la posición de Anthropic: HTML como formato de pensamiento. Convergencia con la tesis de Karpathy del mismo día (HTML output tip).
+- **Sugerencia ingest**: sumar en `ai-agents-strategy/llm-best-practices.md` sección HTML output workflow.
+
+### `thariq_2026_05_08_html_is_the_new_markdown_thread` 🔥🔥
+- **Source**: x.com `2052811606032269638` + `2052811607454146761` · 2026-05-08 18:03 UTC · Thariq
+- **URL**: https://x.com/trq212/status/2052811606032269638
+- **Recurso enlazado**: https://thariqs.github.io/html-effectiveness/ (biblioteca pública de ejemplos HTML generados por CC)
+- **Pista**: "HTML is the new markdown." Thariq paró de escribir markdown para casi todo y pasó a usar Claude Code para que le genere HTML. Hilo expone el porqué + linkea su biblioteca pública. **Es el manifiesto del patrón HTML output** que Karpathy ratificó 3 días después.
+- **Sugerencia ingest**: nueva página `claude-code/html-as-output-format.md` cross-link con `ai-agents-strategy/llm-best-practices.md` (Karpathy tip). Recurso `thariqs.github.io/html-effectiveness` debe quedar referenciado.
+
+### `thariq_2026_05_08_sarah_chieng_writing_workshop` 🔥
+- **Source**: x.com `2052812382137971115` · 2026-05-08 18:06 UTC · Sarah Chieng (RT por Thariq)
+- **URL**: https://x.com/sarahchieng/status/2052812382137971115
+- **Pista**: Sarah Chieng anuncia workshop 15min con Thariq descifrando cómo en <2 años "redactor técnico cambió completamente mi vida" + sus artículos consistentemente superan 1M views. Desglosa: flujo de trabajo exacto + voz + ritmo + ediciones. Workshop ALTA SEÑAL para BiK content strategy.
+- **Sugerencia ingest**: `sales-marketing/technical-writing-workflow.md` (página nueva) o sección en `sales-marketing/newsletter-marketing.md`. [PENDIENTE bajar el vídeo del workshop si existe en YouTube]
+
+### `thariq_2026_05_10_bun_rust_jarred_ambition`
+- **Source**: x.com `2053559397654348159` · 2026-05-10 19:34 UTC · Thariq
+- **URL**: https://x.com/trq212/status/2053559397654348159
+- **Pista**: "Jarred trató de reescribir Bun en Rust y pasa el 99.8% de la suite de pruebas existente. No estamos siendo lo suficientemente ambiciosos." Conecta con la live coding Boris ⇄ Jarred Sumner del search YouTube de Boris (vídeo `DlTCu_pNDHE`). Señal cultural: el listón de ambición se acaba de mover.
+- **Sugerencia ingest**: nota corta en `claude-code/bcherny-timeline.md` o en `ai-coding-tools/vibe-coding.md` (anti-pattern de baja ambición).
+
+### `thariq_2026_04_16_million_context_session_mgmt`
+- **Source**: x.com `2044873898572001376` · 2026-04-16 20:21 UTC · Thariq
+- **URL**: https://x.com/trq212/status/2044873898572001376
+- **Pista**: "Tienes que pensar más cuidadosamente sobre la gestión de sesiones con un millón de contexto, no menos." Contraintuitivo. Argumento para el patrón ICM (Van Clief) + el agents-view propio (gestión de sesiones explícita).
+- **Sugerencia ingest**: cita corta en `ai-agents-strategy/context-and-memory.md` o en `claude-code/icm-folder-as-architecture.md`.
+
+### `thariq_2026_03_21_pinned_writing_thread` 🔥
+- **Source**: x.com `2035372716820218141` (pinned) · 2026-03-21 15:07 UTC · Thariq
+- **URL**: https://x.com/trq212/status/2035372716820218141
+- **Pista**: Hilo fijado con toda su escritura técnica. "Mucho de esto también se publicará pronto en blog de Claude." → Implica que Thariq ES uno de los autores principales del Anthropic engineering blog. [PENDIENTE: scroll del hilo completo y mapear cada artículo enlazado]
+- **Sugerencia ingest**: pendiente extraer cada artículo del hilo. Útil para listar a Thariq como entidad clave en `index.md` y para el operador conocer todas sus piezas.
+
+### Reposts low signal por Thariq
+- **`2052812382137971115` from Sarah Chieng**: ya capturado arriba como entrada propia (writing workshop) — alta señal
+- **`2052765294578278611` from Adam Wolff**: Charla otoño 2025 sobre early design decisions Claude Code + errores. "Algunos puntos están ya un poco desactualizados (como abrir tu editor!)". [PENDIENTE buscar vídeo de la charla]
+- **`2052065351673033079` from Anthony Morris**: vista previa Claude Code desktop adjunta DOM/lápiz dibujado en UI — feature update
+- **`2053868665108664631` from Omid Mogasemi**: office hours Claude Code cloud envs. Solo para usuarios feature-cloud
+- **`2053872850101285137` from Andrej Karpathy**: HTML output tip — ya capturado anteriormente en X scan Karpathy
+- **`2053869803501404511` from Thariq agradeciendo aadilpickle/FarzaTV**: meta sin contenido
+
+---
+
+> **Resumen X scan Thariq**: 16 posts revisados. **Alta señal**: 4 (agents view 🔥🔥, HTML is the new markdown 🔥🔥, Sarah Chieng workshop sobre escritura técnica 🔥, pinned writing thread 🔥). Media: 2 (Bun ambition, million-context session mgmt). Baja: 10 reposts/replies cortos. Resource externo notable: `thariqs.github.io/html-effectiveness` (biblioteca pública de HTML output examples).
+
+## 2026-05-13T07:01 — auto-descubierto · @claudeai
+
+### `FPPTnI88RR8_How_Anthropic_uses_Claude_in_Cybersecurity.knowledge`
+- **Source**: claude_anthropic_youtube · `FPPTnI88RR8` · 3:42 · upload NA
+- **URL**: https://www.youtube.com/watch?v=FPPTnI88RR8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.140
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.140
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Improved Agent tool <code>subagent_type</code> matching to accept case- and separator-insensitive values (e.g. <code>"Code Reviewer"</code> resolves to <code>code-revi
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.139
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-11
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.139
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added agent view (Research Preview): a single list of every Claude Code session — running, blocked on you, or done. Run <code>claude agents</code> to get started. See 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.138
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.138
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal fixes</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.137
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.137
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>[VSCode] Fixed extension failing to activate on Windows</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.136
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-08
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.136
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>CLAUDE_CODE_ENABLE_FEEDBACK_SURVEY_FOR_OTEL</code> to re-enable the session quality survey for enterprises capturing responses through OpenTelemetry</li>
+<
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.133
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-07
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.133
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>worktree.baseRef</code> setting (<code>fresh</code> | <code>head</code>) to choose whether <code>--worktree</code>, <code>EnterWorktree</code>, and agent-i
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.132
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.132
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>CLAUDE_CODE_SESSION_ID</code> environment variable to the Bash tool subprocess environment, matching the <code>session_id</code> passed to hooks</li>
+<li>A
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.131
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.131
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed VS Code extension failing to activate on Windows due to a hardcoded build path in the bundled SDK (<code>createRequire</code> polyfill bug)</li>
+<li>Fixed Mantle
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-12
+- **URL**: https://github.com/anthropics/claude-code/commit/6b070c31bc625dfd70d88352e7cfbdc505f55c6d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-11
+- **URL**: https://github.com/anthropics/claude-code/commit/fdfbc06c7a6d9ace49c55b3761b1be05d276da6d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/commit/831608a360511febd4b10c77d4d03b47afda2f5b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/commit/33a87addb4c203062bc524cda814a600f2b857e9
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #56784 from anthropics/devsec/pin-actions
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-08
+- **URL**: https://github.com/anthropics/claude-code/commit/f7ef09f496195d60e585db1cfaceb9debf527b2b
+- **Tipo**: github_repo_commits
+- **Autor**: jportner-ant
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #56784 from anthropics/devsec/pin-actions
+
+Pin GitHub Actions to commit SHAs</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-08
+- **URL**: https://github.com/anthropics/claude-code/commit/2bd8547920ec2867618d1f2ade5a1897bc4c2afc
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-07
+- **URL**: https://github.com/anthropics/claude-code/commit/6cd790cd21d21335b8f968301da710bfdc0d9f88
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update HackerOne links in SECURITY.md (#53949)
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-07
+- **URL**: https://github.com/anthropics/claude-code/commit/fb063cd5e0716c2369955c8a9811849ba85f21d3
+- **Tipo**: github_repo_commits
+- **Autor**: OctavianGuzu
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update HackerOne links in SECURITY.md (#53949)
+
+* Update HackerOne links in SECURITY.md
+
+* Rename VDP heading to Anthropic Bug Bounty</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/commit/60348c95361c632ea4898ae32a8eaae7bcfbb37a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Pin GitHub Actions to commit SHAs
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/commit/52b9f247d10d904d397d6abe6389af4c9ab62ee9
+- **Tipo**: github_repo_commits
+- **Autor**: jportner-ant
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Pin GitHub Actions to commit SHAs</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-06
+- **URL**: https://github.com/anthropics/claude-code/commit/71135e41b463a9f7eab76a49a28784c81bc6b49a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T07:17 — auto-descubierto · The Pragmatic Engineer
+
+### `julbw1JuAz0_Building_Claude_Code_with_Boris_Cherny.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `julbw1JuAz0` · 97:59 · upload ?
+- **URL**: https://www.youtube.com/watch?v=julbw1JuAz0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T07:33 — auto-descubierto · Lenny's Podcast
+
+### `We7BZVKbCVw_Head_of_Claude_Code__What_happens_after_coding_is_solved___Boris_Cherny.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `We7BZVKbCVw` · 87:45 · upload ?
+- **URL**: https://www.youtube.com/watch?v=We7BZVKbCVw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T07:48 — auto-descubierto · Ryan Peterman
+
+### `AmdLVWMdjOk_Boris_Cherny_(Creator_of_Claude_Code)_On_What_Grew_His_Career_And_Building_at_Anthropic.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `AmdLVWMdjOk` · 84:32 · upload ?
+- **URL**: https://www.youtube.com/watch?v=AmdLVWMdjOk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T07:50 — auto-descubierto · Austin Marchese
+
+### `jdLFeBkiy3M_How_Claude_Code's_Creator_ACTUALLY_Automates_his_work.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `jdLFeBkiy3M` · 10:08 · upload ?
+- **URL**: https://www.youtube.com/watch?v=jdLFeBkiy3M
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T07:52 — auto-descubierto · Dubibubii
+
+### `VIbew55IpE4_Claude's_Creator_Reveals_Most_POWERFUL_Settings.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `VIbew55IpE4` · 10:15 · upload ?
+- **URL**: https://www.youtube.com/watch?v=VIbew55IpE4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T07:57 — auto-descubierto · BeastAI
+
+### `B_KAEqiC-0Q_Mastering_Claude_Code_in_30_Minutes___Code_w__Claude_[Boris_Cherny].knowledge`
+- **Source**: youtube_mentions_boris_cherny · `B_KAEqiC-0Q` · 27:31 · upload ?
+- **URL**: https://www.youtube.com/watch?v=B_KAEqiC-0Q
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T08:02 — auto-descubierto · Anthropic
+
+### `gv0WHhKelSE_Claude_Code_best_practices___Code_w__Claude.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `gv0WHhKelSE` · 25:53 · upload ?
+- **URL**: https://www.youtube.com/watch?v=gv0WHhKelSE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T08:02 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-13
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T08:02 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-13
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T08:02 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-13
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T08:02 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-12
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T08:02 — auto-descubierto · github · karpathy
+
+### Training a Neural Network ATARI Pong agent with Policy Gradients from raw pixels
+- **Source**: github `karpathy_gists` · 2026-05-10
+- **URL**: https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5#file-pg-pong-py">pg-pong.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-pg-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T08:02 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-12
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-13T08:15 — auto-descubierto · No Priors: AI, Machine Learning, Tech, & Startups
+
+### `kwSVtQ7dziU_Skill_Issue__Andrej_Karpathy_on_Code_Agents,_AutoResearch,_and_the_Loopy_Era_of_AI.knowledge`
+- **Source**: youtube_mentions_karpathy · `kwSVtQ7dziU` · 66:32 · upload ?
+- **URL**: https://www.youtube.com/watch?v=kwSVtQ7dziU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T08:18 — auto-descubierto · Rob Shocks
+
+### `rsaaVXg28-8_Karpathy_Just_Told_Us_What_Startups_To_Build_For_2026.knowledge`
+- **Source**: youtube_mentions_karpathy · `rsaaVXg28-8` · 14:08 · upload ?
+- **URL**: https://www.youtube.com/watch?v=rsaaVXg28-8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T08:19 — auto-descubierto · Dwarkesh Clips and Dwarkesh Patel
+
+### `36OBX5lQjGc_Reinforcement_learning_is_terrible_–_Andrej_Karpathy.knowledge`
+- **Source**: youtube_mentions_karpathy · `36OBX5lQjGc` · 4:10 · upload ?
+- **URL**: https://www.youtube.com/watch?v=36OBX5lQjGc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T08:23 — auto-descubierto · David Ondrej
+
+### `uBWuKh1nZ2Y_The_only_AutoResearch_tutorial_you’ll_ever_need.knowledge`
+- **Source**: youtube_mentions_karpathy · `uBWuKh1nZ2Y` · 19:53 · upload ?
+- **URL**: https://www.youtube.com/watch?v=uBWuKh1nZ2Y
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T08:24 — auto-descubierto · Dwarkesh Clips and Dwarkesh Patel
+
+### `LnGRHVlsheo_Andrej_Karpathy_on_Richard_Sutton.knowledge`
+- **Source**: youtube_mentions_karpathy · `LnGRHVlsheo` · 6:54 · upload ?
+- **URL**: https://www.youtube.com/watch?v=LnGRHVlsheo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T08:32 — auto-descubierto · @jevanclief
+
+### `pdoSAWWCDO8_Claude_Design_Full_Breakdown__GitHub_Imports,_Skills,_and_Local_Model_Handoff.knowledge`
+- **Source**: jevanclief_youtube · `pdoSAWWCDO8` · 42:29 · upload NA
+- **URL**: https://www.youtube.com/watch?v=pdoSAWWCDO8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T08:38 — auto-descubierto · @jevanclief
+
+### `ZMDXs59Ntjc_The_Real_Skill_in_AI__Knowing_What_Not_to_Automate.knowledge`
+- **Source**: jevanclief_youtube · `ZMDXs59Ntjc` · 45:17 · upload NA
+- **URL**: https://www.youtube.com/watch?v=ZMDXs59Ntjc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T08:42 — auto-descubierto · @jevanclief
+
+### `ozkx_eUfjY0_No_Wix._No_Squarespace._Just_Claude_Code_and_GitHub._(How_I_build_and_host_websites_for_Free).knowledge`
+- **Source**: jevanclief_youtube · `ozkx_eUfjY0` · 29:22 · upload NA
+- **URL**: https://www.youtube.com/watch?v=ozkx_eUfjY0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T08:48 — auto-descubierto · @jevanclief
+
+### `0fCQ-4J_jzk_Why_I_Stopped_Building_AI_Agents_and_Started_Using_Claude_Cowork.knowledge`
+- **Source**: jevanclief_youtube · `0fCQ-4J_jzk` · 51:22 · upload NA
+- **URL**: https://www.youtube.com/watch?v=0fCQ-4J_jzk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T08:52 — auto-descubierto · @jevanclief
+
+### `rHDA0WMXzy4_Stop_Copy-Pasting_Into_Claude._Install_Claude_Code_and_Actually_Use_It..knowledge`
+- **Source**: jevanclief_youtube · `rHDA0WMXzy4` · 24:33 · upload NA
+- **URL**: https://www.youtube.com/watch?v=rHDA0WMXzy4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T08:54 — auto-descubierto · @jevanclief
+
+### `MkN-ss2Nl10_Stop_Building_AI_Agents._Use_This_Folder_System_Instead..knowledge`
+- **Source**: jevanclief_youtube · `MkN-ss2Nl10` · 23:19 · upload NA
+- **URL**: https://www.youtube.com/watch?v=MkN-ss2Nl10
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T08:56 — auto-descubierto · @jevanclief
+
+### `izMBiWG3L24_SVG_to_React__Turning_Illustrator_Designs_into_Web_Animations_with_Claude_Code.knowledge`
+- **Source**: jevanclief_youtube · `izMBiWG3L24` · 11:59 · upload NA
+- **URL**: https://www.youtube.com/watch?v=izMBiWG3L24
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T09:00 — auto-descubierto · @jevanclief
+
+### `6hF2K4YGZbY_Afternoon_Tea_#1__Joe_Fioramonti_on_Constellation,_Dark_Square,_and_Scaling_Human_Judgment.knowledge`
+- **Source**: jevanclief_youtube · `6hF2K4YGZbY` · 30:35 · upload NA
+- **URL**: https://www.youtube.com/watch?v=6hF2K4YGZbY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T09:03 — auto-descubierto · @jevanclief
+
+### `vyN7ITKcGXU_Claude_Code_+_Remotion__Build_Long-Form_AI_Animations_from_a_Script.knowledge`
+- **Source**: jevanclief_youtube · `vyN7ITKcGXU` · 22:32 · upload NA
+- **URL**: https://www.youtube.com/watch?v=vyN7ITKcGXU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T09:05 — auto-descubierto · @jevanclief
+
+### `KC0VEZuo4OI_Watch_Me_Build_Something_Claude_Code_Can't_Do_Yet.knowledge`
+- **Source**: jevanclief_youtube · `KC0VEZuo4OI` · 14:51 · upload NA
+- **URL**: https://www.youtube.com/watch?v=KC0VEZuo4OI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T09:06 — auto-descubierto · @jevanclief
+
+### `J2GLzkaUrBc_I'm_Building_a_Custom_Front_End_for_Claude_Code_(Here's_the_Plan).knowledge`
+- **Source**: jevanclief_youtube · `J2GLzkaUrBc` · 4:56 · upload NA
+- **URL**: https://www.youtube.com/watch?v=J2GLzkaUrBc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T09:08 — auto-descubierto · @jevanclief
+
+### `SjlCJIU9ODs_The_Ladder_That_Explains_Every_AI_Failure_(And_How_to_Avoid_Them).knowledge`
+- **Source**: jevanclief_youtube · `SjlCJIU9ODs` · 14:26 · upload NA
+- **URL**: https://www.youtube.com/watch?v=SjlCJIU9ODs
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-13T11:48 — X scan manual @DeRonin_ (Ronin)
+
+### `deronin_2026_05_12_karpathy_attributed_10_token_wastes` 🔥🔥
+- **Source**: x.com `2054255152555545079` · 2026-05-12 16:22 UTC · Ronin (@DeRonin_)
+- **URL**: https://x.com/DeRonin_/status/2054255152555545079
+- **Video adjunto**: SÍ — `2054253757945327616.mp4` [PENDIENTE descargar audio + transcribir; el thread text es el contenido principal] ✅ TRANSCRITO 12:00 — `.knowledge.md` en /Users/shine/videoatexto/ + kDrive source
+- **⚠️ ATRIBUCIÓN A VERIFICAR**: la cita "90% of your AI coding bill is paying for context you didn't need to send" se atribuye a Karpathy. Ronin tweets tipo listicle viral; no es referencia primaria. Antes de citar en wiki: verificar contra Karpathy directo (X / talks). De momento debe ir como `verification: partial` y `[claim attributed to Karpathy by @DeRonin_ — primary source not located]`.
+- **Pista — 10 anti-patterns de coste**:
+  1. **Auto-context loading** 50 archivos para fix de 30 líneas → $1.20/turno desperdicio (80% input waste por sesión)
+  2. **Opus en lint/format/rename** → Haiku lo hace a $0.02 (30× sobrepago)
+  3. **Tool call loops** que reenvían el repo completo en cada retry → 5× coste contexto; arreglarlo solo recorta 30-50% de la factura
+  4. **Sonnet como default** → Kimi 2.6 iguala calidad en coding a 1/6 del coste; defaultear Sonnet en 2026 = 60-70% sobre la mesa
+  5. **Streaming en stable-prefix workflows** mata el prompt cache → pagas 10× tokens que deberían costar céntimos
+  6. **"Just in case" file includes** → prompts de 80k tokens que deberían ser 3k; "the silent budget killer"
+  7. **Per-session knowledge rebuilding** → 10 min escribir un `SKILL.md` una vez vs $4/ejecución repitiendo el aprendizaje
+  8. **Single-model setup** → premium en todo es el mayor error 2026
+  9. **10 preguntas pequeñas una a una** → 10 input prefix charges vs 1 batched (70-90% savings)
+  10. **Claude Pro + ChatGPT Plus + Cursor Pro** → usas uno; los otros dos son hábito, no utilidad
+- **Pista — qué SÍ compone**:
+  - Context discipline (grep antes de fetch, siempre)
+  - Prompt caching en todo stable prefix
+  - Multi-model routing (Kimi 2.6 default + Opus para el 10%)
+  - Graduated skills via SKILL.md
+  - Profiling tool calls antes de optimizar prompts
+  - Routing mindset (right model for right task)
+- **Cita de cierre**: "in 12 months, the gap between developers shipping on $200/month and $4,000/month budgets won't be skill — it'll be how well they route. Study this."
+- **Sugerencia ingest**: nueva página `ai-agents-strategy/llm-cost-optimization-routing.md` o sección destacada en `ai-agents-strategy/llm-best-practices.md`. Cross-link a `claude-code/skills-and-mcps.md` (SKILL.md como ahorro), a `ai-agents-strategy/context-and-memory.md` (context discipline), a `claude-code/icm-folder-as-architecture.md` (skills graduadas).
+
+## 2026-05-13T11:53 — X scan manual @zodchiii (segunda "filtración" Anthropic)
+
+### `zodchii_2026_05_12_three_anthropic_engineers_agents` 🔥🔥
+- **Source**: x.com `2054177862689640693` · 2026-05-12 09:53 UTC · darkzodchi (@zodchiii)
+- **URL**: https://x.com/zodchiii/status/2054177862689640693
+- **Video adjunto**: SÍ — 18 min 19 seg (1099s) — ✅ TRANSCRITO 12:00 — `.knowledge.md` en /Users/shine/videoatexto/ + kDrive source
+- **Tweet text**: "Three Anthropic engineers just spent 16 minutes on what makes AI agents actually succeed in production. If the people who built Claude have a list of patterns that work, you're either using them or rebuilding the wheel. Watch it, then grab the full setup below."
+- **Contexto**: zodchii ya filtró antes el "22-min Anthropic agent roadmap" del 7-may (status `2052400272840720565`, ya ingestado). Mismo patrón: vídeo interno + CTA paid product. El vídeo es el contenido real, su comentario es promoción.
+- **Pista — qué probablemente cubre** (basado en señal previa + título): patrones de producción para agentes según el equipo Claude. Convergencia con Code with Claude keynote (routines, dreaming, multi-agent), thinking lever, Memory & dreaming for self-learning agents. Esperar transcripción para detalles.
+- **Sugerencia ingest**: `claude-code/anthropic-agent-production-patterns.md` (página nueva) o sección destacada en `ai-agents-strategy/multi-agent-systems.md`. Cross-link a la transcripción del primer zodchii leak (`claude-code/claude-developer-platform.md` si se crea desde aquel).
+
+## 2026-05-13T12:10 — Web ingestion · Plane.so blog post
+
+### `plane_2026_05_11_work_item_detail_redesign` 🔥
+- **Source**: web · plane.so/blog · 2026-05-11 · Anmol Singh Bhatia & Krishna Kanth
+- **URL**: https://plane.so/blog/new-work-item-detail-view-custom-relations-and-more
+- **Type**: web_article (no transcripción, contenido scraped directo)
+- **Pista**: Rediseño mayor del detalle work-item Plane + 4 features:
+  - Columna central protagonista (State/Priority/Assignee/dates/Time-in-State pasan bajo título)
+  - **Copy Branch Name button** formato `username/ITEM-ID` (ej. `sarah/DOCSW-606`) — feature relevante para BIK Labs workflow CC↔Plane
+  - **Transitions tab + Time-in-state badges** (Business+): registra cada cambio de estado con badges `54m`, `3d 2h`. Visualiza bottlenecks. Workflows con pre-validation + post-action scripts via Plane Runner (Slack, API calls)
+  - **Custom Relations** (Enterprise): defaults *Relates to / Duplicate / Implements* + dependencias *Blocked by / Blocking / Starts before* + customs en wild (Mitigates, Tests, Validates, Replaces, Supersedes, Triggers, Triggered by, etc.)
+  - **Subscribers** (All): auto-subscribe a created/assigned + @mentions, inbox sidebar notifications
+  - **Upvote/Downvote** (All): tiebreakers sin reuniones
+- **Sugerencia ingest**: `productivity-tools/plane-vs-linear.md` (página nueva — diff con Linear que el operador ya está estudiando, tabs visibles) o `saas-startup-building/project-management-tooling.md`. Cross-link a `claude-code/workflows-and-patterns.md` (Plane Runner = post-action scripts ↔ Claude Code hooks/skills paralelo).
+- **Convergencia notable**: el operador BiK ha estado diseñando `WorkItems-Board-v1.html` y mockups A1 v2/v3/v4 inspirados en Linear/Plane. Esta post es product intel directa de competidor activo.
+- **Estado**: `.knowledge.md` en `/Users/shine/videoatexto/` + kDrive source
+
+## 2026-05-14T01:15 — auto-descubierto · web · plane_so_blog
+
+### introducing-releases
+- **Source**: web `plane_so_blog` · index `https://plane.so/blog`
+- **URL**: https://plane.so/blog/introducing-releases
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:15 — auto-descubierto · web · plane_so_blog
+
+### introducing-pql-and-enhanced-dashboards
+- **Source**: web `plane_so_blog` · index `https://plane.so/blog`
+- **URL**: https://plane.so/blog/introducing-pql-and-enhanced-dashboards
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:15 — auto-descubierto · web · plane_so_blog
+
+### meet-the-new-work-item-detail-page
+- **Source**: web `plane_so_blog` · index `https://plane.so/blog`
+- **URL**: https://plane.so/blog/meet-the-new-work-item-detail-page
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:15 — auto-descubierto · web · plane_so_blog
+
+### why-is-self-hosting-making-a-comeback
+- **Source**: web `plane_so_blog` · index `https://plane.so/blog`
+- **URL**: https://plane.so/blog/why-is-self-hosting-making-a-comeback
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:15 — auto-descubierto · web · plane_so_blog
+
+### 11-jira-alternatives-you-can-self-host-in-2026
+- **Source**: web `plane_so_blog` · index `https://plane.so/blog`
+- **URL**: https://plane.so/blog/11-jira-alternatives-you-can-self-host-in-2026
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:15 — auto-descubierto · web · plane_so_blog
+
+### plane-vs-asana-which-should-you-choose-in-2026
+- **Source**: web `plane_so_blog` · index `https://plane.so/blog`
+- **URL**: https://plane.so/blog/plane-vs-asana-which-should-you-choose-in-2026
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:15 — auto-descubierto · web · plane_so_blog
+
+### building-zero-loss-event-streaming-with-postgresql-django-and-rabbitmq
+- **Source**: web `plane_so_blog` · index `https://plane.so/blog`
+- **URL**: https://plane.so/blog/building-zero-loss-event-streaming-with-postgresql-django-and-rabbitmq
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:15 — auto-descubierto · web · plane_so_blog
+
+### plane-vs-openproject-which-should-you-choose-in-2026
+- **Source**: web `plane_so_blog` · index `https://plane.so/blog`
+- **URL**: https://plane.so/blog/plane-vs-openproject-which-should-you-choose-in-2026
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:15 — auto-descubierto · web · plane_so_blog
+
+### how-we-replaced-shared-staging-with-ephemeral-deployment-preview
+- **Source**: web `plane_so_blog` · index `https://plane.so/blog`
+- **URL**: https://plane.so/blog/how-we-replaced-shared-staging-with-ephemeral-deployment-preview
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
+
+### claude-opus-4-7
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/claude-opus-4-7
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
+
+### claude-design-anthropic-labs
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/claude-design-anthropic-labs
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
+
+### claude-is-a-space-to-think
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/claude-is-a-space-to-think
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
+
+### claude-for-small-business
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/claude-for-small-business
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
+
+### higher-limits-spacex
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/higher-limits-spacex
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
+
+### finance-agents
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/finance-agents
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
+
+### enterprise-ai-services-company
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/enterprise-ai-services-company
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
+
+### claude-for-creative-work
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/claude-for-creative-work
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
+
+### theo-hourmouzis-general-manager-australia-new-zealand
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
+
+### election-safeguards-update
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/election-safeguards-update
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
+
+### anthropic-nec
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/anthropic-nec
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
+
+### anthropic-amazon-compute
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/anthropic-amazon-compute
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
+
+### announcing-our-updated-responsible-scaling-policy
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### april-23-postmortem
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/april-23-postmortem
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### managed-agents
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/managed-agents
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### claude-code-auto-mode
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/claude-code-auto-mode
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### harness-design-long-running-apps
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/harness-design-long-running-apps
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### eval-awareness-browsecomp
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/eval-awareness-browsecomp
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### infrastructure-noise
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/infrastructure-noise
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### building-c-compiler
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/building-c-compiler
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### AI-resistant-technical-evaluations
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/AI-resistant-technical-evaluations
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### demystifying-evals-for-ai-agents
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### effective-harnesses-for-long-running-agents
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### advanced-tool-use
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/advanced-tool-use
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### code-execution-with-mcp
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/code-execution-with-mcp
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### claude-code-sandboxing
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/claude-code-sandboxing
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### equipping-agents-for-the-real-world-with-agent-skills
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### effective-context-engineering-for-ai-agents
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### a-postmortem-of-three-recent-issues
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### writing-tools-for-agents
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/writing-tools-for-agents
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### desktop-extensions
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/desktop-extensions
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### multi-agent-research-system
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/multi-agent-research-system
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### claude-code-best-practices
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/claude-code-best-practices
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### claude-think-tool
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/claude-think-tool
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### swe-bench-sonnet
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/swe-bench-sonnet
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### building-effective-agents
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/building-effective-agents
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
+
+### contextual-retrieval
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/contextual-retrieval
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-14T07:02 — auto-descubierto · @claudeai
+
+### `IGAVa4uyo2w_How_Emergent_is_making_app_building_more_accessible_with_Claude.knowledge`
+- **Source**: claude_anthropic_youtube · `IGAVa4uyo2w` · 16:39 · upload NA
+- **URL**: https://www.youtube.com/watch?v=IGAVa4uyo2w
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-14T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.141
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-13
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.141
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>terminalSequence</code> field to hook JSON output so hooks can emit desktop notifications, window titles, and bells without a controlling terminal</li>
+<li
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.140
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.140
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Improved Agent tool <code>subagent_type</code> matching to accept case- and separator-insensitive values (e.g. <code>"Code Reviewer"</code> resolves to <code>code-revi
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.139
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-11
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.139
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added agent view (Research Preview): a single list of every Claude Code session — running, blocked on you, or done. Run <code>claude agents</code> to get started. See 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.138
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.138
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal fixes</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.137
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.137
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>[VSCode] Fixed extension failing to activate on Windows</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.136
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-08
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.136
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>CLAUDE_CODE_ENABLE_FEEDBACK_SURVEY_FOR_OTEL</code> to re-enable the session quality survey for enterprises capturing responses through OpenTelemetry</li>
+<
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.133
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-07
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.133
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>worktree.baseRef</code> setting (<code>fresh</code> | <code>head</code>) to choose whether <code>--worktree</code>, <code>EnterWorktree</code>, and agent-i
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-13
+- **URL**: https://github.com/anthropics/claude-code/commit/c5712671c87f8ec283ecf1c5024a4952ba5bfbcd
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-12
+- **URL**: https://github.com/anthropics/claude-code/commit/6b070c31bc625dfd70d88352e7cfbdc505f55c6d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-11
+- **URL**: https://github.com/anthropics/claude-code/commit/fdfbc06c7a6d9ace49c55b3761b1be05d276da6d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/commit/831608a360511febd4b10c77d4d03b47afda2f5b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/commit/33a87addb4c203062bc524cda814a600f2b857e9
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #56784 from anthropics/devsec/pin-actions
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-08
+- **URL**: https://github.com/anthropics/claude-code/commit/f7ef09f496195d60e585db1cfaceb9debf527b2b
+- **Tipo**: github_repo_commits
+- **Autor**: jportner-ant
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #56784 from anthropics/devsec/pin-actions
+
+Pin GitHub Actions to commit SHAs</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-08
+- **URL**: https://github.com/anthropics/claude-code/commit/2bd8547920ec2867618d1f2ade5a1897bc4c2afc
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-07
+- **URL**: https://github.com/anthropics/claude-code/commit/6cd790cd21d21335b8f968301da710bfdc0d9f88
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update HackerOne links in SECURITY.md (#53949)
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-07
+- **URL**: https://github.com/anthropics/claude-code/commit/fb063cd5e0716c2369955c8a9811849ba85f21d3
+- **Tipo**: github_repo_commits
+- **Autor**: OctavianGuzu
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update HackerOne links in SECURITY.md (#53949)
+
+* Update HackerOne links in SECURITY.md
+
+* Rename VDP heading to Anthropic Bug Bounty</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:03 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-13
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:03 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-14
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:03 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-14
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:03 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-12
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:03 — auto-descubierto · github · karpathy
+
+### Training a Neural Network ATARI Pong agent with Policy Gradients from raw pixels
+- **Source**: github `karpathy_gists` · 2026-05-13
+- **URL**: https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5#file-pg-pong-py">pg-pong.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-pg-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:03 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-12
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-14T07:05 — auto-descubierto · Jay E | RoboNuggets
+
+### `d8BGxfW3Vj4_The_Karpathy_CLAUDE.md_File_That_43,000_Developers_Installed_in_1_Week_(Full_Breakdown).knowledge`
+- **Source**: youtube_mentions_karpathy · `d8BGxfW3Vj4` · 11:14 · upload ?
+- **URL**: https://www.youtube.com/watch?v=d8BGxfW3Vj4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-15T07:00 — auto-descubierto · @claudeai
+
+### `0kILa02vKuI_Installing_Claude_Code.knowledge`
+- **Source**: claude_anthropic_youtube · `0kILa02vKuI` · 3:02 · upload NA
+- **URL**: https://www.youtube.com/watch?v=0kILa02vKuI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-15T07:00 — auto-descubierto · web · anthropic_blog
+
+### pwc-expanded-partnership
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/pwc-expanded-partnership
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-15T07:00 — auto-descubierto · web · anthropic_blog
+
+### gates-foundation-partnership
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/gates-foundation-partnership
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-15T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.142
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-14
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.142
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added new <code>claude agents</code> flags: <code>--add-dir</code>, <code>--settings</code>, <code>--mcp-config</code>, <code>--plugin-dir</code>, <code>--permission-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.141
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-13
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.141
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>terminalSequence</code> field to hook JSON output so hooks can emit desktop notifications, window titles, and bells without a controlling terminal</li>
+<li
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.140
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.140
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Improved Agent tool <code>subagent_type</code> matching to accept case- and separator-insensitive values (e.g. <code>"Code Reviewer"</code> resolves to <code>code-revi
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.139
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-11
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.139
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added agent view (Research Preview): a single list of every Claude Code session — running, blocked on you, or done. Run <code>claude agents</code> to get started. See 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.138
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.138
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal fixes</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.137
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.137
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>[VSCode] Fixed extension failing to activate on Windows</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.136
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-08
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.136
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>CLAUDE_CODE_ENABLE_FEEDBACK_SURVEY_FOR_OTEL</code> to re-enable the session quality survey for enterprises capturing responses through OpenTelemetry</li>
+<
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-14
+- **URL**: https://github.com/anthropics/claude-code/commit/d61bfb5b562eea5091b11ad1858a9ae429b6bd23
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-13
+- **URL**: https://github.com/anthropics/claude-code/commit/c5712671c87f8ec283ecf1c5024a4952ba5bfbcd
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-12
+- **URL**: https://github.com/anthropics/claude-code/commit/6b070c31bc625dfd70d88352e7cfbdc505f55c6d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-11
+- **URL**: https://github.com/anthropics/claude-code/commit/fdfbc06c7a6d9ace49c55b3761b1be05d276da6d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/commit/831608a360511febd4b10c77d4d03b47afda2f5b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/commit/33a87addb4c203062bc524cda814a600f2b857e9
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #56784 from anthropics/devsec/pin-actions
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-08
+- **URL**: https://github.com/anthropics/claude-code/commit/f7ef09f496195d60e585db1cfaceb9debf527b2b
+- **Tipo**: github_repo_commits
+- **Autor**: jportner-ant
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #56784 from anthropics/devsec/pin-actions
+
+Pin GitHub Actions to commit SHAs</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-08
+- **URL**: https://github.com/anthropics/claude-code/commit/2bd8547920ec2867618d1f2ade5a1897bc4c2afc
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-14
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-15
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-15
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-12
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-14
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · karpathy
+
+### Training a Neural Network ATARI Pong agent with Policy Gradients from raw pixels
+- **Source**: github `karpathy_gists` · 2026-05-13
+- **URL**: https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5#file-pg-pong-py">pg-pong.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-pg-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:01 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-12
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-15T07:16 — auto-descubierto · Berkeley SkyDeck
+
+### `tsTeEkzO9xc_Andrej_Karpathy's_Keynote_&_Winner_Pitches_at_UC_Berkeley_AI_Hackathon_2024_Awards_Ceremony.knowledge`
+- **Source**: youtube_mentions_karpathy · `tsTeEkzO9xc` · 92:27 · upload ?
+- **URL**: https://www.youtube.com/watch?v=tsTeEkzO9xc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-15T07:22 — auto-descubierto · AI News & Strategy Daily | Nate B Jones
+
+### `dxq7WtWxi44_Karpathy's_Wiki_vs._Open_Brain._One_Fails_When_You_Need_It_Most..knowledge`
+- **Source**: youtube_mentions_karpathy · `dxq7WtWxi44` · 41:09 · upload ?
+- **URL**: https://www.youtube.com/watch?v=dxq7WtWxi44
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-15T07:24 — auto-descubierto · Lex Clips
+
+### `I2ZK3ngNvvI_Advice_for_machine_learning_beginners___Andrej_Karpathy_and_Lex_Fridman.knowledge`
+- **Source**: youtube_mentions_karpathy · `I2ZK3ngNvvI` · 5:48 · upload ?
+- **URL**: https://www.youtube.com/watch?v=I2ZK3ngNvvI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-15T10:40 — auto-descubierto · @jevanclief
+
+### `yEa6dgh7wuc_Video_as_Code__My_AI_Animation_Stack.knowledge`
+- **Source**: jevanclief_youtube · `yEa6dgh7wuc` · 13:12 · upload 2026-02-07
+- **URL**: https://www.youtube.com/watch?v=yEa6dgh7wuc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+- **Nota**: bajada manual (pre-backfill_since=2026-02-12, cron skip silencioso)
+
+## 2026-05-15T10:40 — auto-descubierto · @jevanclief
+
+### `v2UnNFmkia0_Claude_Code_+_Cursor__Making_Agentic_workflows_with_an_Agentic_workflow_.knowledge`
+- **Source**: jevanclief_youtube · `v2UnNFmkia0` · 8:12 · upload 2025-07-23
+- **URL**: https://www.youtube.com/watch?v=v2UnNFmkia0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+- **Nota**: bajada manual (pre-backfill_since=2026-02-12, cron skip silencioso)
+
+## 2026-05-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.143
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-15
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.143
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added plugin dependency enforcement: <code>claude plugin disable</code> now refuses when another enabled plugin depends on the target (with a copy-pasteable disable-ch
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.142
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-14
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.142
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added new <code>claude agents</code> flags: <code>--add-dir</code>, <code>--settings</code>, <code>--mcp-config</code>, <code>--plugin-dir</code>, <code>--permission-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.141
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-13
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.141
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>terminalSequence</code> field to hook JSON output so hooks can emit desktop notifications, window titles, and bells without a controlling terminal</li>
+<li
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.140
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.140
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Improved Agent tool <code>subagent_type</code> matching to accept case- and separator-insensitive values (e.g. <code>"Code Reviewer"</code> resolves to <code>code-revi
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.139
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-11
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.139
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added agent view (Research Preview): a single list of every Claude Code session — running, blocked on you, or done. Run <code>claude agents</code> to get started. See 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.138
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.138
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal fixes</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-15
+- **URL**: https://github.com/anthropics/claude-code/commit/8bdbb7296d3fa2217283d3ef94452dd64097393b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-14
+- **URL**: https://github.com/anthropics/claude-code/commit/d61bfb5b562eea5091b11ad1858a9ae429b6bd23
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-13
+- **URL**: https://github.com/anthropics/claude-code/commit/c5712671c87f8ec283ecf1c5024a4952ba5bfbcd
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-12
+- **URL**: https://github.com/anthropics/claude-code/commit/6b070c31bc625dfd70d88352e7cfbdc505f55c6d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-11
+- **URL**: https://github.com/anthropics/claude-code/commit/fdfbc06c7a6d9ace49c55b3761b1be05d276da6d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-09
+- **URL**: https://github.com/anthropics/claude-code/commit/831608a360511febd4b10c77d4d03b47afda2f5b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-16
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-16
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-15
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-12
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-14
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · karpathy
+
+### Training a Neural Network ATARI Pong agent with Policy Gradients from raw pixels
+- **Source**: github `karpathy_gists` · 2026-05-13
+- **URL**: https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5#file-pg-pong-py">pg-pong.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-pg-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:00 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-12
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-16T07:01 — auto-descubierto · Bitwise AI
+
+### `EeYkZloXIww_Someone_Open-Sourced_Karpathy's_CLAUDE_md._130K_Stars_on_github.knowledge`
+- **Source**: youtube_mentions_karpathy · `EeYkZloXIww` · 3:47 · upload ?
+- **URL**: https://www.youtube.com/watch?v=EeYkZloXIww
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-16T19:15 — auto-descubierto · @jevanclief (batch backfill 12)
+
+Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el cron seguía skipping silencioso cada día. Todos transcritos con MLX medium + copiados al canonical kDrive.
+
+### `UGyTimVObus_From_Nazi_Psychology_to_AI_Auditing_-_Inside_the_System_I_Built.knowledge`
+- **Source**: jevanclief_youtube · `UGyTimVObus` · 13:41 · upload 2026-02-04
+- **URL**: https://www.youtube.com/watch?v=UGyTimVObus
+- **Estado**: `.knowledge.md` en kDrive · [PENDIENTE ingest wiki]
+
+### `S3fXSc5z2n4_How_a_1953_Word_Game_Explains_AI_Memory.knowledge`
+- **Source**: jevanclief_youtube · `S3fXSc5z2n4` · 14:22 · upload 2026-02-02
+- **URL**: https://www.youtube.com/watch?v=S3fXSc5z2n4
+- **Estado**: `.knowledge.md` en kDrive · [PENDIENTE ingest wiki]
+
+### `5B6W2OGfxq0_How_One_Line_of_Python_Triggers_12_000_Lines_of_Code.knowledge`
+- **Source**: jevanclief_youtube · `5B6W2OGfxq0` · 13:23 · upload 2026-02-01
+- **URL**: https://www.youtube.com/watch?v=5B6W2OGfxq0
+- **Estado**: `.knowledge.md` en kDrive · [PENDIENTE ingest wiki]
+
+### `bQXi5Nd8c40_Clawdbot_Moltbot_Has_100K_Stars._It_Has_Zero_AI..knowledge`
+- **Source**: jevanclief_youtube · `bQXi5Nd8c40` · 13:15 · upload 2026-01-30
+- **URL**: https://www.youtube.com/watch?v=bQXi5Nd8c40
+- **Estado**: `.knowledge.md` en kDrive · [PENDIENTE ingest wiki]
+
+### `DbIjTB-kh8E_Everyone_knows_AI_started_in_the_1950s_Everyone_is_wrong_by_about_2_000_years.knowledge`
+- **Source**: jevanclief_youtube · `DbIjTB-kh8E` · 25:59 · upload 2026-01-14
+- **URL**: https://www.youtube.com/watch?v=DbIjTB-kh8E
+- **Estado**: `.knowledge.md` en kDrive · [PENDIENTE ingest wiki]
+
+### `I-enT6szVQQ_I_Used_AI_to_Fix_Government_Contracting.knowledge`
+- **Source**: jevanclief_youtube · `I-enT6szVQQ` · 12:07 · upload 2026-01-12
+- **URL**: https://www.youtube.com/watch?v=I-enT6szVQQ
+- **Estado**: `.knowledge.md` en kDrive · [PENDIENTE ingest wiki]
+
+### `Wtf6E-fwuwI_Becoming_an_AI_Psychologist_-_A_data_Pipeline_for_Researchers..knowledge`
+- **Source**: jevanclief_youtube · `Wtf6E-fwuwI` · 8:31 · upload 2026-01-11
+- **URL**: https://www.youtube.com/watch?v=Wtf6E-fwuwI
+- **Estado**: `.knowledge.md` en kDrive · [PENDIENTE ingest wiki]
+
+### `_rtyhVD4v4A_One_of_These_AI_Coding_Tools_Failed_Completely_You_Won_t_Guess_Which.knowledge`
+- **Source**: jevanclief_youtube · `_rtyhVD4v4A` · 27:01 · upload 2025-12-01
+- **URL**: https://www.youtube.com/watch?v=_rtyhVD4v4A
+- **Estado**: `.knowledge.md` en kDrive · [PENDIENTE ingest wiki]
+
+### `AjzBaEkWkNA_AI_Agency_and_Consulting_Models_are_DEAD_Here_is_what_to_do_Instead.knowledge`
+- **Source**: jevanclief_youtube · `AjzBaEkWkNA` · 10:08 · upload 2025-11-23
+- **URL**: https://www.youtube.com/watch?v=AjzBaEkWkNA
+- **Estado**: `.knowledge.md` en kDrive · [PENDIENTE ingest wiki]
+
+### `jjV1ckgPzI0_I_Charged_2000_For_This_AI_Lecture_And_I_Underpriced_It.knowledge`
+- **Source**: jevanclief_youtube · `jjV1ckgPzI0` · 35:44 · upload 2025-10-14
+- **URL**: https://www.youtube.com/watch?v=jjV1ckgPzI0
+- **Estado**: `.knowledge.md` en kDrive · [PENDIENTE ingest wiki]
+
+### `RZ0AcCLVPFA_AI_is_the_New_Compiler_Why_Learning_AI_is_the_Wrong_Goal.knowledge`
+- **Source**: jevanclief_youtube · `RZ0AcCLVPFA` · 22:48 · upload 2025-08-26
+- **URL**: https://www.youtube.com/watch?v=RZ0AcCLVPFA
+- **Estado**: `.knowledge.md` en kDrive · [PENDIENTE ingest wiki]
+
+### `PN9OzUNCBKE_The_Apocalyptic_AI_Laptop.knowledge`
+- **Source**: jevanclief_youtube · `PN9OzUNCBKE` · 3:24 · upload 2025-07-22
+- **URL**: https://www.youtube.com/watch?v=PN9OzUNCBKE
+- **Estado**: `.knowledge.md` en kDrive · [PENDIENTE ingest wiki]
+
+## 2026-05-17T07:00 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-16
+- **URL**: https://github.com/anthropics/claude-code/issues/59539#issuecomment-4467900799
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.143
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-15
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.143
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added plugin dependency enforcement: <code>claude plugin disable</code> now refuses when another enabled plugin depends on the target (with a copy-pasteable disable-ch
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.142
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-14
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.142
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added new <code>claude agents</code> flags: <code>--add-dir</code>, <code>--settings</code>, <code>--mcp-config</code>, <code>--plugin-dir</code>, <code>--permission-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.141
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-13
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.141
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>terminalSequence</code> field to hook JSON output so hooks can emit desktop notifications, window titles, and bells without a controlling terminal</li>
+<li
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.140
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.140
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Improved Agent tool <code>subagent_type</code> matching to accept case- and separator-insensitive values (e.g. <code>"Code Reviewer"</code> resolves to <code>code-revi
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.139
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-11
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.139
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added agent view (Research Preview): a single list of every Claude Code session — running, blocked on you, or done. Run <code>claude agents</code> to get started. See 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-15
+- **URL**: https://github.com/anthropics/claude-code/commit/8bdbb7296d3fa2217283d3ef94452dd64097393b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-14
+- **URL**: https://github.com/anthropics/claude-code/commit/d61bfb5b562eea5091b11ad1858a9ae429b6bd23
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-13
+- **URL**: https://github.com/anthropics/claude-code/commit/c5712671c87f8ec283ecf1c5024a4952ba5bfbcd
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-12
+- **URL**: https://github.com/anthropics/claude-code/commit/6b070c31bc625dfd70d88352e7cfbdc505f55c6d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-11
+- **URL**: https://github.com/anthropics/claude-code/commit/fdfbc06c7a6d9ace49c55b3761b1be05d276da6d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T07:00 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-16
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T07:00 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-17
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T07:00 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-16
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T07:00 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-12
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T07:00 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-14
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T07:00 — auto-descubierto · github · karpathy
+
+### Training a Neural Network ATARI Pong agent with Policy Gradients from raw pixels
+- **Source**: github `karpathy_gists` · 2026-05-13
+- **URL**: https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5#file-pg-pong-py">pg-pong.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-pg-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T07:00 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-12
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-17T21:46 — operator URL · AI Engineer
+
+### `UG9IAdmi2Dg_Building_the_platform_for_agent_coordination_Tom_Moor_Linear.knowledge`
+- **Source**: AI Engineer (YouTube) · `UG9IAdmi2Dg` · 19:43 · upload 2025-07-28
+- **URL**: https://www.youtube.com/watch?v=UG9IAdmi2Dg
+- **Speaker**: Tom Moor (Linear)
+- **Tema**: Platform for agent coordination
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive · [PENDIENTE ingest wiki]
+
+## 2026-05-17T22:00 — operator URL · Hannu Törmänen
+
+### `so604oCQmTk_How_to_Use_Initiatives_in_Linear.knowledge`
+- **Source**: Hannu Törmänen (YouTube) · `so604oCQmTk` · 10:57 · upload 2026-05-10
+- **URL**: https://www.youtube.com/watch?v=so604oCQmTk
+- **Tema**: Initiatives en Linear (tutorial producto)
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive · [PENDIENTE ingest wiki]
+
+## 2026-05-18T07:01 — auto-descubierto · @claudeai
+
+### `xJQuF02NAK8_The_Explore_→_Plan_→_Code_→_Commit_workflow_in_Claude_Code.knowledge`
+- **Source**: claude_anthropic_youtube · `xJQuF02NAK8` · 3:12 · upload NA
+- **URL**: https://www.youtube.com/watch?v=xJQuF02NAK8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T07:01 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-16
+- **URL**: https://github.com/anthropics/claude-code/issues/59539#issuecomment-4467900799
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.143
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-15
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.143
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added plugin dependency enforcement: <code>claude plugin disable</code> now refuses when another enabled plugin depends on the target (with a copy-pasteable disable-ch
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.142
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-14
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.142
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added new <code>claude agents</code> flags: <code>--add-dir</code>, <code>--settings</code>, <code>--mcp-config</code>, <code>--plugin-dir</code>, <code>--permission-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.141
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-13
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.141
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>terminalSequence</code> field to hook JSON output so hooks can emit desktop notifications, window titles, and bells without a controlling terminal</li>
+<li
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.140
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.140
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Improved Agent tool <code>subagent_type</code> matching to accept case- and separator-insensitive values (e.g. <code>"Code Reviewer"</code> resolves to <code>code-revi
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.139
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-11
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.139
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added agent view (Research Preview): a single list of every Claude Code session — running, blocked on you, or done. Run <code>claude agents</code> to get started. See 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-18
+- **URL**: https://github.com/anthropics/claude-code/commit/2962ecd7a9477817d8a2a2b2bd40a7a96ecef3c8
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-15
+- **URL**: https://github.com/anthropics/claude-code/commit/8bdbb7296d3fa2217283d3ef94452dd64097393b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-14
+- **URL**: https://github.com/anthropics/claude-code/commit/d61bfb5b562eea5091b11ad1858a9ae429b6bd23
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-13
+- **URL**: https://github.com/anthropics/claude-code/commit/c5712671c87f8ec283ecf1c5024a4952ba5bfbcd
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-12
+- **URL**: https://github.com/anthropics/claude-code/commit/6b070c31bc625dfd70d88352e7cfbdc505f55c6d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-11
+- **URL**: https://github.com/anthropics/claude-code/commit/fdfbc06c7a6d9ace49c55b3761b1be05d276da6d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-17
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-18
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-18
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-12
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-14
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · karpathy
+
+### Training a Neural Network ATARI Pong agent with Policy Gradients from raw pixels
+- **Source**: github `karpathy_gists` · 2026-05-13
+- **URL**: https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5#file-pg-pong-py">pg-pong.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-pg-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:01 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-12
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-18T07:03 — auto-descubierto · Eric Tech
+
+### `EsgUfrwsV5A_Karpathy's_Skill_Just_Fixed_Claude_Code's_Biggest_Problem.knowledge`
+- **Source**: youtube_mentions_karpathy · `EsgUfrwsV5A` · 11:04 · upload ?
+- **URL**: https://www.youtube.com/watch?v=EsgUfrwsV5A
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T07:07 — auto-descubierto · Preserve Knowledge
+
+### `_au3yw46lcg_Heroes_of_Deep_Learning__Andrew_Ng_interviews_Andrej_Karpathy.knowledge`
+- **Source**: youtube_mentions_karpathy · `_au3yw46lcg` · 15:11 · upload ?
+- **URL**: https://www.youtube.com/watch?v=_au3yw46lcg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T08:11 — auto-descubierto · @jevanclief
+
+### `nWbM9Ye2sLw_Open_Claw_Vibe_Coded_an_App._Real_Developers_Read_Every_Line_and_Tell_You_What_They_Found..knowledge`
+- **Source**: jevanclief_youtube · `nWbM9Ye2sLw` · 18:32 · upload NA
+- **URL**: https://www.youtube.com/watch?v=nWbM9Ye2sLw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T08:31 — auto-descubierto · AI Engineer
+
+### `TqC1qOfiVcQ_Claude_Agent_SDK_[Full_Workshop]_—_Thariq_Shihipar,_Anthropic.knowledge`
+- **Source**: youtube_mentions_thariq · `TqC1qOfiVcQ` · 112:25 · upload ?
+- **URL**: https://www.youtube.com/watch?v=TqC1qOfiVcQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T08:33 — auto-descubierto · YC Root Access
+
+### `50Yz0O1yexY_YC_Tech_Talks__Designing_from_Day_One__Artists_as_Founders_with_Multiverse_(S20).knowledge`
+- **Source**: youtube_mentions_thariq · `50Yz0O1yexY` · 10:18 · upload ?
+- **URL**: https://www.youtube.com/watch?v=50Yz0O1yexY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T08:43 — auto-descubierto · Figma
+
+### `R9mBpeiCMM0_Figma_x_Claude_Code_Live__Roundtrip_workflows_with_Figma_MCP.knowledge`
+- **Source**: youtube_mentions_thariq · `R9mBpeiCMM0` · 62:10 · upload ?
+- **URL**: https://www.youtube.com/watch?v=R9mBpeiCMM0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T08:45 — auto-descubierto · 最佳拍档
+
+### `JUodHRhi9FQ_Why_Claude_abandoned_Markdown_for_HTML___Thariq_Shihipar___Agent_output_format___Information_dens....knowledge`
+- **Source**: youtube_mentions_thariq · `JUodHRhi9FQ` · 8:48 · upload ?
+- **URL**: https://www.youtube.com/watch?v=JUodHRhi9FQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T08:46 — auto-descubierto · DIY Smart Code
+
+### `-iSLQe_imrE_Markdown_vs_HTML__Why_Anthropic's_Claude_Code_Team_Chose_Wrong_First__Or_Not_.knowledge`
+- **Source**: youtube_mentions_thariq · `-iSLQe_imrE` · 8:55 · upload ?
+- **URL**: https://www.youtube.com/watch?v=-iSLQe_imrE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T08:48 — auto-descubierto · Richard Echols
+
+### `Zo1plm8d4Kc_Claude_Completely_Destroys_OpenClaw___Claude_Code_Channels_Explained.knowledge`
+- **Source**: youtube_mentions_thariq · `Zo1plm8d4Kc` · 10:42 · upload ?
+- **URL**: https://www.youtube.com/watch?v=Zo1plm8d4Kc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T08:50 — auto-descubierto · AI LABS
+
+### `B-UXpneKw6M_Claude_Code's_Creator_Does_This_Before_Every_Single_Project.knowledge`
+- **Source**: youtube_mentions_thariq · `B-UXpneKw6M` · 9:55 · upload ?
+- **URL**: https://www.youtube.com/watch?v=B-UXpneKw6M
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T08:53 — auto-descubierto · Onchain AI Garage
+
+### `A8ceddKFvdg_HTML_vs._Markdown__Pushing_AI_Agent_Responses_to_the_Next_Level.knowledge`
+- **Source**: youtube_mentions_thariq · `A8ceddKFvdg` · 21:17 · upload ?
+- **URL**: https://www.youtube.com/watch?v=A8ceddKFvdg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T08:53 — auto-descubierto · web · plane_so_blog
+
+### introducing-mcp-connectors-and-cursor-agent
+- **Source**: web `plane_so_blog` · index `https://plane.so/blog`
+- **URL**: https://plane.so/blog/introducing-mcp-connectors-and-cursor-agent
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-18T08:53 — auto-descubierto · web · plane_so_blog
+
+### introducing-collections-and-ai-native-documentation
+- **Source**: web `plane_so_blog` · index `https://plane.so/blog`
+- **URL**: https://plane.so/blog/introducing-collections-and-ai-native-documentation
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-18T09:03 — auto-descubierto · @SeedRocketTV
+
+### `uoucndih9XI_Tertulia__Vinted__la_jugada_maestra___IA_en_juicios_y_OpenAI_quiere_más.knowledge`
+- **Source**: seedrocket_tv_youtube · `uoucndih9XI` · 61:21 · upload NA
+- **URL**: https://www.youtube.com/watch?v=uoucndih9XI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T09:12 — auto-descubierto · @SeedRocketTV
+
+### `bnCsl5bo0O0_Creando_negocios_millonarios_sin_móvil___Albert_Grimaldo.knowledge`
+- **Source**: seedrocket_tv_youtube · `bnCsl5bo0O0` · 56:15 · upload NA
+- **URL**: https://www.youtube.com/watch?v=bnCsl5bo0O0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T09:20 — auto-descubierto · @SeedRocketTV
+
+### `JiFkCqwThVI_El_organismo_público_que_ha_invertido_1.400M€_en_startups_-_Carolina_Rodríguez_-_ENISA.knowledge`
+- **Source**: seedrocket_tv_youtube · `JiFkCqwThVI` · 65:21 · upload NA
+- **URL**: https://www.youtube.com/watch?v=JiFkCqwThVI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T09:27 — auto-descubierto · @SeedRocketTV
+
+### `GYCoMrteALo_Por_qué_los_tecnobros_están_invirtiendo_en_el_campo_-_Tertulia_SeedRocket.knowledge`
+- **Source**: seedrocket_tv_youtube · `GYCoMrteALo` · 59:53 · upload NA
+- **URL**: https://www.youtube.com/watch?v=GYCoMrteALo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T09:36 — auto-descubierto · @SeedRocketTV
+
+### `UgEI1xS52R8_Cómo_crear_un_ecommerce_y_venderlo_por_160_millones___La_historia_de_DEPORVILLAGE.knowledge`
+- **Source**: seedrocket_tv_youtube · `UgEI1xS52R8` · 64:47 · upload NA
+- **URL**: https://www.youtube.com/watch?v=UgEI1xS52R8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T09:43 — auto-descubierto · @SeedRocketTV
+
+### `moJ_kj28bzw_La_alternativa_al_EXIT__así_salió_a_Bolsa_una_startup_española___Caso_Grand_Voyage.knowledge`
+- **Source**: seedrocket_tv_youtube · `moJ_kj28bzw` · 73:00 · upload NA
+- **URL**: https://www.youtube.com/watch?v=moJ_kj28bzw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T09:55 — auto-descubierto · @SeedRocketTV
+
+### `rj5JC-0f09Y_¿Demasiadas_bajas_laborales__Así_podría_intervenir_la_IA___Tertulia_SeedRocket.knowledge`
+- **Source**: seedrocket_tv_youtube · `rj5JC-0f09Y` · 88:17 · upload NA
+- **URL**: https://www.youtube.com/watch?v=rj5JC-0f09Y
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T10:02 — auto-descubierto · @SeedRocketTV
+
+### `-FZKZJXiS-U_Cómo_convencieron_a_BlackRock_para_invertir_en_su_STARTUP___Caso_TUIO_-_Juan_García.knowledge`
+- **Source**: seedrocket_tv_youtube · `-FZKZJXiS-U` · 54:31 · upload NA
+- **URL**: https://www.youtube.com/watch?v=-FZKZJXiS-U
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T10:10 — auto-descubierto · @SeedRocketTV
+
+### `qmUJbUyje8s_La_STARTUP_española_con_mayor_financiación_700.000.000€___Multiverse_Computing_-_Román_Orús.knowledge`
+- **Source**: seedrocket_tv_youtube · `qmUJbUyje8s` · 63:26 · upload NA
+- **URL**: https://www.youtube.com/watch?v=qmUJbUyje8s
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T10:20 — auto-descubierto · @SeedRocketTV
+
+### `-M-mb_IW3Kw_Cómo_escalar_una_startup_de_SALUD_desde_España_al_mundo___Pedro_Coelho_-_La_historia_de_BIORCE.knowledge`
+- **Source**: seedrocket_tv_youtube · `-M-mb_IW3Kw` · 66:00 · upload NA
+- **URL**: https://www.youtube.com/watch?v=-M-mb_IW3Kw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T10:30 — auto-descubierto · @SeedRocketTV
+
+### `VcCRzXCIshA_3_EXITS_en_7_años_330M_€___La_historia_de_Iñaki_Berenguer.knowledge`
+- **Source**: seedrocket_tv_youtube · `VcCRzXCIshA` · 73:34 · upload NA
+- **URL**: https://www.youtube.com/watch?v=VcCRzXCIshA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T10:37 — auto-descubierto · @SeedRocketTV
+
+### `TFuYv53Qy5s_Compró_a_su_competencia_y_se_quedó_con_el_mercado___La_historia_de_AFIANZA___Jose_Luis_Cogolludo.knowledge`
+- **Source**: seedrocket_tv_youtube · `TFuYv53Qy5s` · 58:53 · upload NA
+- **URL**: https://www.youtube.com/watch?v=TFuYv53Qy5s
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T10:46 — auto-descubierto · @SeedRocketTV
+
+### `udutsmh9M3w_Cómo_invertir_en_REAL_ESTATE_sin_depender_del_alquiler_tradicional___Enrique_Domínguez.knowledge`
+- **Source**: seedrocket_tv_youtube · `udutsmh9M3w` · 61:08 · upload NA
+- **URL**: https://www.youtube.com/watch?v=udutsmh9M3w
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T10:55 — auto-descubierto · @SeedRocketTV
+
+### `bcwS_H0OjDg_Como_invertí_en_Uber,_Airbnb,_Stripe,_ScaleAI_desde_Sillicon_Valley___Nacho_Vilela.knowledge`
+- **Source**: seedrocket_tv_youtube · `bcwS_H0OjDg` · 62:21 · upload NA
+- **URL**: https://www.youtube.com/watch?v=bcwS_H0OjDg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T11:02 — auto-descubierto · @SeedRocketTV
+
+### `TsTd2CGfIOE_El_móvil_Español_que_se_vende_en_50_países___Balance_Phone.knowledge`
+- **Source**: seedrocket_tv_youtube · `TsTd2CGfIOE` · 45:35 · upload NA
+- **URL**: https://www.youtube.com/watch?v=TsTd2CGfIOE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T11:12 — auto-descubierto · @SeedRocketTV
+
+### `miluBcyJtqk_Invertimos_en_trufas_negras__el_oro_agrícola_que_puede_dar_70.000€_por_hectárea___Marc_Ferran.knowledge`
+- **Source**: seedrocket_tv_youtube · `miluBcyJtqk` · 58:17 · upload NA
+- **URL**: https://www.youtube.com/watch?v=miluBcyJtqk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T11:14 — auto-descubierto · @SeedRocketTV
+
+### `itY5gyHNOFU_¿Una_GORRA_contra_la_CALVICIE____El_nuevo_proyecto_de_Pablo_Villalba.knowledge`
+- **Source**: seedrocket_tv_youtube · `itY5gyHNOFU` · 14:04 · upload NA
+- **URL**: https://www.youtube.com/watch?v=itY5gyHNOFU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T11:22 — auto-descubierto · @SeedRocketTV
+
+### `hHDMp7bE9_c_Cómo_reinventarte_después_de_perder_tu_startup___La_historia_de_Pablo_Villalba.knowledge`
+- **Source**: seedrocket_tv_youtube · `hHDMp7bE9_c` · 59:54 · upload NA
+- **URL**: https://www.youtube.com/watch?v=hHDMp7bE9_c
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T11:26 — auto-descubierto · @SeedRocketTV
+
+### `UcQ_RQQRBPo_MANGO__40_años_de_historia,_una_muerte_inesperada_y_un_imperio_que_sigue_creciendo.knowledge`
+- **Source**: seedrocket_tv_youtube · `UcQ_RQQRBPo` · 37:02 · upload NA
+- **URL**: https://www.youtube.com/watch?v=UcQ_RQQRBPo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T11:28 — auto-descubierto · @SeedRocketTV
+
+### `Df8Ra8nuJls_EXBANQUERO_revela_el_LADO_OSCURO_de_los_Asesores_Financieros___Ramón_Blanco_y_Salva_Mas.knowledge`
+- **Source**: seedrocket_tv_youtube · `Df8Ra8nuJls` · 10:46 · upload NA
+- **URL**: https://www.youtube.com/watch?v=Df8Ra8nuJls
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T11:39 — auto-descubierto · @SeedRocketTV
+
+### `pJ0HgrfUzAo_Luis_Martín_Cabiedes__30_años_de_inversión_sin_filtros.knowledge`
+- **Source**: seedrocket_tv_youtube · `pJ0HgrfUzAo` · 84:53 · upload NA
+- **URL**: https://www.youtube.com/watch?v=pJ0HgrfUzAo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T11:48 — auto-descubierto · @SeedRocketTV
+
+### `tT6URWvPMQA_La_psicología_del_inversor__por_qué_tomamos_malas_decisiones_con_el_dinero._Ramón_Blanco_y_Salva_Mas.knowledge`
+- **Source**: seedrocket_tv_youtube · `tT6URWvPMQA` · 76:46 · upload NA
+- **URL**: https://www.youtube.com/watch?v=tT6URWvPMQA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T11:50 — auto-descubierto · @SeedRocketTV
+
+### `8Y3H-AhFtJ4_Cómo_Skinvity_creció_gracias_a_influencers_y_redes_sociales___Blanca_Miñano.knowledge`
+- **Source**: seedrocket_tv_youtube · `8Y3H-AhFtJ4` · 13:47 · upload NA
+- **URL**: https://www.youtube.com/watch?v=8Y3H-AhFtJ4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T12:00 — auto-descubierto · @SeedRocketTV
+
+### `eh6bsq_KCjQ_Vender_tu_startup__todo_lo_que_aprendimos_después_del_EXIT.knowledge`
+- **Source**: seedrocket_tv_youtube · `eh6bsq_KCjQ` · 74:20 · upload NA
+- **URL**: https://www.youtube.com/watch?v=eh6bsq_KCjQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T12:09 — auto-descubierto · @SeedRocketTV
+
+### `_nYS1RVswpw_La_verdad_sobre_la_regulación_de_IA_(con_un_abogado_experto)___Luís_Gosalbez.knowledge`
+- **Source**: seedrocket_tv_youtube · `_nYS1RVswpw` · 58:00 · upload NA
+- **URL**: https://www.youtube.com/watch?v=_nYS1RVswpw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T12:11 — auto-descubierto · @SeedRocketTV
+
+### `dRSL9zT8o7s_Cómo_transformar_el_campo_en_una_empresa_del_siglo_XXI___Marc_Ferran.knowledge`
+- **Source**: seedrocket_tv_youtube · `dRSL9zT8o7s` · 15:54 · upload NA
+- **URL**: https://www.youtube.com/watch?v=dRSL9zT8o7s
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T12:13 — auto-descubierto · @SeedRocketTV
+
+### `qk39Weahn84_La_historia_REAL_detrás_de_la_venta_de_CODORNÍU_(y_lo_que_nadie_contó)___Marc_Ferran.knowledge`
+- **Source**: seedrocket_tv_youtube · `qk39Weahn84` · 10:13 · upload NA
+- **URL**: https://www.youtube.com/watch?v=qk39Weahn84
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-18T12:22 — auto-descubierto · @SeedRocketTV
+
+### `_BzV3KKgfo0_Así_se_monta_un_imperio_agrícola_-_“Una_de_cada_10_nueces_en_España_sale_de_aquí”___Marc_Ferran.knowledge`
+- **Source**: seedrocket_tv_youtube · `_BzV3KKgfo0` · 66:30 · upload NA
+- **URL**: https://www.youtube.com/watch?v=_BzV3KKgfo0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-19T07:00 — auto-descubierto · @claudeai
+
+### `EPUg9pmfPk0_Claude_Cowork_for_legal_teams.knowledge`
+- **Source**: claude_anthropic_youtube · `EPUg9pmfPk0` · 3:00 · upload NA
+- **URL**: https://www.youtube.com/watch?v=EPUg9pmfPk0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-19T07:01 — auto-descubierto · @claudeai
+
+### `lsufr1i6ACY_Claude_Cowork_for_marketing_ops.knowledge`
+- **Source**: claude_anthropic_youtube · `lsufr1i6ACY` · 3:35 · upload NA
+- **URL**: https://www.youtube.com/watch?v=lsufr1i6ACY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-19T07:02 — auto-descubierto · @claudeai
+
+### `dDg7vhvtbEE_Claude_Cowork_for_sales.knowledge`
+- **Source**: claude_anthropic_youtube · `dDg7vhvtbEE` · 3:32 · upload NA
+- **URL**: https://www.youtube.com/watch?v=dDg7vhvtbEE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-19T07:03 — auto-descubierto · @claudeai
+
+### `eW3oTyfeWZ0_Context_Management_in_Claude_Code.knowledge`
+- **Source**: claude_anthropic_youtube · `eW3oTyfeWZ0` · 3:31 · upload NA
+- **URL**: https://www.youtube.com/watch?v=eW3oTyfeWZ0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-19T07:03 — auto-descubierto · web · anthropic_blog
+
+### anthropic-acquires-stainless
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/anthropic-acquires-stainless
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-19T07:03 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-16
+- **URL**: https://github.com/anthropics/claude-code/issues/59539#issuecomment-4467900799
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:03 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.144
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.144
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>/resume</code> support for background sessions — sessions started via <code>claude --bg</code> or agent view now appear alongside interactive ones, marked 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:03 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.143
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-15
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.143
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added plugin dependency enforcement: <code>claude plugin disable</code> now refuses when another enabled plugin depends on the target (with a copy-pasteable disable-ch
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:03 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.142
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-14
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.142
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added new <code>claude agents</code> flags: <code>--add-dir</code>, <code>--settings</code>, <code>--mcp-config</code>, <code>--plugin-dir</code>, <code>--permission-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:03 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.141
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-13
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.141
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>terminalSequence</code> field to hook JSON output so hooks can emit desktop notifications, window titles, and bells without a controlling terminal</li>
+<li
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:03 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.140
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.140
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Improved Agent tool <code>subagent_type</code> matching to accept case- and separator-insensitive values (e.g. <code>"Code Reviewer"</code> resolves to <code>code-revi
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:03 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/69d707009ec5a9362ea3552b0580d0f658428f0a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:03 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-18
+- **URL**: https://github.com/anthropics/claude-code/commit/2962ecd7a9477817d8a2a2b2bd40a7a96ecef3c8
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:03 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-15
+- **URL**: https://github.com/anthropics/claude-code/commit/8bdbb7296d3fa2217283d3ef94452dd64097393b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:03 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-14
+- **URL**: https://github.com/anthropics/claude-code/commit/d61bfb5b562eea5091b11ad1858a9ae429b6bd23
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:03 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-13
+- **URL**: https://github.com/anthropics/claude-code/commit/c5712671c87f8ec283ecf1c5024a4952ba5bfbcd
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:03 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-12
+- **URL**: https://github.com/anthropics/claude-code/commit/6b070c31bc625dfd70d88352e7cfbdc505f55c6d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:06 — auto-descubierto · Sergio Rivas🔥Vende en Linkedin Conversando con 1K
+
+### `UlVcg6YlXz0_Boris_Cherny,_the_creator_of_Claude_Code_by_Anthropic,_simplifies_everything_in_15_minutes.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `UlVcg6YlXz0` · 14:54 · upload ?
+- **URL**: https://www.youtube.com/watch?v=UlVcg6YlXz0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-19T07:06 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-19
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:06 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-19
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:06 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-19
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:06 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-12
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:06 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-14
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:06 — auto-descubierto · github · karpathy
+
+### Training a Neural Network ATARI Pong agent with Policy Gradients from raw pixels
+- **Source**: github `karpathy_gists` · 2026-05-13
+- **URL**: https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5#file-pg-pong-py">pg-pong.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-pg-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:06 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-12
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:08 — auto-descubierto · Dream Labs AI
+
+### `hzQie4EucY0_This_“Karpathy_file”_will_10x_your_claude_output_(132,000_Github_Stars!).knowledge`
+- **Source**: youtube_mentions_karpathy · `hzQie4EucY0` · 9:59 · upload ?
+- **URL**: https://www.youtube.com/watch?v=hzQie4EucY0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-19T07:09 — auto-descubierto · Mo Bitar
+
+### `ZugX7a99dLk_OpenAI_founder_admits_AI_isn’t_working.knowledge`
+- **Source**: youtube_mentions_karpathy · `ZugX7a99dLk` · 8:03 · upload ?
+- **URL**: https://www.youtube.com/watch?v=ZugX7a99dLk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-19T07:09 — auto-descubierto · github · thariqs
+
+### ThariqS contributed to ThariqS/html-effectiveness
+- **Source**: github `trq212_github` · 2026-05-18
+- **URL**: https://github.com/ThariqS/html-effectiveness/pull/5
+- **Tipo**: github_user_activity
+- **Autor**: ThariqS
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-19T07:09 — auto-descubierto · github · thariqs
+
+### ThariqS contributed to ThariqS/html-effectiveness
+- **Source**: github `trq212_github` · 2026-05-18
+- **URL**: https://github.com/ThariqS/html-effectiveness/pull/5
+- **Tipo**: github_user_activity
+- **Autor**: ThariqS
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · @claudeai
+
+### `6amLO7I9xdg_Code_with_Claude_London_2026__Opening_Keynote.knowledge`
+- **Source**: claude_anthropic_youtube · `6amLO7I9xdg` · 46:27 · upload NA
+- **URL**: https://www.youtube.com/watch?v=6amLO7I9xdg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-20T07:07 — auto-descubierto · web · anthropic_blog
+
+### widening-conversation-ai
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/widening-conversation-ai
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-20T07:07 — auto-descubierto · web · anthropic_blog
+
+### anthropic-kpmg
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/anthropic-kpmg
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-20T07:07 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-16
+- **URL**: https://github.com/anthropics/claude-code/issues/59539#issuecomment-4467900799
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.145
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-20
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.145
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>claude agents --json</code> to list live Claude sessions as JSON for scripting (tmux-resurrect, status bars, session pickers)</li>
+<li>Added <code>agent_id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.144
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.144
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>/resume</code> support for background sessions — sessions started via <code>claude --bg</code> or agent view now appear alongside interactive ones, marked 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.143
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-15
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.143
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added plugin dependency enforcement: <code>claude plugin disable</code> now refuses when another enabled plugin depends on the target (with a copy-pasteable disable-ch
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.142
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-14
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.142
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added new <code>claude agents</code> flags: <code>--add-dir</code>, <code>--settings</code>, <code>--mcp-config</code>, <code>--plugin-dir</code>, <code>--permission-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.141
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-13
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.141
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>terminalSequence</code> field to hook JSON output so hooks can emit desktop notifications, window titles, and bells without a controlling terminal</li>
+<li
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/cc898dc3692fb583f36ab327942aad20b7d3dbd0
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/b7925a81da917975a3850d52019105afe76ede6b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/69d707009ec5a9362ea3552b0580d0f658428f0a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-18
+- **URL**: https://github.com/anthropics/claude-code/commit/2962ecd7a9477817d8a2a2b2bd40a7a96ecef3c8
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-15
+- **URL**: https://github.com/anthropics/claude-code/commit/8bdbb7296d3fa2217283d3ef94452dd64097393b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-14
+- **URL**: https://github.com/anthropics/claude-code/commit/d61bfb5b562eea5091b11ad1858a9ae429b6bd23
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-13
+- **URL**: https://github.com/anthropics/claude-code/commit/c5712671c87f8ec283ecf1c5024a4952ba5bfbcd
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-19
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-20
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-20
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-14
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:07 — auto-descubierto · github · karpathy
+
+### Training a Neural Network ATARI Pong agent with Policy Gradients from raw pixels
+- **Source**: github `karpathy_gists` · 2026-05-13
+- **URL**: https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5#file-pg-pong-py">pg-pong.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-pg-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:08 — auto-descubierto · Forbes Breaking News
+
+### `hRAjRZdXgus_OpenAI_Cofounder_And_Former_Tesla_AI_Leader_Andrej_Karpathy_Joins_Anthropic.knowledge`
+- **Source**: youtube_mentions_karpathy · `hRAjRZdXgus` · 3:38 · upload ?
+- **URL**: https://www.youtube.com/watch?v=hRAjRZdXgus
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-20T07:44 — auto-descubierto · Lex Fridman
+
+### `cdiD-9MMpb0_Andrej_Karpathy__Tesla_AI,_Self-Driving,_Optimus,_Aliens,_and_AGI___Lex_Fridman_Podcast_#333.knowledge`
+- **Source**: youtube_mentions_karpathy · `cdiD-9MMpb0` · 208:48 · upload ?
+- **URL**: https://www.youtube.com/watch?v=cdiD-9MMpb0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-20T07:44 — auto-descubierto · github · thariqs
+
+### ThariqS contributed to ThariqS/html-effectiveness
+- **Source**: github `trq212_github` · 2026-05-18
+- **URL**: https://github.com/ThariqS/html-effectiveness/pull/5
+- **Tipo**: github_user_activity
+- **Autor**: ThariqS
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-20T07:44 — auto-descubierto · github · thariqs
+
+### ThariqS contributed to ThariqS/html-effectiveness
+- **Source**: github `trq212_github` · 2026-05-18
+- **URL**: https://github.com/ThariqS/html-effectiveness/pull/5
+- **Tipo**: github_user_activity
+- **Autor**: ThariqS
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T07:03 — auto-descubierto · @claudeai
+
+### `T7KqH7kYnE4_The_thinking_lever.knowledge`
+- **Source**: claude_anthropic_youtube · `T7KqH7kYnE4` · 21:18 · upload NA
+- **URL**: https://www.youtube.com/watch?v=T7KqH7kYnE4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-21T07:08 — auto-descubierto · @claudeai
+
+### `mhW-XXnDFSU_How_Lovable_vibecodes_production_software_at_scale.knowledge`
+- **Source**: claude_anthropic_youtube · `mhW-XXnDFSU` · 31:11 · upload NA
+- **URL**: https://www.youtube.com/watch?v=mhW-XXnDFSU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-21T07:14 — auto-descubierto · @claudeai
+
+### `ORLekLxxPXk_What_legal_agents_inherit_from_coding_agents__Lessons_from_Legora.knowledge`
+- **Source**: claude_anthropic_youtube · `ORLekLxxPXk` · 28:43 · upload NA
+- **URL**: https://www.youtube.com/watch?v=ORLekLxxPXk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-21T07:19 — auto-descubierto · @claudeai
+
+### `XFaeIbL-lvE_Building_AI-native_at_enterprise_scale__monday.com,_Doctolib,_and_Delivery_Hero.knowledge`
+- **Source**: claude_anthropic_youtube · `XFaeIbL-lvE` · 29:11 · upload NA
+- **URL**: https://www.youtube.com/watch?v=XFaeIbL-lvE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-21T07:23 — auto-descubierto · @claudeai
+
+### `VueeyKcquoA_From_one_person_to_80__Scaling_a_hypergrowth_engineering_org_with_Claude_Code.knowledge`
+- **Source**: claude_anthropic_youtube · `VueeyKcquoA` · 23:59 · upload NA
+- **URL**: https://www.youtube.com/watch?v=VueeyKcquoA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-21T07:27 — auto-descubierto · @claudeai
+
+### `eSP7PLTXNy8_Build_a_proactive_agent_workflow_with_Claude_Code.knowledge`
+- **Source**: claude_anthropic_youtube · `eSP7PLTXNy8` · 22:04 · upload NA
+- **URL**: https://www.youtube.com/watch?v=eSP7PLTXNy8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-21T07:33 — auto-descubierto · @claudeai
+
+### `TQd_YQvydVg_Build_AI_agents_using_Claude_in_Microsoft_Foundry.knowledge`
+- **Source**: claude_anthropic_youtube · `TQd_YQvydVg` · 34:16 · upload NA
+- **URL**: https://www.youtube.com/watch?v=TQd_YQvydVg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-21T07:38 — auto-descubierto · @claudeai
+
+### `zFslvuvYifQ_Coding_is_no_longer_the_constraint__Scaling_devex_to_teams_and_agents_at_Spotify.knowledge`
+- **Source**: claude_anthropic_youtube · `zFslvuvYifQ` · 27:37 · upload NA
+- **URL**: https://www.youtube.com/watch?v=zFslvuvYifQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-21T07:41 — auto-descubierto · @claudeai
+
+### `5YHIrTYxM3w_AI_with_Claude_on_AWS__From_code_to_orchestration.knowledge`
+- **Source**: claude_anthropic_youtube · `5YHIrTYxM3w` · 19:42 · upload NA
+- **URL**: https://www.youtube.com/watch?v=5YHIrTYxM3w
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-21T08:02 — auto-descubierto · @claudeai
+
+### `wI0ptqCSL0I_Stop_babysitting_your_agents.knowledge`
+- **Source**: claude_anthropic_youtube · `wI0ptqCSL0I` · 37:07 · upload NA
+- **URL**: https://www.youtube.com/watch?v=wI0ptqCSL0I
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-21T08:06 — auto-descubierto · @claudeai
+
+### `sRvUXLquiRg_What's_new_in_Claude_Code.knowledge`
+- **Source**: claude_anthropic_youtube · `sRvUXLquiRg` · 32:04 · upload NA
+- **URL**: https://www.youtube.com/watch?v=sRvUXLquiRg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-21T08:06 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-16
+- **URL**: https://github.com/anthropics/claude-code/issues/59539#issuecomment-4467900799
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:06 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.146
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.146
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Renamed <code>/simplify</code> to <code>/code-review</code> with an optional effort level (e.g. <code>/code-review high</code>)</li>
+<li>Auto mode no longer suppresses
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:06 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.145
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-20
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.145
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>claude agents --json</code> to list live Claude sessions as JSON for scripting (tmux-resurrect, status bars, session pickers)</li>
+<li>Added <code>agent_id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:06 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.144
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.144
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>/resume</code> support for background sessions — sessions started via <code>claude --bg</code> or agent view now appear alongside interactive ones, marked 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:06 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.143
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-15
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.143
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added plugin dependency enforcement: <code>claude plugin disable</code> now refuses when another enabled plugin depends on the target (with a copy-pasteable disable-ch
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:06 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.142
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-14
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.142
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added new <code>claude agents</code> flags: <code>--add-dir</code>, <code>--settings</code>, <code>--mcp-config</code>, <code>--plugin-dir</code>, <code>--permission-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:06 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/1573399b48ff00e9dedf2ce898021dd2f48b6b97
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:06 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/cc898dc3692fb583f36ab327942aad20b7d3dbd0
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:06 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/b7925a81da917975a3850d52019105afe76ede6b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:06 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/69d707009ec5a9362ea3552b0580d0f658428f0a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:06 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-18
+- **URL**: https://github.com/anthropics/claude-code/commit/2962ecd7a9477817d8a2a2b2bd40a7a96ecef3c8
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:06 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-15
+- **URL**: https://github.com/anthropics/claude-code/commit/8bdbb7296d3fa2217283d3ef94452dd64097393b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:06 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-14
+- **URL**: https://github.com/anthropics/claude-code/commit/d61bfb5b562eea5091b11ad1858a9ae429b6bd23
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:19 — auto-descubierto · Alex Kantrowitz
+
+### `Z6IT4gjrcPE_Claude_Code_Head_Boris_Cherny__Insane_Growth,_Tokenmaxxing,_AI_Agents'_Next_Frontier.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `Z6IT4gjrcPE` · 57:24 · upload ?
+- **URL**: https://www.youtube.com/watch?v=Z6IT4gjrcPE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-21T08:19 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-19
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:19 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-21
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:19 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-21
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:19 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-14
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:23 — auto-descubierto · Nate Herk | AI Automation
+
+### `brB-hSiV2iU_What_Karpathy_Joining_Anthropic_Actually_Means_For_Claude.knowledge`
+- **Source**: youtube_mentions_karpathy · `brB-hSiV2iU` · 16:24 · upload ?
+- **URL**: https://www.youtube.com/watch?v=brB-hSiV2iU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-21T08:25 — auto-descubierto · @jevanclief
+
+### `McuxQvaWlNM_We_Ran_Claude_Code_By_Voice_In_A_Group_Call_(The_Future_of_Work_).knowledge`
+- **Source**: jevanclief_youtube · `McuxQvaWlNM` · 7:33 · upload NA
+- **URL**: https://www.youtube.com/watch?v=McuxQvaWlNM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-21T08:30 — auto-descubierto · @jevanclief
+
+### `956DPSPX4wg_The_Architecture_Lives_In_The_Conversation_(Watch_Three_People_Run_Claude_Code_By_Voice).knowledge`
+- **Source**: jevanclief_youtube · `956DPSPX4wg` · 26:38 · upload NA
+- **URL**: https://www.youtube.com/watch?v=956DPSPX4wg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-21T08:31 — auto-descubierto · github · thariqs
+
+### ThariqS contributed to ThariqS/html-effectiveness
+- **Source**: github `trq212_github` · 2026-05-18
+- **URL**: https://github.com/ThariqS/html-effectiveness/pull/5
+- **Tipo**: github_user_activity
+- **Autor**: ThariqS
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-21T08:31 — auto-descubierto · github · thariqs
+
+### ThariqS contributed to ThariqS/html-effectiveness
+- **Source**: github `trq212_github` · 2026-05-18
+- **URL**: https://github.com/ThariqS/html-effectiveness/pull/5
+- **Tipo**: github_user_activity
+- **Autor**: ThariqS
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:04 — auto-descubierto · @claudeai
+
+### `K4-flzsPraE_Building_the_best_agentic_analytics_harness__Powered_by_Claude,_built_with_Claude_Code.knowledge`
+- **Source**: claude_anthropic_youtube · `K4-flzsPraE` · 26:46 · upload NA
+- **URL**: https://www.youtube.com/watch?v=K4-flzsPraE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-22T07:09 — auto-descubierto · @claudeai
+
+### `l8fxVYIP4HQ_Building_with_Claude_on_Google_Cloud.knowledge`
+- **Source**: claude_anthropic_youtube · `l8fxVYIP4HQ` · 24:38 · upload NA
+- **URL**: https://www.youtube.com/watch?v=l8fxVYIP4HQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-22T07:13 — auto-descubierto · @claudeai
+
+### `EOg4gY0Yln0_Trading_signals_that_trade_themselves.knowledge`
+- **Source**: claude_anthropic_youtube · `EOg4gY0Yln0` · 20:45 · upload NA
+- **URL**: https://www.youtube.com/watch?v=EOg4gY0Yln0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-22T07:19 — auto-descubierto · @claudeai
+
+### `P0uMXS6emHA_Picking_the_right_model.knowledge`
+- **Source**: claude_anthropic_youtube · `P0uMXS6emHA` · 31:40 · upload NA
+- **URL**: https://www.youtube.com/watch?v=P0uMXS6emHA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-22T07:23 — auto-descubierto · @claudeai
+
+### `IGo225tfF2I_Memory_and_dreaming_for_self_learning_agents.knowledge`
+- **Source**: claude_anthropic_youtube · `IGo225tfF2I` · 21:34 · upload NA
+- **URL**: https://www.youtube.com/watch?v=IGo225tfF2I
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-22T07:29 — auto-descubierto · @claudeai
+
+### `nho1YAEPuwA_What_legal_agents_inherit_from_coding_agents__Lessons_from_Legora.knowledge`
+- **Source**: claude_anthropic_youtube · `nho1YAEPuwA` · 28:43 · upload NA
+- **URL**: https://www.youtube.com/watch?v=nho1YAEPuwA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-22T07:35 — auto-descubierto · @claudeai
+
+### `zenIB7XLZxQ_How_to_get_to_production_faster_with_Claude_Managed_Agents.knowledge`
+- **Source**: claude_anthropic_youtube · `zenIB7XLZxQ` · 29:04 · upload NA
+- **URL**: https://www.youtube.com/watch?v=zenIB7XLZxQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-22T07:41 — auto-descubierto · @claudeai
+
+### `jWWsLe4Gh5Y_Build_a_production-ready_agent_with_Claude_Managed_Agents.knowledge`
+- **Source**: claude_anthropic_youtube · `jWWsLe4Gh5Y` · 27:23 · upload NA
+- **URL**: https://www.youtube.com/watch?v=jWWsLe4Gh5Y
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-22T07:41 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-16
+- **URL**: https://github.com/anthropics/claude-code/issues/59539#issuecomment-4467900799
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:41 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.148
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.148
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed the Bash tool returning exit code 127 on every command for some users (a regression introduced in 2.1.147)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:41 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.147
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.147
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Pinned background sessions (<code>Ctrl+T</code> in <code>claude agents</code>) now stay alive when idle, are restarted in place to apply Claude Code updates, and are s
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:41 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.146
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.146
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Renamed <code>/simplify</code> to <code>/code-review</code> with an optional effort level (e.g. <code>/code-review high</code>)</li>
+<li>Auto mode no longer suppresses
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:41 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.145
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-20
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.145
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>claude agents --json</code> to list live Claude sessions as JSON for scripting (tmux-resurrect, status bars, session pickers)</li>
+<li>Added <code>agent_id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:41 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.144
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.144
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>/resume</code> support for background sessions — sessions started via <code>claude --bg</code> or agent view now appear alongside interactive ones, marked 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:41 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.143
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-15
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.143
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added plugin dependency enforcement: <code>claude plugin disable</code> now refuses when another enabled plugin depends on the target (with a copy-pasteable disable-ch
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:41 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/2194e8e0904087b9f2afce41a2ec083cc71c0653
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:41 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/65d44eb134e6f710e2d9fbcfd4bb977698e476dc
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:41 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #61319 from anthropics/remove-changelog-entry
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/efea4c38d9d3a913d09ac4fc44b8995e4da2b900
+- **Tipo**: github_repo_commits
+- **Autor**: sid374
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #61319 from anthropics/remove-changelog-entry
+
+Fix changelog</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:41 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Remove changelog entry included in error
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/c6b849f27118d97ed57d6067eeb269750b2e647e
+- **Tipo**: github_repo_commits
+- **Autor**: claude
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Remove changelog entry included in error
+
+https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:41 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/15b5d57170e0b10a50ecc2c2866efadac2a46d22
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:41 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/1573399b48ff00e9dedf2ce898021dd2f48b6b97
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:41 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/cc898dc3692fb583f36ab327942aad20b7d3dbd0
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:41 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/b7925a81da917975a3850d52019105afe76ede6b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:41 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/69d707009ec5a9362ea3552b0580d0f658428f0a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:41 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-18
+- **URL**: https://github.com/anthropics/claude-code/commit/2962ecd7a9477817d8a2a2b2bd40a7a96ecef3c8
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:41 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-15
+- **URL**: https://github.com/anthropics/claude-code/commit/8bdbb7296d3fa2217283d3ef94452dd64097393b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:43 — auto-descubierto · Sky News
+
+### `KRJzonECIY4_Will_AI_replace_coders_or_make_everyone_one__We_asked_Claude_Code's_creator.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `KRJzonECIY4` · 6:34 · upload ?
+- **URL**: https://www.youtube.com/watch?v=KRJzonECIY4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-22T07:43 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-21
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:43 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-22
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:43 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-22
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T07:43 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-22
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T08:09 — auto-descubierto · Peter H. Diamandis
+
+### `kklrodAua_U_Google_I_O_2026,_Karpathy_Joins_Anthropic,_and_Cerebras’_$95B_IPO___EP_#256.knowledge`
+- **Source**: youtube_mentions_karpathy · `kklrodAua_U` · 143:23 · upload ?
+- **URL**: https://www.youtube.com/watch?v=kklrodAua_U
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-22T08:10 — auto-descubierto · github · thariqs
+
+### ThariqS contributed to ThariqS/html-effectiveness
+- **Source**: github `trq212_github` · 2026-05-18
+- **URL**: https://github.com/ThariqS/html-effectiveness/pull/5
+- **Tipo**: github_user_activity
+- **Autor**: ThariqS
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-22T08:10 — auto-descubierto · github · thariqs
+
+### ThariqS contributed to ThariqS/html-effectiveness
+- **Source**: github `trq212_github` · 2026-05-18
+- **URL**: https://github.com/ThariqS/html-effectiveness/pull/5
+- **Tipo**: github_user_activity
+- **Autor**: ThariqS
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T07:05 — auto-descubierto · @claudeai
+
+### `qOjleN2-50c_Making_agentic_workflows_trustworthy_and_verifiable_with_a_custom_DSL.knowledge`
+- **Source**: claude_anthropic_youtube · `qOjleN2-50c` · 29:39 · upload NA
+- **URL**: https://www.youtube.com/watch?v=qOjleN2-50c
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-23T07:11 — auto-descubierto · @claudeai
+
+### `tUoO4ucrNc0_Fighting_financial_crime_with_Claude_Cowork.knowledge`
+- **Source**: claude_anthropic_youtube · `tUoO4ucrNc0` · 27:52 · upload NA
+- **URL**: https://www.youtube.com/watch?v=tUoO4ucrNc0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-23T07:20 — auto-descubierto · @claudeai
+
+### `T8N0MED3IJo_Where_code_meets_court__AI_at_the_legal-technical_frontier.knowledge`
+- **Source**: claude_anthropic_youtube · `T8N0MED3IJo` · 32:16 · upload NA
+- **URL**: https://www.youtube.com/watch?v=T8N0MED3IJo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-23T07:26 — auto-descubierto · @claudeai
+
+### `M5uwBawBDpw_How_AirOps_chases_friction_to_build_AI_products_with_Claude.knowledge`
+- **Source**: claude_anthropic_youtube · `M5uwBawBDpw` · 26:47 · upload NA
+- **URL**: https://www.youtube.com/watch?v=M5uwBawBDpw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-23T07:31 — auto-descubierto · @claudeai
+
+### `A3rmSUp6Dxg_How_Metaview_built_self-improving_prompts_for_application_review.knowledge`
+- **Source**: claude_anthropic_youtube · `A3rmSUp6Dxg` · 16:46 · upload NA
+- **URL**: https://www.youtube.com/watch?v=A3rmSUp6Dxg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-23T07:37 — auto-descubierto · @claudeai
+
+### `uGroRwlC9y4_Teaching_agents_to_learn_from_your_team.knowledge`
+- **Source**: claude_anthropic_youtube · `uGroRwlC9y4` · 28:29 · upload NA
+- **URL**: https://www.youtube.com/watch?v=uGroRwlC9y4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-23T07:47 — auto-descubierto · @claudeai
+
+### `tuY2ChJIx48_Beyond_the_basics_with_Claude_Code.knowledge`
+- **Source**: claude_anthropic_youtube · `tuY2ChJIx48` · 47:20 · upload NA
+- **URL**: https://www.youtube.com/watch?v=tuY2ChJIx48
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-23T07:54 — auto-descubierto · @claudeai
+
+### `IA5LWIGqnyM_Running_an_AI-native_engineering_org.knowledge`
+- **Source**: claude_anthropic_youtube · `IA5LWIGqnyM` · 26:38 · upload NA
+- **URL**: https://www.youtube.com/watch?v=IA5LWIGqnyM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-23T07:59 — auto-descubierto · @claudeai
+
+### `QIriO1-vHYw_Getting_more_out_of_the_Claude_Platform.knowledge`
+- **Source**: claude_anthropic_youtube · `QIriO1-vHYw` · 26:41 · upload NA
+- **URL**: https://www.youtube.com/watch?v=QIriO1-vHYw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-23T08:06 — auto-descubierto · @claudeai
+
+### `G2B0YWuJUgI_The_prompting_playbook.knowledge`
+- **Source**: claude_anthropic_youtube · `G2B0YWuJUgI` · 33:49 · upload NA
+- **URL**: https://www.youtube.com/watch?v=G2B0YWuJUgI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-23T08:12 — auto-descubierto · @claudeai
+
+### `DNRddIEoH3c_The_capability_curve.knowledge`
+- **Source**: claude_anthropic_youtube · `DNRddIEoH3c` · 26:26 · upload NA
+- **URL**: https://www.youtube.com/watch?v=DNRddIEoH3c
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-23T08:17 — auto-descubierto · @claudeai
+
+### `Uvl-tRga98g_Designing_with_Claude__From_prompt_to_production.knowledge`
+- **Source**: claude_anthropic_youtube · `Uvl-tRga98g` · 28:00 · upload NA
+- **URL**: https://www.youtube.com/watch?v=Uvl-tRga98g
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-23T08:18 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-16
+- **URL**: https://github.com/anthropics/claude-code/issues/59539#issuecomment-4467900799
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.150
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-23
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.150
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal infrastructure improvements (no user-facing changes)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.149
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.149
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>/usage</code> now shows a per-category breakdown of what's driving your limits usage — skills, subagents, plugins, and per-MCP-server cost</li>
+<li><code>/diff</
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.148
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.148
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed the Bash tool returning exit code 127 on every command for some users (a regression introduced in 2.1.147)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.147
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.147
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Pinned background sessions (<code>Ctrl+T</code> in <code>claude agents</code>) now stay alive when idle, are restarted in place to apply Claude Code updates, and are s
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.146
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.146
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Renamed <code>/simplify</code> to <code>/code-review</code> with an optional effort level (e.g. <code>/code-review high</code>)</li>
+<li>Auto mode no longer suppresses
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.145
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-20
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.145
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>claude agents --json</code> to list live Claude sessions as JSON for scripting (tmux-resurrect, status bars, session pickers)</li>
+<li>Added <code>agent_id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.144
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.144
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>/resume</code> support for background sessions — sessions started via <code>claude --bg</code> or agent view now appear alongside interactive ones, marked 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-23
+- **URL**: https://github.com/anthropics/claude-code/commit/39e853e4074d90f27afdfb7ea601e0fc378bd0c5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Use workload identity federation for Claude auth in CI workflows (#61…
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/5ef2f06c6aa0d97531274bce62907721cde190ec
+- **Tipo**: github_repo_commits
+- **Autor**: ashwin-ant
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Use workload identity federation for Claude auth in CI workflows (#61584)
+
+Replace the static ANTHROPIC_API_KEY secret with Workload Identity
+Federation in
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/64e53823deb2b8e007c41cb6da5ac75264c3394d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/2194e8e0904087b9f2afce41a2ec083cc71c0653
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/65d44eb134e6f710e2d9fbcfd4bb977698e476dc
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #61319 from anthropics/remove-changelog-entry
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/efea4c38d9d3a913d09ac4fc44b8995e4da2b900
+- **Tipo**: github_repo_commits
+- **Autor**: sid374
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #61319 from anthropics/remove-changelog-entry
+
+Fix changelog</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Remove changelog entry included in error
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/c6b849f27118d97ed57d6067eeb269750b2e647e
+- **Tipo**: github_repo_commits
+- **Autor**: claude
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Remove changelog entry included in error
+
+https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/15b5d57170e0b10a50ecc2c2866efadac2a46d22
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/1573399b48ff00e9dedf2ce898021dd2f48b6b97
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/cc898dc3692fb583f36ab327942aad20b7d3dbd0
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/b7925a81da917975a3850d52019105afe76ede6b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/69d707009ec5a9362ea3552b0580d0f658428f0a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:18 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-18
+- **URL**: https://github.com/anthropics/claude-code/commit/2962ecd7a9477817d8a2a2b2bd40a7a96ecef3c8
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:22 — auto-descubierto · GritAI Studio
+
+### `1aCp9OT8rvw_How_to_Use_Claude_Code_the_Boris_Way.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `1aCp9OT8rvw` · 22:53 · upload ?
+- **URL**: https://www.youtube.com/watch?v=1aCp9OT8rvw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-23T08:22 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-21
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:22 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-23
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:22 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-23
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:22 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-22
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:22 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-23
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:34 — auto-descubierto · The Robot Brains Podcast
+
+### `PlLmdTcsAWU_Season_1_Ep.1_Andrej_Karpathy_on_the_visionary_AI_in_Tesla's_autonomous_driving.knowledge`
+- **Source**: youtube_mentions_karpathy · `PlLmdTcsAWU` · 80:20 · upload ?
+- **URL**: https://www.youtube.com/watch?v=PlLmdTcsAWU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-23T08:37 — auto-descubierto · Accel
+
+### `aR6CzM0x-g0_CUDA_Mode_Keynote___Andrej_Karpathy___Eureka_Labs.knowledge`
+- **Source**: youtube_mentions_karpathy · `aR6CzM0x-g0` · 23:21 · upload ?
+- **URL**: https://www.youtube.com/watch?v=aR6CzM0x-g0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-23T08:37 — auto-descubierto · github · thariqs
+
+### ThariqS contributed to ThariqS/html-effectiveness
+- **Source**: github `trq212_github` · 2026-05-18
+- **URL**: https://github.com/ThariqS/html-effectiveness/pull/5
+- **Tipo**: github_user_activity
+- **Autor**: ThariqS
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-23T08:37 — auto-descubierto · github · thariqs
+
+### ThariqS contributed to ThariqS/html-effectiveness
+- **Source**: github `trq212_github` · 2026-05-18
+- **URL**: https://github.com/ThariqS/html-effectiveness/pull/5
+- **Tipo**: github_user_activity
+- **Autor**: ThariqS
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:10 — auto-descubierto · @claudeai
+
+### `mWvtOHlZM-I_Tool,_skill,_or_subagent__Decomposing_an_agent_that_outgrew_its_prompt.knowledge`
+- **Source**: claude_anthropic_youtube · `mWvtOHlZM-I` · 45:06 · upload NA
+- **URL**: https://www.youtube.com/watch?v=mWvtOHlZM-I
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-24T07:12 — auto-descubierto · @claudeai
+
+### `dxqX_6ciVQA_Agent_Battle__Mine_the_most_diamonds_in_45_minutes.knowledge`
+- **Source**: claude_anthropic_youtube · `dxqX_6ciVQA` · 8:45 · upload NA
+- **URL**: https://www.youtube.com/watch?v=dxqX_6ciVQA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-24T07:23 — auto-descubierto · @claudeai
+
+### `v9FTCvkV_a0_Evals_for_taste__Hill-climbing_a_slide-generation_agent.knowledge`
+- **Source**: claude_anthropic_youtube · `v9FTCvkV_a0` · 39:16 · upload NA
+- **URL**: https://www.youtube.com/watch?v=v9FTCvkV_a0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-24T07:30 — auto-descubierto · @claudeai
+
+### `geUv4CjPpxI_Agents_that_remember.knowledge`
+- **Source**: claude_anthropic_youtube · `geUv4CjPpxI` · 28:42 · upload NA
+- **URL**: https://www.youtube.com/watch?v=geUv4CjPpxI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-24T07:37 — auto-descubierto · @claudeai
+
+### `IlqJqcl8ONE_How_we_Claude_Code.knowledge`
+- **Source**: claude_anthropic_youtube · `IlqJqcl8ONE` · 31:43 · upload NA
+- **URL**: https://www.youtube.com/watch?v=IlqJqcl8ONE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.150
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-23
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.150
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal infrastructure improvements (no user-facing changes)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.149
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.149
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>/usage</code> now shows a per-category breakdown of what's driving your limits usage — skills, subagents, plugins, and per-MCP-server cost</li>
+<li><code>/diff</
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.148
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.148
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed the Bash tool returning exit code 127 on every command for some users (a regression introduced in 2.1.147)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.147
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.147
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Pinned background sessions (<code>Ctrl+T</code> in <code>claude agents</code>) now stay alive when idle, are restarted in place to apply Claude Code updates, and are s
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.146
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.146
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Renamed <code>/simplify</code> to <code>/code-review</code> with an optional effort level (e.g. <code>/code-review high</code>)</li>
+<li>Auto mode no longer suppresses
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.145
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-20
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.145
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>claude agents --json</code> to list live Claude sessions as JSON for scripting (tmux-resurrect, status bars, session pickers)</li>
+<li>Added <code>agent_id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.144
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.144
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>/resume</code> support for background sessions — sessions started via <code>claude --bg</code> or agent view now appear alongside interactive ones, marked 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-23
+- **URL**: https://github.com/anthropics/claude-code/commit/39e853e4074d90f27afdfb7ea601e0fc378bd0c5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Use workload identity federation for Claude auth in CI workflows (#61…
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/5ef2f06c6aa0d97531274bce62907721cde190ec
+- **Tipo**: github_repo_commits
+- **Autor**: ashwin-ant
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Use workload identity federation for Claude auth in CI workflows (#61584)
+
+Replace the static ANTHROPIC_API_KEY secret with Workload Identity
+Federation in
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/64e53823deb2b8e007c41cb6da5ac75264c3394d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/2194e8e0904087b9f2afce41a2ec083cc71c0653
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/65d44eb134e6f710e2d9fbcfd4bb977698e476dc
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #61319 from anthropics/remove-changelog-entry
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/efea4c38d9d3a913d09ac4fc44b8995e4da2b900
+- **Tipo**: github_repo_commits
+- **Autor**: sid374
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #61319 from anthropics/remove-changelog-entry
+
+Fix changelog</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Remove changelog entry included in error
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/c6b849f27118d97ed57d6067eeb269750b2e647e
+- **Tipo**: github_repo_commits
+- **Autor**: claude
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Remove changelog entry included in error
+
+https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/15b5d57170e0b10a50ecc2c2866efadac2a46d22
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/1573399b48ff00e9dedf2ce898021dd2f48b6b97
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/cc898dc3692fb583f36ab327942aad20b7d3dbd0
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/b7925a81da917975a3850d52019105afe76ede6b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/69d707009ec5a9362ea3552b0580d0f658428f0a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-18
+- **URL**: https://github.com/anthropics/claude-code/commit/2962ecd7a9477817d8a2a2b2bd40a7a96ecef3c8
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:59 — auto-descubierto · The Verge
+
+### `IvDnGRFMmgE_How_Claude_Code_Claude_Codes___The_Vergecast.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `IvDnGRFMmgE` · 82:22 · upload ?
+- **URL**: https://www.youtube.com/watch?v=IvDnGRFMmgE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-24T07:59 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-24
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:59 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-24
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:59 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-24
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:59 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-22
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T07:59 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-23
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T08:00 — auto-descubierto · github · thariqs
+
+### ThariqS contributed to ThariqS/html-effectiveness
+- **Source**: github `trq212_github` · 2026-05-18
+- **URL**: https://github.com/ThariqS/html-effectiveness/pull/5
+- **Tipo**: github_user_activity
+- **Autor**: ThariqS
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-24T08:00 — auto-descubierto · github · thariqs
+
+### ThariqS contributed to ThariqS/html-effectiveness
+- **Source**: github `trq212_github` · 2026-05-18
+- **URL**: https://github.com/ThariqS/html-effectiveness/pull/5
+- **Tipo**: github_user_activity
+- **Autor**: ThariqS
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.150
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-23
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.150
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal infrastructure improvements (no user-facing changes)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.149
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.149
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>/usage</code> now shows a per-category breakdown of what's driving your limits usage — skills, subagents, plugins, and per-MCP-server cost</li>
+<li><code>/diff</
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.148
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.148
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed the Bash tool returning exit code 127 on every command for some users (a regression introduced in 2.1.147)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.147
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.147
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Pinned background sessions (<code>Ctrl+T</code> in <code>claude agents</code>) now stay alive when idle, are restarted in place to apply Claude Code updates, and are s
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.146
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.146
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Renamed <code>/simplify</code> to <code>/code-review</code> with an optional effort level (e.g. <code>/code-review high</code>)</li>
+<li>Auto mode no longer suppresses
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.145
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-20
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.145
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>claude agents --json</code> to list live Claude sessions as JSON for scripting (tmux-resurrect, status bars, session pickers)</li>
+<li>Added <code>agent_id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.144
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.144
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>/resume</code> support for background sessions — sessions started via <code>claude --bg</code> or agent view now appear alongside interactive ones, marked 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-23
+- **URL**: https://github.com/anthropics/claude-code/commit/39e853e4074d90f27afdfb7ea601e0fc378bd0c5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Use workload identity federation for Claude auth in CI workflows (#61…
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/5ef2f06c6aa0d97531274bce62907721cde190ec
+- **Tipo**: github_repo_commits
+- **Autor**: ashwin-ant
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Use workload identity federation for Claude auth in CI workflows (#61584)
+
+Replace the static ANTHROPIC_API_KEY secret with Workload Identity
+Federation in
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/64e53823deb2b8e007c41cb6da5ac75264c3394d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/2194e8e0904087b9f2afce41a2ec083cc71c0653
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/65d44eb134e6f710e2d9fbcfd4bb977698e476dc
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #61319 from anthropics/remove-changelog-entry
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/efea4c38d9d3a913d09ac4fc44b8995e4da2b900
+- **Tipo**: github_repo_commits
+- **Autor**: sid374
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #61319 from anthropics/remove-changelog-entry
+
+Fix changelog</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Remove changelog entry included in error
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/c6b849f27118d97ed57d6067eeb269750b2e647e
+- **Tipo**: github_repo_commits
+- **Autor**: claude
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Remove changelog entry included in error
+
+https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/15b5d57170e0b10a50ecc2c2866efadac2a46d22
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/1573399b48ff00e9dedf2ce898021dd2f48b6b97
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/cc898dc3692fb583f36ab327942aad20b7d3dbd0
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/b7925a81da917975a3850d52019105afe76ede6b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/69d707009ec5a9362ea3552b0580d0f658428f0a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:02 — auto-descubierto · AI for Beginners
+
+### `8FVlxgG9JVk_Boris_Cherny_at_Sequoia_AI_Ascent_2026_—_How_Claude_Code's_Creator_Stopped_Writing_Code.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `8FVlxgG9JVk` · 9:22 · upload ?
+- **URL**: https://www.youtube.com/watch?v=8FVlxgG9JVk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-25T07:02 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-24
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:02 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-25
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:02 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-25
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:02 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-22
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:02 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-23
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:02 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-24
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:26 — auto-descubierto · Sequoia Capital
+
+### `c3b-JASoPi0_Making_AI_accessible_with_Andrej_Karpathy_and_Stephanie_Zhan.knowledge`
+- **Source**: youtube_mentions_karpathy · `c3b-JASoPi0` · 36:59 · upload ?
+- **URL**: https://www.youtube.com/watch?v=c3b-JASoPi0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-25T07:26 — auto-descubierto · github · thariqs
+
+### ThariqS contributed to ThariqS/html-effectiveness
+- **Source**: github `trq212_github` · 2026-05-18
+- **URL**: https://github.com/ThariqS/html-effectiveness/pull/5
+- **Tipo**: github_user_activity
+- **Autor**: ThariqS
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:26 — auto-descubierto · github · thariqs
+
+### ThariqS contributed to ThariqS/html-effectiveness
+- **Source**: github `trq212_github` · 2026-05-18
+- **URL**: https://github.com/ThariqS/html-effectiveness/pull/5
+- **Tipo**: github_user_activity
+- **Autor**: ThariqS
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-25T07:52 — auto-descubierto · How I AI
+
+### `Qrpm7E80wQ0_Why_this_Claude_Code_engineer_uses_HTML_instead_of_markdown_plans___Thariq_Shihipar_(Anthropic).knowledge`
+- **Source**: youtube_mentions_thariq · `Qrpm7E80wQ0` · 35:59 · upload ?
+- **URL**: https://www.youtube.com/watch?v=Qrpm7E80wQ0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-25T07:52 — auto-descubierto · web · plane_so_blog
+
+### epics-is-becoming-a-work-item-type-in-plane
+- **Source**: web `plane_so_blog` · index `https://plane.so/blog`
+- **URL**: https://plane.so/blog/epics-is-becoming-a-work-item-type-in-plane
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-25T08:29 — auto-descubierto · @SeedRocketTV
+
+### `JfWLOaltiRo_Cómo_deciden_los_VCs_a_quién_darle_millones___Tertulia_en_directo.knowledge`
+- **Source**: seedrocket_tv_youtube · `JfWLOaltiRo` · 76:53 · upload NA
+- **URL**: https://www.youtube.com/watch?v=JfWLOaltiRo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-26T07:00 — auto-descubierto · web · anthropic_blog
+
+### chris-olah-pope-leo-encyclical
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/chris-olah-pope-leo-encyclical
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-26T07:00 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581#issuecomment-4534654364
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581#issuecomment-4534573639
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · bcherny
+
+### bcherny closed an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_closed js-feed-item-view"><div class="body">
+<!-- issues -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div class="d-flex f
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.150
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-23
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.150
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal infrastructure improvements (no user-facing changes)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.149
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.149
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>/usage</code> now shows a per-category breakdown of what's driving your limits usage — skills, subagents, plugins, and per-MCP-server cost</li>
+<li><code>/diff</
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.148
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.148
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed the Bash tool returning exit code 127 on every command for some users (a regression introduced in 2.1.147)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.147
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.147
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Pinned background sessions (<code>Ctrl+T</code> in <code>claude agents</code>) now stay alive when idle, are restarted in place to apply Claude Code updates, and are s
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.146
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.146
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Renamed <code>/simplify</code> to <code>/code-review</code> with an optional effort level (e.g. <code>/code-review high</code>)</li>
+<li>Auto mode no longer suppresses
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.145
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-20
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.145
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>claude agents --json</code> to list live Claude sessions as JSON for scripting (tmux-resurrect, status bars, session pickers)</li>
+<li>Added <code>agent_id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.144
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.144
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>/resume</code> support for background sessions — sessions started via <code>claude --bg</code> or agent view now appear alongside interactive ones, marked 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-23
+- **URL**: https://github.com/anthropics/claude-code/commit/39e853e4074d90f27afdfb7ea601e0fc378bd0c5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Use workload identity federation for Claude auth in CI workflows (#61…
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/5ef2f06c6aa0d97531274bce62907721cde190ec
+- **Tipo**: github_repo_commits
+- **Autor**: ashwin-ant
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Use workload identity federation for Claude auth in CI workflows (#61584)
+
+Replace the static ANTHROPIC_API_KEY secret with Workload Identity
+Federation in
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/64e53823deb2b8e007c41cb6da5ac75264c3394d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/2194e8e0904087b9f2afce41a2ec083cc71c0653
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/65d44eb134e6f710e2d9fbcfd4bb977698e476dc
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #61319 from anthropics/remove-changelog-entry
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/efea4c38d9d3a913d09ac4fc44b8995e4da2b900
+- **Tipo**: github_repo_commits
+- **Autor**: sid374
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #61319 from anthropics/remove-changelog-entry
+
+Fix changelog</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Remove changelog entry included in error
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/c6b849f27118d97ed57d6067eeb269750b2e647e
+- **Tipo**: github_repo_commits
+- **Autor**: claude
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Remove changelog entry included in error
+
+https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/15b5d57170e0b10a50ecc2c2866efadac2a46d22
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/1573399b48ff00e9dedf2ce898021dd2f48b6b97
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/cc898dc3692fb583f36ab327942aad20b7d3dbd0
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-19
+- **URL**: https://github.com/anthropics/claude-code/commit/b7925a81da917975a3850d52019105afe76ede6b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-24
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-26
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-26
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-25
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-23
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-26T07:00 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-25
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · @claudeai
+
+### `19HDQ9HppOA_Ship_your_first_Managed_Agent.knowledge`
+- **Source**: claude_anthropic_youtube · `19HDQ9HppOA` · 37:09 · upload NA
+- **URL**: https://www.youtube.com/watch?v=19HDQ9HppOA
+- **Pista**: Isabella He (Applied AI) — workshop hands-on agente SRE incident-response sobre Managed Agents.
+- **Sugerencia ingest**: ✅ INGESTADO 2026-06-01 → 4ª charla en `conocimiento/claude-code/managed-agents-2026-talks.md`
+- **Estado**: `✅ ingested` — wiki actualizado, sources.yaml + log.md hechos, lint 0/0
+
+## 2026-05-27T07:09 — auto-descubierto · web · anthropic_blog
+
+### kiyoung-choi-representative-director-anthropic-korea
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-27T07:09 — auto-descubierto · web · anthropic_engineering_blog
+
+### how-we-contain-claude
+- **Source**: web `anthropic_engineering_blog` · index `https://www.anthropic.com/engineering`
+- **URL**: https://www.anthropic.com/engineering/how-we-contain-claude
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-27T07:09 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581#issuecomment-4534654364
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581#issuecomment-4534573639
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · bcherny
+
+### bcherny closed an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_closed js-feed-item-view"><div class="body">
+<!-- issues -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div class="d-flex f
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.152
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-27
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.152
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>/code-review --fix</code> now applies review findings to your working tree after the review, surfacing reuse, simplification, and efficiency suggestions; <code>/
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.150
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-23
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.150
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal infrastructure improvements (no user-facing changes)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.149
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.149
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>/usage</code> now shows a per-category breakdown of what's driving your limits usage — skills, subagents, plugins, and per-MCP-server cost</li>
+<li><code>/diff</
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.148
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.148
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed the Bash tool returning exit code 127 on every command for some users (a regression introduced in 2.1.147)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.147
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.147
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Pinned background sessions (<code>Ctrl+T</code> in <code>claude agents</code>) now stay alive when idle, are restarted in place to apply Claude Code updates, and are s
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.146
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.146
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Renamed <code>/simplify</code> to <code>/code-review</code> with an optional effort level (e.g. <code>/code-review high</code>)</li>
+<li>Auto mode no longer suppresses
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-27
+- **URL**: https://github.com/anthropics/claude-code/commit/b7339920b69f4a395c28727a1e2305dc5b122cb2
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #62592 from mhegazy/readme-fix
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/d08288e09fe95340a68d58ae3fd783cb56494781
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #62592 from mhegazy/readme-fix
+
+Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update docs
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/bf4a74d9810e07134bb69550f7fbae8ada50b84a
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update docs</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #62586 from mhegazy/security-guidance-v2
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/ccadef7dcbd810a0f8ea449db35fa7a6459fec5b
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #62586 from mhegazy/security-guidance-v2
+
+Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update security-guidance plugin
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/441892ecee8e256936fb4e60a8c6aeed1d949b79
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-23
+- **URL**: https://github.com/anthropics/claude-code/commit/39e853e4074d90f27afdfb7ea601e0fc378bd0c5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Use workload identity federation for Claude auth in CI workflows (#61…
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/5ef2f06c6aa0d97531274bce62907721cde190ec
+- **Tipo**: github_repo_commits
+- **Autor**: ashwin-ant
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Use workload identity federation for Claude auth in CI workflows (#61584)
+
+Replace the static ANTHROPIC_API_KEY secret with Workload Identity
+Federation in
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/64e53823deb2b8e007c41cb6da5ac75264c3394d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/2194e8e0904087b9f2afce41a2ec083cc71c0653
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/65d44eb134e6f710e2d9fbcfd4bb977698e476dc
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #61319 from anthropics/remove-changelog-entry
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/efea4c38d9d3a913d09ac4fc44b8995e4da2b900
+- **Tipo**: github_repo_commits
+- **Autor**: sid374
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #61319 from anthropics/remove-changelog-entry
+
+Fix changelog</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Remove changelog entry included in error
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/c6b849f27118d97ed57d6067eeb269750b2e647e
+- **Tipo**: github_repo_commits
+- **Autor**: claude
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Remove changelog entry included in error
+
+https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/15b5d57170e0b10a50ecc2c2866efadac2a46d22
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/1573399b48ff00e9dedf2ce898021dd2f48b6b97
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-24
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-27
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-27
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-27
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-23
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:09 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-25
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-27T07:24 — auto-descubierto · No Priors: AI, Machine Learning, Tech, & Startups
+
+### `hM_h0UA7upI_No_Priors_Ep._80___With_Andrej_Karpathy_from_OpenAI_and_Tesla.knowledge`
+- **Source**: youtube_mentions_karpathy · `hM_h0UA7upI` · 44:17 · upload ?
+- **URL**: https://www.youtube.com/watch?v=hM_h0UA7upI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-28T07:02 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581#issuecomment-4534654364
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581#issuecomment-4534573639
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · bcherny
+
+### bcherny closed an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_closed js-feed-item-view"><div class="body">
+<!-- issues -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div class="d-flex f
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.153
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.153
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>skipLfs</code> option to <code>github</code>/<code>git</code> plugin marketplace sources to skip Git LFS downloads during clone and update</li>
+<li>Claude 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.152
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-27
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.152
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>/code-review --fix</code> now applies review findings to your working tree after the review, surfacing reuse, simplification, and efficiency suggestions; <code>/
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.150
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-23
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.150
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal infrastructure improvements (no user-facing changes)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.149
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.149
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>/usage</code> now shows a per-category breakdown of what's driving your limits usage — skills, subagents, plugins, and per-MCP-server cost</li>
+<li><code>/diff</
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.148
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.148
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed the Bash tool returning exit code 127 on every command for some users (a regression introduced in 2.1.147)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.147
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.147
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Pinned background sessions (<code>Ctrl+T</code> in <code>claude agents</code>) now stay alive when idle, are restarted in place to apply Claude Code updates, and are s
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/commit/3bb44552af73d65ae4afd663823bef05227d9769
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-27
+- **URL**: https://github.com/anthropics/claude-code/commit/b7339920b69f4a395c28727a1e2305dc5b122cb2
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #62592 from mhegazy/readme-fix
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/d08288e09fe95340a68d58ae3fd783cb56494781
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #62592 from mhegazy/readme-fix
+
+Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update docs
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/bf4a74d9810e07134bb69550f7fbae8ada50b84a
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update docs</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #62586 from mhegazy/security-guidance-v2
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/ccadef7dcbd810a0f8ea449db35fa7a6459fec5b
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #62586 from mhegazy/security-guidance-v2
+
+Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update security-guidance plugin
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/441892ecee8e256936fb4e60a8c6aeed1d949b79
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-23
+- **URL**: https://github.com/anthropics/claude-code/commit/39e853e4074d90f27afdfb7ea601e0fc378bd0c5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Use workload identity federation for Claude auth in CI workflows (#61…
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/5ef2f06c6aa0d97531274bce62907721cde190ec
+- **Tipo**: github_repo_commits
+- **Autor**: ashwin-ant
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Use workload identity federation for Claude auth in CI workflows (#61584)
+
+Replace the static ANTHROPIC_API_KEY secret with Workload Identity
+Federation in
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/64e53823deb2b8e007c41cb6da5ac75264c3394d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/2194e8e0904087b9f2afce41a2ec083cc71c0653
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/65d44eb134e6f710e2d9fbcfd4bb977698e476dc
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #61319 from anthropics/remove-changelog-entry
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/efea4c38d9d3a913d09ac4fc44b8995e4da2b900
+- **Tipo**: github_repo_commits
+- **Autor**: sid374
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #61319 from anthropics/remove-changelog-entry
+
+Fix changelog</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Remove changelog entry included in error
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/c6b849f27118d97ed57d6067eeb269750b2e647e
+- **Tipo**: github_repo_commits
+- **Autor**: claude
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Remove changelog entry included in error
+
+https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-21
+- **URL**: https://github.com/anthropics/claude-code/commit/15b5d57170e0b10a50ecc2c2866efadac2a46d22
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T08:09 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-24
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T08:09 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-28
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T08:09 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-28
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T08:09 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-27
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T08:09 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-23
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T08:09 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-25
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-28T09:06 — auto-descubierto · @jevanclief
+
+### `TCYtQ7J0g6A_200_to_48,000_YouTube_Subscribers_in_Four_Months_(Afternoon_Tea_Session_5).knowledge`
+- **Source**: jevanclief_youtube · `TCYtQ7J0g6A` · 57:12 · upload NA
+- **URL**: https://www.youtube.com/watch?v=TCYtQ7J0g6A
+- **Pista**: Q&A "Afternoon Tea" — creator-growth + roles AI + systems thinking + multi-agente. Baja densidad, anecdótico.
+- **Sugerencia ingest**: SKIP — nugget transferible (over-automation anti-pattern) ya cubierto por YAGNI / design-for-robots / architecture-purist. No-tech, no refuerza ICM, sin wiki-marketing.
+- **Estado**: SKIP 2026-05-28 · raw `.m4a` + working `.knowledge.md` borrados de `videoatexto/` · transcript conservado en canonical kDrive
+
+## 2026-05-28T10:52 — re-transcrito (cron timeout) · @claude_anthropic_youtube
+
+### `PZ9u6DR8qOU_Claude_Code_creator_Boris_Cherny_on_the_end_of_the_software_engineer.knowledge`
+- **Source**: claude_anthropic_youtube · `PZ9u6DR8qOU` · 57:00 · upload NA
+- **URL**: https://www.youtube.com/watch?v=PZ9u6DR8qOU
+- **Pista**: Entrevista "AI and jobs" con Boris Cherny. Tesis jobs/labor/difusión — Jevons split, roles→builder, "coding solved para codebases simples no NASA", analogías tractor/Solow/lavadora, "golden age to start a startup".
+- **Sugerencia ingest**: INGESTADO — companion `claude-code/bcherny-future-of-work.md` (flagship, voz primaria Boris). Cron transcripción timeout 1h → re-transcrito manual `medium` 2026-05-28.
+- **Estado**: INGEST 2026-05-28 · raw `.m4a` + working `.knowledge.md` borrados de `videoatexto/` · transcript en canonical kDrive · citado `[source: bcherny-end-of-swe]`
+
+## 2026-05-29T07:00 — auto-descubierto · @claudeai
+
+### `CG7Rcl49C2w_Before_we_ship_a_Claude_model,_these_teams_try_to_break_it..knowledge`
+- **Source**: claude_anthropic_youtube · `CG7Rcl49C2w` · 3:13 · upload NA
+- **URL**: https://www.youtube.com/watch?v=CG7Rcl49C2w
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-29T07:00 — auto-descubierto · web · anthropic_blog
+
+### claude-opus-4-8
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/claude-opus-4-8
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-29T07:00 — auto-descubierto · web · anthropic_blog
+
+### series-h
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/series-h
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-29T07:00 — auto-descubierto · web · anthropic_blog
+
+### milan-office-opening
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/milan-office-opening
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-05-29T07:00 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581#issuecomment-4534654364
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581#issuecomment-4534573639
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · bcherny
+
+### bcherny closed an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_closed js-feed-item-view"><div class="body">
+<!-- issues -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div class="d-flex f
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.156
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.156
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed an issue when using Opus 4.8 where thinking blocks were modified, leading to API errors.</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.154
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.154
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Opus 4.8 is here! Now defaults to high effort · /effort xhigh for your hardest tasks</li>
+<li>Introducing dynamic workflows: ask Claude to create a workflow and it orc
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.153
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.153
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>skipLfs</code> option to <code>github</code>/<code>git</code> plugin marketplace sources to skip Git LFS downloads during clone and update</li>
+<li>Claude 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.152
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-27
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.152
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>/code-review --fix</code> now applies review findings to your working tree after the review, surfacing reuse, simplification, and efficiency suggestions; <code>/
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.150
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-23
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.150
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal infrastructure improvements (no user-facing changes)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.149
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.149
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>/usage</code> now shows a per-category breakdown of what's driving your limits usage — skills, subagents, plugins, and per-MCP-server cost</li>
+<li><code>/diff</
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/commit/2d5c3c6c85048de7a4426a91268076807ebaeba5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/commit/1696f2229402f16f12a19170d2ad87d22459d544
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/commit/3bb44552af73d65ae4afd663823bef05227d9769
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-27
+- **URL**: https://github.com/anthropics/claude-code/commit/b7339920b69f4a395c28727a1e2305dc5b122cb2
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #62592 from mhegazy/readme-fix
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/d08288e09fe95340a68d58ae3fd783cb56494781
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #62592 from mhegazy/readme-fix
+
+Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update docs
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/bf4a74d9810e07134bb69550f7fbae8ada50b84a
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update docs</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #62586 from mhegazy/security-guidance-v2
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/ccadef7dcbd810a0f8ea449db35fa7a6459fec5b
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #62586 from mhegazy/security-guidance-v2
+
+Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update security-guidance plugin
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/441892ecee8e256936fb4e60a8c6aeed1d949b79
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-23
+- **URL**: https://github.com/anthropics/claude-code/commit/39e853e4074d90f27afdfb7ea601e0fc378bd0c5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Use workload identity federation for Claude auth in CI workflows (#61…
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/5ef2f06c6aa0d97531274bce62907721cde190ec
+- **Tipo**: github_repo_commits
+- **Autor**: ashwin-ant
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Use workload identity federation for Claude auth in CI workflows (#61584)
+
+Replace the static ANTHROPIC_API_KEY secret with Workload Identity
+Federation in
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-22
+- **URL**: https://github.com/anthropics/claude-code/commit/64e53823deb2b8e007c41cb6da5ac75264c3394d
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-28
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-29
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-29
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-28
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-23
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-29T07:00 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-28
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581#issuecomment-4534654364
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581#issuecomment-4534573639
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · bcherny
+
+### bcherny closed an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_closed js-feed-item-view"><div class="body">
+<!-- issues -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div class="d-flex f
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.158
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.158
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.157
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.157
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Plugins in <code>.claude/skills</code> directories are now automatically loaded, no marketplace required</li>
+<li>Added <code>claude plugin init &lt;name&gt;</code> to
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.156
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.156
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed an issue when using Opus 4.8 where thinking blocks were modified, leading to API errors.</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.154
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.154
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Opus 4.8 is here! Now defaults to high effort · /effort xhigh for your hardest tasks</li>
+<li>Introducing dynamic workflows: ask Claude to create a workflow and it orc
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.153
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.153
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>skipLfs</code> option to <code>github</code>/<code>git</code> plugin marketplace sources to skip Git LFS downloads during clone and update</li>
+<li>Claude 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.152
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-27
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.152
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>/code-review --fix</code> now applies review findings to your working tree after the review, surfacing reuse, simplification, and efficiency suggestions; <code>/
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/commit/295dee881d0e1c1d0cd22fe171e4c1d07118fb04
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/commit/8d0fbf451ace0d291f1cdae824c66e1227e117c4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/commit/2d5c3c6c85048de7a4426a91268076807ebaeba5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/commit/1696f2229402f16f12a19170d2ad87d22459d544
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/commit/3bb44552af73d65ae4afd663823bef05227d9769
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-27
+- **URL**: https://github.com/anthropics/claude-code/commit/b7339920b69f4a395c28727a1e2305dc5b122cb2
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #62592 from mhegazy/readme-fix
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/d08288e09fe95340a68d58ae3fd783cb56494781
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #62592 from mhegazy/readme-fix
+
+Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update docs
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/bf4a74d9810e07134bb69550f7fbae8ada50b84a
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update docs</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #62586 from mhegazy/security-guidance-v2
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/ccadef7dcbd810a0f8ea449db35fa7a6459fec5b
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #62586 from mhegazy/security-guidance-v2
+
+Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update security-guidance plugin
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/441892ecee8e256936fb4e60a8c6aeed1d949b79
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-28
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-30
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-30
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-28
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-30
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:00 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-28
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-30T07:02 — auto-descubierto · @jevanclief
+
+### `uYRXYsPS66g_Folders_Over_Agents__The_AI_Layer_Nobody_Teaches.knowledge`
+- **Source**: jevanclief_youtube · `uYRXYsPS66g` · 22:03 · upload NA
+- **URL**: https://www.youtube.com/watch?v=uYRXYsPS66g
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-30T07:04 — auto-descubierto · @JohnKimLife
+
+### `y27BjmNNgYo_Realistic_Day_in_the_Life_of_a_Software_Engineer_at_Meta.knowledge`
+- **Source**: johnkim_youtube · `y27BjmNNgYo` · 11:10 · upload NA
+- **URL**: https://www.youtube.com/watch?v=y27BjmNNgYo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-30T07:07 — auto-descubierto · @JohnKimLife
+
+### `L0yCytVkjL8_5_Career_Killers_for_Software_Engineers_-_From_Meta_Staff_Engineer.knowledge`
+- **Source**: johnkim_youtube · `L0yCytVkjL8` · 12:43 · upload NA
+- **URL**: https://www.youtube.com/watch?v=L0yCytVkjL8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-30T07:09 — auto-descubierto · @JohnKimLife
+
+### `XBJT3iyx_uo_I_Tried_Jocko_Willink's_4_30_AM_Morning_Routine_For_7_days.knowledge`
+- **Source**: johnkim_youtube · `XBJT3iyx_uo` · 9:56 · upload NA
+- **URL**: https://www.youtube.com/watch?v=XBJT3iyx_uo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-30T07:11 — auto-descubierto · @JohnKimLife
+
+### `mhX7aOJtaS4_Meta_Staff_Engineer_Shares_5_Key_Insights_When_Starting_Out.knowledge`
+- **Source**: johnkim_youtube · `mhX7aOJtaS4` · 12:50 · upload NA
+- **URL**: https://www.youtube.com/watch?v=mhX7aOJtaS4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-30T07:23 — auto-descubierto · @sequoiacapital
+
+### `j7ypvRUFY7M_How_AI_is_Making_IT_Frictionless__Serval's_Jake_Stauch.knowledge`
+- **Source**: sequoiacapital_youtube · `j7ypvRUFY7M` · 38:24 · upload NA
+- **URL**: https://www.youtube.com/watch?v=j7ypvRUFY7M
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-30T07:28 — auto-descubierto · @aiDotEngineer
+
+### `0jeZfjJMfmo_Reachy_Mini__the_$300_open_source_robot_you_can_actually_hack_—_Andres_Marafioti,_Hugging_Face.knowledge`
+- **Source**: aidotengineer_youtube · `0jeZfjJMfmo` · 21:16 · upload NA
+- **URL**: https://www.youtube.com/watch?v=0jeZfjJMfmo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-30T07:32 — auto-descubierto · @aiDotEngineer
+
+### `B9h9ovW5H9U_Why_your_agents_need_decision_traces,_not_just_documents_—_Zach_Blumenfeld,_Neo4j.knowledge`
+- **Source**: aidotengineer_youtube · `B9h9ovW5H9U` · 20:12 · upload NA
+- **URL**: https://www.youtube.com/watch?v=B9h9ovW5H9U
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-30T07:35 — auto-descubierto · @aiDotEngineer
+
+### `V-L0INGTEOg_Reverse_engineering_a_Viking_VOIP_phone_protocol_with_Claude_Code_—_Boris_Starkov,_Eleven_Labs.knowledge`
+- **Source**: aidotengineer_youtube · `V-L0INGTEOg` · 20:11 · upload NA
+- **URL**: https://www.youtube.com/watch?v=V-L0INGTEOg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-30T07:39 — auto-descubierto · @aiDotEngineer
+
+### `li0SaBt9RDM_Comprehend_First,_Code_Later_—_Priscila_Andre_de_Oliveira,_Sentry.knowledge`
+- **Source**: aidotengineer_youtube · `li0SaBt9RDM` · 17:05 · upload NA
+- **URL**: https://www.youtube.com/watch?v=li0SaBt9RDM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-30T08:02 — auto-descubierto · @aiDotEngineer
+
+### `ESbWpPT_9-o_Full_Workshop__Frontier_AI_at_Home_—_Alex_Cheema,_EXO_Labs.knowledge`
+- **Source**: aidotengineer_youtube · `ESbWpPT_9-o` · 105:02 · upload NA
+- **URL**: https://www.youtube.com/watch?v=ESbWpPT_9-o
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-30T08:06 — auto-descubierto · @aiDotEngineer
+
+### `t4359sKBu4w_How_our_agents_create_4,000_assets_a_day_for_200+_brands_—_Angus_J._McLean,_Oliver.knowledge`
+- **Source**: aidotengineer_youtube · `t4359sKBu4w` · 16:52 · upload NA
+- **URL**: https://www.youtube.com/watch?v=t4359sKBu4w
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-30T08:12 — auto-descubierto · @aiDotEngineer
+
+### `7gujZrJ9L5I_Inside_Google's_Agent_Infrastructure__Quotas,_Skills,_and_Deep_Research_—_KP_Sawhney,_Ian_Ballantyne.knowledge`
+- **Source**: aidotengineer_youtube · `7gujZrJ9L5I` · 25:13 · upload NA
+- **URL**: https://www.youtube.com/watch?v=7gujZrJ9L5I
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-30T08:15 — auto-descubierto · @aiDotEngineer
+
+### `W-SX_srBa3Y_Let's_Talk_About_FOMAT__Fear_of_Missing_Agent_Time_—_Michael_Richman,_Cmd+Ctrl.knowledge`
+- **Source**: aidotengineer_youtube · `W-SX_srBa3Y` · 16:17 · upload NA
+- **URL**: https://www.youtube.com/watch?v=W-SX_srBa3Y
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-30T08:18 — auto-descubierto · @aiDotEngineer
+
+### `WRBNDpUhsJQ_Mixture_of_Models,_RLMs,_&_Hardware-Software_Co-Evolution__The_Case_for_Heterogeneous_Intelligence.knowledge`
+- **Source**: aidotengineer_youtube · `WRBNDpUhsJQ` · 15:13 · upload NA
+- **URL**: https://www.youtube.com/watch?v=WRBNDpUhsJQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-30T08:23 — auto-descubierto · @aiDotEngineer
+
+### `TeGsFFNqRLA_1200_tok_s_Fast_Models_Need_Slow_Developers_—_Sarah_Chieng,_Cerebras.knowledge`
+- **Source**: aidotengineer_youtube · `TeGsFFNqRLA` · 18:02 · upload NA
+- **URL**: https://www.youtube.com/watch?v=TeGsFFNqRLA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-30T08:28 — auto-descubierto · @aiDotEngineer
+
+### `F1DYkY1BlfM_Lobster_Trap__OpenClaw_in_Containers_—_Sally_Ann_O'Malley,_Red_Hat.knowledge`
+- **Source**: aidotengineer_youtube · `F1DYkY1BlfM` · 21:56 · upload NA
+- **URL**: https://www.youtube.com/watch?v=F1DYkY1BlfM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-30T08:32 — auto-descubierto · @aiDotEngineer
+
+### `dyHpnnlkTc8_Cooking_with_Agents_—_Liam_Hampton,_Microsoft.knowledge`
+- **Source**: aidotengineer_youtube · `dyHpnnlkTc8` · 17:04 · upload NA
+- **URL**: https://www.youtube.com/watch?v=dyHpnnlkTc8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T07:00 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581#issuecomment-4534654364
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581#issuecomment-4534573639
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · bcherny
+
+### bcherny closed an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_closed js-feed-item-view"><div class="body">
+<!-- issues -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div class="d-flex f
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.158
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.158
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.157
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.157
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Plugins in <code>.claude/skills</code> directories are now automatically loaded, no marketplace required</li>
+<li>Added <code>claude plugin init &lt;name&gt;</code> to
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.156
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.156
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed an issue when using Opus 4.8 where thinking blocks were modified, leading to API errors.</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.154
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.154
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Opus 4.8 is here! Now defaults to high effort · /effort xhigh for your hardest tasks</li>
+<li>Introducing dynamic workflows: ask Claude to create a workflow and it orc
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.153
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.153
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>skipLfs</code> option to <code>github</code>/<code>git</code> plugin marketplace sources to skip Git LFS downloads during clone and update</li>
+<li>Claude 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.152
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-27
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.152
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>/code-review --fix</code> now applies review findings to your working tree after the review, surfacing reuse, simplification, and efficiency suggestions; <code>/
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/commit/295dee881d0e1c1d0cd22fe171e4c1d07118fb04
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/commit/8d0fbf451ace0d291f1cdae824c66e1227e117c4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/commit/2d5c3c6c85048de7a4426a91268076807ebaeba5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/commit/1696f2229402f16f12a19170d2ad87d22459d544
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/commit/3bb44552af73d65ae4afd663823bef05227d9769
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-27
+- **URL**: https://github.com/anthropics/claude-code/commit/b7339920b69f4a395c28727a1e2305dc5b122cb2
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #62592 from mhegazy/readme-fix
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/d08288e09fe95340a68d58ae3fd783cb56494781
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #62592 from mhegazy/readme-fix
+
+Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update docs
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/bf4a74d9810e07134bb69550f7fbae8ada50b84a
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update docs</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #62586 from mhegazy/security-guidance-v2
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/ccadef7dcbd810a0f8ea449db35fa7a6459fec5b
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #62586 from mhegazy/security-guidance-v2
+
+Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update security-guidance plugin
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/441892ecee8e256936fb4e60a8c6aeed1d949b79
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-28
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-05-31
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-05-31
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-28
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-30
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:00 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-28
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-05-31T07:11 — auto-descubierto · Wes Roth
+
+### `DGw2KKyXuYQ_The_REAL_Reason_Andrej_Karpathy_Joined_Anthropic.knowledge`
+- **Source**: youtube_mentions_karpathy · `DGw2KKyXuYQ` · 25:21 · upload ?
+- **URL**: https://www.youtube.com/watch?v=DGw2KKyXuYQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T07:25 — auto-descubierto · Dream Labs AI
+
+### `FAWm7DuFSPc_Build_Andrej_Karpathy’s_LLM_Knowledge_Base_for_Businesses_(10x_Output!).knowledge`
+- **Source**: youtube_mentions_karpathy · `FAWm7DuFSPc` · 17:35 · upload ?
+- **URL**: https://www.youtube.com/watch?v=FAWm7DuFSPc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T07:45 — auto-descubierto · @JohnKimLife
+
+### `lc4ns0lDtXg_How_To_Build_An_App_With_Claude_Code_(No_Experience_Required).knowledge`
+- **Source**: johnkim_youtube · `lc4ns0lDtXg` · 29:58 · upload NA
+- **URL**: https://www.youtube.com/watch?v=lc4ns0lDtXg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T07:51 — auto-descubierto · @JohnKimLife
+
+### `vjSdb3-tpkE_Claude_Code_Just_Got_Better___Agent_View.knowledge`
+- **Source**: johnkim_youtube · `vjSdb3-tpkE` · 13:13 · upload NA
+- **URL**: https://www.youtube.com/watch?v=vjSdb3-tpkE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T08:06 — auto-descubierto · @JohnKimLife
+
+### `s8sTx-oidqc_Why_you_should_be_OBSESSED_with_Claude_Code.knowledge`
+- **Source**: johnkim_youtube · `s8sTx-oidqc` · 25:10 · upload NA
+- **URL**: https://www.youtube.com/watch?v=s8sTx-oidqc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T08:22 — auto-descubierto · @JohnKimLife
+
+### `S9OV-yE2GSM_Build_It_With_AI_-_Claude_Code_Turned_Me_Into_a_Designer_in_1_Hour.knowledge`
+- **Source**: johnkim_youtube · `S9OV-yE2GSM` · 24:20 · upload NA
+- **URL**: https://www.youtube.com/watch?v=S9OV-yE2GSM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T08:38 — auto-descubierto · @JohnKimLife
+
+### `aai8PahvU0Y_Everything_You_Need_To_Know_About_Claude_Design.knowledge`
+- **Source**: johnkim_youtube · `aai8PahvU0Y` · 32:38 · upload NA
+- **URL**: https://www.youtube.com/watch?v=aai8PahvU0Y
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T08:54 — auto-descubierto · @JohnKimLife
+
+### `nQFtsehu7h0_Complete_Beginner's_Guide_to_OpenAI’s_Codex_App.knowledge`
+- **Source**: johnkim_youtube · `nQFtsehu7h0` · 32:54 · upload NA
+- **URL**: https://www.youtube.com/watch?v=nQFtsehu7h0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T08:55 — auto-descubierto · @JohnKimLife
+
+### `QbURYdE6ZvU_New_Claude_Code_Updates_Are_So_Cool.knowledge`
+- **Source**: johnkim_youtube · `QbURYdE6ZvU` · 20:00 · upload NA
+- **URL**: https://www.youtube.com/watch?v=QbURYdE6ZvU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T08:56 — auto-descubierto · @JohnKimLife
+
+### `fkGXYXZyBaI_How_You_Can_Win_an_AI_Hackathon.knowledge`
+- **Source**: johnkim_youtube · `fkGXYXZyBaI` · 14:57 · upload NA
+- **URL**: https://www.youtube.com/watch?v=fkGXYXZyBaI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T08:58 — auto-descubierto · @JohnKimLife
+
+### `1JeDsxnX1nY_Claude_Code's_New_Agent_Teams_Are_Insane_(Opus_4.6).knowledge`
+- **Source**: johnkim_youtube · `1JeDsxnX1nY` · 27:57 · upload NA
+- **URL**: https://www.youtube.com/watch?v=1JeDsxnX1nY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:00 — auto-descubierto · @JohnKimLife
+
+### `hHnZik7lZk4_The_Insane_Story_of_OpenClaw.knowledge`
+- **Source**: johnkim_youtube · `hHnZik7lZk4` · 21:31 · upload NA
+- **URL**: https://www.youtube.com/watch?v=hHnZik7lZk4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:01 — auto-descubierto · @JohnKimLife
+
+### `FqPwHHrN1bg_What_is_Agentic_AI_Engineering_(Meta_Staff_Engineer_Explains).knowledge`
+- **Source**: johnkim_youtube · `FqPwHHrN1bg` · 17:20 · upload NA
+- **URL**: https://www.youtube.com/watch?v=FqPwHHrN1bg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:02 — auto-descubierto · @JohnKimLife
+
+### `WpQZlKiy3zo_His_Claude_Code_Workflow_Is_Insane.knowledge`
+- **Source**: johnkim_youtube · `WpQZlKiy3zo` · 22:29 · upload NA
+- **URL**: https://www.youtube.com/watch?v=WpQZlKiy3zo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:03 — auto-descubierto · @JohnKimLife
+
+### `bHxcfpvBW2U_How_I_use_Claude_Code_On_My_Phone.knowledge`
+- **Source**: johnkim_youtube · `bHxcfpvBW2U` · 15:05 · upload NA
+- **URL**: https://www.youtube.com/watch?v=bHxcfpvBW2U
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:06 — auto-descubierto · @JohnKimLife
+
+### `mZzhfPle9QU_How_I_use_Claude_Code_(Meta_Staff_Engineer_Tips).knowledge`
+- **Source**: johnkim_youtube · `mZzhfPle9QU` · 46:13 · upload NA
+- **URL**: https://www.youtube.com/watch?v=mZzhfPle9QU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:07 — auto-descubierto · @JohnKimLife
+
+### `vw-qMFQI3Bc_How_I_find_time_for_EVERYTHING_(even_with_a_full_time_job).knowledge`
+- **Source**: johnkim_youtube · `vw-qMFQI3Bc` · 14:48 · upload NA
+- **URL**: https://www.youtube.com/watch?v=vw-qMFQI3Bc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:08 — auto-descubierto · @JohnKimLife
+
+### `yZvDo_n12ns_Claude_Code_Workflows_That_Will_10x_Your_Productivity.knowledge`
+- **Source**: johnkim_youtube · `yZvDo_n12ns` · 13:50 · upload NA
+- **URL**: https://www.youtube.com/watch?v=yZvDo_n12ns
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:08 — auto-descubierto · @JohnKimLife
+
+### `nsvWlMHhxXk_Day_in_the_Life_of_a_Software_Engineer_at_Meta.knowledge`
+- **Source**: johnkim_youtube · `nsvWlMHhxXk` · 8:01 · upload NA
+- **URL**: https://www.youtube.com/watch?v=nsvWlMHhxXk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:09 — auto-descubierto · @JohnKimLife
+
+### `nKFiHt1G_lw_How_to_Progress_Faster_Than_Anyone_Else_(In_Tech).knowledge`
+- **Source**: johnkim_youtube · `nKFiHt1G_lw` · 13:30 · upload NA
+- **URL**: https://www.youtube.com/watch?v=nKFiHt1G_lw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:11 — auto-descubierto · @JohnKimLife
+
+### `cwFBGDbhxnk_My_2025_Year_in_Review_(What_You_Missed).knowledge`
+- **Source**: johnkim_youtube · `cwFBGDbhxnk` · 21:20 · upload NA
+- **URL**: https://www.youtube.com/watch?v=cwFBGDbhxnk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:12 — auto-descubierto · @JohnKimLife
+
+### `LnNlwEMlb1A_Vibe_Coding_is_Making_Engineers_Worse_(Do_This_Instead).knowledge`
+- **Source**: johnkim_youtube · `LnNlwEMlb1A` · 15:04 · upload NA
+- **URL**: https://www.youtube.com/watch?v=LnNlwEMlb1A
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:14 — auto-descubierto · @JohnKimLife
+
+### `YiLqaQjHKLQ_Day_in_the_Life_of_a_Software_Engineer_at_Meta___Christmas_Edition.knowledge`
+- **Source**: johnkim_youtube · `YiLqaQjHKLQ` · 28:32 · upload NA
+- **URL**: https://www.youtube.com/watch?v=YiLqaQjHKLQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:15 — auto-descubierto · @JohnKimLife
+
+### `X1ya6TErxAM_Should_You_Be_a_Software_Engineer_in_2026_.knowledge`
+- **Source**: johnkim_youtube · `X1ya6TErxAM` · 14:30 · upload NA
+- **URL**: https://www.youtube.com/watch?v=X1ya6TErxAM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:15 — auto-descubierto · @JohnKimLife
+
+### `KfzIIVJaZSQ_Day_in_the_Life_of_a_Software_Engineer_at_Meta.knowledge`
+- **Source**: johnkim_youtube · `KfzIIVJaZSQ` · 9:33 · upload NA
+- **URL**: https://www.youtube.com/watch?v=KfzIIVJaZSQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:16 — auto-descubierto · @JohnKimLife
+
+### `XmqyP7nflc4_How_I_Got_Into_Meta_(And_How_You_Can_Too).knowledge`
+- **Source**: johnkim_youtube · `XmqyP7nflc4` · 16:01 · upload NA
+- **URL**: https://www.youtube.com/watch?v=XmqyP7nflc4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:17 — auto-descubierto · @JohnKimLife
+
+### `5Yy4tq5ZFWY_How_programmers_all_experience_these_issues.knowledge`
+- **Source**: johnkim_youtube · `5Yy4tq5ZFWY` · 11:20 · upload NA
+- **URL**: https://www.youtube.com/watch?v=5Yy4tq5ZFWY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:18 — auto-descubierto · @JohnKimLife
+
+### `rJgss-6ntis_How_to_Get_Hired_as_a_Software_Engineer_in_2026.knowledge`
+- **Source**: johnkim_youtube · `rJgss-6ntis` · 14:17 · upload NA
+- **URL**: https://www.youtube.com/watch?v=rJgss-6ntis
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:20 — auto-descubierto · @sequoiacapital
+
+### `by7Y9KoErTw_Neuralink's_DJ_Seo__Inside_the_Race_to_Connect_Brains_and_AI.knowledge`
+- **Source**: sequoiacapital_youtube · `by7Y9KoErTw` · 24:59 · upload NA
+- **URL**: https://www.youtube.com/watch?v=by7Y9KoErTw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:22 — auto-descubierto · @sequoiacapital
+
+### `UDTr9yUnLUI_How_Cursor_Trained_Composer_on_Fireworks__Distributed_Infrastructure_for_High-Performance_RL.knowledge`
+- **Source**: sequoiacapital_youtube · `UDTr9yUnLUI` · 45:34 · upload NA
+- **URL**: https://www.youtube.com/watch?v=UDTr9yUnLUI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:26 — auto-descubierto · @sequoiacapital
+
+### `ill76IbVuM8_Notion’s_Ivan_Zhao__The_Refounder.knowledge`
+- **Source**: sequoiacapital_youtube · `ill76IbVuM8` · 63:07 · upload NA
+- **URL**: https://www.youtube.com/watch?v=ill76IbVuM8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:29 — auto-descubierto · @sequoiacapital
+
+### `Jq3BIGz4vXQ_Suno's_Mikey_Shulman__Everyone_Can_Make_Music_Now.knowledge`
+- **Source**: sequoiacapital_youtube · `Jq3BIGz4vXQ` · 34:57 · upload NA
+- **URL**: https://www.youtube.com/watch?v=Jq3BIGz4vXQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:36 — auto-descubierto · @sequoiacapital
+
+### `Kw5hhIsw-wQ_Twitter_Ex-CEO_Dick_Costolo__The_Operator's_Case_Against_Founder_Mode.knowledge`
+- **Source**: sequoiacapital_youtube · `Kw5hhIsw-wQ` · 66:45 · upload NA
+- **URL**: https://www.youtube.com/watch?v=Kw5hhIsw-wQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:37 — auto-descubierto · @sequoiacapital
+
+### `K05Dh-QjM8c_AI_That_Designs_Its_Own_Chips__Ricursive's_Anna_Goldie_and_Azalia_Mirhoseini.knowledge`
+- **Source**: sequoiacapital_youtube · `K05Dh-QjM8c` · 10:38 · upload NA
+- **URL**: https://www.youtube.com/watch?v=K05Dh-QjM8c
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:37 — auto-descubierto · @sequoiacapital
+
+### `eHsr1Fl2jNA_Inside_the_Rise_of_Autonomous_AI_Hackers__XBOW's_Oege_de_Moor.knowledge`
+- **Source**: sequoiacapital_youtube · `eHsr1Fl2jNA` · 9:02 · upload NA
+- **URL**: https://www.youtube.com/watch?v=eHsr1Fl2jNA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:38 — auto-descubierto · @sequoiacapital
+
+### `Zw1J5pJJMGw_Why_the_Brain_Computes_1,000,000x_More_Efficiently_Than_A_GPU__Unconventional_AI's_Naveen_Rao.knowledge`
+- **Source**: sequoiacapital_youtube · `Zw1J5pJJMGw` · 14:13 · upload NA
+- **URL**: https://www.youtube.com/watch?v=Zw1J5pJJMGw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:39 — auto-descubierto · @sequoiacapital
+
+### `94b6i5jI1nE_Starcloud's_Philip_Johnston__Why_the_Cheapest_Compute_Will_Be_in_Space.knowledge`
+- **Source**: sequoiacapital_youtube · `94b6i5jI1nE` · 11:52 · upload NA
+- **URL**: https://www.youtube.com/watch?v=94b6i5jI1nE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:40 — auto-descubierto · @sequoiacapital
+
+### `ZBpY7MEra9w_Why_Data_Is_the_Real_AI_Bottleneck__Flapping_Airplanes'_Ben_and_Asher_Spector.knowledge`
+- **Source**: sequoiacapital_youtube · `ZBpY7MEra9w` · 9:27 · upload NA
+- **URL**: https://www.youtube.com/watch?v=ZBpY7MEra9w
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:42 — auto-descubierto · @sequoiacapital
+
+### `ZNzYN2jyVTU_ElevenLabs'_Mati_Staniszewski__How_Voice_Becomes_the_Interface_for_AI.knowledge`
+- **Source**: sequoiacapital_youtube · `ZNzYN2jyVTU` · 26:16 · upload NA
+- **URL**: https://www.youtube.com/watch?v=ZNzYN2jyVTU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:43 — auto-descubierto · @sequoiacapital
+
+### `I_0Kuf6Aa2c_Waymo's_Dmitri_Dolgov__20_Million_Rides_and_the_Road_to_Full_Autonomy.knowledge`
+- **Source**: sequoiacapital_youtube · `I_0Kuf6Aa2c` · 27:16 · upload NA
+- **URL**: https://www.youtube.com/watch?v=I_0Kuf6Aa2c
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:49 — auto-descubierto · @sequoiacapital
+
+### `bBS93A0BeNI_OpenAI's_Greg_Brockman__Why_Human_Attention_Is_the_New_Bottleneck.knowledge`
+- **Source**: sequoiacapital_youtube · `bBS93A0BeNI` · 28:27 · upload NA
+- **URL**: https://www.youtube.com/watch?v=bBS93A0BeNI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:51 — auto-descubierto · @sequoiacapital
+
+### `LRo33rnv6rQ_This_is_AGI__Sequoia_AI_Ascent_2026_Keynote.knowledge`
+- **Source**: sequoiacapital_youtube · `LRo33rnv6rQ` · 32:27 · upload NA
+- **URL**: https://www.youtube.com/watch?v=LRo33rnv6rQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:52 — auto-descubierto · @sequoiacapital
+
+### `3Y8aq_ofEVs_Robotics'_End_Game__Nvidia's_Jim_Fan.knowledge`
+- **Source**: sequoiacapital_youtube · `3Y8aq_ofEVs` · 20:03 · upload NA
+- **URL**: https://www.youtube.com/watch?v=3Y8aq_ofEVs
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:54 — auto-descubierto · @sequoiacapital
+
+### `AFpeWo1GTeg_Demis_Hassabis__We're_Three_Quarters_of_the_Way_to_AGI.knowledge`
+- **Source**: sequoiacapital_youtube · `AFpeWo1GTeg` · 26:52 · upload NA
+- **URL**: https://www.youtube.com/watch?v=AFpeWo1GTeg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:56 — auto-descubierto · @sequoiacapital
+
+### `e_2opghuq88_What_Founders_Can_Learn_About_Excellence_From_MIT_President_Sally_Kornbluth.knowledge`
+- **Source**: sequoiacapital_youtube · `e_2opghuq88` · 44:29 · upload NA
+- **URL**: https://www.youtube.com/watch?v=e_2opghuq88
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T09:58 — auto-descubierto · @sequoiacapital
+
+### `RyTwRCKeDo4_From_SEO_to_Agent-Led_Growth__Profound's_James_Cadwallader.knowledge`
+- **Source**: sequoiacapital_youtube · `RyTwRCKeDo4` · 31:27 · upload NA
+- **URL**: https://www.youtube.com/watch?v=RyTwRCKeDo4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:02 — auto-descubierto · @sequoiacapital
+
+### `YTVSwOY19Qs_Jack_Dorsey__Every_Company_Can_Now_Be_a_Mini-AGI.knowledge`
+- **Source**: sequoiacapital_youtube · `YTVSwOY19Qs` · 63:42 · upload NA
+- **URL**: https://www.youtube.com/watch?v=YTVSwOY19Qs
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:07 — auto-descubierto · @sequoiacapital
+
+### `9kTMdaC0Fz0_Oura’s_Tom_Hale__What_People_Don’t_Tell_You_About_Being_CEO.knowledge`
+- **Source**: sequoiacapital_youtube · `9kTMdaC0Fz0` · 59:40 · upload NA
+- **URL**: https://www.youtube.com/watch?v=9kTMdaC0Fz0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:11 — auto-descubierto · @sequoiacapital
+
+### `g45Alfg7diw_How_Autonomous_Labs_Will_Transform_Scientific_Research__Ginkgo_Bioworks’_Jason_Kelly.knowledge`
+- **Source**: sequoiacapital_youtube · `g45Alfg7diw` · 58:28 · upload NA
+- **URL**: https://www.youtube.com/watch?v=g45Alfg7diw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:13 — auto-descubierto · @sequoiacapital
+
+### `FKHENV75b9Q_Greetings,_Earthlings__Philip_Johnston_of_Starcloud_on_Data_Centers_in_Space.knowledge`
+- **Source**: sequoiacapital_youtube · `FKHENV75b9Q` · 44:20 · upload NA
+- **URL**: https://www.youtube.com/watch?v=FKHENV75b9Q
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:17 — auto-descubierto · @sequoiacapital
+
+### `9ZlmsA4Bzk0_The_Most_Founder_Mode_CEO_Working_Today_Isn’t_the_Founder__Opendoor’s_Kaz_Nejatian.knowledge`
+- **Source**: sequoiacapital_youtube · `9ZlmsA4Bzk0` · 62:51 · upload NA
+- **URL**: https://www.youtube.com/watch?v=9ZlmsA4Bzk0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:19 — auto-descubierto · @sequoiacapital
+
+### `bPwU0GazM1I_Physics_Gets_a_Vote__Nominal_Cofounders_on_Hardware_Development_in_an_AI_World.knowledge`
+- **Source**: sequoiacapital_youtube · `bPwU0GazM1I` · 40:56 · upload NA
+- **URL**: https://www.youtube.com/watch?v=bPwU0GazM1I
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:22 — auto-descubierto · @sequoiacapital
+
+### `dFT4xj57D7U_Ben_Horowitz_On_What_Makes_a_Great_Founder.knowledge`
+- **Source**: sequoiacapital_youtube · `dFT4xj57D7U` · 49:08 · upload NA
+- **URL**: https://www.youtube.com/watch?v=dFT4xj57D7U
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:26 — auto-descubierto · @sequoiacapital
+
+### `tAxTJCDPQ08_Bayer’s_Bill_Anderson__Turning_a_168_Year-Old_Tanker_Like_a_Speedboat.knowledge`
+- **Source**: sequoiacapital_youtube · `tAxTJCDPQ08` · 72:49 · upload NA
+- **URL**: https://www.youtube.com/watch?v=tAxTJCDPQ08
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:29 — auto-descubierto · @sequoiacapital
+
+### `SJc1y5z5wwM_Building_the_GitHub_for_RL_Environments__Prime_Intellect's_Will_Brown_&_Johannes_Hagemann.knowledge`
+- **Source**: sequoiacapital_youtube · `SJc1y5z5wwM` · 44:46 · upload NA
+- **URL**: https://www.youtube.com/watch?v=SJc1y5z5wwM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:30 — auto-descubierto · @aiDotEngineer
+
+### `vy7o1g2iHY8_How_I_deleted_95%_of_my_agent_skills_and_got_better_results_—_Nick_Nisi,_WorkOS.knowledge`
+- **Source**: aidotengineer_youtube · `vy7o1g2iHY8` · 17:43 · upload NA
+- **URL**: https://www.youtube.com/watch?v=vy7o1g2iHY8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:30 — auto-descubierto · @aiDotEngineer
+
+### `phchDt63qAA_How_We_Built_Zeta2__Training_an_Edit_Prediction_Model_in_Production_—_Ben_Kunkle,_Zed.knowledge`
+- **Source**: aidotengineer_youtube · `phchDt63qAA` · 10:50 · upload NA
+- **URL**: https://www.youtube.com/watch?v=phchDt63qAA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:31 — auto-descubierto · @aiDotEngineer
+
+### `3_gYbhABcAE_Why_(Senior)_Engineers_Struggle_to_Build_AI_Agents_—_Philipp_Schmid,_Google_DeepMind.knowledge`
+- **Source**: aidotengineer_youtube · `3_gYbhABcAE` · 10:40 · upload NA
+- **URL**: https://www.youtube.com/watch?v=3_gYbhABcAE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:32 — auto-descubierto · @aiDotEngineer
+
+### `XBaznoTRDFI_How_agent_o11y_differs_from_traditional_o11y_—_Phil_Hetzel,_Braintrust.knowledge`
+- **Source**: aidotengineer_youtube · `XBaznoTRDFI` · 20:43 · upload NA
+- **URL**: https://www.youtube.com/watch?v=XBaznoTRDFI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:33 — auto-descubierto · @aiDotEngineer
+
+### `AGkzpxMdPn8_Most_Enterprise_Agentic_Projects_Are_Doomed,_Here's_Why_—_Jess_Grogan-Avignon_&_Jack_Wang,_Accenture.knowledge`
+- **Source**: aidotengineer_youtube · `AGkzpxMdPn8` · 20:35 · upload NA
+- **URL**: https://www.youtube.com/watch?v=AGkzpxMdPn8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:34 — auto-descubierto · @aiDotEngineer
+
+### `abvQEhvRI_c_Context_Graphs_for_Explainable,_Decision-Aware_AI_Agents_—_Andreas_Kollegger_&_Zaid_Zaim,_Neo4j.knowledge`
+- **Source**: aidotengineer_youtube · `abvQEhvRI_c` · 16:39 · upload NA
+- **URL**: https://www.youtube.com/watch?v=abvQEhvRI_c
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:35 — auto-descubierto · @aiDotEngineer
+
+### `ugUeZ8-b-u0_Why_Rust_is_the_Ideal_Language_for_Vibe-Coding_—_Daniel_Szoke,_Sentry.knowledge`
+- **Source**: aidotengineer_youtube · `ugUeZ8-b-u0` · 16:25 · upload NA
+- **URL**: https://www.youtube.com/watch?v=ugUeZ8-b-u0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:36 — auto-descubierto · @aiDotEngineer
+
+### `FB-MLPhL9Ms_The_maturity_phases_of_running_evals_—_Phil_Hetzel,_Braintrust.knowledge`
+- **Source**: aidotengineer_youtube · `FB-MLPhL9Ms` · 18:34 · upload NA
+- **URL**: https://www.youtube.com/watch?v=FB-MLPhL9Ms
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:36 — auto-descubierto · @aiDotEngineer
+
+### `7CrPrHgoEYk_What_the_Best_Agents_Share_—_Mardu_Swanepoel,_Flinn_AI.knowledge`
+- **Source**: aidotengineer_youtube · `7CrPrHgoEYk` · 10:21 · upload NA
+- **URL**: https://www.youtube.com/watch?v=7CrPrHgoEYk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:38 — auto-descubierto · @aiDotEngineer
+
+### `BiG2ssibKGc_Stop_babysitting_your_agents..._—_Brandon_Waselnuk,_Unblocked.knowledge`
+- **Source**: aidotengineer_youtube · `BiG2ssibKGc` · 18:54 · upload NA
+- **URL**: https://www.youtube.com/watch?v=BiG2ssibKGc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:39 — auto-descubierto · @aiDotEngineer
+
+### `Ubwb6NzegyA_Agentic_Evaluations_at_Scale,_For_Everybody_—_Nicholas_Kang_&_Michael_Aaron,_Google_DeepMind.knowledge`
+- **Source**: aidotengineer_youtube · `Ubwb6NzegyA` · 20:03 · upload NA
+- **URL**: https://www.youtube.com/watch?v=Ubwb6NzegyA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:40 — auto-descubierto · @aiDotEngineer
+
+### `NKwIX3CiRgU_Does_GenAI__belong__to_data_scientists__—_Phil_Hetzel,_Braintrust.knowledge`
+- **Source**: aidotengineer_youtube · `NKwIX3CiRgU` · 18:54 · upload NA
+- **URL**: https://www.youtube.com/watch?v=NKwIX3CiRgU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:41 — auto-descubierto · @aiDotEngineer
+
+### `LMbeDEQO6QM_Introducing_WebMCP__Agents_in_the_Browser_—_RL_Nabors.knowledge`
+- **Source**: aidotengineer_youtube · `LMbeDEQO6QM` · 23:08 · upload NA
+- **URL**: https://www.youtube.com/watch?v=LMbeDEQO6QM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:42 — auto-descubierto · @aiDotEngineer
+
+### `5Sui_OnSRlY_The_Missing_Primitive_for_Agent_Swarms_—_Lou_Bichard,_Ona.knowledge`
+- **Source**: aidotengineer_youtube · `5Sui_OnSRlY` · 18:37 · upload NA
+- **URL**: https://www.youtube.com/watch?v=5Sui_OnSRlY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:48 — auto-descubierto · @aiDotEngineer
+
+### `ns9f1fjLD7Y_Prompt_to_Pipeline__Building_with_Google's_Gen_Media_Stack_—_Paige_&_Guillaume,_Google_DeepMind.knowledge`
+- **Source**: aidotengineer_youtube · `ns9f1fjLD7Y` · 114:35 · upload NA
+- **URL**: https://www.youtube.com/watch?v=ns9f1fjLD7Y
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:49 — auto-descubierto · @aiDotEngineer
+
+### `owH1f0N-keY_Gemini_Nano_on_device_—_Florina_Muntenescu_&_Oli_Gaymond,_Google_DeepMind.knowledge`
+- **Source**: aidotengineer_youtube · `owH1f0N-keY` · 19:38 · upload NA
+- **URL**: https://www.youtube.com/watch?v=owH1f0N-keY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:50 — auto-descubierto · @aiDotEngineer
+
+### `VaS2h-dY1-4_Scaling_Agents_on_Kubernetes_with_acpx_and_ACP_—_Onur_Solmaz,_OpenClaw.knowledge`
+- **Source**: aidotengineer_youtube · `VaS2h-dY1-4` · 19:00 · upload NA
+- **URL**: https://www.youtube.com/watch?v=VaS2h-dY1-4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-05-31T10:51 — auto-descubierto · @aiDotEngineer
+
+### `JomVvNDjGb8_Your_Coding_Agent_Should_Do_AI_System_Engineering_—_Ben_Burtenshaw,_Hugging_Face.knowledge`
+- **Source**: aidotengineer_youtube · `JomVvNDjGb8` · 18:25 · upload NA
+- **URL**: https://www.youtube.com/watch?v=JomVvNDjGb8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-01T07:12 — auto-descubierto · @anthropic-ai
+
+### `j2knrqAzYVY_Translating_Claude’s_thoughts_into_language.knowledge`
+- **Disposición**: ⏭️ DUPLICADO 2026-06-01 — ya en ai-agents-strategy/anthropic-interpretability.md. NO re-ingestado.
+- **Source**: anthropic_main_youtube · `j2knrqAzYVY` · 3:17 · upload NA
+- **URL**: https://www.youtube.com/watch?v=j2knrqAzYVY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-01T07:12 — auto-descubierto · @anthropic-ai
+
+### `INGOC6-LLv0_An_initiative_to_secure_the_world's_software___Project_Glasswing.knowledge`
+- **Disposición**: ⏭️ DUPLICADO 2026-06-01 — ya en anthropic-safety-cybercrime.md (re-download por-ID del Glasswing ingestado por título). NO re-ingestado.
+- **Source**: anthropic_main_youtube · `INGOC6-LLv0` · 5:49 · upload NA
+- **URL**: https://www.youtube.com/watch?v=INGOC6-LLv0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-01T07:13 — auto-descubierto · @anthropic-ai
+
+### `D4XTefP3Lsc_When_AIs_act_emotional.knowledge`
+- **Disposición**: ✅ INGESTADO-ENRICH 2026-06-01 → §When AIs Act Emotional reescrita en conocimiento/claude-code/anthropic-safety-cybercrime.md
+- **Source**: anthropic_main_youtube · `D4XTefP3Lsc` · 4:53 · upload NA
+- **URL**: https://www.youtube.com/watch?v=D4XTefP3Lsc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-01T07:13 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581#issuecomment-4534654364
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · bcherny
+
+### bcherny commented on an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581#issuecomment-4534573639
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_comment js-feed-item-view"><div class="body">
+<!-- issue_comment -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+      <div class
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · bcherny
+
+### bcherny closed an issue in claude-code
+- **Source**: github `bcherny_github` · 2026-05-25
+- **URL**: https://github.com/anthropics/claude-code/issues/61581
+- **Tipo**: github_user_activity
+- **Autor**: bcherny
+- **Excerpt**: <div class="issues_closed js-feed-item-view"><div class="body">
+<!-- issues -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div class="d-flex f
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.159
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.159
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal infrastructure improvements (no user-facing changes)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.158
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.158
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.157
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.157
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Plugins in <code>.claude/skills</code> directories are now automatically loaded, no marketplace required</li>
+<li>Added <code>claude plugin init &lt;name&gt;</code> to
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.156
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.156
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed an issue when using Opus 4.8 where thinking blocks were modified, leading to API errors.</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.154
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.154
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Opus 4.8 is here! Now defaults to high effort · /effort xhigh for your hardest tasks</li>
+<li>Introducing dynamic workflows: ask Claude to create a workflow and it orc
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.153
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.153
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>skipLfs</code> option to <code>github</code>/<code>git</code> plugin marketplace sources to skip Git LFS downloads during clone and update</li>
+<li>Claude 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.152
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-27
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.152
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>/code-review --fix</code> now applies review findings to your working tree after the review, surfacing reuse, simplification, and efficiency suggestions; <code>/
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/commit/8bae02d5319c619f84f51476188e5b28b2e5816b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/commit/295dee881d0e1c1d0cd22fe171e4c1d07118fb04
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/commit/8d0fbf451ace0d291f1cdae824c66e1227e117c4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/commit/2d5c3c6c85048de7a4426a91268076807ebaeba5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/commit/1696f2229402f16f12a19170d2ad87d22459d544
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/commit/3bb44552af73d65ae4afd663823bef05227d9769
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-27
+- **URL**: https://github.com/anthropics/claude-code/commit/b7339920b69f4a395c28727a1e2305dc5b122cb2
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #62592 from mhegazy/readme-fix
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/d08288e09fe95340a68d58ae3fd783cb56494781
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #62592 from mhegazy/readme-fix
+
+Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update docs
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/bf4a74d9810e07134bb69550f7fbae8ada50b84a
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update docs</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #62586 from mhegazy/security-guidance-v2
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/ccadef7dcbd810a0f8ea449db35fa7a6459fec5b
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #62586 from mhegazy/security-guidance-v2
+
+Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:13 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update security-guidance plugin
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/441892ecee8e256936fb4e60a8c6aeed1d949b79
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:14 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-28
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:14 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-01
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:14 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-01
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:14 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-31
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:14 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-30
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:14 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-31
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-01T07:14 — auto-descubierto · Newsthink
+
+### `qh0FkdgieS8_The_Most_Talented_Man_in_AI.knowledge`
+- **Disposición**: ⏭️ SKIP 2026-06-01 — clickbait creator, bajo señal.
+- **Source**: youtube_mentions_karpathy · `qh0FkdgieS8` · 9:20 · upload ?
+- **URL**: https://www.youtube.com/watch?v=qh0FkdgieS8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-01T07:15 — auto-descubierto · SynapByte
+
+### `aIZ2EO98YYE_Markdown_is_Dead__Why_Anthropic_Engineers_Use_HTML_#ai_#claude_#claudecode_#anthropic.knowledge`
+- **Disposición**: ⏭️ SKIP 2026-06-01 — derivative de claude-code/design-md-pattern.md (recapitula tesis Thariq HTML>Markdown).
+- **Source**: youtube_mentions_thariq · `aIZ2EO98YYE` · 4:34 · upload ?
+- **URL**: https://www.youtube.com/watch?v=aIZ2EO98YYE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-01T07:16 — auto-descubierto · DIY Smart Code
+
+### `ILxJfe_Hscc_Is_Anthropic_Inventing_Problems_to_Sell_More_Tokens_.knowledge`
+- **Disposición**: ⏳ DIFERIDO 2026-06-01 — creator commentary crítico; revisar en pase enfocado.
+- **Source**: youtube_mentions_thariq · `ILxJfe_Hscc` · 10:09 · upload ?
+- **URL**: https://www.youtube.com/watch?v=ILxJfe_Hscc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-01T07:18 — auto-descubierto · @JohnKimLife
+
+### `UslVzxAkiZ0_How_To_Save_90%_of_Claude_Code_Token_Usage.knowledge`
+- **Disposición**: ⏳ DIFERIDO 2026-06-01 — creator tutorial (token saving); revisar en pase enfocado de creator-clips.
+- **Source**: johnkim_youtube · `UslVzxAkiZ0` · 18:31 · upload NA
+- **URL**: https://www.youtube.com/watch?v=UslVzxAkiZ0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-01T07:20 — auto-descubierto · @aiDotEngineer
+
+### `NuePCNMpWGc_Can_LLMs_generate_Enterprise_Quality_Code__—_Prasenjit_Sarkar,_Sonar.knowledge`
+- **Disposición**: ✅ INGESTADO 2026-06-01 → tesis #9 en conocimiento/claude-code/evals-and-observability-2026.md
+- **Source**: aidotengineer_youtube · `NuePCNMpWGc` · 15:12 · upload NA
+- **URL**: https://www.youtube.com/watch?v=NuePCNMpWGc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-01T07:24 — auto-descubierto · @aiDotEngineer
+
+### `N7b1PJc7SFc_Engineering_voice_agents__Latency,_quality,_and_scale_—_Rishabh_Bhargava,_Together_AI.knowledge`
+- **Disposición**: ✅ INGESTADO 2026-06-01 → tesis #7 en conocimiento/claude-code/multimodal-voice-vision-2026.md
+- **Source**: aidotengineer_youtube · `N7b1PJc7SFc` · 24:35 · upload NA
+- **URL**: https://www.youtube.com/watch?v=N7b1PJc7SFc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-01T07:27 — auto-descubierto · @aiDotEngineer
+
+### `UQKg0td-Bf4_Spec-Driven_Testing_for_Agents_With_A_Brain_the_Size_of_A_Planet_—_Steven_Willmott,_SafeIntelligence.knowledge`
+- **Disposición**: ✅ INGESTADO 2026-06-01 → tesis #9 en conocimiento/claude-code/evals-and-observability-2026.md
+- **Source**: aidotengineer_youtube · `UQKg0td-Bf4` · 13:03 · upload NA
+- **URL**: https://www.youtube.com/watch?v=UQKg0td-Bf4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-01T07:38 — auto-descubierto · @SeedRocketTV
+
+### `jDhx5QkpZGg_El_negocio_de_la_guerra__inversión,_ética_y_geopolítica___Ricardo_Gomez_Acebo.knowledge`
+- **Disposición**: ⏭️ SKIP 2026-06-01 — off-topic (geopolítica/defensa ES, sin relevancia tech/AI/BIK). Firehose noise.
+- **Source**: seedrocket_tv_youtube · `jDhx5QkpZGg` · 55:16 · upload NA
+- **URL**: https://www.youtube.com/watch?v=jDhx5QkpZGg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-02T07:00 — auto-descubierto · web · anthropic_blog
+
+### confidential-draft-s1-sec
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/confidential-draft-s1-sec
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.160
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.160
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added a prompt before writing to shell startup files (<code>.zshenv</code>, <code>.zlogin</code>, <code>.bash_login</code>) and <code>~/.config/git/</code>, which coul
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.159
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.159
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal infrastructure improvements (no user-facing changes)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.158
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.158
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.157
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.157
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Plugins in <code>.claude/skills</code> directories are now automatically loaded, no marketplace required</li>
+<li>Added <code>claude plugin init &lt;name&gt;</code> to
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.156
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.156
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed an issue when using Opus 4.8 where thinking blocks were modified, leading to API errors.</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.154
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.154
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Opus 4.8 is here! Now defaults to high effort · /effort xhigh for your hardest tasks</li>
+<li>Introducing dynamic workflows: ask Claude to create a workflow and it orc
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.153
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.153
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>skipLfs</code> option to <code>github</code>/<code>git</code> plugin marketplace sources to skip Git LFS downloads during clone and update</li>
+<li>Claude 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.152
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-27
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.152
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>/code-review --fix</code> now applies review findings to your working tree after the review, surfacing reuse, simplification, and efficiency suggestions; <code>/
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/bdb04fc52421537f63bbcb9685e1c0905689f8f7
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/commit/8bae02d5319c619f84f51476188e5b28b2e5816b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/commit/295dee881d0e1c1d0cd22fe171e4c1d07118fb04
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/commit/8d0fbf451ace0d291f1cdae824c66e1227e117c4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/commit/2d5c3c6c85048de7a4426a91268076807ebaeba5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/commit/1696f2229402f16f12a19170d2ad87d22459d544
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/commit/3bb44552af73d65ae4afd663823bef05227d9769
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-27
+- **URL**: https://github.com/anthropics/claude-code/commit/b7339920b69f4a395c28727a1e2305dc5b122cb2
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #62592 from mhegazy/readme-fix
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/d08288e09fe95340a68d58ae3fd783cb56494781
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #62592 from mhegazy/readme-fix
+
+Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update docs
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/bf4a74d9810e07134bb69550f7fbae8ada50b84a
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update docs</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Merge pull request #62586 from mhegazy/security-guidance-v2
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/ccadef7dcbd810a0f8ea449db35fa7a6459fec5b
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Merge pull request #62586 from mhegazy/security-guidance-v2
+
+Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### Update security-guidance plugin
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-26
+- **URL**: https://github.com/anthropics/claude-code/commit/441892ecee8e256936fb4e60a8c6aeed1d949b79
+- **Tipo**: github_repo_commits
+- **Autor**: mhegazy
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>Update security-guidance plugin</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-05-28
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-02
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-02
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-31
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-30
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-31
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:01 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-02T07:03 — auto-descubierto · @aiDotEngineer
+
+### `hqHC6Z_lXyo_20_days_of_compute_vs_7_hours__rethinking_what_state-of-the-art_means_—_Bertrand_Charpentier,_Pruna.knowledge`
+- **Source**: aidotengineer_youtube · `hqHC6Z_lXyo` · 19:36 · upload NA
+- **URL**: https://www.youtube.com/watch?v=hqHC6Z_lXyo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-02T07:09 — auto-descubierto · @aiDotEngineer
+
+### `BM2JX9hqsVQ_What_if_the_network_was_the_sandbox__—_Remy_Guercio,_Tailscale.knowledge`
+- **Source**: aidotengineer_youtube · `BM2JX9hqsVQ` · 24:29 · upload NA
+- **URL**: https://www.youtube.com/watch?v=BM2JX9hqsVQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-02T07:17 — auto-descubierto · @aiDotEngineer
+
+### `u-rJwPPU3QA_How_to_talk_to_statues_—_Joe_Reeve,_ElevenLabs.knowledge`
+- **Source**: aidotengineer_youtube · `u-rJwPPU3QA` · 33:28 · upload NA
+- **URL**: https://www.youtube.com/watch?v=u-rJwPPU3QA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-03T07:00 — auto-descubierto · web · anthropic_blog
+
+### expanding-project-glasswing
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/expanding-project-glasswing
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-06-03T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.161
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.161
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>OTEL_RESOURCE_ATTRIBUTES</code> values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo</li
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.160
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.160
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added a prompt before writing to shell startup files (<code>.zshenv</code>, <code>.zlogin</code>, <code>.bash_login</code>) and <code>~/.config/git/</code>, which coul
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.159
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.159
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal infrastructure improvements (no user-facing changes)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.158
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.158
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.157
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.157
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Plugins in <code>.claude/skills</code> directories are now automatically loaded, no marketplace required</li>
+<li>Added <code>claude plugin init &lt;name&gt;</code> to
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.156
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.156
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed an issue when using Opus 4.8 where thinking blocks were modified, leading to API errors.</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.154
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.154
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Opus 4.8 is here! Now defaults to high effort · /effort xhigh for your hardest tasks</li>
+<li>Introducing dynamic workflows: ask Claude to create a workflow and it orc
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.153
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.153
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>skipLfs</code> option to <code>github</code>/<code>git</code> plugin marketplace sources to skip Git LFS downloads during clone and update</li>
+<li>Claude 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/625c04c3350378c3d74662505aae3e9dcf3fa1b4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/bdb04fc52421537f63bbcb9685e1c0905689f8f7
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/commit/8bae02d5319c619f84f51476188e5b28b2e5816b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/commit/295dee881d0e1c1d0cd22fe171e4c1d07118fb04
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/commit/8d0fbf451ace0d291f1cdae824c66e1227e117c4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/commit/2d5c3c6c85048de7a4426a91268076807ebaeba5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/commit/1696f2229402f16f12a19170d2ad87d22459d544
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/commit/3bb44552af73d65ae4afd663823bef05227d9769
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-02
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-03
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-03
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-31
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-30
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-31
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · karpathy
+
+### An efficient, batched LSTM.
+- **Source**: github `karpathy_gists` · 2026-06-02
+- **URL**: https://gist.github.com/karpathy/587454dc0146a6ae21fc
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/587454dc0146a6ae21fc#file-gistfile1-py">gistfile1.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-gistfile1-p
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · Caleb Writes Code
+
+### `5-ekc3eXNvs_AutoResearch_explained...knowledge`
+- **Source**: youtube_mentions_karpathy · `5-ekc3eXNvs` · 5:17 · upload ?
+- **URL**: https://www.youtube.com/watch?v=5-ekc3eXNvs
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-03T07:01 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:01 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T07:05 — auto-descubierto · @sequoiacapital
+
+### `Rumft-rsEu4_Knowing_What_Your_Customers_Want,_All_the_Time__Listen_Labs'_Alfred_Wahlforss.knowledge`
+- **Source**: sequoiacapital_youtube · `Rumft-rsEu4` · 42:02 · upload NA
+- **URL**: https://www.youtube.com/watch?v=Rumft-rsEu4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-03T07:07 — auto-descubierto · @aiDotEngineer
+
+### `HvZXAOZ3iv8_What_Lies_Beneath_the_API_—_Benjamin_Cowen,_Modal.knowledge`
+- **Source**: aidotengineer_youtube · `HvZXAOZ3iv8` · 12:40 · upload NA
+- **URL**: https://www.youtube.com/watch?v=HvZXAOZ3iv8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-03T07:12 — auto-descubierto · @aiDotEngineer
+
+### `YYH0DMQr30A_Why_your_RL_training_data_is_producing_noise_—_Kobie_Crawdord,_Snorkel.knowledge`
+- **Source**: aidotengineer_youtube · `YYH0DMQr30A` · 20:40 · upload NA
+- **URL**: https://www.youtube.com/watch?v=YYH0DMQr30A
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-03T07:16 — auto-descubierto · @aiDotEngineer
+
+### `KA5kPbdkK2E_The_agent_that_files_its_own_bug_reports_—_Benjamin_Verbeek,_Lovable.knowledge`
+- **Source**: aidotengineer_youtube · `KA5kPbdkK2E` · 19:05 · upload NA
+- **URL**: https://www.youtube.com/watch?v=KA5kPbdkK2E
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-03T09:50 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.161
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.161
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>OTEL_RESOURCE_ATTRIBUTES</code> values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo</li
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:50 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.160
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.160
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added a prompt before writing to shell startup files (<code>.zshenv</code>, <code>.zlogin</code>, <code>.bash_login</code>) and <code>~/.config/git/</code>, which coul
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:50 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.159
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.159
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal infrastructure improvements (no user-facing changes)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:50 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.158
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.158
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:50 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.157
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.157
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Plugins in <code>.claude/skills</code> directories are now automatically loaded, no marketplace required</li>
+<li>Added <code>claude plugin init &lt;name&gt;</code> to
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:50 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.156
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.156
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed an issue when using Opus 4.8 where thinking blocks were modified, leading to API errors.</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:50 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.154
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.154
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Opus 4.8 is here! Now defaults to high effort · /effort xhigh for your hardest tasks</li>
+<li>Introducing dynamic workflows: ask Claude to create a workflow and it orc
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:50 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.153
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.153
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>skipLfs</code> option to <code>github</code>/<code>git</code> plugin marketplace sources to skip Git LFS downloads during clone and update</li>
+<li>Claude 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:50 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/625c04c3350378c3d74662505aae3e9dcf3fa1b4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:50 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/bdb04fc52421537f63bbcb9685e1c0905689f8f7
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:50 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/commit/8bae02d5319c619f84f51476188e5b28b2e5816b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:50 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/commit/295dee881d0e1c1d0cd22fe171e4c1d07118fb04
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:50 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/commit/8d0fbf451ace0d291f1cdae824c66e1227e117c4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:50 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/commit/2d5c3c6c85048de7a4426a91268076807ebaeba5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:50 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/commit/1696f2229402f16f12a19170d2ad87d22459d544
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:50 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/commit/3bb44552af73d65ae4afd663823bef05227d9769
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:51 — auto-descubierto · Austin Marchese
+
+### `GN0yhCt9qeo_How_Y_Combinator's_CEO_ACTUALLY_Uses_Claude_Code.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `GN0yhCt9qeo` · 11:47 · upload ?
+- **URL**: https://www.youtube.com/watch?v=GN0yhCt9qeo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-03T09:51 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-02
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:51 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-03
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:51 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-03
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:51 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-31
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:51 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-30
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:51 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-05-31
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:51 — auto-descubierto · github · karpathy
+
+### An efficient, batched LSTM.
+- **Source**: github `karpathy_gists` · 2026-06-02
+- **URL**: https://gist.github.com/karpathy/587454dc0146a6ae21fc
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/587454dc0146a6ae21fc#file-gistfile1-py">gistfile1.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-gistfile1-p
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:52 — auto-descubierto · Valuetainment
+
+### `dJscKdavqS8__26_Million_Jobs_GONE!__-_Anthropic_STEALS_OpenAI's_Best_As_AI_War_Gets_UGLY.knowledge`
+- **Source**: youtube_mentions_karpathy · `dJscKdavqS8` · 17:47 · upload ?
+- **URL**: https://www.youtube.com/watch?v=dJscKdavqS8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-03T09:52 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-03T09:52 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:00 — auto-descubierto · @anthropic-ai
+
+### `nvbq39yVYRk_What_is_sycophancy_in_AI_models_.knowledge`
+- **Source**: anthropic_main_youtube · `nvbq39yVYRk` · 6:09 · upload NA
+- **URL**: https://www.youtube.com/watch?v=nvbq39yVYRk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-04T07:01 — auto-descubierto · web · anthropic_blog
+
+### services-track-partner-hub
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/services-track-partner-hub
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-06-04T07:01 — auto-descubierto · web · anthropic_blog
+
+### AI-enabled-cyber-threats-mitre-attack
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-06-04T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.162
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.162
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>claude agents --json</code> now includes <code>waitingFor</code> showing what a waiting session is blocked on (e.g. permission prompt)</li>
+<li><code>--tools</co
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.161
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.161
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>OTEL_RESOURCE_ATTRIBUTES</code> values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo</li
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.160
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.160
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added a prompt before writing to shell startup files (<code>.zshenv</code>, <code>.zlogin</code>, <code>.bash_login</code>) and <code>~/.config/git/</code>, which coul
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.159
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.159
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal infrastructure improvements (no user-facing changes)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.158
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.158
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.157
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.157
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Plugins in <code>.claude/skills</code> directories are now automatically loaded, no marketplace required</li>
+<li>Added <code>claude plugin init &lt;name&gt;</code> to
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.156
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.156
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed an issue when using Opus 4.8 where thinking blocks were modified, leading to API errors.</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.154
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.154
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Opus 4.8 is here! Now defaults to high effort · /effort xhigh for your hardest tasks</li>
+<li>Introducing dynamic workflows: ask Claude to create a workflow and it orc
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/commit/b67fa4fa2c4f42e9b88a31f31906f3142bc165c5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/625c04c3350378c3d74662505aae3e9dcf3fa1b4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/bdb04fc52421537f63bbcb9685e1c0905689f8f7
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/commit/8bae02d5319c619f84f51476188e5b28b2e5816b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/commit/295dee881d0e1c1d0cd22fe171e4c1d07118fb04
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/commit/8d0fbf451ace0d291f1cdae824c66e1227e117c4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/commit/2d5c3c6c85048de7a4426a91268076807ebaeba5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-28
+- **URL**: https://github.com/anthropics/claude-code/commit/1696f2229402f16f12a19170d2ad87d22459d544
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:03 — auto-descubierto · WorkOS
+
+### `RkQQ7WEor7w_Boris_Cherny__Claude_Code_&_the_Future_of_Engineering___Acquired_Unplugged_presented_by_WorkOS.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `RkQQ7WEor7w` · 29:38 · upload ?
+- **URL**: https://www.youtube.com/watch?v=RkQQ7WEor7w
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-04T07:04 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-03
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:04 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-04
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:04 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-04
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:04 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-31
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:04 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-30
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:04 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-06-03
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:04 — auto-descubierto · github · karpathy
+
+### An efficient, batched LSTM.
+- **Source**: github `karpathy_gists` · 2026-06-02
+- **URL**: https://gist.github.com/karpathy/587454dc0146a6ae21fc
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/587454dc0146a6ae21fc#file-gistfile1-py">gistfile1.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-gistfile1-p
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:07 — auto-descubierto · The AI Automators
+
+### `0TPq43Wpbz0_Andrej_Karpathy's_Wiki_Idea_Was_Just_Shipped_by_Pinecone.knowledge`
+- **Source**: youtube_mentions_karpathy · `0TPq43Wpbz0` · 27:25 · upload ?
+- **URL**: https://www.youtube.com/watch?v=0TPq43Wpbz0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-04T07:11 — auto-descubierto · Greg Isenberg
+
+### `qb90PPbAWz4_Karpathy's__autoresearch__broke_the_internet.knowledge`
+- **Source**: youtube_mentions_karpathy · `qb90PPbAWz4` · 24:22 · upload ?
+- **URL**: https://www.youtube.com/watch?v=qb90PPbAWz4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-04T07:11 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:11 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-04T07:14 — auto-descubierto · @aiDotEngineer
+
+### `hCMrEfPG2Yg_Beyond_Components__Designing_Generative_UI_for_MCP_Apps_—_Ruben_Casas,_Postman.knowledge`
+- **Source**: aidotengineer_youtube · `hCMrEfPG2Yg` · 16:58 · upload NA
+- **URL**: https://www.youtube.com/watch?v=hCMrEfPG2Yg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-04T07:18 — auto-descubierto · @aiDotEngineer
+
+### `zKk7sDMGDEQ_Benchmarking_semantic_code_retrieval_on_Claude_Code_—_Kuba_Rogut,_Turbopuffer.knowledge`
+- **Source**: aidotengineer_youtube · `zKk7sDMGDEQ` · 16:08 · upload NA
+- **URL**: https://www.youtube.com/watch?v=zKk7sDMGDEQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-04T07:20 — auto-descubierto · @aiDotEngineer
+
+### `504PvfXou5Y_BDD,_ADR,_PRD,_WTF__Capturing_Decisions_for_Humans_and_AI_Alike_—_Michal_Cichra,_Safe_Intelligence.knowledge`
+- **Source**: aidotengineer_youtube · `504PvfXou5Y` · 12:49 · upload NA
+- **URL**: https://www.youtube.com/watch?v=504PvfXou5Y
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.163
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-04
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.163
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>requiredMinimumVersion</code> and <code>requiredMaximumVersion</code> managed settings — Claude Code refuses to start if its version is outside the allowed
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.162
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.162
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>claude agents --json</code> now includes <code>waitingFor</code> showing what a waiting session is blocked on (e.g. permission prompt)</li>
+<li><code>--tools</co
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.161
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.161
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>OTEL_RESOURCE_ATTRIBUTES</code> values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo</li
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.160
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.160
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added a prompt before writing to shell startup files (<code>.zshenv</code>, <code>.zlogin</code>, <code>.bash_login</code>) and <code>~/.config/git/</code>, which coul
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.159
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.159
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal infrastructure improvements (no user-facing changes)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.158
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.158
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.157
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.157
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Plugins in <code>.claude/skills</code> directories are now automatically loaded, no marketplace required</li>
+<li>Added <code>claude plugin init &lt;name&gt;</code> to
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-04
+- **URL**: https://github.com/anthropics/claude-code/commit/d1e174252d0af47174bd9fbdec6abb092b49226a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/commit/b67fa4fa2c4f42e9b88a31f31906f3142bc165c5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/625c04c3350378c3d74662505aae3e9dcf3fa1b4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/bdb04fc52421537f63bbcb9685e1c0905689f8f7
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/commit/8bae02d5319c619f84f51476188e5b28b2e5816b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/commit/295dee881d0e1c1d0cd22fe171e4c1d07118fb04
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/commit/8d0fbf451ace0d291f1cdae824c66e1227e117c4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-04
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-05
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-05
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-05-31
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-30
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-06-03
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:01 — auto-descubierto · github · karpathy
+
+### An efficient, batched LSTM.
+- **Source**: github `karpathy_gists` · 2026-06-02
+- **URL**: https://gist.github.com/karpathy/587454dc0146a6ae21fc
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/587454dc0146a6ae21fc#file-gistfile1-py">gistfile1.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-gistfile1-p
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:02 — auto-descubierto · Dream Labs AI
+
+### `hJNp9RwK-Uw_Kaparthy_revealed_the_most_profitable_business_to_build_in_2026_(Software_3.0).knowledge`
+- **Source**: youtube_mentions_karpathy · `hJNp9RwK-Uw` · 14:04 · upload ?
+- **URL**: https://www.youtube.com/watch?v=hJNp9RwK-Uw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T07:05 — auto-descubierto · Build Great Products
+
+### `h0HYpONXgjk_Stop_Using_Obsidian._This_Simple_Second_Brain_Setup_Actually_Works_(Andrej_Karpathy_+_Claude_Cowork).knowledge`
+- **Source**: youtube_mentions_karpathy · `h0HYpONXgjk` · 26:24 · upload ?
+- **URL**: https://www.youtube.com/watch?v=h0HYpONXgjk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T07:05 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T07:05 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T11:44 — auto-descubierto · @anthropic-ai
+
+### `N5yJJA0NCU0_AI_on_campus.knowledge`
+- **Source**: anthropic_main_youtube · `N5yJJA0NCU0` · 38:48 · upload NA
+- **URL**: https://www.youtube.com/watch?v=N5yJJA0NCU0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T11:45 — auto-descubierto · @anthropic-ai
+
+### `5KTHvKCrQ00_Claude_ran_a_business_in_our_office.knowledge`
+- **Source**: anthropic_main_youtube · `5KTHvKCrQ00` · 6:11 · upload NA
+- **URL**: https://www.youtube.com/watch?v=5KTHvKCrQ00
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T11:48 — auto-descubierto · @anthropic-ai
+
+### `Uh98_aGhAuY_What_does_AI_mean_for_education_.knowledge`
+- **Source**: anthropic_main_youtube · `Uh98_aGhAuY` · 42:21 · upload NA
+- **URL**: https://www.youtube.com/watch?v=Uh98_aGhAuY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T11:51 — auto-descubierto · @anthropic-ai
+
+### `PLyCki2K0Lg_Why_we_built—and_donated—the_Model_Context_Protocol_(MCP).knowledge`
+- **Source**: anthropic_main_youtube · `PLyCki2K0Lg` · 35:32 · upload NA
+- **URL**: https://www.youtube.com/watch?v=PLyCki2K0Lg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T11:52 — auto-descubierto · @anthropic-ai
+
+### `_jjSS0qGFbI_Getting_started_with_connectors_in_Claude.ai.knowledge`
+- **Source**: anthropic_main_youtube · `_jjSS0qGFbI` · 3:44 · upload NA
+- **URL**: https://www.youtube.com/watch?v=_jjSS0qGFbI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T11:52 — auto-descubierto · @anthropic-ai
+
+### `tJP6SKfo49c_How_Anthropic_uses_Claude_in_Legal.knowledge`
+- **Source**: anthropic_main_youtube · `tJP6SKfo49c` · 3:40 · upload NA
+- **URL**: https://www.youtube.com/watch?v=tJP6SKfo49c
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T11:55 — auto-descubierto · @anthropic-ai
+
+### `I9aGC6Ui3eE_Anthropic’s_philosopher_answers_your_questions.knowledge`
+- **Source**: anthropic_main_youtube · `I9aGC6Ui3eE` · 36:10 · upload NA
+- **URL**: https://www.youtube.com/watch?v=I9aGC6Ui3eE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T11:56 — auto-descubierto · @anthropic-ai
+
+### `GJ5jTgcbRHA_Getting_started_with_projects_in_Claude.ai.knowledge`
+- **Source**: anthropic_main_youtube · `GJ5jTgcbRHA` · 7:08 · upload NA
+- **URL**: https://www.youtube.com/watch?v=GJ5jTgcbRHA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T11:56 — auto-descubierto · @anthropic-ai
+
+### `0vZ_UVLhSQQ_Getting_started_with_Claude.ai.knowledge`
+- **Source**: anthropic_main_youtube · `0vZ_UVLhSQQ` · 5:19 · upload NA
+- **URL**: https://www.youtube.com/watch?v=0vZ_UVLhSQQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T11:56 — auto-descubierto · @anthropic-ai
+
+### `fOxC44g8vig_Claude_Agent_Skills_Explained.knowledge`
+- **Source**: anthropic_main_youtube · `fOxC44g8vig` · 3:15 · upload NA
+- **URL**: https://www.youtube.com/watch?v=fOxC44g8vig
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:01 — auto-descubierto · @anthropic-ai
+
+### `lvMMZLYoDr4_What_is_Al__reward_hacking_—and_why_do_we_worry_about_it_.knowledge`
+- **Source**: anthropic_main_youtube · `lvMMZLYoDr4` · 51:57 · upload NA
+- **URL**: https://www.youtube.com/watch?v=lvMMZLYoDr4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:01 — auto-descubierto · @anthropic-ai
+
+### `OwMu0pyYZBc_Claude_Code_modernizes_a_legacy_COBOL_codebase.knowledge`
+- **Source**: anthropic_main_youtube · `OwMu0pyYZBc` · 4:15 · upload NA
+- **URL**: https://www.youtube.com/watch?v=OwMu0pyYZBc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.165
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-05
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.165
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.163
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-04
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.163
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>requiredMinimumVersion</code> and <code>requiredMaximumVersion</code> managed settings — Claude Code refuses to start if its version is outside the allowed
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.162
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.162
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>claude agents --json</code> now includes <code>waitingFor</code> showing what a waiting session is blocked on (e.g. permission prompt)</li>
+<li><code>--tools</co
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.161
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.161
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>OTEL_RESOURCE_ATTRIBUTES</code> values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo</li
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.160
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.160
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added a prompt before writing to shell startup files (<code>.zshenv</code>, <code>.zlogin</code>, <code>.bash_login</code>) and <code>~/.config/git/</code>, which coul
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.159
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.159
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal infrastructure improvements (no user-facing changes)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.158
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.158
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.157
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.157
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Plugins in <code>.claude/skills</code> directories are now automatically loaded, no marketplace required</li>
+<li>Added <code>claude plugin init &lt;name&gt;</code> to
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-05
+- **URL**: https://github.com/anthropics/claude-code/commit/feabcc3c2b9abf057a3721cf5427f8f50d75618f
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-04
+- **URL**: https://github.com/anthropics/claude-code/commit/d1e174252d0af47174bd9fbdec6abb092b49226a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/commit/b67fa4fa2c4f42e9b88a31f31906f3142bc165c5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/625c04c3350378c3d74662505aae3e9dcf3fa1b4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/bdb04fc52421537f63bbcb9685e1c0905689f8f7
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/commit/8bae02d5319c619f84f51476188e5b28b2e5816b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-30
+- **URL**: https://github.com/anthropics/claude-code/commit/295dee881d0e1c1d0cd22fe171e4c1d07118fb04
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-29
+- **URL**: https://github.com/anthropics/claude-code/commit/8d0fbf451ace0d291f1cdae824c66e1227e117c4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-04
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-05
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-05
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-06-05
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-05-30
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-06-03
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:01 — auto-descubierto · github · karpathy
+
+### An efficient, batched LSTM.
+- **Source**: github `karpathy_gists` · 2026-06-02
+- **URL**: https://gist.github.com/karpathy/587454dc0146a6ae21fc
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/587454dc0146a6ae21fc#file-gistfile1-py">gistfile1.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-gistfile1-p
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:02 — auto-descubierto · Fitim Bozar
+
+### `4fXYv7MXIpo_Karpathy's_New_Move_is_Huge_for_Claude_Code_Users.knowledge`
+- **Source**: youtube_mentions_karpathy · `4fXYv7MXIpo` · 12:03 · upload ?
+- **URL**: https://www.youtube.com/watch?v=4fXYv7MXIpo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:02 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:02 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-05T12:07 — auto-descubierto · @sequoiacapital
+
+### `xXsleu4-kd8_What_David_Senra_Learned_Studying_400+_Founders.knowledge`
+- **Source**: sequoiacapital_youtube · `xXsleu4-kd8` · 56:52 · upload NA
+- **URL**: https://www.youtube.com/watch?v=xXsleu4-kd8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:10 — auto-descubierto · @aiDotEngineer
+
+### `r305-aQTaU0_Your_next_token_is_wrong_and_you_can't_fix_it_—_Brendon_Dillon,_Google_DeepMind.knowledge`
+- **Source**: aidotengineer_youtube · `r305-aQTaU0` · 28:03 · upload NA
+- **URL**: https://www.youtube.com/watch?v=r305-aQTaU0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:11 — auto-descubierto · @aiDotEngineer
+
+### `iNkFlCiij0U_The_Art_&_Science_of_Benchmarking_Agents_—_Vincent_Chen,_Snorkel_AI.knowledge`
+- **Source**: aidotengineer_youtube · `iNkFlCiij0U` · 23:25 · upload NA
+- **URL**: https://www.youtube.com/watch?v=iNkFlCiij0U
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:13 — auto-descubierto · @aiDotEngineer
+
+### `wcUJWP6WpGM_SWE-rebench__Lessons_from_Evaluating_Coding_Agents_—_Ibragim_Badertdinov,_Nebius.knowledge`
+- **Source**: aidotengineer_youtube · `wcUJWP6WpGM` · 16:30 · upload NA
+- **URL**: https://www.youtube.com/watch?v=wcUJWP6WpGM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:15 — auto-descubierto · @mehulmpt
+
+### `Bws_z_8Eo-U_I_found_the_BEST_AI_For_Coding_(Open_Source).knowledge`
+- **Source**: mehulmpt_youtube · `Bws_z_8Eo-U` · 34:26 · upload NA
+- **URL**: https://www.youtube.com/watch?v=Bws_z_8Eo-U
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:17 — auto-descubierto · @mehulmpt
+
+### `zg7Rkjo2TaA_OpenAI_Just_Killed_Vibe_Coding_Apps.knowledge`
+- **Source**: mehulmpt_youtube · `zg7Rkjo2TaA` · 14:30 · upload NA
+- **URL**: https://www.youtube.com/watch?v=zg7Rkjo2TaA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:18 — auto-descubierto · @mehulmpt
+
+### `toRmFs2lcIs_Your_Exam_Score_Is_Leaked.knowledge`
+- **Source**: mehulmpt_youtube · `toRmFs2lcIs` · 15:28 · upload NA
+- **URL**: https://www.youtube.com/watch?v=toRmFs2lcIs
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:19 — auto-descubierto · @mehulmpt
+
+### `9bWss95HKy0_Using_AI_To_Hack_Any_Instagram_Account.knowledge`
+- **Source**: mehulmpt_youtube · `9bWss95HKy0` · 8:20 · upload NA
+- **URL**: https://www.youtube.com/watch?v=9bWss95HKy0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:20 — auto-descubierto · @mehulmpt
+
+### `4Ws70XpNHeE_The_LAST_Coding_Job_Is_Probably_This.knowledge`
+- **Source**: mehulmpt_youtube · `4Ws70XpNHeE` · 14:36 · upload NA
+- **URL**: https://www.youtube.com/watch?v=4Ws70XpNHeE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:21 — auto-descubierto · @mehulmpt
+
+### `bdoFG31TJQU_Minimax_Agent_Beginner_To_Pro_(Complete_Guide).knowledge`
+- **Source**: mehulmpt_youtube · `bdoFG31TJQU` · 11:28 · upload NA
+- **URL**: https://www.youtube.com/watch?v=bdoFG31TJQU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:23 — auto-descubierto · @mehulmpt
+
+### `rdSrBezLaMc_NEW_Claude_Opus_4.8__Best_Again_.knowledge`
+- **Source**: mehulmpt_youtube · `rdSrBezLaMc` · 20:59 · upload NA
+- **URL**: https://www.youtube.com/watch?v=rdSrBezLaMc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:24 — auto-descubierto · @mehulmpt
+
+### `kovUZsQUQ8g_Biggest_HTML_Update_In_10_Years.knowledge`
+- **Source**: mehulmpt_youtube · `kovUZsQUQ8g` · 16:53 · upload NA
+- **URL**: https://www.youtube.com/watch?v=kovUZsQUQ8g
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:25 — auto-descubierto · @mehulmpt
+
+### `sFHXYv7ANkc_What_Is_AI_Harness_Exactly_.knowledge`
+- **Source**: mehulmpt_youtube · `sFHXYv7ANkc` · 14:07 · upload NA
+- **URL**: https://www.youtube.com/watch?v=sFHXYv7ANkc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:27 — auto-descubierto · @mehulmpt
+
+### `7JJkuXoATn4_5_MUST_Use_MCP_Agent_Skills.knowledge`
+- **Source**: mehulmpt_youtube · `7JJkuXoATn4` · 22:13 · upload NA
+- **URL**: https://www.youtube.com/watch?v=7JJkuXoATn4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:28 — auto-descubierto · @mehulmpt
+
+### `PqrcYMIRZTs_My_biggest_decision_ever.knowledge`
+- **Source**: mehulmpt_youtube · `PqrcYMIRZTs` · 6:14 · upload NA
+- **URL**: https://www.youtube.com/watch?v=PqrcYMIRZTs
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:29 — auto-descubierto · @mehulmpt
+
+### `hMapXjqHbJ4_JUST_$1_For_Billions_of_Tokens_!_(DeepSeek_v4_Pro).knowledge`
+- **Source**: mehulmpt_youtube · `hMapXjqHbJ4` · 8:44 · upload NA
+- **URL**: https://www.youtube.com/watch?v=hMapXjqHbJ4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:30 — auto-descubierto · @mehulmpt
+
+### `L9I7PqUVfng_Google_KILLED_This_Startup_Today_(Almost).knowledge`
+- **Source**: mehulmpt_youtube · `L9I7PqUVfng` · 18:24 · upload NA
+- **URL**: https://www.youtube.com/watch?v=L9I7PqUVfng
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:31 — auto-descubierto · @mehulmpt
+
+### `YSph5DYHQ6w_Google_Just_Launched..._Codex_!.knowledge`
+- **Source**: mehulmpt_youtube · `YSph5DYHQ6w` · 11:36 · upload NA
+- **URL**: https://www.youtube.com/watch?v=YSph5DYHQ6w
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:33 — auto-descubierto · @mehulmpt
+
+### `XoB4DXV7pUw_China_Is_Scamming_OpenAI_!_(GPT-5_for_$1).knowledge`
+- **Source**: mehulmpt_youtube · `XoB4DXV7pUw` · 14:09 · upload NA
+- **URL**: https://www.youtube.com/watch?v=XoB4DXV7pUw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:34 — auto-descubierto · @mehulmpt
+
+### `GsXW4yiElQ4_How_To_Launch_AI_Products_That_Make_Millions_(Complete_Guide).knowledge`
+- **Source**: mehulmpt_youtube · `GsXW4yiElQ4` · 10:59 · upload NA
+- **URL**: https://www.youtube.com/watch?v=GsXW4yiElQ4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:36 — auto-descubierto · @mehulmpt
+
+### `NBS4-sBClZU_Vercel_Created_Coding_Language_For_AI_Agents_!.knowledge`
+- **Source**: mehulmpt_youtube · `NBS4-sBClZU` · 22:04 · upload NA
+- **URL**: https://www.youtube.com/watch?v=NBS4-sBClZU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:37 — auto-descubierto · @mehulmpt
+
+### `XnNZTCxKLeY_I_Found_Unlimited_AI_Usage_Platform_(Genspark_Tutorial).knowledge`
+- **Source**: mehulmpt_youtube · `XnNZTCxKLeY` · 14:58 · upload NA
+- **URL**: https://www.youtube.com/watch?v=XnNZTCxKLeY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:38 — auto-descubierto · @mehulmpt
+
+### `VsrcdRvMWhc_This_Is_How_Twitter_Works_Internally.knowledge`
+- **Source**: mehulmpt_youtube · `VsrcdRvMWhc` · 20:06 · upload NA
+- **URL**: https://www.youtube.com/watch?v=VsrcdRvMWhc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:39 — auto-descubierto · @mehulmpt
+
+### `pIBetIh1BEU_AI_powered_Super_App_is_the_future.knowledge`
+- **Source**: mehulmpt_youtube · `pIBetIh1BEU` · 13:01 · upload NA
+- **URL**: https://www.youtube.com/watch?v=pIBetIh1BEU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:41 — auto-descubierto · @mehulmpt
+
+### `QwIpWRnI9A4_Anthropic_Just_Killed_OpenCode,_Conductor,_Zed_Support.knowledge`
+- **Source**: mehulmpt_youtube · `QwIpWRnI9A4` · 16:59 · upload NA
+- **URL**: https://www.youtube.com/watch?v=QwIpWRnI9A4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:42 — auto-descubierto · @mehulmpt
+
+### `S25aWsrZ47A_Bun_Is_Rewriting_Its_Code_(It's_bad).knowledge`
+- **Source**: mehulmpt_youtube · `S25aWsrZ47A` · 15:59 · upload NA
+- **URL**: https://www.youtube.com/watch?v=S25aWsrZ47A
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:43 — auto-descubierto · @mehulmpt
+
+### `NvhSQkb0pTA_React_Router_Got_Hacked!.knowledge`
+- **Source**: mehulmpt_youtube · `NvhSQkb0pTA` · 16:11 · upload NA
+- **URL**: https://www.youtube.com/watch?v=NvhSQkb0pTA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:44 — auto-descubierto · @mehulmpt
+
+### `v72RZV0CLy4_Somebody_Hacked_Grok_AI_With_Dots_and_Dashes.knowledge`
+- **Source**: mehulmpt_youtube · `v72RZV0CLy4` · 5:02 · upload NA
+- **URL**: https://www.youtube.com/watch?v=v72RZV0CLy4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:45 — auto-descubierto · @mehulmpt
+
+### `xSkAzr7VyTI_Building_Another_YouTube_Is_Impossible.knowledge`
+- **Source**: mehulmpt_youtube · `xSkAzr7VyTI` · 13:41 · upload NA
+- **URL**: https://www.youtube.com/watch?v=xSkAzr7VyTI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:47 — auto-descubierto · @mehulmpt
+
+### `R2-0EAGlsxY_My_AI_agent_team_that_works_24x7_on_Linear,_GitHub_and_Slack.knowledge`
+- **Source**: mehulmpt_youtube · `R2-0EAGlsxY` · 17:06 · upload NA
+- **URL**: https://www.youtube.com/watch?v=R2-0EAGlsxY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:48 — auto-descubierto · @mehulmpt
+
+### `hnfzT6d7mbo_10_Years_of_Building_Auth_Systems_(As_Senior_Developer).knowledge`
+- **Source**: mehulmpt_youtube · `hnfzT6d7mbo` · 19:19 · upload NA
+- **URL**: https://www.youtube.com/watch?v=hnfzT6d7mbo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:49 — auto-descubierto · @mehulmpt
+
+### `P5dKdZwkC44_AI_subscriptions_might_be_dead_soon.knowledge`
+- **Source**: mehulmpt_youtube · `P5dKdZwkC44` · 11:53 · upload NA
+- **URL**: https://www.youtube.com/watch?v=P5dKdZwkC44
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:50 — auto-descubierto · @mehulmpt
+
+### `oc-89c7GF6U_How_Does_Emergency_Alert_Systems_Work__(AMBER_Alert).knowledge`
+- **Source**: mehulmpt_youtube · `oc-89c7GF6U` · 13:42 · upload NA
+- **URL**: https://www.youtube.com/watch?v=oc-89c7GF6U
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:51 — auto-descubierto · @lukas-margerie
+
+### `1TVsQTtnofM_Steal_&_Remix_any_Awwwards_Animation_and_Rebuild_it_in_Claude_Code.knowledge`
+- **Source**: lukas_margerie_youtube · `1TVsQTtnofM` · 12:33 · upload NA
+- **URL**: https://www.youtube.com/watch?v=1TVsQTtnofM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:52 — auto-descubierto · @lukas-margerie
+
+### `75BcEGo80WA_Why_Your_Claude_Design_Sites_Look_Generic_(And_How_Relume_Fixes_It).knowledge`
+- **Source**: lukas_margerie_youtube · `75BcEGo80WA` · 10:16 · upload NA
+- **URL**: https://www.youtube.com/watch?v=75BcEGo80WA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:53 — auto-descubierto · @lukas-margerie
+
+### `VSUHhRypbH4_Clone_&_Remix_any_UI_Design_in_Cursor_using_this_Workflow.knowledge`
+- **Source**: lukas_margerie_youtube · `VSUHhRypbH4` · 10:12 · upload NA
+- **URL**: https://www.youtube.com/watch?v=VSUHhRypbH4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:54 — auto-descubierto · @lukas-margerie
+
+### `A0bxjZsLo4k_This_MCP_Builds_Entire_Branded_Websites_in_Claude_Code.knowledge`
+- **Source**: lukas_margerie_youtube · `A0bxjZsLo4k` · 8:42 · upload NA
+- **URL**: https://www.youtube.com/watch?v=A0bxjZsLo4k
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:55 — auto-descubierto · @lukas-margerie
+
+### `S3K3l0YWOW8_Turn_Claude_Code_into_a_SaaS_Idea_Engine_with_This_Semrush_MCP.knowledge`
+- **Source**: lukas_margerie_youtube · `S3K3l0YWOW8` · 13:19 · upload NA
+- **URL**: https://www.youtube.com/watch?v=S3K3l0YWOW8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:56 — auto-descubierto · @lukas-margerie
+
+### `NxqkRhTD6gM_Figma_to_Codex_Claude_Code_in_under_5_Minutes.knowledge`
+- **Source**: lukas_margerie_youtube · `NxqkRhTD6gM` · 5:22 · upload NA
+- **URL**: https://www.youtube.com/watch?v=NxqkRhTD6gM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:56 — auto-descubierto · @lukas-margerie
+
+### `uaEVEgkPeLc_Design_Custom_Websites_in_Claude_Code_Based_on_AI-Generated_Inspiration.knowledge`
+- **Source**: lukas_margerie_youtube · `uaEVEgkPeLc` · 8:26 · upload NA
+- **URL**: https://www.youtube.com/watch?v=uaEVEgkPeLc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:57 — auto-descubierto · @lukas-margerie
+
+### `LJsENfKv6ZU_The_5_Codex_Skills_Every_Design_Engineer_Needs_to_Start_a_Project.knowledge`
+- **Source**: lukas_margerie_youtube · `LJsENfKv6ZU` · 12:09 · upload NA
+- **URL**: https://www.youtube.com/watch?v=LJsENfKv6ZU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:58 — auto-descubierto · @lukas-margerie
+
+### `WlvUUo9UMYg_This_AI_Workflow_Builds_Full_Brand_Identities_for_Local_Businesses.knowledge`
+- **Source**: lukas_margerie_youtube · `WlvUUo9UMYg` · 7:37 · upload NA
+- **URL**: https://www.youtube.com/watch?v=WlvUUo9UMYg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T12:59 — auto-descubierto · @lukas-margerie
+
+### `1TGV1QNVcrw_Claude_Code_+_OpenClaw_AI_=_Websites_in_Minutes.knowledge`
+- **Source**: lukas_margerie_youtube · `1TGV1QNVcrw` · 13:11 · upload NA
+- **URL**: https://www.youtube.com/watch?v=1TGV1QNVcrw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:00 — auto-descubierto · @lukas-margerie
+
+### `CPg5UYbYLhA_New_Codex_Design_Workflow_Makes_Codex_Better_Than_Most_Designers.knowledge`
+- **Source**: lukas_margerie_youtube · `CPg5UYbYLhA` · 9:11 · upload NA
+- **URL**: https://www.youtube.com/watch?v=CPg5UYbYLhA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:01 — auto-descubierto · @lukas-margerie
+
+### `EP6NPRV9rzM_Turn_Codex_into_an_Infinite_Design_Canvas.knowledge`
+- **Source**: lukas_margerie_youtube · `EP6NPRV9rzM` · 8:34 · upload NA
+- **URL**: https://www.youtube.com/watch?v=EP6NPRV9rzM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:02 — auto-descubierto · @lukas-margerie
+
+### `cu-Qq-47Rk8_Mobbin's_MCP_changes_how_we_design_in_Claude_Code.knowledge`
+- **Source**: lukas_margerie_youtube · `cu-Qq-47Rk8` · 14:00 · upload NA
+- **URL**: https://www.youtube.com/watch?v=cu-Qq-47Rk8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:03 — auto-descubierto · @lukas-margerie
+
+### `dNhrP8Qp9Fw_I_Turned_Claude_Code_Into_a_Gamified_Office_With_AI_Agents.knowledge`
+- **Source**: lukas_margerie_youtube · `dNhrP8Qp9Fw` · 11:40 · upload NA
+- **URL**: https://www.youtube.com/watch?v=dNhrP8Qp9Fw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:05 — auto-descubierto · @lukas-margerie
+
+### `p8F5H-WBdkg_This_Claude_MCP_Turns_1-Star_Reviews_Into_Winning_Video_Ads.knowledge`
+- **Source**: lukas_margerie_youtube · `p8F5H-WBdkg` · 15:36 · upload NA
+- **URL**: https://www.youtube.com/watch?v=p8F5H-WBdkg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:06 — auto-descubierto · @lukas-margerie
+
+### `gqROP-t-_Oc_How_to_Sell_AI_Agents_to_Local_Businesses_With_Claude_Code_+_Poppy.knowledge`
+- **Source**: lukas_margerie_youtube · `gqROP-t-_Oc` · 8:08 · upload NA
+- **URL**: https://www.youtube.com/watch?v=gqROP-t-_Oc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:08 — auto-descubierto · @lukas-margerie
+
+### `kRv5aQhyZvs_How_I_Built_a_Course_Platform_with_Payments,_Digital_Certificates_and_Badges_in_Claude_Code.knowledge`
+- **Source**: lukas_margerie_youtube · `kRv5aQhyZvs` · 15:30 · upload NA
+- **URL**: https://www.youtube.com/watch?v=kRv5aQhyZvs
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:10 — auto-descubierto · @lukas-margerie
+
+### `GSELOwkT0EE_I_Built_a_Full_CRM_With_Remy_AI_(No_Code,_No_Prompts).knowledge`
+- **Source**: lukas_margerie_youtube · `GSELOwkT0EE` · 8:55 · upload NA
+- **URL**: https://www.youtube.com/watch?v=GSELOwkT0EE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:11 — auto-descubierto · @lukas-margerie
+
+### `idiGN_rMsyA_I_Turned_Claude_Code_Into_a_Figma_Designer.knowledge`
+- **Source**: lukas_margerie_youtube · `idiGN_rMsyA` · 9:09 · upload NA
+- **URL**: https://www.youtube.com/watch?v=idiGN_rMsyA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:11 — auto-descubierto · @lukas-margerie
+
+### `QsvRqEkeRss_Build_&_Sell_Custom_CRM_Apps_to_Local_Contractors.knowledge`
+- **Source**: lukas_margerie_youtube · `QsvRqEkeRss` · 9:32 · upload NA
+- **URL**: https://www.youtube.com/watch?v=QsvRqEkeRss
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:12 — auto-descubierto · @lukas-margerie
+
+### `56CBij37AF0_I_Scraped_Airbnb_&_Built_an_AI_Tool_to_Resell_Better_Photos.knowledge`
+- **Source**: lukas_margerie_youtube · `56CBij37AF0` · 8:45 · upload NA
+- **URL**: https://www.youtube.com/watch?v=56CBij37AF0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:13 — auto-descubierto · @lukas-margerie
+
+### `BF2U5uHz4x4_Impeccable_+_GPT_Image_2__The_Claude_Code_Workflow_That_Designs_&_Builds_Your_Site.knowledge`
+- **Source**: lukas_margerie_youtube · `BF2U5uHz4x4` · 7:57 · upload NA
+- **URL**: https://www.youtube.com/watch?v=BF2U5uHz4x4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:14 — auto-descubierto · @lukas-margerie
+
+### `3DWuhBWQ-Ug_I_Built_a_Client_Website_+_Custom_CMS_Dashboard_in_Claude_Code.knowledge`
+- **Source**: lukas_margerie_youtube · `3DWuhBWQ-Ug` · 18:01 · upload NA
+- **URL**: https://www.youtube.com/watch?v=3DWuhBWQ-Ug
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:16 — auto-descubierto · @lukas-margerie
+
+### `58h9HdOYTd4_5_Ways_to_User_Test_Your_AI-Built_App_Before_You_Launch.knowledge`
+- **Source**: lukas_margerie_youtube · `58h9HdOYTd4` · 14:10 · upload NA
+- **URL**: https://www.youtube.com/watch?v=58h9HdOYTd4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:16 — auto-descubierto · @lukas-margerie
+
+### `PFO01z7Qe38_Redesigning_Websites_with_GPT-5.5_&_Images_2.0.knowledge`
+- **Source**: lukas_margerie_youtube · `PFO01z7Qe38` · 7:18 · upload NA
+- **URL**: https://www.youtube.com/watch?v=PFO01z7Qe38
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:17 — auto-descubierto · @lukas-margerie
+
+### `DBqEpIktzwo_This_AI_Tool_Turns_Any_Website_Into_a_Cinematic_Video_in_Seconds.knowledge`
+- **Source**: lukas_margerie_youtube · `DBqEpIktzwo` · 9:03 · upload NA
+- **URL**: https://www.youtube.com/watch?v=DBqEpIktzwo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:18 — auto-descubierto · @lukas-margerie
+
+### `82Eo0ZR9aOk_This_One_Skill_Makes_Claude_Code_Actually_Good_at_Web_Design.knowledge`
+- **Source**: lukas_margerie_youtube · `82Eo0ZR9aOk` · 11:59 · upload NA
+- **URL**: https://www.youtube.com/watch?v=82Eo0ZR9aOk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:20 — auto-descubierto · @lukas-margerie
+
+### `B-V2TNlPlzQ_I_Redesigned_5_Local_Business_Websites_With_AI_in_One_Session_(Full_Workflow).knowledge`
+- **Source**: lukas_margerie_youtube · `B-V2TNlPlzQ` · 17:50 · upload NA
+- **URL**: https://www.youtube.com/watch?v=B-V2TNlPlzQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:20 — auto-descubierto · @lukas-margerie
+
+### `VvohlgYmqS4_Build_&_Deploy_a_Client_Website_with_Claude_Code_(Design,_SEO_&_Compliance).knowledge`
+- **Source**: lukas_margerie_youtube · `VvohlgYmqS4` · 10:00 · upload NA
+- **URL**: https://www.youtube.com/watch?v=VvohlgYmqS4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-05T13:21 — auto-descubierto · @lukas-margerie
+
+### `A1Y6oGDkLzQ_I_Let_Claude_Control_Blender_and_It_Built_a_3D_World_From_Scratch.knowledge`
+- **Source**: lukas_margerie_youtube · `A1Y6oGDkLzQ` · 11:18 · upload NA
+- **URL**: https://www.youtube.com/watch?v=A1Y6oGDkLzQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-06T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.167
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.167
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.166
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.166
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>fallbackModel</code> setting to configure up to three fallback models tried in order when the primary model is overloaded or unavailable; <code>--fallback-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.165
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-05
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.165
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.163
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-04
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.163
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>requiredMinimumVersion</code> and <code>requiredMaximumVersion</code> managed settings — Claude Code refuses to start if its version is outside the allowed
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.162
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.162
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>claude agents --json</code> now includes <code>waitingFor</code> showing what a waiting session is blocked on (e.g. permission prompt)</li>
+<li><code>--tools</co
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.161
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.161
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>OTEL_RESOURCE_ATTRIBUTES</code> values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo</li
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.160
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.160
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added a prompt before writing to shell startup files (<code>.zshenv</code>, <code>.zlogin</code>, <code>.bash_login</code>) and <code>~/.config/git/</code>, which coul
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.159
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.159
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal infrastructure improvements (no user-facing changes)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/c1b75cba5e990e643ed62db6769a9f9807bdb053
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/6988846f0f7bd570788b2551aeec7854b3c6b11e
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-05
+- **URL**: https://github.com/anthropics/claude-code/commit/feabcc3c2b9abf057a3721cf5427f8f50d75618f
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-04
+- **URL**: https://github.com/anthropics/claude-code/commit/d1e174252d0af47174bd9fbdec6abb092b49226a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/commit/b67fa4fa2c4f42e9b88a31f31906f3142bc165c5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/625c04c3350378c3d74662505aae3e9dcf3fa1b4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/bdb04fc52421537f63bbcb9685e1c0905689f8f7
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/commit/8bae02d5319c619f84f51476188e5b28b2e5816b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:04 — auto-descubierto · Greg Isenberg
+
+### `DW4a1Cm8nG4_I_got_a_private_lesson_on_Claude_Cowork_&_Claude_Code.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `DW4a1Cm8nG4` · 42:08 · upload ?
+- **URL**: https://www.youtube.com/watch?v=DW4a1Cm8nG4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-06T07:04 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-06
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:04 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-06
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:04 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-06
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:04 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-06-05
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:04 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-06-03
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:04 — auto-descubierto · github · karpathy
+
+### An efficient, batched LSTM.
+- **Source**: github `karpathy_gists` · 2026-06-02
+- **URL**: https://gist.github.com/karpathy/587454dc0146a6ae21fc
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/587454dc0146a6ae21fc#file-gistfile1-py">gistfile1.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-gistfile1-p
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:04 — auto-descubierto · AIM Network
+
+### `20d5cSkSvcU_Andrej_Karpathy_Just_10x’d_Everyone’s_Claude_Code.knowledge`
+- **Source**: youtube_mentions_karpathy · `20d5cSkSvcU` · 4:29 · upload ?
+- **URL**: https://www.youtube.com/watch?v=20d5cSkSvcU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-06T07:04 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:04 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-06T07:06 — auto-descubierto · @aiDotEngineer
+
+### `_B4Pv9ttFgY_Building_Agent_Interfaces__Lessons_from_Chrome_DevTools_(MCP)_for_Agents_—_Michael_Hablich,_Google.knowledge`
+- **Source**: aidotengineer_youtube · `_B4Pv9ttFgY` · 22:38 · upload NA
+- **URL**: https://www.youtube.com/watch?v=_B4Pv9ttFgY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-06T07:08 — auto-descubierto · @aiDotEngineer
+
+### `pmoDeA3RBZY_Dark_Factory__OpenClaw_Ships_Faster_Than_You_Can_Read_the_Diff_—_Vincent_Koc,_OpenClaw.knowledge`
+- **Source**: aidotengineer_youtube · `pmoDeA3RBZY` · 16:44 · upload NA
+- **URL**: https://www.youtube.com/watch?v=pmoDeA3RBZY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-06T07:10 — auto-descubierto · @aiDotEngineer
+
+### `mFLlVpnGpds_Beyond_Transcription__Building_Voice_AI_That_Understands_Conversations_—_Hervé_Bredin,_pyannoteAI.knowledge`
+- **Source**: aidotengineer_youtube · `mFLlVpnGpds` · 25:20 · upload NA
+- **URL**: https://www.youtube.com/watch?v=mFLlVpnGpds
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+- **URL**: https://www.youtube.com/watch?v=Q_K3k_ge8NA  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=tmnd3M1k5Jw  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=Dqp_b8GHLXU  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=sqtX2OmgOF0  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=PoXC6XcVa1M  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=c0kaKxM2pHg  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=ow1we5PzK-o  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=zmrPY6S1FwY  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=ChskqGovoHg  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=V5S40cLnku8  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=yrbnx0fYJXM  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=kgksikB9O4c  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=hHEPGJs0EnU  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=PtF7jq6EYwE  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=s03kkJ66R10  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=o_Byo2z7FnY  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=NMrZARcSWg4  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=a1jx0H4cSWk  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=Pbc2gPhx4ng  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=6WsG_q8-ORE  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=7BGLTj7Fs8M  _(manual 2026-06-06)_
+- **URL**: https://www.youtube.com/watch?v=MiLBc4dTYqo  _(manual 2026-06-06)_
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.168
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.168
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.167
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.167
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.166
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.166
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>fallbackModel</code> setting to configure up to three fallback models tried in order when the primary model is overloaded or unavailable; <code>--fallback-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.165
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-05
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.165
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.163
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-04
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.163
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>requiredMinimumVersion</code> and <code>requiredMaximumVersion</code> managed settings — Claude Code refuses to start if its version is outside the allowed
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.162
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.162
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>claude agents --json</code> now includes <code>waitingFor</code> showing what a waiting session is blocked on (e.g. permission prompt)</li>
+<li><code>--tools</co
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.161
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.161
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>OTEL_RESOURCE_ATTRIBUTES</code> values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo</li
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.160
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.160
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added a prompt before writing to shell startup files (<code>.zshenv</code>, <code>.zlogin</code>, <code>.bash_login</code>) and <code>~/.config/git/</code>, which coul
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.159
+- **Source**: github `anthropics_claude_code_releases` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.159
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Internal infrastructure improvements (no user-facing changes)</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/72281753c2af394d35d6950af5980832cbebd322
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/c1b75cba5e990e643ed62db6769a9f9807bdb053
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/6988846f0f7bd570788b2551aeec7854b3c6b11e
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-05
+- **URL**: https://github.com/anthropics/claude-code/commit/feabcc3c2b9abf057a3721cf5427f8f50d75618f
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-04
+- **URL**: https://github.com/anthropics/claude-code/commit/d1e174252d0af47174bd9fbdec6abb092b49226a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/commit/b67fa4fa2c4f42e9b88a31f31906f3142bc165c5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/625c04c3350378c3d74662505aae3e9dcf3fa1b4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/bdb04fc52421537f63bbcb9685e1c0905689f8f7
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-05-31
+- **URL**: https://github.com/anthropics/claude-code/commit/8bae02d5319c619f84f51476188e5b28b2e5816b
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:02 — auto-descubierto · Solomon Alfred
+
+### `M8HuXu_bOco_Practical_Tips_on_How_to_use_ClaudeCode_By_Boris_Cherny.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `M8HuXu_bOco` · 27:53 · upload ?
+- **URL**: https://www.youtube.com/watch?v=M8HuXu_bOco
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:02 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-06
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:02 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-07
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:02 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-07
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:02 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-06-05
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:02 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-06-07
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:02 — auto-descubierto · github · karpathy
+
+### An efficient, batched LSTM.
+- **Source**: github `karpathy_gists` · 2026-06-02
+- **URL**: https://gist.github.com/karpathy/587454dc0146a6ae21fc
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/587454dc0146a6ae21fc#file-gistfile1-py">gistfile1.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-gistfile1-p
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:02 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:02 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-07T07:03 — auto-descubierto · @aiDotEngineer
+
+### `_xIwFcnHqp4_Building_Interactive_UIs_in_VS_Code_with_MCP_Apps_—_Marlene_Mhangami_&_Liam_Hampton,_GitHub.knowledge`
+- **Source**: aidotengineer_youtube · `_xIwFcnHqp4` · 16:06 · upload NA
+- **URL**: https://www.youtube.com/watch?v=_xIwFcnHqp4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:05 — auto-descubierto · @aiDotEngineer
+
+### `QuuIywMG4s8_Evals_Are_Broken,_Use_Them_Anyway_—_Ara_Khan,_Cline.knowledge`
+- **Source**: aidotengineer_youtube · `QuuIywMG4s8` · 19:04 · upload NA
+- **URL**: https://www.youtube.com/watch?v=QuuIywMG4s8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:06 — auto-descubierto · @aiDotEngineer
+
+### `KLSuFPj2ld0_Building_safe_Payment_Infrastructure_for_the_autonomous_economy_—_Steve_Kaliski,_Stripe.knowledge`
+- **Source**: aidotengineer_youtube · `KLSuFPj2ld0` · 18:46 · upload NA
+- **URL**: https://www.youtube.com/watch?v=KLSuFPj2ld0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:08 — auto-descubierto · @mehulmpt
+
+### `csSLKHA2TAo_How_Amazon_Kindle,_Netflix_Protect_Content_From_Hackers.knowledge`
+- **Source**: mehulmpt_youtube · `csSLKHA2TAo` · 14:20 · upload NA
+- **URL**: https://www.youtube.com/watch?v=csSLKHA2TAo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:09 — auto-descubierto · @lukas-margerie
+
+### `Yh6vlU02OhE_Cursor's_New_Design_Mode_Just_Changed_Web_Design_Forever.knowledge`
+- **Source**: lukas_margerie_youtube · `Yh6vlU02OhE` · 12:23 · upload NA
+- **URL**: https://www.youtube.com/watch?v=Yh6vlU02OhE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:10 — auto-descubierto · @WorkOS
+
+### `V0YNHOA9adc_AI,_MCP,_and_What's_Coming_Next_—_Manik_Surtani.knowledge`
+- **Source**: workos_youtube · `V0YNHOA9adc` · 6:46 · upload NA
+- **URL**: https://www.youtube.com/watch?v=V0YNHOA9adc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:10 — auto-descubierto · @WorkOS
+
+### `3sf9AE6baf8_DevTools_v3_MCP_Editing_Deep_Dive_With_Paul_Irish.knowledge`
+- **Source**: workos_youtube · `3sf9AE6baf8` · 5:10 · upload NA
+- **URL**: https://www.youtube.com/watch?v=3sf9AE6baf8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:11 — auto-descubierto · @WorkOS
+
+### `p9GpBR0lTnI_The_Case_Against_Forcing_LLMs_to_Call_Tools_—_Rita_Kozlov,_Cloudflare___MCP_Night.knowledge`
+- **Source**: workos_youtube · `p9GpBR0lTnI` · 8:03 · upload NA
+- **URL**: https://www.youtube.com/watch?v=p9GpBR0lTnI
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:12 — auto-descubierto · @WorkOS
+
+### `IVIuZjn15iQ_We_Gave_AI_Agents_Direct_SQL_Access_—_Here's_What_Happened_—_Reilly_Wood,_Datadog___MCP_Night.knowledge`
+- **Source**: workos_youtube · `IVIuZjn15iQ` · 4:38 · upload NA
+- **URL**: https://www.youtube.com/watch?v=IVIuZjn15iQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:14 — auto-descubierto · @WorkOS
+
+### `EPihCXkyyFA_The_Outer_Loop_Is_the_New_Bottleneck_—_Jyoti_Bansal,_Harness___HumanX_2026.knowledge`
+- **Source**: workos_youtube · `EPihCXkyyFA` · 14:04 · upload NA
+- **URL**: https://www.youtube.com/watch?v=EPihCXkyyFA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:15 — auto-descubierto · @WorkOS
+
+### `sXfV44wDm4s_The_Eject_Button_for_Vibe-Coded_Apps_—_Paul_Dhaliwal,_Code_Conductor___HumanX_2026.knowledge`
+- **Source**: workos_youtube · `sXfV44wDm4s` · 9:16 · upload NA
+- **URL**: https://www.youtube.com/watch?v=sXfV44wDm4s
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:16 — auto-descubierto · @WorkOS
+
+### `CFAKI00LfII_How_Marketing_Teams_Are_Evolving_with_AI_—_Eran_Dunsky,_AppsFlyer___HumanX_2026.knowledge`
+- **Source**: workos_youtube · `CFAKI00LfII` · 8:50 · upload NA
+- **URL**: https://www.youtube.com/watch?v=CFAKI00LfII
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:17 — auto-descubierto · @WorkOS
+
+### `nltcDNDwClQ_Agent-First_Signup__The_New_Developer_Experience_—_Abhi_Aiyer,_Mastra___HumanX_2026.knowledge`
+- **Source**: workos_youtube · `nltcDNDwClQ` · 9:21 · upload NA
+- **URL**: https://www.youtube.com/watch?v=nltcDNDwClQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:18 — auto-descubierto · @WorkOS
+
+### `2gOP_nIX1Z4_Going_from_L4_to_L5_Is_80%_Change_Management_—_Anish_Agarwal,_Traversal___HumanX_2026.knowledge`
+- **Source**: workos_youtube · `2gOP_nIX1Z4` · 11:38 · upload NA
+- **URL**: https://www.youtube.com/watch?v=2gOP_nIX1Z4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:21 — auto-descubierto · @WorkOS
+
+### `QMUAGH7DnZ8_Your_Website_Now_Has_Two_Audiences_—_Linda_Tong,_Webflow___HumanX_2026.knowledge`
+- **Source**: workos_youtube · `QMUAGH7DnZ8` · 14:58 · upload NA
+- **URL**: https://www.youtube.com/watch?v=QMUAGH7DnZ8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:22 — auto-descubierto · @WorkOS
+
+### `2GhEF_37qoY_The_Human_Is_the_Interoperability_Layer__Mazy_Dar___HumanX_2026.knowledge`
+- **Source**: workos_youtube · `2GhEF_37qoY` · 11:57 · upload NA
+- **URL**: https://www.youtube.com/watch?v=2GhEF_37qoY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:23 — auto-descubierto · @WorkOS
+
+### `G3YAh_BLBno_How_Employment_Fraud_Got_Supercharged_by_AI_—_Andrew_McLeod,_Certn___HumanX_2026.knowledge`
+- **Source**: workos_youtube · `G3YAh_BLBno` · 10:01 · upload NA
+- **URL**: https://www.youtube.com/watch?v=G3YAh_BLBno
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:25 — auto-descubierto · @WorkOS
+
+### `Sx7fcMP-HNQ_A_Codebase_Is_No_Longer_the_Source_of_Truth_—_Christine_Yen,_Honeycomb___HumanX_2026.knowledge`
+- **Source**: workos_youtube · `Sx7fcMP-HNQ` · 12:11 · upload NA
+- **URL**: https://www.youtube.com/watch?v=Sx7fcMP-HNQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:27 — auto-descubierto · @WorkOS
+
+### `7-p2Ej5VMOY_How_Dialpad_Mandated_AI_Across_Every_Department_—_Brian_Peterson,_Dialpad___HumanX_2026.knowledge`
+- **Source**: workos_youtube · `7-p2Ej5VMOY` · 13:19 · upload NA
+- **URL**: https://www.youtube.com/watch?v=7-p2Ej5VMOY
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-07T07:29 — auto-descubierto · @WorkOS
+
+### `uT_ALxij_7I_Stop_Renewing_SaaS__Build_With_AI_Agents_Instead_—_Matt_DeBergalis,_Apollo_GraphQL___HumanX_2026.knowledge`
+- **Source**: workos_youtube · `uT_ALxij_7I` · 10:53 · upload NA
+- **URL**: https://www.youtube.com/watch?v=uT_ALxij_7I
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+- **URL**: https://www.youtube.com/watch?v=kZPmQjvJKYs  _(manual 2026-06-07)_
+- **URL**: https://www.youtube.com/watch?v=qwmmWzPnhog  _(manual 2026-06-07, x-sweep boris)_
+- **URL**: https://www.youtube.com/watch?v=wkv2ifxPpF8  _(manual 2026-06-07, x-sweep boris)_
+- **URL**: https://www.youtube.com/watch?v=6eBSHbLKuN0  _(manual 2026-06-07, x-sweep boris)_
+
+## 2026-06-08T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.168
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.168
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.167
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.167
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.166
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.166
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>fallbackModel</code> setting to configure up to three fallback models tried in order when the primary model is overloaded or unavailable; <code>--fallback-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.165
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-05
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.165
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.163
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-04
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.163
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>requiredMinimumVersion</code> and <code>requiredMaximumVersion</code> managed settings — Claude Code refuses to start if its version is outside the allowed
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.162
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.162
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>claude agents --json</code> now includes <code>waitingFor</code> showing what a waiting session is blocked on (e.g. permission prompt)</li>
+<li><code>--tools</co
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.161
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.161
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>OTEL_RESOURCE_ATTRIBUTES</code> values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo</li
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.160
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.160
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added a prompt before writing to shell startup files (<code>.zshenv</code>, <code>.zlogin</code>, <code>.bash_login</code>) and <code>~/.config/git/</code>, which coul
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/72281753c2af394d35d6950af5980832cbebd322
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/c1b75cba5e990e643ed62db6769a9f9807bdb053
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/6988846f0f7bd570788b2551aeec7854b3c6b11e
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-05
+- **URL**: https://github.com/anthropics/claude-code/commit/feabcc3c2b9abf057a3721cf5427f8f50d75618f
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-04
+- **URL**: https://github.com/anthropics/claude-code/commit/d1e174252d0af47174bd9fbdec6abb092b49226a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/commit/b67fa4fa2c4f42e9b88a31f31906f3142bc165c5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/625c04c3350378c3d74662505aae3e9dcf3fa1b4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/bdb04fc52421537f63bbcb9685e1c0905689f8f7
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-07
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-08
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-07
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-06-05
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-06-07
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · github · karpathy
+
+### An efficient, batched LSTM.
+- **Source**: github `karpathy_gists` · 2026-06-02
+- **URL**: https://gist.github.com/karpathy/587454dc0146a6ae21fc
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/587454dc0146a6ae21fc#file-gistfile1-py">gistfile1.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-gistfile1-p
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:00 — auto-descubierto · AIM Network
+
+### `KS2opAosVWA_Andrej_Karpathy_Shrinks_GPT_to_243_Lines.knowledge`
+- **Source**: youtube_mentions_karpathy · `KS2opAosVWA` · 4:22 · upload ?
+- **URL**: https://www.youtube.com/watch?v=KS2opAosVWA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-08T07:01 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:01 — auto-descubierto · github · RinDig
+
+### RinDig contributed to RinDig/Interpreted-Context-Methdology
+- **Source**: github `jevanclief_github` · 2026-06-01
+- **URL**: https://github.com/RinDig/Interpreted-Context-Methdology/pull/6
+- **Tipo**: github_user_activity
+- **Autor**: RinDig
+- **Excerpt**: <div class="git-merge js-feed-item-view"><div class="body">
+<!-- pull_request -->
+<div class="d-flex flex-items-baseline tmp-py-4">
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T07:01 — auto-descubierto · Zack Kirk
+
+### `5jSqtOe6TIQ_5_Claude_tools_That_Will_Make_You_$1M_(With_Zero_Employees).knowledge`
+- **Source**: youtube_mentions_thariq · `5jSqtOe6TIQ` · 9:08 · upload ?
+- **URL**: https://www.youtube.com/watch?v=5jSqtOe6TIQ
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-08T07:03 — auto-descubierto · @aiDotEngineer
+
+### `JsCCrBF7F1g_LLM_Observability,_Evaluation,_Experimentation_Platform_—_Dat_Ngo,_Arize.knowledge`
+- **Source**: aidotengineer_youtube · `JsCCrBF7F1g` · 16:32 · upload NA
+- **URL**: https://www.youtube.com/watch?v=JsCCrBF7F1g
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-08T07:04 — auto-descubierto · @aiDotEngineer
+
+### `ILdE7FaAjVA_Under_5_minutes_to_a_deployed_LLM_endpoint_—_Audry_Hsu,_RunPod.knowledge`
+- **Source**: aidotengineer_youtube · `ILdE7FaAjVA` · 13:26 · upload NA
+- **URL**: https://www.youtube.com/watch?v=ILdE7FaAjVA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-08T07:06 — auto-descubierto · @aiDotEngineer
+
+### `zTZ0qunQXnM_From_MCP_to_Scale__Pipelines_That_Build_Themselves_—_Rafael_Levi,_Bright_Data.knowledge`
+- **Source**: aidotengineer_youtube · `zTZ0qunQXnM` · 25:26 · upload NA
+- **URL**: https://www.youtube.com/watch?v=zTZ0qunQXnM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-08T07:07 — auto-descubierto · @mehulmpt
+
+### `6dDJCzmxI2g_The_BEST_React_Tooling_Bought_By_Cloudflare.knowledge`
+- **Source**: mehulmpt_youtube · `6dDJCzmxI2g` · 13:01 · upload NA
+- **URL**: https://www.youtube.com/watch?v=6dDJCzmxI2g
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-08T07:14 — auto-descubierto · @SeedRocketTV
+
+### `b8jAZQVW0r0_La_IA_que_engaña_a_sus_creadores___Tertulia_SeedRocket.knowledge`
+- **Source**: seedrocket_tv_youtube · `b8jAZQVW0r0` · 61:50 · upload NA
+- **URL**: https://www.youtube.com/watch?v=b8jAZQVW0r0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-08T22:55 — auto-descubierto · @claudeai
+
+### `Hth_tLaC2j8_Reflecting_on_a_year_of_Claude_Code.knowledge`
+- **Source**: claude_anthropic_youtube · `Hth_tLaC2j8` · 18:08 · upload NA
+- **URL**: https://www.youtube.com/watch?v=Hth_tLaC2j8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-08T22:56 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.168
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.168
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.167
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.167
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.166
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.166
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>fallbackModel</code> setting to configure up to three fallback models tried in order when the primary model is overloaded or unavailable; <code>--fallback-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.165
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-05
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.165
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.163
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-04
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.163
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>requiredMinimumVersion</code> and <code>requiredMaximumVersion</code> managed settings — Claude Code refuses to start if its version is outside the allowed
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.162
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.162
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>claude agents --json</code> now includes <code>waitingFor</code> showing what a waiting session is blocked on (e.g. permission prompt)</li>
+<li><code>--tools</co
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.161
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.161
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>OTEL_RESOURCE_ATTRIBUTES</code> values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo</li
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.160
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.160
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added a prompt before writing to shell startup files (<code>.zshenv</code>, <code>.zlogin</code>, <code>.bash_login</code>) and <code>~/.config/git/</code>, which coul
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/72281753c2af394d35d6950af5980832cbebd322
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/c1b75cba5e990e643ed62db6769a9f9807bdb053
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/6988846f0f7bd570788b2551aeec7854b3c6b11e
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-05
+- **URL**: https://github.com/anthropics/claude-code/commit/feabcc3c2b9abf057a3721cf5427f8f50d75618f
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-04
+- **URL**: https://github.com/anthropics/claude-code/commit/d1e174252d0af47174bd9fbdec6abb092b49226a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/commit/b67fa4fa2c4f42e9b88a31f31906f3142bc165c5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/625c04c3350378c3d74662505aae3e9dcf3fa1b4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/bdb04fc52421537f63bbcb9685e1c0905689f8f7
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-07
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-08
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-08
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-06-05
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-06-07
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:56 — auto-descubierto · github · karpathy
+
+### An efficient, batched LSTM.
+- **Source**: github `karpathy_gists` · 2026-06-02
+- **URL**: https://gist.github.com/karpathy/587454dc0146a6ae21fc
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/587454dc0146a6ae21fc#file-gistfile1-py">gistfile1.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-gistfile1-p
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-08T22:57 — auto-descubierto · @aiDotEngineer
+
+### `TUnPNY4E2fw_Road_to_5_Million_Tokens__Breaking_Barriers_in_Long_Context_Training_—_Max_Ryabinin,_Together_AI.knowledge`
+- **Source**: aidotengineer_youtube · `TUnPNY4E2fw` · 15:50 · upload NA
+- **URL**: https://www.youtube.com/watch?v=TUnPNY4E2fw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-08T22:58 — auto-descubierto · @aiDotEngineer
+
+### `EcqMYoIV57A_Why_More_Context_Makes_Your_Agent_Dumber_and_What_to_Do_About_It_—_Nupur_Sharma,_Qodo.knowledge`
+- **Source**: aidotengineer_youtube · `EcqMYoIV57A` · 26:27 · upload NA
+- **URL**: https://www.youtube.com/watch?v=EcqMYoIV57A
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-08T23:00 — auto-descubierto · @aiDotEngineer
+
+### `SKDJo2CopRs_Building_AI_Agents_at_the_Edge_—_Sunil_Pai_&_Matt_Carrie,_Cloudflare.knowledge`
+- **Source**: aidotengineer_youtube · `SKDJo2CopRs` · 24:51 · upload NA
+- **URL**: https://www.youtube.com/watch?v=SKDJo2CopRs
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-08T23:01 — auto-descubierto · @mehulmpt
+
+### `azAV8BdMgJE_I_am_a_little_tired_of_AI.knowledge`
+- **Source**: mehulmpt_youtube · `azAV8BdMgJE` · 21:23 · upload NA
+- **URL**: https://www.youtube.com/watch?v=azAV8BdMgJE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-08T23:02 — auto-descubierto · @lukas-margerie
+
+### `5iZ4VpeIJSg_Cursor_Design_Mode_Makes_Insane_Motion_Graphics_(Remotion).knowledge`
+- **Source**: lukas_margerie_youtube · `5iZ4VpeIJSg` · 13:52 · upload NA
+- **URL**: https://www.youtube.com/watch?v=5iZ4VpeIJSg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-08T23:02 — auto-descubierto · web · plane_so_blog
+
+### introducing-plane-runner-and-scheduled-automations
+- **Source**: web `plane_so_blog` · index `https://plane.so/blog`
+- **URL**: https://plane.so/blog/introducing-plane-runner-and-scheduled-automations
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **URL**: https://www.youtube.com/watch?v=GIRpQEfYf3U  _(manual 2026-06-08, aidoteng-gap)_
+- **URL**: https://www.youtube.com/watch?v=vNCY9kXXyDQ  _(manual 2026-06-08, aidoteng-gap)_
+- **URL**: https://www.youtube.com/watch?v=-TiET_K-E_g  _(manual 2026-06-08, aidoteng-gap)_
+
+## 2026-06-09T07:00 — auto-descubierto · @claudeai
+
+### `LrZHnKS_L6k_Working_Like_a_Lawyer_with_Claude.knowledge`
+- **Source**: claude_anthropic_youtube · `LrZHnKS_L6k` · 3:40 · upload NA
+- **URL**: https://www.youtube.com/watch?v=LrZHnKS_L6k
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-09T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.169
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-08
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.169
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>--safe-mode</code> flag (and <code>CLAUDE_CODE_SAFE_MODE</code>) to start Claude Code with all customizations (CLAUDE.md, plugins, skills, hooks, MCP serve
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.168
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.168
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.167
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.167
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.166
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.166
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>fallbackModel</code> setting to configure up to three fallback models tried in order when the primary model is overloaded or unavailable; <code>--fallback-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.165
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-05
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.165
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.163
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-04
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.163
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>requiredMinimumVersion</code> and <code>requiredMaximumVersion</code> managed settings — Claude Code refuses to start if its version is outside the allowed
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.162
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.162
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>claude agents --json</code> now includes <code>waitingFor</code> showing what a waiting session is blocked on (e.g. permission prompt)</li>
+<li><code>--tools</co
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.161
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.161
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>OTEL_RESOURCE_ATTRIBUTES</code> values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo</li
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-08
+- **URL**: https://github.com/anthropics/claude-code/commit/f967b36c1ba1c068372fa7dcac4fae93030103fb
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/72281753c2af394d35d6950af5980832cbebd322
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/c1b75cba5e990e643ed62db6769a9f9807bdb053
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/6988846f0f7bd570788b2551aeec7854b3c6b11e
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-05
+- **URL**: https://github.com/anthropics/claude-code/commit/feabcc3c2b9abf057a3721cf5427f8f50d75618f
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-04
+- **URL**: https://github.com/anthropics/claude-code/commit/d1e174252d0af47174bd9fbdec6abb092b49226a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/commit/b67fa4fa2c4f42e9b88a31f31906f3142bc165c5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-02
+- **URL**: https://github.com/anthropics/claude-code/commit/625c04c3350378c3d74662505aae3e9dcf3fa1b4
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-08
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-09
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-09
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-06-05
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-06-07
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-09T07:00 — auto-descubierto · github · karpathy
+
+### An efficient, batched LSTM.
+- **Source**: github `karpathy_gists` · 2026-06-02
+- **URL**: https://gist.github.com/karpathy/587454dc0146a6ae21fc
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/587454dc0146a6ae21fc#file-gistfile1-py">gistfile1.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-gistfile1-p
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:07 — auto-descubierto · web · anthropic_blog
+
+### claude-fable-5-mythos-5
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/claude-fable-5-mythos-5
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+
+## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.170
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.170
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use. Fable’s capabilities exceed those of any model we’ve ever made generally availab
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.169
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-08
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.169
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>--safe-mode</code> flag (and <code>CLAUDE_CODE_SAFE_MODE</code>) to start Claude Code with all customizations (CLAUDE.md, plugins, skills, hooks, MCP serve
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.168
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.168
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.167
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.167
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.166
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.166
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>fallbackModel</code> setting to configure up to three fallback models tried in order when the primary model is overloaded or unavailable; <code>--fallback-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.165
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-05
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.165
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.163
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-04
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.163
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>requiredMinimumVersion</code> and <code>requiredMaximumVersion</code> managed settings — Claude Code refuses to start if its version is outside the allowed
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.162
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.162
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li><code>claude agents --json</code> now includes <code>waitingFor</code> showing what a waiting session is blocked on (e.g. permission prompt)</li>
+<li><code>--tools</co
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/commit/1c5f951a48934b8bb27532ac54b7f877fed3de12
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/commit/6a9c2dbe450466738526c9fa889d989ad48d1300
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-08
+- **URL**: https://github.com/anthropics/claude-code/commit/f967b36c1ba1c068372fa7dcac4fae93030103fb
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/72281753c2af394d35d6950af5980832cbebd322
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/c1b75cba5e990e643ed62db6769a9f9807bdb053
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/6988846f0f7bd570788b2551aeec7854b3c6b11e
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-05
+- **URL**: https://github.com/anthropics/claude-code/commit/feabcc3c2b9abf057a3721cf5427f8f50d75618f
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-04
+- **URL**: https://github.com/anthropics/claude-code/commit/d1e174252d0af47174bd9fbdec6abb092b49226a
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-03
+- **URL**: https://github.com/anthropics/claude-code/commit/b67fa4fa2c4f42e9b88a31f31906f3142bc165c5
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-09
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-10
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-10
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-06-05
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:08 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-06-07
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-10T07:10 — auto-descubierto · @aiDotEngineer
+
+### `zDGHt0LB-dA_GPU_Cloud_Deployment_Without_Leaving_Your_IDE_—_Audry_Hsu,_RunPod.knowledge`
+- **Source**: aidotengineer_youtube · `zDGHt0LB-dA` · 20:19 · upload NA
+- **URL**: https://www.youtube.com/watch?v=zDGHt0LB-dA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-10T07:12 — auto-descubierto · @aiDotEngineer
+
+### `Bc6Ojl2XS1w_From_Transcription_to_Live_Music__Gemini's_Audio_Stack_—_Thor_Schaeff,_Google_DeepMind.knowledge`
+- **Source**: aidotengineer_youtube · `Bc6Ojl2XS1w` · 19:34 · upload NA
+- **URL**: https://www.youtube.com/watch?v=Bc6Ojl2XS1w
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-10T07:14 — auto-descubierto · @mehulmpt
+
+### `8z9WOww4nB8_NEW_Claude_Mythos_Model_Is_INSANE.knowledge`
+- **Source**: mehulmpt_youtube · `8z9WOww4nB8` · 17:04 · upload NA
+- **URL**: https://www.youtube.com/watch?v=8z9WOww4nB8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-11T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.172
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-10
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.172
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Sub-agents can now spawn their own sub-agents (up to 5 levels deep)</li>
+<li>Amazon Bedrock now reads the AWS region from <code>~/.aws</code> config files when <code>A
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-11T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.170
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.170
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use. Fable’s capabilities exceed those of any model we’ve ever made generally availab
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-11T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.169
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-08
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.169
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>--safe-mode</code> flag (and <code>CLAUDE_CODE_SAFE_MODE</code>) to start Claude Code with all customizations (CLAUDE.md, plugins, skills, hooks, MCP serve
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-11T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.168
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.168
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-11T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.167
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.167
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-11T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.166
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.166
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>fallbackModel</code> setting to configure up to three fallback models tried in order when the primary model is overloaded or unavailable; <code>--fallback-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-11T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.165
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-05
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.165
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-11T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.163
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-04
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.163
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>requiredMinimumVersion</code> and <code>requiredMaximumVersion</code> managed settings — Claude Code refuses to start if its version is outside the allowed
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-11T07:01 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-10
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-11T07:01 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-11
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-11T07:01 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-10
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-11T07:01 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-06-10
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-11T07:01 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-06-10
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-11T07:04 — auto-descubierto · AI Impact
+
+### `z02Y-1OvWSM_Don't_Use_Karpathy's_Second_Brain_(I_BUILT_SOMETHING_BETTER).knowledge`
+- **Source**: youtube_mentions_karpathy · `z02Y-1OvWSM` · 12:43 · upload ?
+- **URL**: https://www.youtube.com/watch?v=z02Y-1OvWSM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-11T07:08 — auto-descubierto · @sequoiacapital
+
+### `2UpQbeAZuqA_NVIDIA's_Jensen_Huang_on_Building_the_Dynamo_of_the_Intelligence_Age.knowledge`
+- **Source**: sequoiacapital_youtube · `2UpQbeAZuqA` · 41:21 · upload NA
+- **URL**: https://www.youtube.com/watch?v=2UpQbeAZuqA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-11T07:09 — auto-descubierto · @aiDotEngineer
+
+### `TNwJ1LMiENk_Stop_Making_Models_Bigger,_Make_Them_Behave_—_Kobie_Crawdord,_Snorkel.knowledge`
+- **Source**: aidotengineer_youtube · `TNwJ1LMiENk` · 20:56 · upload NA
+- **URL**: https://www.youtube.com/watch?v=TNwJ1LMiENk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-11T07:12 — auto-descubierto · @aiDotEngineer
+
+### `SS-A8sE7hkw_Sovereign_Escape_Velocity__Ownership_w_Open_Models_—_Gus_Martins,_&_Ian_Ballantyne,_Google_DeepMind.knowledge`
+- **Source**: aidotengineer_youtube · `SS-A8sE7hkw` · 20:52 · upload NA
+- **URL**: https://www.youtube.com/watch?v=SS-A8sE7hkw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-11T07:13 — auto-descubierto · @aiDotEngineer
+
+### `UM6sFg_jdlE_RAG_is_dead,_right___—_Kuba_Rogut,_Turbopuffer.knowledge`
+- **Source**: aidotengineer_youtube · `UM6sFg_jdlE` · 11:13 · upload NA
+- **URL**: https://www.youtube.com/watch?v=UM6sFg_jdlE
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-11T07:14 — auto-descubierto · @mehulmpt
+
+### `Futwwcn8ZNw_I_Build_Everything_With_Cloudflare_(why_you_should_too).knowledge`
+- **Source**: mehulmpt_youtube · `Futwwcn8ZNw` · 9:30 · upload NA
+- **URL**: https://www.youtube.com/watch?v=Futwwcn8ZNw
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-11T07:15 — auto-descubierto · @lukas-margerie
+
+### `MYPlBOvV6kc_Ideogram_Just_Dropped_an_MCP_(AI_Photoshoots_Inside_Claude_Code).knowledge`
+- **Source**: lukas_margerie_youtube · `MYPlBOvV6kc` · 10:02 · upload NA
+- **URL**: https://www.youtube.com/watch?v=MYPlBOvV6kc
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
