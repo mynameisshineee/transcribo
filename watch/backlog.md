@@ -47,7 +47,7 @@
 - **Source**: claude_anthropic_youtube · `O0FGCxkHM-U` · 3:01 · upload NA
 - **URL**: https://www.youtube.com/watch?v=O0FGCxkHM-U
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:03 — auto-descubierto · @claudeai
@@ -56,7 +56,7 @@
 - **Source**: claude_anthropic_youtube · `kkBFmwkDzdo` · 3:37 · upload NA
 - **URL**: https://www.youtube.com/watch?v=kkBFmwkDzdo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:05 — auto-descubierto · @claudeai
@@ -65,7 +65,7 @@
 - **Source**: claude_anthropic_youtube · `KLCuxMDZSDg` · 21:23 · upload NA
 - **URL**: https://www.youtube.com/watch?v=KLCuxMDZSDg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:08 — auto-descubierto · @claudeai
@@ -74,7 +74,7 @@
 - **Source**: claude_anthropic_youtube · `BrpB-h1e--k` · 24:57 · upload NA
 - **URL**: https://www.youtube.com/watch?v=BrpB-h1e--k
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:10 — X scan manual @bcherny + @karpathy
@@ -138,7 +138,7 @@
 - **Source**: claude_anthropic_youtube · `igO8iyca2_g` · 28:38 · upload NA
 - **URL**: https://www.youtube.com/watch?v=igO8iyca2_g
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:14 — auto-descubierto · @claudeai
@@ -147,7 +147,7 @@
 - **Source**: claude_anthropic_youtube · `OXJO4LldSnc` · 24:02 · upload NA
 - **URL**: https://www.youtube.com/watch?v=OXJO4LldSnc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:17 — auto-descubierto · @claudeai
@@ -156,7 +156,7 @@
 - **Source**: claude_anthropic_youtube · `SqHsS737CeA` · 26:30 · upload NA
 - **URL**: https://www.youtube.com/watch?v=SqHsS737CeA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:19 — auto-descubierto · @claudeai
@@ -165,7 +165,7 @@
 - **Source**: claude_anthropic_youtube · `snroDwX1-JU` · 27:43 · upload NA
 - **URL**: https://www.youtube.com/watch?v=snroDwX1-JU
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:19 — auto-descubierto · @claudeai
@@ -174,7 +174,7 @@
 - **Source**: claude_anthropic_youtube · `BbYSGxtsMic` · 14:36 · upload NA
 - **URL**: https://www.youtube.com/watch?v=BbYSGxtsMic
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:21 — auto-descubierto · @claudeai
@@ -183,7 +183,7 @@
 - **Source**: claude_anthropic_youtube · `RtywqDFBYnQ` · 24:29 · upload NA
 - **URL**: https://www.youtube.com/watch?v=RtywqDFBYnQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:21 — auto-descubierto · @claudeai
@@ -192,7 +192,7 @@
 - **Source**: claude_anthropic_youtube · `Lbml7IuGJYw` · 4:17 · upload NA
 - **URL**: https://www.youtube.com/watch?v=Lbml7IuGJYw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:21 — auto-descubierto · @claudeai
@@ -201,7 +201,7 @@
 - **Source**: claude_anthropic_youtube · `IkaPHiMDazM` · 3:22 · upload NA
 - **URL**: https://www.youtube.com/watch?v=IkaPHiMDazM
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:22 — auto-descubierto · @claudeai
@@ -210,7 +210,7 @@
 - **Source**: claude_anthropic_youtube · `RnOWJoHU_NY` · 4:18 · upload NA
 - **URL**: https://www.youtube.com/watch?v=RnOWJoHU_NY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:22 — auto-descubierto · @claudeai
@@ -219,7 +219,7 @@
 - **Source**: claude_anthropic_youtube · `TkSZqH0n7m0` · 6:51 · upload NA
 - **URL**: https://www.youtube.com/watch?v=TkSZqH0n7m0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:22 — auto-descubierto · @claudeai
@@ -228,7 +228,7 @@
 - **Source**: claude_anthropic_youtube · `TxS-1invhzg` · 4:05 · upload NA
 - **URL**: https://www.youtube.com/watch?v=TxS-1invhzg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:23 — auto-descubierto · @claudeai
@@ -237,7 +237,7 @@
 - **Source**: claude_anthropic_youtube · `005JLRt3gXI` · 5:14 · upload NA
 - **URL**: https://www.youtube.com/watch?v=005JLRt3gXI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:23 — auto-descubierto · @claudeai
@@ -246,7 +246,7 @@
 - **Source**: claude_anthropic_youtube · `NLWiIj47IdI` · 3:53 · upload NA
 - **URL**: https://www.youtube.com/watch?v=NLWiIj47IdI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:23 — auto-descubierto · github · https://github.com/anthropics/claude-code
@@ -517,7 +517,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: karpathy_youtube · `EWvNQjAaOHw` · 131:12 · upload NA
 - **URL**: https://www.youtube.com/watch?v=EWvNQjAaOHw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:46 — auto-descubierto · @AndrejKarpathy
@@ -526,7 +526,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: karpathy_youtube · `7xTGNNLPyMI` · 211:24 · upload NA
 - **URL**: https://www.youtube.com/watch?v=7xTGNNLPyMI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-11T23:58 — auto-descubierto · @AndrejKarpathy
@@ -535,7 +535,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: karpathy_youtube · `l8pRSuU81PU` · 241:26 · upload NA
 - **URL**: https://www.youtube.com/watch?v=l8pRSuU81PU
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T00:09 — auto-descubierto · @AndrejKarpathy
@@ -544,7 +544,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: karpathy_youtube · `zduSFxRajkE` · 133:35 · upload NA
 - **URL**: https://www.youtube.com/watch?v=zduSFxRajkE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T00:15 — auto-descubierto · @AndrejKarpathy
@@ -553,7 +553,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: karpathy_youtube · `zjkBMFhNj_g` · 59:48 · upload NA
 - **URL**: https://www.youtube.com/watch?v=zjkBMFhNj_g
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T00:30 — auto-descubierto · @AndrejKarpathy
@@ -562,7 +562,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: karpathy_youtube · `kCc8FmEb1nY` · 116:20 · upload NA
 - **URL**: https://www.youtube.com/watch?v=kCc8FmEb1nY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T00:35 — auto-descubierto · @AndrejKarpathy
@@ -571,7 +571,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: karpathy_youtube · `t3YJ5hKiMQ0` · 56:22 · upload NA
 - **URL**: https://www.youtube.com/watch?v=t3YJ5hKiMQ0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T00:44 — auto-descubierto · @AndrejKarpathy
@@ -580,7 +580,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: karpathy_youtube · `q8SA3rM6ckI` · 115:24 · upload NA
 - **URL**: https://www.youtube.com/watch?v=q8SA3rM6ckI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T00:53 — auto-descubierto · @AndrejKarpathy
@@ -589,7 +589,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: karpathy_youtube · `P6sfmUTpUmc` · 115:58 · upload NA
 - **URL**: https://www.youtube.com/watch?v=P6sfmUTpUmc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T00:58 — auto-descubierto · @AndrejKarpathy
@@ -598,7 +598,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: karpathy_youtube · `TCH_1BHY58I` · 75:40 · upload NA
 - **URL**: https://www.youtube.com/watch?v=TCH_1BHY58I
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T01:04 — auto-descubierto · @AndrejKarpathy
@@ -607,7 +607,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: karpathy_youtube · `PaCmpygFfXo` · 117:45 · upload NA
 - **URL**: https://www.youtube.com/watch?v=PaCmpygFfXo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T01:05 — auto-descubierto · @AndrejKarpathy
@@ -616,7 +616,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: karpathy_youtube · `kVpDARqZdrQ` · 4:02 · upload NA
 - **URL**: https://www.youtube.com/watch?v=kVpDARqZdrQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T01:06 — auto-descubierto · @AndrejKarpathy
@@ -625,7 +625,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: karpathy_youtube · `2oKjtvYslMY` · 19:26 · upload NA
 - **URL**: https://www.youtube.com/watch?v=2oKjtvYslMY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T01:13 — auto-descubierto · @AndrejKarpathy
@@ -634,7 +634,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: karpathy_youtube · `VMj-3S1tku0` · 145:52 · upload NA
 - **URL**: https://www.youtube.com/watch?v=VMj-3S1tku0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T01:14 — auto-descubierto · @AndrejKarpathy
@@ -643,7 +643,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: karpathy_youtube · `vEnetcj_728` · 5:03 · upload NA
 - **URL**: https://www.youtube.com/watch?v=vEnetcj_728
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T01:14 — auto-descubierto · github · karpathy
@@ -737,7 +737,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: seedrocket_tv_youtube · `FR3hcmqFSU4` · 61:46 · upload NA
 - **URL**: https://www.youtube.com/watch?v=FR3hcmqFSU4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
@@ -983,7 +983,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_boris_cherny · `SlGRN8jh2RI` · 24:36 · upload ?
 - **URL**: https://www.youtube.com/watch?v=SlGRN8jh2RI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T11:06 — auto-descubierto · Y Combinator
@@ -992,7 +992,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_boris_cherny · `PQU9o_5rHC4` · 50:11 · upload ?
 - **URL**: https://www.youtube.com/watch?v=PQU9o_5rHC4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T11:09 — auto-descubierto · Austin Marchese
@@ -1001,7 +1001,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_boris_cherny · `KWrsLqnB6vA` · 12:17 · upload ?
 - **URL**: https://www.youtube.com/watch?v=KWrsLqnB6vA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T11:12 — auto-descubierto · CNBC Television
@@ -1010,7 +1010,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_boris_cherny · `kRgdkOw82F0` · 16:37 · upload ?
 - **URL**: https://www.youtube.com/watch?v=kRgdkOw82F0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T11:13 — auto-descubierto · Ryan Peterman
@@ -1019,7 +1019,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_boris_cherny · `mz4UDbi7oBw` · 6:01 · upload ?
 - **URL**: https://www.youtube.com/watch?v=mz4UDbi7oBw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T11:15 — auto-descubierto · Native Notify
@@ -1028,7 +1028,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_boris_cherny · `XFypJiHPyv8` · 10:27 · upload ?
 - **URL**: https://www.youtube.com/watch?v=XFypJiHPyv8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T11:18 — auto-descubierto · AI Engineer
@@ -1037,7 +1037,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_boris_cherny · `Lue8K2jqfKk` · 18:12 · upload ?
 - **URL**: https://www.youtube.com/watch?v=Lue8K2jqfKk
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T11:23 — auto-descubierto · Claude
@@ -1046,7 +1046,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_boris_cherny · `DlTCu_pNDHE` · 32:00 · upload ?
 - **URL**: https://www.youtube.com/watch?v=DlTCu_pNDHE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T11:31 — auto-descubierto · Bessemer Venture Partners
@@ -1055,7 +1055,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_boris_cherny · `h-Hlt05REZk` · 51:56 · upload ?
 - **URL**: https://www.youtube.com/watch?v=h-Hlt05REZk
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T11:39 — auto-descubierto · The MAD Podcast with Matt Turck
@@ -1064,7 +1064,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_boris_cherny · `G4yZiAdOBJM` · 60:24 · upload ?
 - **URL**: https://www.youtube.com/watch?v=G4yZiAdOBJM
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T11:39 — auto-descubierto · github · karpathy
@@ -1172,7 +1172,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_karpathy · `96jN2OCOfLs` · 29:49 · upload ?
 - **URL**: https://www.youtube.com/watch?v=96jN2OCOfLs
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T12:02 — auto-descubierto · Dwarkesh Patel
@@ -1181,7 +1181,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_karpathy · `lXUZvyajciY` · 146:08 · upload ?
 - **URL**: https://www.youtube.com/watch?v=lXUZvyajciY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T12:04 — auto-descubierto · Nate Herk | AI Automation
@@ -1190,7 +1190,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_karpathy · `sboNwYmH3AY` · 17:47 · upload ?
 - **URL**: https://www.youtube.com/watch?v=sboNwYmH3AY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T12:09 — auto-descubierto · Y Combinator
@@ -1199,7 +1199,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_karpathy · `LCEmiRjPEtQ` · 39:32 · upload ?
 - **URL**: https://www.youtube.com/watch?v=LCEmiRjPEtQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T12:10 — auto-descubierto · Upgraded
@@ -1208,7 +1208,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_karpathy · `VRub1w-APTc` · 10:08 · upload ?
 - **URL**: https://www.youtube.com/watch?v=VRub1w-APTc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T12:12 — auto-descubierto · Teacher's Tech
@@ -1217,7 +1217,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_karpathy · `iXd0t60YmMw` · 15:05 · upload ?
 - **URL**: https://www.youtube.com/watch?v=iXd0t60YmMw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T12:22 — auto-descubierto · AI Engineer and Matt Pocock
@@ -1226,7 +1226,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_karpathy · `-QFHIoCo-Ko` · 96:30 · upload ?
 - **URL**: https://www.youtube.com/watch?v=-QFHIoCo-Ko
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T18:46 — auto-descubierto · @jevanclief
@@ -1235,7 +1235,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `kyBSX0ndYDc` · 12:35 · upload NA
 - **URL**: https://www.youtube.com/watch?v=kyBSX0ndYDc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T18:49 — auto-descubierto · @jevanclief
@@ -1244,7 +1244,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `AZ1l-oaD3tk` · 54:47 · upload NA
 - **URL**: https://www.youtube.com/watch?v=AZ1l-oaD3tk
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T18:50 — auto-descubierto · @jevanclief
@@ -1253,7 +1253,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `hALln9wrrQo` · 14:04 · upload NA
 - **URL**: https://www.youtube.com/watch?v=hALln9wrrQo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T18:51 — auto-descubierto · @jevanclief
@@ -1262,7 +1262,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `oQ6tsBFJZzk` · 12:15 · upload NA
 - **URL**: https://www.youtube.com/watch?v=oQ6tsBFJZzk
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-12T19:00 — X scan manual @trq212 (Thariq Shihipar, Anthropic)
@@ -1328,7 +1328,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: claude_anthropic_youtube · `FPPTnI88RR8` · 3:42 · upload NA
 - **URL**: https://www.youtube.com/watch?v=FPPTnI88RR8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
@@ -1573,7 +1573,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_boris_cherny · `julbw1JuAz0` · 97:59 · upload ?
 - **URL**: https://www.youtube.com/watch?v=julbw1JuAz0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T07:33 — auto-descubierto · Lenny's Podcast
@@ -1582,7 +1582,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_boris_cherny · `We7BZVKbCVw` · 87:45 · upload ?
 - **URL**: https://www.youtube.com/watch?v=We7BZVKbCVw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T07:48 — auto-descubierto · Ryan Peterman
@@ -1591,7 +1591,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_boris_cherny · `AmdLVWMdjOk` · 84:32 · upload ?
 - **URL**: https://www.youtube.com/watch?v=AmdLVWMdjOk
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T07:50 — auto-descubierto · Austin Marchese
@@ -1600,7 +1600,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_boris_cherny · `jdLFeBkiy3M` · 10:08 · upload ?
 - **URL**: https://www.youtube.com/watch?v=jdLFeBkiy3M
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T07:52 — auto-descubierto · Dubibubii
@@ -1609,7 +1609,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_boris_cherny · `VIbew55IpE4` · 10:15 · upload ?
 - **URL**: https://www.youtube.com/watch?v=VIbew55IpE4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T07:57 — auto-descubierto · BeastAI
@@ -1618,7 +1618,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_boris_cherny · `B_KAEqiC-0Q` · 27:31 · upload ?
 - **URL**: https://www.youtube.com/watch?v=B_KAEqiC-0Q
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T08:02 — auto-descubierto · Anthropic
@@ -1627,7 +1627,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_boris_cherny · `gv0WHhKelSE` · 25:53 · upload ?
 - **URL**: https://www.youtube.com/watch?v=gv0WHhKelSE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T08:02 — auto-descubierto · github · karpathy
@@ -1720,7 +1720,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_karpathy · `kwSVtQ7dziU` · 66:32 · upload ?
 - **URL**: https://www.youtube.com/watch?v=kwSVtQ7dziU
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T08:18 — auto-descubierto · Rob Shocks
@@ -1729,7 +1729,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_karpathy · `rsaaVXg28-8` · 14:08 · upload ?
 - **URL**: https://www.youtube.com/watch?v=rsaaVXg28-8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T08:19 — auto-descubierto · Dwarkesh Clips and Dwarkesh Patel
@@ -1738,7 +1738,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_karpathy · `36OBX5lQjGc` · 4:10 · upload ?
 - **URL**: https://www.youtube.com/watch?v=36OBX5lQjGc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T08:23 — auto-descubierto · David Ondrej
@@ -1747,7 +1747,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_karpathy · `uBWuKh1nZ2Y` · 19:53 · upload ?
 - **URL**: https://www.youtube.com/watch?v=uBWuKh1nZ2Y
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T08:24 — auto-descubierto · Dwarkesh Clips and Dwarkesh Patel
@@ -1756,7 +1756,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_karpathy · `LnGRHVlsheo` · 6:54 · upload ?
 - **URL**: https://www.youtube.com/watch?v=LnGRHVlsheo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T08:32 — auto-descubierto · @jevanclief
@@ -1765,7 +1765,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `pdoSAWWCDO8` · 42:29 · upload NA
 - **URL**: https://www.youtube.com/watch?v=pdoSAWWCDO8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T08:38 — auto-descubierto · @jevanclief
@@ -1774,7 +1774,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `ZMDXs59Ntjc` · 45:17 · upload NA
 - **URL**: https://www.youtube.com/watch?v=ZMDXs59Ntjc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T08:42 — auto-descubierto · @jevanclief
@@ -1783,7 +1783,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `ozkx_eUfjY0` · 29:22 · upload NA
 - **URL**: https://www.youtube.com/watch?v=ozkx_eUfjY0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T08:48 — auto-descubierto · @jevanclief
@@ -1792,7 +1792,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `0fCQ-4J_jzk` · 51:22 · upload NA
 - **URL**: https://www.youtube.com/watch?v=0fCQ-4J_jzk
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T08:52 — auto-descubierto · @jevanclief
@@ -1801,7 +1801,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `rHDA0WMXzy4` · 24:33 · upload NA
 - **URL**: https://www.youtube.com/watch?v=rHDA0WMXzy4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T08:54 — auto-descubierto · @jevanclief
@@ -1810,7 +1810,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `MkN-ss2Nl10` · 23:19 · upload NA
 - **URL**: https://www.youtube.com/watch?v=MkN-ss2Nl10
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T08:56 — auto-descubierto · @jevanclief
@@ -1819,7 +1819,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `izMBiWG3L24` · 11:59 · upload NA
 - **URL**: https://www.youtube.com/watch?v=izMBiWG3L24
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T09:00 — auto-descubierto · @jevanclief
@@ -1828,7 +1828,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `6hF2K4YGZbY` · 30:35 · upload NA
 - **URL**: https://www.youtube.com/watch?v=6hF2K4YGZbY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T09:03 — auto-descubierto · @jevanclief
@@ -1837,7 +1837,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `vyN7ITKcGXU` · 22:32 · upload NA
 - **URL**: https://www.youtube.com/watch?v=vyN7ITKcGXU
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T09:05 — auto-descubierto · @jevanclief
@@ -1846,7 +1846,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `KC0VEZuo4OI` · 14:51 · upload NA
 - **URL**: https://www.youtube.com/watch?v=KC0VEZuo4OI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T09:06 — auto-descubierto · @jevanclief
@@ -1855,7 +1855,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `J2GLzkaUrBc` · 4:56 · upload NA
 - **URL**: https://www.youtube.com/watch?v=J2GLzkaUrBc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T09:08 — auto-descubierto · @jevanclief
@@ -1864,7 +1864,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `SjlCJIU9ODs` · 14:26 · upload NA
 - **URL**: https://www.youtube.com/watch?v=SjlCJIU9ODs
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-13T11:48 — X scan manual @DeRonin_ (Ronin)
@@ -1930,7 +1930,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://plane.so/blog/introducing-releases
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:15 — auto-descubierto · web · plane_so_blog
 
@@ -1939,7 +1939,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://plane.so/blog/introducing-pql-and-enhanced-dashboards
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:15 — auto-descubierto · web · plane_so_blog
 
@@ -1948,7 +1948,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://plane.so/blog/meet-the-new-work-item-detail-page
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:15 — auto-descubierto · web · plane_so_blog
 
@@ -1957,7 +1957,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://plane.so/blog/why-is-self-hosting-making-a-comeback
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:15 — auto-descubierto · web · plane_so_blog
 
@@ -1966,7 +1966,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://plane.so/blog/11-jira-alternatives-you-can-self-host-in-2026
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:15 — auto-descubierto · web · plane_so_blog
 
@@ -1975,7 +1975,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://plane.so/blog/plane-vs-asana-which-should-you-choose-in-2026
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:15 — auto-descubierto · web · plane_so_blog
 
@@ -1984,7 +1984,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://plane.so/blog/building-zero-loss-event-streaming-with-postgresql-django-and-rabbitmq
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:15 — auto-descubierto · web · plane_so_blog
 
@@ -1993,7 +1993,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://plane.so/blog/plane-vs-openproject-which-should-you-choose-in-2026
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:15 — auto-descubierto · web · plane_so_blog
 
@@ -2002,7 +2002,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://plane.so/blog/how-we-replaced-shared-staging-with-ephemeral-deployment-preview
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
 
@@ -2011,7 +2011,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/news/claude-opus-4-7
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
 
@@ -2020,7 +2020,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/news/claude-design-anthropic-labs
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
 
@@ -2029,7 +2029,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/news/claude-is-a-space-to-think
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
 
@@ -2038,7 +2038,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/news/claude-for-small-business
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
 
@@ -2047,7 +2047,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/news/higher-limits-spacex
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
 
@@ -2056,7 +2056,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/news/finance-agents
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
 
@@ -2065,7 +2065,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/news/enterprise-ai-services-company
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
 
@@ -2074,7 +2074,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/news/claude-for-creative-work
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
 
@@ -2083,7 +2083,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
 
@@ -2092,7 +2092,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/news/election-safeguards-update
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
 
@@ -2101,7 +2101,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/news/anthropic-nec
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
 
@@ -2110,7 +2110,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/news/anthropic-amazon-compute
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_blog
 
@@ -2119,7 +2119,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2128,7 +2128,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/april-23-postmortem
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2137,7 +2137,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/managed-agents
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2146,7 +2146,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/claude-code-auto-mode
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2155,7 +2155,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/harness-design-long-running-apps
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2164,7 +2164,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/eval-awareness-browsecomp
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2173,7 +2173,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/infrastructure-noise
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2182,7 +2182,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/building-c-compiler
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2191,7 +2191,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/AI-resistant-technical-evaluations
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2200,7 +2200,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2209,7 +2209,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2218,7 +2218,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/advanced-tool-use
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2227,7 +2227,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/code-execution-with-mcp
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2236,7 +2236,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/claude-code-sandboxing
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2245,7 +2245,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2254,7 +2254,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2263,7 +2263,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2272,7 +2272,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/writing-tools-for-agents
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2281,7 +2281,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/desktop-extensions
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2290,7 +2290,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/multi-agent-research-system
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2299,7 +2299,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/claude-code-best-practices
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2308,7 +2308,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/claude-think-tool
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2317,7 +2317,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/swe-bench-sonnet
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2326,7 +2326,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/building-effective-agents
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T01:16 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -2335,7 +2335,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/engineering/contextual-retrieval
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-14T07:02 — auto-descubierto · @claudeai
 
@@ -2343,7 +2343,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: claude_anthropic_youtube · `IGAVa4uyo2w` · 16:39 · upload NA
 - **URL**: https://www.youtube.com/watch?v=IGAVa4uyo2w
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-14T07:02 — auto-descubierto · github · https://github.com/anthropics/claude-code
@@ -2636,7 +2636,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_karpathy · `d8BGxfW3Vj4` · 11:14 · upload ?
 - **URL**: https://www.youtube.com/watch?v=d8BGxfW3Vj4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-15T07:00 — auto-descubierto · @claudeai
@@ -2645,7 +2645,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: claude_anthropic_youtube · `0kILa02vKuI` · 3:02 · upload NA
 - **URL**: https://www.youtube.com/watch?v=0kILa02vKuI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-15T07:00 — auto-descubierto · web · anthropic_blog
@@ -2655,7 +2655,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/news/pwc-expanded-partnership
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-15T07:00 — auto-descubierto · web · anthropic_blog
 
@@ -2664,7 +2664,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **URL**: https://www.anthropic.com/news/gates-foundation-partnership
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-15T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
 
@@ -2954,7 +2954,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_karpathy · `tsTeEkzO9xc` · 92:27 · upload ?
 - **URL**: https://www.youtube.com/watch?v=tsTeEkzO9xc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-15T07:22 — auto-descubierto · AI News & Strategy Daily | Nate B Jones
@@ -2963,7 +2963,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_karpathy · `dxq7WtWxi44` · 41:09 · upload ?
 - **URL**: https://www.youtube.com/watch?v=dxq7WtWxi44
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-15T07:24 — auto-descubierto · Lex Clips
@@ -2972,7 +2972,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_karpathy · `I2ZK3ngNvvI` · 5:48 · upload ?
 - **URL**: https://www.youtube.com/watch?v=I2ZK3ngNvvI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-15T10:40 — auto-descubierto · @jevanclief
@@ -2981,7 +2981,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `yEa6dgh7wuc` · 13:12 · upload 2026-02-07
 - **URL**: https://www.youtube.com/watch?v=yEa6dgh7wuc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 - **Nota**: bajada manual (pre-backfill_since=2026-02-12, cron skip silencioso)
 
@@ -2991,7 +2991,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: jevanclief_youtube · `v2UnNFmkia0` · 8:12 · upload 2025-07-23
 - **URL**: https://www.youtube.com/watch?v=v2UnNFmkia0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 - **Nota**: bajada manual (pre-backfill_since=2026-02-12, cron skip silencioso)
 
@@ -3244,7 +3244,7 @@ Pin GitHub Actions to commit SHAs</pre>
 - **Source**: youtube_mentions_karpathy · `EeYkZloXIww` · 3:47 · upload ?
 - **URL**: https://www.youtube.com/watch?v=EeYkZloXIww
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-16T19:15 — auto-descubierto · @jevanclief (batch backfill 12)
@@ -3567,7 +3567,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `xJQuF02NAK8` · 3:12 · upload NA
 - **URL**: https://www.youtube.com/watch?v=xJQuF02NAK8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T07:01 — auto-descubierto · github · bcherny
@@ -3820,7 +3820,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: youtube_mentions_karpathy · `EsgUfrwsV5A` · 11:04 · upload ?
 - **URL**: https://www.youtube.com/watch?v=EsgUfrwsV5A
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T07:07 — auto-descubierto · Preserve Knowledge
@@ -3829,7 +3829,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: youtube_mentions_karpathy · `_au3yw46lcg` · 15:11 · upload ?
 - **URL**: https://www.youtube.com/watch?v=_au3yw46lcg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T08:11 — auto-descubierto · @jevanclief
@@ -3838,7 +3838,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: jevanclief_youtube · `nWbM9Ye2sLw` · 18:32 · upload NA
 - **URL**: https://www.youtube.com/watch?v=nWbM9Ye2sLw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T08:31 — auto-descubierto · AI Engineer
@@ -3847,7 +3847,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: youtube_mentions_thariq · `TqC1qOfiVcQ` · 112:25 · upload ?
 - **URL**: https://www.youtube.com/watch?v=TqC1qOfiVcQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T08:33 — auto-descubierto · YC Root Access
@@ -3856,7 +3856,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: youtube_mentions_thariq · `50Yz0O1yexY` · 10:18 · upload ?
 - **URL**: https://www.youtube.com/watch?v=50Yz0O1yexY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T08:43 — auto-descubierto · Figma
@@ -3865,7 +3865,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: youtube_mentions_thariq · `R9mBpeiCMM0` · 62:10 · upload ?
 - **URL**: https://www.youtube.com/watch?v=R9mBpeiCMM0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T08:45 — auto-descubierto · 最佳拍档
@@ -3874,7 +3874,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: youtube_mentions_thariq · `JUodHRhi9FQ` · 8:48 · upload ?
 - **URL**: https://www.youtube.com/watch?v=JUodHRhi9FQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T08:46 — auto-descubierto · DIY Smart Code
@@ -3883,7 +3883,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: youtube_mentions_thariq · `-iSLQe_imrE` · 8:55 · upload ?
 - **URL**: https://www.youtube.com/watch?v=-iSLQe_imrE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T08:48 — auto-descubierto · Richard Echols
@@ -3892,7 +3892,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: youtube_mentions_thariq · `Zo1plm8d4Kc` · 10:42 · upload ?
 - **URL**: https://www.youtube.com/watch?v=Zo1plm8d4Kc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T08:50 — auto-descubierto · AI LABS
@@ -3901,7 +3901,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: youtube_mentions_thariq · `B-UXpneKw6M` · 9:55 · upload ?
 - **URL**: https://www.youtube.com/watch?v=B-UXpneKw6M
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T08:53 — auto-descubierto · Onchain AI Garage
@@ -3910,7 +3910,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: youtube_mentions_thariq · `A8ceddKFvdg` · 21:17 · upload ?
 - **URL**: https://www.youtube.com/watch?v=A8ceddKFvdg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T08:53 — auto-descubierto · web · plane_so_blog
@@ -3920,7 +3920,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **URL**: https://plane.so/blog/introducing-mcp-connectors-and-cursor-agent
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-18T08:53 — auto-descubierto · web · plane_so_blog
 
@@ -3929,7 +3929,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **URL**: https://plane.so/blog/introducing-collections-and-ai-native-documentation
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-18T09:03 — auto-descubierto · @SeedRocketTV
 
@@ -3937,7 +3937,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `uoucndih9XI` · 61:21 · upload NA
 - **URL**: https://www.youtube.com/watch?v=uoucndih9XI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T09:12 — auto-descubierto · @SeedRocketTV
@@ -3946,7 +3946,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `bnCsl5bo0O0` · 56:15 · upload NA
 - **URL**: https://www.youtube.com/watch?v=bnCsl5bo0O0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T09:20 — auto-descubierto · @SeedRocketTV
@@ -3955,7 +3955,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `JiFkCqwThVI` · 65:21 · upload NA
 - **URL**: https://www.youtube.com/watch?v=JiFkCqwThVI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T09:27 — auto-descubierto · @SeedRocketTV
@@ -3964,7 +3964,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `GYCoMrteALo` · 59:53 · upload NA
 - **URL**: https://www.youtube.com/watch?v=GYCoMrteALo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T09:36 — auto-descubierto · @SeedRocketTV
@@ -3973,7 +3973,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `UgEI1xS52R8` · 64:47 · upload NA
 - **URL**: https://www.youtube.com/watch?v=UgEI1xS52R8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T09:43 — auto-descubierto · @SeedRocketTV
@@ -3982,7 +3982,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `moJ_kj28bzw` · 73:00 · upload NA
 - **URL**: https://www.youtube.com/watch?v=moJ_kj28bzw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T09:55 — auto-descubierto · @SeedRocketTV
@@ -3991,7 +3991,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `rj5JC-0f09Y` · 88:17 · upload NA
 - **URL**: https://www.youtube.com/watch?v=rj5JC-0f09Y
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T10:02 — auto-descubierto · @SeedRocketTV
@@ -4000,7 +4000,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `-FZKZJXiS-U` · 54:31 · upload NA
 - **URL**: https://www.youtube.com/watch?v=-FZKZJXiS-U
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T10:10 — auto-descubierto · @SeedRocketTV
@@ -4009,7 +4009,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `qmUJbUyje8s` · 63:26 · upload NA
 - **URL**: https://www.youtube.com/watch?v=qmUJbUyje8s
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T10:20 — auto-descubierto · @SeedRocketTV
@@ -4018,7 +4018,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `-M-mb_IW3Kw` · 66:00 · upload NA
 - **URL**: https://www.youtube.com/watch?v=-M-mb_IW3Kw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T10:30 — auto-descubierto · @SeedRocketTV
@@ -4027,7 +4027,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `VcCRzXCIshA` · 73:34 · upload NA
 - **URL**: https://www.youtube.com/watch?v=VcCRzXCIshA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T10:37 — auto-descubierto · @SeedRocketTV
@@ -4036,7 +4036,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `TFuYv53Qy5s` · 58:53 · upload NA
 - **URL**: https://www.youtube.com/watch?v=TFuYv53Qy5s
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T10:46 — auto-descubierto · @SeedRocketTV
@@ -4045,7 +4045,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `udutsmh9M3w` · 61:08 · upload NA
 - **URL**: https://www.youtube.com/watch?v=udutsmh9M3w
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T10:55 — auto-descubierto · @SeedRocketTV
@@ -4054,7 +4054,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `bcwS_H0OjDg` · 62:21 · upload NA
 - **URL**: https://www.youtube.com/watch?v=bcwS_H0OjDg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T11:02 — auto-descubierto · @SeedRocketTV
@@ -4063,7 +4063,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `TsTd2CGfIOE` · 45:35 · upload NA
 - **URL**: https://www.youtube.com/watch?v=TsTd2CGfIOE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T11:12 — auto-descubierto · @SeedRocketTV
@@ -4072,7 +4072,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `miluBcyJtqk` · 58:17 · upload NA
 - **URL**: https://www.youtube.com/watch?v=miluBcyJtqk
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T11:14 — auto-descubierto · @SeedRocketTV
@@ -4081,7 +4081,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `itY5gyHNOFU` · 14:04 · upload NA
 - **URL**: https://www.youtube.com/watch?v=itY5gyHNOFU
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T11:22 — auto-descubierto · @SeedRocketTV
@@ -4090,7 +4090,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `hHDMp7bE9_c` · 59:54 · upload NA
 - **URL**: https://www.youtube.com/watch?v=hHDMp7bE9_c
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T11:26 — auto-descubierto · @SeedRocketTV
@@ -4099,7 +4099,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `UcQ_RQQRBPo` · 37:02 · upload NA
 - **URL**: https://www.youtube.com/watch?v=UcQ_RQQRBPo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T11:28 — auto-descubierto · @SeedRocketTV
@@ -4108,7 +4108,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `Df8Ra8nuJls` · 10:46 · upload NA
 - **URL**: https://www.youtube.com/watch?v=Df8Ra8nuJls
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T11:39 — auto-descubierto · @SeedRocketTV
@@ -4117,7 +4117,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `pJ0HgrfUzAo` · 84:53 · upload NA
 - **URL**: https://www.youtube.com/watch?v=pJ0HgrfUzAo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T11:48 — auto-descubierto · @SeedRocketTV
@@ -4126,7 +4126,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `tT6URWvPMQA` · 76:46 · upload NA
 - **URL**: https://www.youtube.com/watch?v=tT6URWvPMQA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T11:50 — auto-descubierto · @SeedRocketTV
@@ -4135,7 +4135,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `8Y3H-AhFtJ4` · 13:47 · upload NA
 - **URL**: https://www.youtube.com/watch?v=8Y3H-AhFtJ4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T12:00 — auto-descubierto · @SeedRocketTV
@@ -4144,7 +4144,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `eh6bsq_KCjQ` · 74:20 · upload NA
 - **URL**: https://www.youtube.com/watch?v=eh6bsq_KCjQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T12:09 — auto-descubierto · @SeedRocketTV
@@ -4153,7 +4153,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `_nYS1RVswpw` · 58:00 · upload NA
 - **URL**: https://www.youtube.com/watch?v=_nYS1RVswpw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T12:11 — auto-descubierto · @SeedRocketTV
@@ -4162,7 +4162,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `dRSL9zT8o7s` · 15:54 · upload NA
 - **URL**: https://www.youtube.com/watch?v=dRSL9zT8o7s
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T12:13 — auto-descubierto · @SeedRocketTV
@@ -4171,7 +4171,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `qk39Weahn84` · 10:13 · upload NA
 - **URL**: https://www.youtube.com/watch?v=qk39Weahn84
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-18T12:22 — auto-descubierto · @SeedRocketTV
@@ -4180,7 +4180,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: seedrocket_tv_youtube · `_BzV3KKgfo0` · 66:30 · upload NA
 - **URL**: https://www.youtube.com/watch?v=_BzV3KKgfo0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-19T07:00 — auto-descubierto · @claudeai
@@ -4189,7 +4189,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `EPUg9pmfPk0` · 3:00 · upload NA
 - **URL**: https://www.youtube.com/watch?v=EPUg9pmfPk0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-19T07:01 — auto-descubierto · @claudeai
@@ -4198,7 +4198,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `lsufr1i6ACY` · 3:35 · upload NA
 - **URL**: https://www.youtube.com/watch?v=lsufr1i6ACY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-19T07:02 — auto-descubierto · @claudeai
@@ -4207,7 +4207,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `dDg7vhvtbEE` · 3:32 · upload NA
 - **URL**: https://www.youtube.com/watch?v=dDg7vhvtbEE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-19T07:03 — auto-descubierto · @claudeai
@@ -4216,7 +4216,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `eW3oTyfeWZ0` · 3:31 · upload NA
 - **URL**: https://www.youtube.com/watch?v=eW3oTyfeWZ0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-19T07:03 — auto-descubierto · web · anthropic_blog
@@ -4226,7 +4226,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **URL**: https://www.anthropic.com/news/anthropic-acquires-stainless
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-19T07:03 — auto-descubierto · github · bcherny
 
@@ -4381,7 +4381,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: youtube_mentions_boris_cherny · `UlVcg6YlXz0` · 14:54 · upload ?
 - **URL**: https://www.youtube.com/watch?v=UlVcg6YlXz0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-19T07:06 — auto-descubierto · github · karpathy
@@ -4487,7 +4487,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: youtube_mentions_karpathy · `hzQie4EucY0` · 9:59 · upload ?
 - **URL**: https://www.youtube.com/watch?v=hzQie4EucY0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-19T07:09 — auto-descubierto · Mo Bitar
@@ -4496,7 +4496,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: youtube_mentions_karpathy · `ZugX7a99dLk` · 8:03 · upload ?
 - **URL**: https://www.youtube.com/watch?v=ZugX7a99dLk
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-19T07:09 — auto-descubierto · github · thariqs
@@ -4537,7 +4537,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `6amLO7I9xdg` · 46:27 · upload NA
 - **URL**: https://www.youtube.com/watch?v=6amLO7I9xdg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-20T07:07 — auto-descubierto · web · anthropic_blog
@@ -4547,7 +4547,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **URL**: https://www.anthropic.com/news/widening-conversation-ai
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-20T07:07 — auto-descubierto · web · anthropic_blog
 
@@ -4556,7 +4556,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **URL**: https://www.anthropic.com/news/anthropic-kpmg
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-20T07:07 — auto-descubierto · github · bcherny
 
@@ -4792,7 +4792,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: youtube_mentions_karpathy · `hRAjRZdXgus` · 3:38 · upload ?
 - **URL**: https://www.youtube.com/watch?v=hRAjRZdXgus
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-20T07:44 — auto-descubierto · Lex Fridman
@@ -4801,7 +4801,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: youtube_mentions_karpathy · `cdiD-9MMpb0` · 208:48 · upload ?
 - **URL**: https://www.youtube.com/watch?v=cdiD-9MMpb0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-20T07:44 — auto-descubierto · github · thariqs
@@ -4842,7 +4842,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `T7KqH7kYnE4` · 21:18 · upload NA
 - **URL**: https://www.youtube.com/watch?v=T7KqH7kYnE4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-21T07:08 — auto-descubierto · @claudeai
@@ -4851,7 +4851,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `mhW-XXnDFSU` · 31:11 · upload NA
 - **URL**: https://www.youtube.com/watch?v=mhW-XXnDFSU
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-21T07:14 — auto-descubierto · @claudeai
@@ -4860,7 +4860,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `ORLekLxxPXk` · 28:43 · upload NA
 - **URL**: https://www.youtube.com/watch?v=ORLekLxxPXk
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-21T07:19 — auto-descubierto · @claudeai
@@ -4869,7 +4869,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `XFaeIbL-lvE` · 29:11 · upload NA
 - **URL**: https://www.youtube.com/watch?v=XFaeIbL-lvE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-21T07:23 — auto-descubierto · @claudeai
@@ -4878,7 +4878,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `VueeyKcquoA` · 23:59 · upload NA
 - **URL**: https://www.youtube.com/watch?v=VueeyKcquoA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-21T07:27 — auto-descubierto · @claudeai
@@ -4887,7 +4887,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `eSP7PLTXNy8` · 22:04 · upload NA
 - **URL**: https://www.youtube.com/watch?v=eSP7PLTXNy8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-21T07:33 — auto-descubierto · @claudeai
@@ -4896,7 +4896,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `TQd_YQvydVg` · 34:16 · upload NA
 - **URL**: https://www.youtube.com/watch?v=TQd_YQvydVg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-21T07:38 — auto-descubierto · @claudeai
@@ -4905,7 +4905,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `zFslvuvYifQ` · 27:37 · upload NA
 - **URL**: https://www.youtube.com/watch?v=zFslvuvYifQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-21T07:41 — auto-descubierto · @claudeai
@@ -4914,7 +4914,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `5YHIrTYxM3w` · 19:42 · upload NA
 - **URL**: https://www.youtube.com/watch?v=5YHIrTYxM3w
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-21T08:02 — auto-descubierto · @claudeai
@@ -4923,7 +4923,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `wI0ptqCSL0I` · 37:07 · upload NA
 - **URL**: https://www.youtube.com/watch?v=wI0ptqCSL0I
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-21T08:06 — auto-descubierto · @claudeai
@@ -4932,7 +4932,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `sRvUXLquiRg` · 32:04 · upload NA
 - **URL**: https://www.youtube.com/watch?v=sRvUXLquiRg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-21T08:06 — auto-descubierto · github · bcherny
@@ -5100,7 +5100,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: youtube_mentions_boris_cherny · `Z6IT4gjrcPE` · 57:24 · upload ?
 - **URL**: https://www.youtube.com/watch?v=Z6IT4gjrcPE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-21T08:19 — auto-descubierto · github · karpathy
@@ -5164,7 +5164,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: youtube_mentions_karpathy · `brB-hSiV2iU` · 16:24 · upload ?
 - **URL**: https://www.youtube.com/watch?v=brB-hSiV2iU
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-21T08:25 — auto-descubierto · @jevanclief
@@ -5173,7 +5173,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: jevanclief_youtube · `McuxQvaWlNM` · 7:33 · upload NA
 - **URL**: https://www.youtube.com/watch?v=McuxQvaWlNM
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-21T08:30 — auto-descubierto · @jevanclief
@@ -5182,7 +5182,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: jevanclief_youtube · `956DPSPX4wg` · 26:38 · upload NA
 - **URL**: https://www.youtube.com/watch?v=956DPSPX4wg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-21T08:31 — auto-descubierto · github · thariqs
@@ -5223,7 +5223,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `K4-flzsPraE` · 26:46 · upload NA
 - **URL**: https://www.youtube.com/watch?v=K4-flzsPraE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-22T07:09 — auto-descubierto · @claudeai
@@ -5232,7 +5232,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `l8fxVYIP4HQ` · 24:38 · upload NA
 - **URL**: https://www.youtube.com/watch?v=l8fxVYIP4HQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-22T07:13 — auto-descubierto · @claudeai
@@ -5241,7 +5241,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `EOg4gY0Yln0` · 20:45 · upload NA
 - **URL**: https://www.youtube.com/watch?v=EOg4gY0Yln0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-22T07:19 — auto-descubierto · @claudeai
@@ -5250,7 +5250,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `P0uMXS6emHA` · 31:40 · upload NA
 - **URL**: https://www.youtube.com/watch?v=P0uMXS6emHA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-22T07:23 — auto-descubierto · @claudeai
@@ -5259,7 +5259,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `IGo225tfF2I` · 21:34 · upload NA
 - **URL**: https://www.youtube.com/watch?v=IGo225tfF2I
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-22T07:29 — auto-descubierto · @claudeai
@@ -5268,7 +5268,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `nho1YAEPuwA` · 28:43 · upload NA
 - **URL**: https://www.youtube.com/watch?v=nho1YAEPuwA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-22T07:35 — auto-descubierto · @claudeai
@@ -5277,7 +5277,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `zenIB7XLZxQ` · 29:04 · upload NA
 - **URL**: https://www.youtube.com/watch?v=zenIB7XLZxQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-22T07:41 — auto-descubierto · @claudeai
@@ -5286,7 +5286,7 @@ Bajada manual de los 12 vídeos restantes pre-`backfill_since=2026-02-12` que el
 - **Source**: claude_anthropic_youtube · `jWWsLe4Gh5Y` · 27:23 · upload NA
 - **URL**: https://www.youtube.com/watch?v=jWWsLe4Gh5Y
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-22T07:41 — auto-descubierto · github · bcherny
@@ -5516,7 +5516,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: youtube_mentions_boris_cherny · `KRJzonECIY4` · 6:34 · upload ?
 - **URL**: https://www.youtube.com/watch?v=KRJzonECIY4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-22T07:43 — auto-descubierto · github · karpathy
@@ -5581,7 +5581,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: youtube_mentions_karpathy · `kklrodAua_U` · 143:23 · upload ?
 - **URL**: https://www.youtube.com/watch?v=kklrodAua_U
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-22T08:10 — auto-descubierto · github · thariqs
@@ -5622,7 +5622,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `qOjleN2-50c` · 29:39 · upload NA
 - **URL**: https://www.youtube.com/watch?v=qOjleN2-50c
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-23T07:11 — auto-descubierto · @claudeai
@@ -5631,7 +5631,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `tUoO4ucrNc0` · 27:52 · upload NA
 - **URL**: https://www.youtube.com/watch?v=tUoO4ucrNc0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-23T07:20 — auto-descubierto · @claudeai
@@ -5640,7 +5640,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `T8N0MED3IJo` · 32:16 · upload NA
 - **URL**: https://www.youtube.com/watch?v=T8N0MED3IJo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-23T07:26 — auto-descubierto · @claudeai
@@ -5649,7 +5649,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `M5uwBawBDpw` · 26:47 · upload NA
 - **URL**: https://www.youtube.com/watch?v=M5uwBawBDpw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-23T07:31 — auto-descubierto · @claudeai
@@ -5658,7 +5658,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `A3rmSUp6Dxg` · 16:46 · upload NA
 - **URL**: https://www.youtube.com/watch?v=A3rmSUp6Dxg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-23T07:37 — auto-descubierto · @claudeai
@@ -5667,7 +5667,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `uGroRwlC9y4` · 28:29 · upload NA
 - **URL**: https://www.youtube.com/watch?v=uGroRwlC9y4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-23T07:47 — auto-descubierto · @claudeai
@@ -5676,7 +5676,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `tuY2ChJIx48` · 47:20 · upload NA
 - **URL**: https://www.youtube.com/watch?v=tuY2ChJIx48
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-23T07:54 — auto-descubierto · @claudeai
@@ -5685,7 +5685,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `IA5LWIGqnyM` · 26:38 · upload NA
 - **URL**: https://www.youtube.com/watch?v=IA5LWIGqnyM
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-23T07:59 — auto-descubierto · @claudeai
@@ -5694,7 +5694,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `QIriO1-vHYw` · 26:41 · upload NA
 - **URL**: https://www.youtube.com/watch?v=QIriO1-vHYw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-23T08:06 — auto-descubierto · @claudeai
@@ -5703,7 +5703,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `G2B0YWuJUgI` · 33:49 · upload NA
 - **URL**: https://www.youtube.com/watch?v=G2B0YWuJUgI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-23T08:12 — auto-descubierto · @claudeai
@@ -5712,7 +5712,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `DNRddIEoH3c` · 26:26 · upload NA
 - **URL**: https://www.youtube.com/watch?v=DNRddIEoH3c
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-23T08:17 — auto-descubierto · @claudeai
@@ -5721,7 +5721,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `Uvl-tRga98g` · 28:00 · upload NA
 - **URL**: https://www.youtube.com/watch?v=Uvl-tRga98g
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-23T08:18 — auto-descubierto · github · bcherny
@@ -5991,7 +5991,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: youtube_mentions_boris_cherny · `1aCp9OT8rvw` · 22:53 · upload ?
 - **URL**: https://www.youtube.com/watch?v=1aCp9OT8rvw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-23T08:22 — auto-descubierto · github · karpathy
@@ -6069,7 +6069,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: youtube_mentions_karpathy · `PlLmdTcsAWU` · 80:20 · upload ?
 - **URL**: https://www.youtube.com/watch?v=PlLmdTcsAWU
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-23T08:37 — auto-descubierto · Accel
@@ -6078,7 +6078,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: youtube_mentions_karpathy · `aR6CzM0x-g0` · 23:21 · upload ?
 - **URL**: https://www.youtube.com/watch?v=aR6CzM0x-g0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-23T08:37 — auto-descubierto · github · thariqs
@@ -6119,7 +6119,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `mWvtOHlZM-I` · 45:06 · upload NA
 - **URL**: https://www.youtube.com/watch?v=mWvtOHlZM-I
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-24T07:12 — auto-descubierto · @claudeai
@@ -6128,7 +6128,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `dxqX_6ciVQA` · 8:45 · upload NA
 - **URL**: https://www.youtube.com/watch?v=dxqX_6ciVQA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-24T07:23 — auto-descubierto · @claudeai
@@ -6137,7 +6137,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `v9FTCvkV_a0` · 39:16 · upload NA
 - **URL**: https://www.youtube.com/watch?v=v9FTCvkV_a0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-24T07:30 — auto-descubierto · @claudeai
@@ -6146,7 +6146,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `geUv4CjPpxI` · 28:42 · upload NA
 - **URL**: https://www.youtube.com/watch?v=geUv4CjPpxI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-24T07:37 — auto-descubierto · @claudeai
@@ -6155,7 +6155,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `IlqJqcl8ONE` · 31:43 · upload NA
 - **URL**: https://www.youtube.com/watch?v=IlqJqcl8ONE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-24T07:37 — auto-descubierto · github · https://github.com/anthropics/claude-code
@@ -6410,7 +6410,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: youtube_mentions_boris_cherny · `IvDnGRFMmgE` · 82:22 · upload ?
 - **URL**: https://www.youtube.com/watch?v=IvDnGRFMmgE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-24T07:59 — auto-descubierto · github · karpathy
@@ -6755,7 +6755,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: youtube_mentions_boris_cherny · `8FVlxgG9JVk` · 9:22 · upload ?
 - **URL**: https://www.youtube.com/watch?v=8FVlxgG9JVk
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-25T07:02 — auto-descubierto · github · karpathy
@@ -6847,7 +6847,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: youtube_mentions_karpathy · `c3b-JASoPi0` · 36:59 · upload ?
 - **URL**: https://www.youtube.com/watch?v=c3b-JASoPi0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-25T07:26 — auto-descubierto · github · thariqs
@@ -6888,7 +6888,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: youtube_mentions_thariq · `Qrpm7E80wQ0` · 35:59 · upload ?
 - **URL**: https://www.youtube.com/watch?v=Qrpm7E80wQ0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-25T07:52 — auto-descubierto · web · plane_so_blog
@@ -6898,7 +6898,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **URL**: https://plane.so/blog/epics-is-becoming-a-work-item-type-in-plane
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-25T08:29 — auto-descubierto · @SeedRocketTV
 
@@ -6906,7 +6906,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: seedrocket_tv_youtube · `JfWLOaltiRo` · 76:53 · upload NA
 - **URL**: https://www.youtube.com/watch?v=JfWLOaltiRo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-26T07:00 — auto-descubierto · web · anthropic_blog
@@ -6916,7 +6916,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **URL**: https://www.anthropic.com/news/chris-olah-pope-leo-encyclical
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-26T07:00 — auto-descubierto · github · bcherny
 
@@ -7286,7 +7286,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **URL**: https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-27T07:09 — auto-descubierto · web · anthropic_engineering_blog
 
@@ -7295,7 +7295,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **URL**: https://www.anthropic.com/engineering/how-we-contain-claude
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-27T07:09 — auto-descubierto · github · bcherny
 
@@ -7678,7 +7678,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: youtube_mentions_karpathy · `hM_h0UA7upI` · 44:17 · upload ?
 - **URL**: https://www.youtube.com/watch?v=hM_h0UA7upI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-28T07:02 — auto-descubierto · github · bcherny
@@ -8080,7 +8080,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **Source**: claude_anthropic_youtube · `CG7Rcl49C2w` · 3:13 · upload NA
 - **URL**: https://www.youtube.com/watch?v=CG7Rcl49C2w
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-29T07:00 — auto-descubierto · web · anthropic_blog
@@ -8090,7 +8090,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **URL**: https://www.anthropic.com/news/claude-opus-4-8
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-29T07:00 — auto-descubierto · web · anthropic_blog
 
@@ -8099,7 +8099,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **URL**: https://www.anthropic.com/news/series-h
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-29T07:00 — auto-descubierto · web · anthropic_blog
 
@@ -8108,7 +8108,7 @@ https://claude.ai/code/session_01QpYmSoWsmcQFYapvscKSwy</pre>
 - **URL**: https://www.anthropic.com/news/milan-office-opening
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-05-29T07:00 — auto-descubierto · github · bcherny
 
@@ -8780,7 +8780,7 @@ Update security-guidance plugin</pre>
 - **Source**: jevanclief_youtube · `uYRXYsPS66g` · 22:03 · upload NA
 - **URL**: https://www.youtube.com/watch?v=uYRXYsPS66g
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-30T07:04 — auto-descubierto · @JohnKimLife
@@ -8789,7 +8789,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `y27BjmNNgYo` · 11:10 · upload NA
 - **URL**: https://www.youtube.com/watch?v=y27BjmNNgYo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-30T07:07 — auto-descubierto · @JohnKimLife
@@ -8798,7 +8798,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `L0yCytVkjL8` · 12:43 · upload NA
 - **URL**: https://www.youtube.com/watch?v=L0yCytVkjL8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-30T07:09 — auto-descubierto · @JohnKimLife
@@ -8807,7 +8807,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `XBJT3iyx_uo` · 9:56 · upload NA
 - **URL**: https://www.youtube.com/watch?v=XBJT3iyx_uo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-30T07:11 — auto-descubierto · @JohnKimLife
@@ -8816,7 +8816,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `mhX7aOJtaS4` · 12:50 · upload NA
 - **URL**: https://www.youtube.com/watch?v=mhX7aOJtaS4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-30T07:23 — auto-descubierto · @sequoiacapital
@@ -8825,7 +8825,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `j7ypvRUFY7M` · 38:24 · upload NA
 - **URL**: https://www.youtube.com/watch?v=j7ypvRUFY7M
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-30T07:28 — auto-descubierto · @aiDotEngineer
@@ -8834,7 +8834,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `0jeZfjJMfmo` · 21:16 · upload NA
 - **URL**: https://www.youtube.com/watch?v=0jeZfjJMfmo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-30T07:32 — auto-descubierto · @aiDotEngineer
@@ -8843,7 +8843,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `B9h9ovW5H9U` · 20:12 · upload NA
 - **URL**: https://www.youtube.com/watch?v=B9h9ovW5H9U
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-30T07:35 — auto-descubierto · @aiDotEngineer
@@ -8852,7 +8852,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `V-L0INGTEOg` · 20:11 · upload NA
 - **URL**: https://www.youtube.com/watch?v=V-L0INGTEOg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-30T07:39 — auto-descubierto · @aiDotEngineer
@@ -8861,7 +8861,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `li0SaBt9RDM` · 17:05 · upload NA
 - **URL**: https://www.youtube.com/watch?v=li0SaBt9RDM
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-30T08:02 — auto-descubierto · @aiDotEngineer
@@ -8870,7 +8870,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `ESbWpPT_9-o` · 105:02 · upload NA
 - **URL**: https://www.youtube.com/watch?v=ESbWpPT_9-o
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-30T08:06 — auto-descubierto · @aiDotEngineer
@@ -8879,7 +8879,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `t4359sKBu4w` · 16:52 · upload NA
 - **URL**: https://www.youtube.com/watch?v=t4359sKBu4w
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-30T08:12 — auto-descubierto · @aiDotEngineer
@@ -8888,7 +8888,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `7gujZrJ9L5I` · 25:13 · upload NA
 - **URL**: https://www.youtube.com/watch?v=7gujZrJ9L5I
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-30T08:15 — auto-descubierto · @aiDotEngineer
@@ -8897,7 +8897,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `W-SX_srBa3Y` · 16:17 · upload NA
 - **URL**: https://www.youtube.com/watch?v=W-SX_srBa3Y
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-30T08:18 — auto-descubierto · @aiDotEngineer
@@ -8906,7 +8906,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `WRBNDpUhsJQ` · 15:13 · upload NA
 - **URL**: https://www.youtube.com/watch?v=WRBNDpUhsJQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-30T08:23 — auto-descubierto · @aiDotEngineer
@@ -8915,7 +8915,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `TeGsFFNqRLA` · 18:02 · upload NA
 - **URL**: https://www.youtube.com/watch?v=TeGsFFNqRLA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-30T08:28 — auto-descubierto · @aiDotEngineer
@@ -8924,7 +8924,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `F1DYkY1BlfM` · 21:56 · upload NA
 - **URL**: https://www.youtube.com/watch?v=F1DYkY1BlfM
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-30T08:32 — auto-descubierto · @aiDotEngineer
@@ -8933,7 +8933,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `dyHpnnlkTc8` · 17:04 · upload NA
 - **URL**: https://www.youtube.com/watch?v=dyHpnnlkTc8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T07:00 — auto-descubierto · github · bcherny
@@ -9267,7 +9267,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_karpathy · `DGw2KKyXuYQ` · 25:21 · upload ?
 - **URL**: https://www.youtube.com/watch?v=DGw2KKyXuYQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T07:25 — auto-descubierto · Dream Labs AI
@@ -9276,7 +9276,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_karpathy · `FAWm7DuFSPc` · 17:35 · upload ?
 - **URL**: https://www.youtube.com/watch?v=FAWm7DuFSPc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T07:45 — auto-descubierto · @JohnKimLife
@@ -9285,7 +9285,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `lc4ns0lDtXg` · 29:58 · upload NA
 - **URL**: https://www.youtube.com/watch?v=lc4ns0lDtXg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T07:51 — auto-descubierto · @JohnKimLife
@@ -9294,7 +9294,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `vjSdb3-tpkE` · 13:13 · upload NA
 - **URL**: https://www.youtube.com/watch?v=vjSdb3-tpkE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T08:06 — auto-descubierto · @JohnKimLife
@@ -9303,7 +9303,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `s8sTx-oidqc` · 25:10 · upload NA
 - **URL**: https://www.youtube.com/watch?v=s8sTx-oidqc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T08:22 — auto-descubierto · @JohnKimLife
@@ -9312,7 +9312,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `S9OV-yE2GSM` · 24:20 · upload NA
 - **URL**: https://www.youtube.com/watch?v=S9OV-yE2GSM
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T08:38 — auto-descubierto · @JohnKimLife
@@ -9321,7 +9321,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `aai8PahvU0Y` · 32:38 · upload NA
 - **URL**: https://www.youtube.com/watch?v=aai8PahvU0Y
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T08:54 — auto-descubierto · @JohnKimLife
@@ -9330,7 +9330,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `nQFtsehu7h0` · 32:54 · upload NA
 - **URL**: https://www.youtube.com/watch?v=nQFtsehu7h0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T08:55 — auto-descubierto · @JohnKimLife
@@ -9339,7 +9339,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `QbURYdE6ZvU` · 20:00 · upload NA
 - **URL**: https://www.youtube.com/watch?v=QbURYdE6ZvU
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T08:56 — auto-descubierto · @JohnKimLife
@@ -9348,7 +9348,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `fkGXYXZyBaI` · 14:57 · upload NA
 - **URL**: https://www.youtube.com/watch?v=fkGXYXZyBaI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T08:58 — auto-descubierto · @JohnKimLife
@@ -9357,7 +9357,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `1JeDsxnX1nY` · 27:57 · upload NA
 - **URL**: https://www.youtube.com/watch?v=1JeDsxnX1nY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:00 — auto-descubierto · @JohnKimLife
@@ -9366,7 +9366,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `hHnZik7lZk4` · 21:31 · upload NA
 - **URL**: https://www.youtube.com/watch?v=hHnZik7lZk4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:01 — auto-descubierto · @JohnKimLife
@@ -9375,7 +9375,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `FqPwHHrN1bg` · 17:20 · upload NA
 - **URL**: https://www.youtube.com/watch?v=FqPwHHrN1bg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:02 — auto-descubierto · @JohnKimLife
@@ -9384,7 +9384,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `WpQZlKiy3zo` · 22:29 · upload NA
 - **URL**: https://www.youtube.com/watch?v=WpQZlKiy3zo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:03 — auto-descubierto · @JohnKimLife
@@ -9393,7 +9393,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `bHxcfpvBW2U` · 15:05 · upload NA
 - **URL**: https://www.youtube.com/watch?v=bHxcfpvBW2U
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:06 — auto-descubierto · @JohnKimLife
@@ -9402,7 +9402,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `mZzhfPle9QU` · 46:13 · upload NA
 - **URL**: https://www.youtube.com/watch?v=mZzhfPle9QU
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:07 — auto-descubierto · @JohnKimLife
@@ -9411,7 +9411,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `vw-qMFQI3Bc` · 14:48 · upload NA
 - **URL**: https://www.youtube.com/watch?v=vw-qMFQI3Bc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:08 — auto-descubierto · @JohnKimLife
@@ -9420,7 +9420,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `yZvDo_n12ns` · 13:50 · upload NA
 - **URL**: https://www.youtube.com/watch?v=yZvDo_n12ns
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:08 — auto-descubierto · @JohnKimLife
@@ -9429,7 +9429,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `nsvWlMHhxXk` · 8:01 · upload NA
 - **URL**: https://www.youtube.com/watch?v=nsvWlMHhxXk
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:09 — auto-descubierto · @JohnKimLife
@@ -9438,7 +9438,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `nKFiHt1G_lw` · 13:30 · upload NA
 - **URL**: https://www.youtube.com/watch?v=nKFiHt1G_lw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:11 — auto-descubierto · @JohnKimLife
@@ -9447,7 +9447,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `cwFBGDbhxnk` · 21:20 · upload NA
 - **URL**: https://www.youtube.com/watch?v=cwFBGDbhxnk
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:12 — auto-descubierto · @JohnKimLife
@@ -9456,7 +9456,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `LnNlwEMlb1A` · 15:04 · upload NA
 - **URL**: https://www.youtube.com/watch?v=LnNlwEMlb1A
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:14 — auto-descubierto · @JohnKimLife
@@ -9465,7 +9465,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `YiLqaQjHKLQ` · 28:32 · upload NA
 - **URL**: https://www.youtube.com/watch?v=YiLqaQjHKLQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:15 — auto-descubierto · @JohnKimLife
@@ -9474,7 +9474,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `X1ya6TErxAM` · 14:30 · upload NA
 - **URL**: https://www.youtube.com/watch?v=X1ya6TErxAM
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:15 — auto-descubierto · @JohnKimLife
@@ -9483,7 +9483,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `KfzIIVJaZSQ` · 9:33 · upload NA
 - **URL**: https://www.youtube.com/watch?v=KfzIIVJaZSQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:16 — auto-descubierto · @JohnKimLife
@@ -9492,7 +9492,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `XmqyP7nflc4` · 16:01 · upload NA
 - **URL**: https://www.youtube.com/watch?v=XmqyP7nflc4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:17 — auto-descubierto · @JohnKimLife
@@ -9501,7 +9501,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `5Yy4tq5ZFWY` · 11:20 · upload NA
 - **URL**: https://www.youtube.com/watch?v=5Yy4tq5ZFWY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:18 — auto-descubierto · @JohnKimLife
@@ -9510,7 +9510,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `rJgss-6ntis` · 14:17 · upload NA
 - **URL**: https://www.youtube.com/watch?v=rJgss-6ntis
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:20 — auto-descubierto · @sequoiacapital
@@ -9519,7 +9519,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `by7Y9KoErTw` · 24:59 · upload NA
 - **URL**: https://www.youtube.com/watch?v=by7Y9KoErTw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:22 — auto-descubierto · @sequoiacapital
@@ -9528,7 +9528,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `UDTr9yUnLUI` · 45:34 · upload NA
 - **URL**: https://www.youtube.com/watch?v=UDTr9yUnLUI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:26 — auto-descubierto · @sequoiacapital
@@ -9537,7 +9537,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `ill76IbVuM8` · 63:07 · upload NA
 - **URL**: https://www.youtube.com/watch?v=ill76IbVuM8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:29 — auto-descubierto · @sequoiacapital
@@ -9546,7 +9546,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `Jq3BIGz4vXQ` · 34:57 · upload NA
 - **URL**: https://www.youtube.com/watch?v=Jq3BIGz4vXQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:36 — auto-descubierto · @sequoiacapital
@@ -9555,7 +9555,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `Kw5hhIsw-wQ` · 66:45 · upload NA
 - **URL**: https://www.youtube.com/watch?v=Kw5hhIsw-wQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:37 — auto-descubierto · @sequoiacapital
@@ -9564,7 +9564,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `K05Dh-QjM8c` · 10:38 · upload NA
 - **URL**: https://www.youtube.com/watch?v=K05Dh-QjM8c
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:37 — auto-descubierto · @sequoiacapital
@@ -9573,7 +9573,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `eHsr1Fl2jNA` · 9:02 · upload NA
 - **URL**: https://www.youtube.com/watch?v=eHsr1Fl2jNA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:38 — auto-descubierto · @sequoiacapital
@@ -9582,7 +9582,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `Zw1J5pJJMGw` · 14:13 · upload NA
 - **URL**: https://www.youtube.com/watch?v=Zw1J5pJJMGw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:39 — auto-descubierto · @sequoiacapital
@@ -9591,7 +9591,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `94b6i5jI1nE` · 11:52 · upload NA
 - **URL**: https://www.youtube.com/watch?v=94b6i5jI1nE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:40 — auto-descubierto · @sequoiacapital
@@ -9600,7 +9600,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `ZBpY7MEra9w` · 9:27 · upload NA
 - **URL**: https://www.youtube.com/watch?v=ZBpY7MEra9w
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:42 — auto-descubierto · @sequoiacapital
@@ -9609,7 +9609,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `ZNzYN2jyVTU` · 26:16 · upload NA
 - **URL**: https://www.youtube.com/watch?v=ZNzYN2jyVTU
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:43 — auto-descubierto · @sequoiacapital
@@ -9618,7 +9618,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `I_0Kuf6Aa2c` · 27:16 · upload NA
 - **URL**: https://www.youtube.com/watch?v=I_0Kuf6Aa2c
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:49 — auto-descubierto · @sequoiacapital
@@ -9627,7 +9627,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `bBS93A0BeNI` · 28:27 · upload NA
 - **URL**: https://www.youtube.com/watch?v=bBS93A0BeNI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:51 — auto-descubierto · @sequoiacapital
@@ -9636,7 +9636,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `LRo33rnv6rQ` · 32:27 · upload NA
 - **URL**: https://www.youtube.com/watch?v=LRo33rnv6rQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:52 — auto-descubierto · @sequoiacapital
@@ -9645,7 +9645,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `3Y8aq_ofEVs` · 20:03 · upload NA
 - **URL**: https://www.youtube.com/watch?v=3Y8aq_ofEVs
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:54 — auto-descubierto · @sequoiacapital
@@ -9654,7 +9654,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `AFpeWo1GTeg` · 26:52 · upload NA
 - **URL**: https://www.youtube.com/watch?v=AFpeWo1GTeg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:56 — auto-descubierto · @sequoiacapital
@@ -9663,7 +9663,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `e_2opghuq88` · 44:29 · upload NA
 - **URL**: https://www.youtube.com/watch?v=e_2opghuq88
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T09:58 — auto-descubierto · @sequoiacapital
@@ -9672,7 +9672,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `RyTwRCKeDo4` · 31:27 · upload NA
 - **URL**: https://www.youtube.com/watch?v=RyTwRCKeDo4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:02 — auto-descubierto · @sequoiacapital
@@ -9681,7 +9681,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `YTVSwOY19Qs` · 63:42 · upload NA
 - **URL**: https://www.youtube.com/watch?v=YTVSwOY19Qs
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:07 — auto-descubierto · @sequoiacapital
@@ -9690,7 +9690,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `9kTMdaC0Fz0` · 59:40 · upload NA
 - **URL**: https://www.youtube.com/watch?v=9kTMdaC0Fz0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:11 — auto-descubierto · @sequoiacapital
@@ -9699,7 +9699,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `g45Alfg7diw` · 58:28 · upload NA
 - **URL**: https://www.youtube.com/watch?v=g45Alfg7diw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:13 — auto-descubierto · @sequoiacapital
@@ -9708,7 +9708,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `FKHENV75b9Q` · 44:20 · upload NA
 - **URL**: https://www.youtube.com/watch?v=FKHENV75b9Q
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:17 — auto-descubierto · @sequoiacapital
@@ -9717,7 +9717,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `9ZlmsA4Bzk0` · 62:51 · upload NA
 - **URL**: https://www.youtube.com/watch?v=9ZlmsA4Bzk0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:19 — auto-descubierto · @sequoiacapital
@@ -9726,7 +9726,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `bPwU0GazM1I` · 40:56 · upload NA
 - **URL**: https://www.youtube.com/watch?v=bPwU0GazM1I
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:22 — auto-descubierto · @sequoiacapital
@@ -9735,7 +9735,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `dFT4xj57D7U` · 49:08 · upload NA
 - **URL**: https://www.youtube.com/watch?v=dFT4xj57D7U
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:26 — auto-descubierto · @sequoiacapital
@@ -9744,7 +9744,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `tAxTJCDPQ08` · 72:49 · upload NA
 - **URL**: https://www.youtube.com/watch?v=tAxTJCDPQ08
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:29 — auto-descubierto · @sequoiacapital
@@ -9753,7 +9753,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `SJc1y5z5wwM` · 44:46 · upload NA
 - **URL**: https://www.youtube.com/watch?v=SJc1y5z5wwM
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:30 — auto-descubierto · @aiDotEngineer
@@ -9762,7 +9762,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `vy7o1g2iHY8` · 17:43 · upload NA
 - **URL**: https://www.youtube.com/watch?v=vy7o1g2iHY8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:30 — auto-descubierto · @aiDotEngineer
@@ -9771,7 +9771,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `phchDt63qAA` · 10:50 · upload NA
 - **URL**: https://www.youtube.com/watch?v=phchDt63qAA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:31 — auto-descubierto · @aiDotEngineer
@@ -9780,7 +9780,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `3_gYbhABcAE` · 10:40 · upload NA
 - **URL**: https://www.youtube.com/watch?v=3_gYbhABcAE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:32 — auto-descubierto · @aiDotEngineer
@@ -9789,7 +9789,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `XBaznoTRDFI` · 20:43 · upload NA
 - **URL**: https://www.youtube.com/watch?v=XBaznoTRDFI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:33 — auto-descubierto · @aiDotEngineer
@@ -9798,7 +9798,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `AGkzpxMdPn8` · 20:35 · upload NA
 - **URL**: https://www.youtube.com/watch?v=AGkzpxMdPn8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:34 — auto-descubierto · @aiDotEngineer
@@ -9807,7 +9807,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `abvQEhvRI_c` · 16:39 · upload NA
 - **URL**: https://www.youtube.com/watch?v=abvQEhvRI_c
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:35 — auto-descubierto · @aiDotEngineer
@@ -9816,7 +9816,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `ugUeZ8-b-u0` · 16:25 · upload NA
 - **URL**: https://www.youtube.com/watch?v=ugUeZ8-b-u0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:36 — auto-descubierto · @aiDotEngineer
@@ -9825,7 +9825,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `FB-MLPhL9Ms` · 18:34 · upload NA
 - **URL**: https://www.youtube.com/watch?v=FB-MLPhL9Ms
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:36 — auto-descubierto · @aiDotEngineer
@@ -9834,7 +9834,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `7CrPrHgoEYk` · 10:21 · upload NA
 - **URL**: https://www.youtube.com/watch?v=7CrPrHgoEYk
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:38 — auto-descubierto · @aiDotEngineer
@@ -9843,7 +9843,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `BiG2ssibKGc` · 18:54 · upload NA
 - **URL**: https://www.youtube.com/watch?v=BiG2ssibKGc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:39 — auto-descubierto · @aiDotEngineer
@@ -9852,7 +9852,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `Ubwb6NzegyA` · 20:03 · upload NA
 - **URL**: https://www.youtube.com/watch?v=Ubwb6NzegyA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:40 — auto-descubierto · @aiDotEngineer
@@ -9861,7 +9861,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `NKwIX3CiRgU` · 18:54 · upload NA
 - **URL**: https://www.youtube.com/watch?v=NKwIX3CiRgU
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:41 — auto-descubierto · @aiDotEngineer
@@ -9870,7 +9870,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `LMbeDEQO6QM` · 23:08 · upload NA
 - **URL**: https://www.youtube.com/watch?v=LMbeDEQO6QM
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:42 — auto-descubierto · @aiDotEngineer
@@ -9879,7 +9879,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `5Sui_OnSRlY` · 18:37 · upload NA
 - **URL**: https://www.youtube.com/watch?v=5Sui_OnSRlY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:48 — auto-descubierto · @aiDotEngineer
@@ -9888,7 +9888,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `ns9f1fjLD7Y` · 114:35 · upload NA
 - **URL**: https://www.youtube.com/watch?v=ns9f1fjLD7Y
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:49 — auto-descubierto · @aiDotEngineer
@@ -9897,7 +9897,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `owH1f0N-keY` · 19:38 · upload NA
 - **URL**: https://www.youtube.com/watch?v=owH1f0N-keY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:50 — auto-descubierto · @aiDotEngineer
@@ -9906,7 +9906,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `VaS2h-dY1-4` · 19:00 · upload NA
 - **URL**: https://www.youtube.com/watch?v=VaS2h-dY1-4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-05-31T10:51 — auto-descubierto · @aiDotEngineer
@@ -9915,7 +9915,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `JomVvNDjGb8` · 18:25 · upload NA
 - **URL**: https://www.youtube.com/watch?v=JomVvNDjGb8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-01T07:12 — auto-descubierto · @anthropic-ai
@@ -9925,7 +9925,7 @@ Update security-guidance plugin</pre>
 - **Source**: anthropic_main_youtube · `j2knrqAzYVY` · 3:17 · upload NA
 - **URL**: https://www.youtube.com/watch?v=j2knrqAzYVY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-01T07:12 — auto-descubierto · @anthropic-ai
@@ -9935,7 +9935,7 @@ Update security-guidance plugin</pre>
 - **Source**: anthropic_main_youtube · `INGOC6-LLv0` · 5:49 · upload NA
 - **URL**: https://www.youtube.com/watch?v=INGOC6-LLv0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-01T07:13 — auto-descubierto · @anthropic-ai
@@ -9945,7 +9945,7 @@ Update security-guidance plugin</pre>
 - **Source**: anthropic_main_youtube · `D4XTefP3Lsc` · 4:53 · upload NA
 - **URL**: https://www.youtube.com/watch?v=D4XTefP3Lsc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-01T07:13 — auto-descubierto · github · bcherny
@@ -10305,7 +10305,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_karpathy · `qh0FkdgieS8` · 9:20 · upload ?
 - **URL**: https://www.youtube.com/watch?v=qh0FkdgieS8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-01T07:15 — auto-descubierto · SynapByte
@@ -10315,7 +10315,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_thariq · `aIZ2EO98YYE` · 4:34 · upload ?
 - **URL**: https://www.youtube.com/watch?v=aIZ2EO98YYE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-01T07:16 — auto-descubierto · DIY Smart Code
@@ -10325,7 +10325,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_thariq · `ILxJfe_Hscc` · 10:09 · upload ?
 - **URL**: https://www.youtube.com/watch?v=ILxJfe_Hscc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-01T07:18 — auto-descubierto · @JohnKimLife
@@ -10335,7 +10335,7 @@ Update security-guidance plugin</pre>
 - **Source**: johnkim_youtube · `UslVzxAkiZ0` · 18:31 · upload NA
 - **URL**: https://www.youtube.com/watch?v=UslVzxAkiZ0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-01T07:20 — auto-descubierto · @aiDotEngineer
@@ -10345,7 +10345,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `NuePCNMpWGc` · 15:12 · upload NA
 - **URL**: https://www.youtube.com/watch?v=NuePCNMpWGc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-01T07:24 — auto-descubierto · @aiDotEngineer
@@ -10355,7 +10355,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `N7b1PJc7SFc` · 24:35 · upload NA
 - **URL**: https://www.youtube.com/watch?v=N7b1PJc7SFc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-01T07:27 — auto-descubierto · @aiDotEngineer
@@ -10365,7 +10365,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `UQKg0td-Bf4` · 13:03 · upload NA
 - **URL**: https://www.youtube.com/watch?v=UQKg0td-Bf4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-01T07:38 — auto-descubierto · @SeedRocketTV
@@ -10375,7 +10375,7 @@ Update security-guidance plugin</pre>
 - **Source**: seedrocket_tv_youtube · `jDhx5QkpZGg` · 55:16 · upload NA
 - **URL**: https://www.youtube.com/watch?v=jDhx5QkpZGg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-02T07:00 — auto-descubierto · web · anthropic_blog
@@ -10385,7 +10385,7 @@ Update security-guidance plugin</pre>
 - **URL**: https://www.anthropic.com/news/confidential-draft-s1-sec
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-06-02T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
 
@@ -10754,7 +10754,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `hqHC6Z_lXyo` · 19:36 · upload NA
 - **URL**: https://www.youtube.com/watch?v=hqHC6Z_lXyo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-02T07:09 — auto-descubierto · @aiDotEngineer
@@ -10763,7 +10763,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `BM2JX9hqsVQ` · 24:29 · upload NA
 - **URL**: https://www.youtube.com/watch?v=BM2JX9hqsVQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-02T07:17 — auto-descubierto · @aiDotEngineer
@@ -10772,7 +10772,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `u-rJwPPU3QA` · 33:28 · upload NA
 - **URL**: https://www.youtube.com/watch?v=u-rJwPPU3QA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-03T07:00 — auto-descubierto · web · anthropic_blog
@@ -10782,7 +10782,7 @@ Update security-guidance plugin</pre>
 - **URL**: https://www.anthropic.com/news/expanding-project-glasswing
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-06-03T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
 
@@ -11085,7 +11085,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_karpathy · `5-ekc3eXNvs` · 5:17 · upload ?
 - **URL**: https://www.youtube.com/watch?v=5-ekc3eXNvs
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-03T07:01 — auto-descubierto · github · RinDig
@@ -11126,7 +11126,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `Rumft-rsEu4` · 42:02 · upload NA
 - **URL**: https://www.youtube.com/watch?v=Rumft-rsEu4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-03T07:07 — auto-descubierto · @aiDotEngineer
@@ -11135,7 +11135,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `HvZXAOZ3iv8` · 12:40 · upload NA
 - **URL**: https://www.youtube.com/watch?v=HvZXAOZ3iv8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-03T07:12 — auto-descubierto · @aiDotEngineer
@@ -11144,7 +11144,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `YYH0DMQr30A` · 20:40 · upload NA
 - **URL**: https://www.youtube.com/watch?v=YYH0DMQr30A
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-03T07:16 — auto-descubierto · @aiDotEngineer
@@ -11153,7 +11153,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `KA5kPbdkK2E` · 19:05 · upload NA
 - **URL**: https://www.youtube.com/watch?v=KA5kPbdkK2E
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-03T09:50 — auto-descubierto · github · https://github.com/anthropics/claude-code
@@ -11360,7 +11360,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_boris_cherny · `GN0yhCt9qeo` · 11:47 · upload ?
 - **URL**: https://www.youtube.com/watch?v=GN0yhCt9qeo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-03T09:51 — auto-descubierto · github · karpathy
@@ -11466,7 +11466,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_karpathy · `dJscKdavqS8` · 17:47 · upload ?
 - **URL**: https://www.youtube.com/watch?v=dJscKdavqS8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-03T09:52 — auto-descubierto · github · RinDig
@@ -11507,7 +11507,7 @@ Update security-guidance plugin</pre>
 - **Source**: anthropic_main_youtube · `nvbq39yVYRk` · 6:09 · upload NA
 - **URL**: https://www.youtube.com/watch?v=nvbq39yVYRk
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-04T07:01 — auto-descubierto · web · anthropic_blog
@@ -11517,7 +11517,7 @@ Update security-guidance plugin</pre>
 - **URL**: https://www.anthropic.com/news/services-track-partner-hub
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-06-04T07:01 — auto-descubierto · web · anthropic_blog
 
@@ -11526,7 +11526,7 @@ Update security-guidance plugin</pre>
 - **URL**: https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-06-04T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
 
@@ -11732,7 +11732,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_boris_cherny · `RkQQ7WEor7w` · 29:38 · upload ?
 - **URL**: https://www.youtube.com/watch?v=RkQQ7WEor7w
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-04T07:04 — auto-descubierto · github · karpathy
@@ -11838,7 +11838,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_karpathy · `0TPq43Wpbz0` · 27:25 · upload ?
 - **URL**: https://www.youtube.com/watch?v=0TPq43Wpbz0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-04T07:11 — auto-descubierto · Greg Isenberg
@@ -11847,7 +11847,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_karpathy · `qb90PPbAWz4` · 24:22 · upload ?
 - **URL**: https://www.youtube.com/watch?v=qb90PPbAWz4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-04T07:11 — auto-descubierto · github · RinDig
@@ -11888,7 +11888,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `hCMrEfPG2Yg` · 16:58 · upload NA
 - **URL**: https://www.youtube.com/watch?v=hCMrEfPG2Yg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-04T07:18 — auto-descubierto · @aiDotEngineer
@@ -11897,7 +11897,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `zKk7sDMGDEQ` · 16:08 · upload NA
 - **URL**: https://www.youtube.com/watch?v=zKk7sDMGDEQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-04T07:20 — auto-descubierto · @aiDotEngineer
@@ -11906,7 +11906,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `504PvfXou5Y` · 12:49 · upload NA
 - **URL**: https://www.youtube.com/watch?v=504PvfXou5Y
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
@@ -12184,7 +12184,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_karpathy · `hJNp9RwK-Uw` · 14:04 · upload ?
 - **URL**: https://www.youtube.com/watch?v=hJNp9RwK-Uw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T07:05 — auto-descubierto · Build Great Products
@@ -12193,7 +12193,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_karpathy · `h0HYpONXgjk` · 26:24 · upload ?
 - **URL**: https://www.youtube.com/watch?v=h0HYpONXgjk
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T07:05 — auto-descubierto · github · RinDig
@@ -12234,7 +12234,7 @@ Update security-guidance plugin</pre>
 - **Source**: anthropic_main_youtube · `N5yJJA0NCU0` · 38:48 · upload NA
 - **URL**: https://www.youtube.com/watch?v=N5yJJA0NCU0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T11:45 — auto-descubierto · @anthropic-ai
@@ -12243,7 +12243,7 @@ Update security-guidance plugin</pre>
 - **Source**: anthropic_main_youtube · `5KTHvKCrQ00` · 6:11 · upload NA
 - **URL**: https://www.youtube.com/watch?v=5KTHvKCrQ00
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T11:48 — auto-descubierto · @anthropic-ai
@@ -12252,7 +12252,7 @@ Update security-guidance plugin</pre>
 - **Source**: anthropic_main_youtube · `Uh98_aGhAuY` · 42:21 · upload NA
 - **URL**: https://www.youtube.com/watch?v=Uh98_aGhAuY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T11:51 — auto-descubierto · @anthropic-ai
@@ -12261,7 +12261,7 @@ Update security-guidance plugin</pre>
 - **Source**: anthropic_main_youtube · `PLyCki2K0Lg` · 35:32 · upload NA
 - **URL**: https://www.youtube.com/watch?v=PLyCki2K0Lg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T11:52 — auto-descubierto · @anthropic-ai
@@ -12270,7 +12270,7 @@ Update security-guidance plugin</pre>
 - **Source**: anthropic_main_youtube · `_jjSS0qGFbI` · 3:44 · upload NA
 - **URL**: https://www.youtube.com/watch?v=_jjSS0qGFbI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T11:52 — auto-descubierto · @anthropic-ai
@@ -12279,7 +12279,7 @@ Update security-guidance plugin</pre>
 - **Source**: anthropic_main_youtube · `tJP6SKfo49c` · 3:40 · upload NA
 - **URL**: https://www.youtube.com/watch?v=tJP6SKfo49c
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T11:55 — auto-descubierto · @anthropic-ai
@@ -12288,7 +12288,7 @@ Update security-guidance plugin</pre>
 - **Source**: anthropic_main_youtube · `I9aGC6Ui3eE` · 36:10 · upload NA
 - **URL**: https://www.youtube.com/watch?v=I9aGC6Ui3eE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T11:56 — auto-descubierto · @anthropic-ai
@@ -12297,7 +12297,7 @@ Update security-guidance plugin</pre>
 - **Source**: anthropic_main_youtube · `GJ5jTgcbRHA` · 7:08 · upload NA
 - **URL**: https://www.youtube.com/watch?v=GJ5jTgcbRHA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T11:56 — auto-descubierto · @anthropic-ai
@@ -12306,7 +12306,7 @@ Update security-guidance plugin</pre>
 - **Source**: anthropic_main_youtube · `0vZ_UVLhSQQ` · 5:19 · upload NA
 - **URL**: https://www.youtube.com/watch?v=0vZ_UVLhSQQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T11:56 — auto-descubierto · @anthropic-ai
@@ -12315,7 +12315,7 @@ Update security-guidance plugin</pre>
 - **Source**: anthropic_main_youtube · `fOxC44g8vig` · 3:15 · upload NA
 - **URL**: https://www.youtube.com/watch?v=fOxC44g8vig
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:01 — auto-descubierto · @anthropic-ai
@@ -12324,7 +12324,7 @@ Update security-guidance plugin</pre>
 - **Source**: anthropic_main_youtube · `lvMMZLYoDr4` · 51:57 · upload NA
 - **URL**: https://www.youtube.com/watch?v=lvMMZLYoDr4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:01 — auto-descubierto · @anthropic-ai
@@ -12333,7 +12333,7 @@ Update security-guidance plugin</pre>
 - **Source**: anthropic_main_youtube · `OwMu0pyYZBc` · 4:15 · upload NA
 - **URL**: https://www.youtube.com/watch?v=OwMu0pyYZBc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
@@ -12636,7 +12636,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_karpathy · `4fXYv7MXIpo` · 12:03 · upload ?
 - **URL**: https://www.youtube.com/watch?v=4fXYv7MXIpo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:02 — auto-descubierto · github · RinDig
@@ -12677,7 +12677,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `xXsleu4-kd8` · 56:52 · upload NA
 - **URL**: https://www.youtube.com/watch?v=xXsleu4-kd8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:10 — auto-descubierto · @aiDotEngineer
@@ -12686,7 +12686,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `r305-aQTaU0` · 28:03 · upload NA
 - **URL**: https://www.youtube.com/watch?v=r305-aQTaU0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:11 — auto-descubierto · @aiDotEngineer
@@ -12695,7 +12695,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `iNkFlCiij0U` · 23:25 · upload NA
 - **URL**: https://www.youtube.com/watch?v=iNkFlCiij0U
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:13 — auto-descubierto · @aiDotEngineer
@@ -12704,7 +12704,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `wcUJWP6WpGM` · 16:30 · upload NA
 - **URL**: https://www.youtube.com/watch?v=wcUJWP6WpGM
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:15 — auto-descubierto · @mehulmpt
@@ -12713,7 +12713,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `Bws_z_8Eo-U` · 34:26 · upload NA
 - **URL**: https://www.youtube.com/watch?v=Bws_z_8Eo-U
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:17 — auto-descubierto · @mehulmpt
@@ -12722,7 +12722,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `zg7Rkjo2TaA` · 14:30 · upload NA
 - **URL**: https://www.youtube.com/watch?v=zg7Rkjo2TaA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:18 — auto-descubierto · @mehulmpt
@@ -12731,7 +12731,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `toRmFs2lcIs` · 15:28 · upload NA
 - **URL**: https://www.youtube.com/watch?v=toRmFs2lcIs
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:19 — auto-descubierto · @mehulmpt
@@ -12740,7 +12740,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `9bWss95HKy0` · 8:20 · upload NA
 - **URL**: https://www.youtube.com/watch?v=9bWss95HKy0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:20 — auto-descubierto · @mehulmpt
@@ -12749,7 +12749,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `4Ws70XpNHeE` · 14:36 · upload NA
 - **URL**: https://www.youtube.com/watch?v=4Ws70XpNHeE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:21 — auto-descubierto · @mehulmpt
@@ -12758,7 +12758,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `bdoFG31TJQU` · 11:28 · upload NA
 - **URL**: https://www.youtube.com/watch?v=bdoFG31TJQU
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:23 — auto-descubierto · @mehulmpt
@@ -12767,7 +12767,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `rdSrBezLaMc` · 20:59 · upload NA
 - **URL**: https://www.youtube.com/watch?v=rdSrBezLaMc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:24 — auto-descubierto · @mehulmpt
@@ -12776,7 +12776,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `kovUZsQUQ8g` · 16:53 · upload NA
 - **URL**: https://www.youtube.com/watch?v=kovUZsQUQ8g
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:25 — auto-descubierto · @mehulmpt
@@ -12785,7 +12785,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `sFHXYv7ANkc` · 14:07 · upload NA
 - **URL**: https://www.youtube.com/watch?v=sFHXYv7ANkc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:27 — auto-descubierto · @mehulmpt
@@ -12794,7 +12794,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `7JJkuXoATn4` · 22:13 · upload NA
 - **URL**: https://www.youtube.com/watch?v=7JJkuXoATn4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:28 — auto-descubierto · @mehulmpt
@@ -12803,7 +12803,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `PqrcYMIRZTs` · 6:14 · upload NA
 - **URL**: https://www.youtube.com/watch?v=PqrcYMIRZTs
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:29 — auto-descubierto · @mehulmpt
@@ -12812,7 +12812,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `hMapXjqHbJ4` · 8:44 · upload NA
 - **URL**: https://www.youtube.com/watch?v=hMapXjqHbJ4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:30 — auto-descubierto · @mehulmpt
@@ -12821,7 +12821,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `L9I7PqUVfng` · 18:24 · upload NA
 - **URL**: https://www.youtube.com/watch?v=L9I7PqUVfng
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:31 — auto-descubierto · @mehulmpt
@@ -12830,7 +12830,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `YSph5DYHQ6w` · 11:36 · upload NA
 - **URL**: https://www.youtube.com/watch?v=YSph5DYHQ6w
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:33 — auto-descubierto · @mehulmpt
@@ -12839,7 +12839,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `XoB4DXV7pUw` · 14:09 · upload NA
 - **URL**: https://www.youtube.com/watch?v=XoB4DXV7pUw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:34 — auto-descubierto · @mehulmpt
@@ -12848,7 +12848,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `GsXW4yiElQ4` · 10:59 · upload NA
 - **URL**: https://www.youtube.com/watch?v=GsXW4yiElQ4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:36 — auto-descubierto · @mehulmpt
@@ -12857,7 +12857,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `NBS4-sBClZU` · 22:04 · upload NA
 - **URL**: https://www.youtube.com/watch?v=NBS4-sBClZU
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:37 — auto-descubierto · @mehulmpt
@@ -12866,7 +12866,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `XnNZTCxKLeY` · 14:58 · upload NA
 - **URL**: https://www.youtube.com/watch?v=XnNZTCxKLeY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:38 — auto-descubierto · @mehulmpt
@@ -12875,7 +12875,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `VsrcdRvMWhc` · 20:06 · upload NA
 - **URL**: https://www.youtube.com/watch?v=VsrcdRvMWhc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:39 — auto-descubierto · @mehulmpt
@@ -12884,7 +12884,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `pIBetIh1BEU` · 13:01 · upload NA
 - **URL**: https://www.youtube.com/watch?v=pIBetIh1BEU
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:41 — auto-descubierto · @mehulmpt
@@ -12893,7 +12893,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `QwIpWRnI9A4` · 16:59 · upload NA
 - **URL**: https://www.youtube.com/watch?v=QwIpWRnI9A4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:42 — auto-descubierto · @mehulmpt
@@ -12902,7 +12902,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `S25aWsrZ47A` · 15:59 · upload NA
 - **URL**: https://www.youtube.com/watch?v=S25aWsrZ47A
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:43 — auto-descubierto · @mehulmpt
@@ -12911,7 +12911,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `NvhSQkb0pTA` · 16:11 · upload NA
 - **URL**: https://www.youtube.com/watch?v=NvhSQkb0pTA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:44 — auto-descubierto · @mehulmpt
@@ -12920,7 +12920,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `v72RZV0CLy4` · 5:02 · upload NA
 - **URL**: https://www.youtube.com/watch?v=v72RZV0CLy4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:45 — auto-descubierto · @mehulmpt
@@ -12929,7 +12929,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `xSkAzr7VyTI` · 13:41 · upload NA
 - **URL**: https://www.youtube.com/watch?v=xSkAzr7VyTI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:47 — auto-descubierto · @mehulmpt
@@ -12938,7 +12938,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `R2-0EAGlsxY` · 17:06 · upload NA
 - **URL**: https://www.youtube.com/watch?v=R2-0EAGlsxY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:48 — auto-descubierto · @mehulmpt
@@ -12947,7 +12947,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `hnfzT6d7mbo` · 19:19 · upload NA
 - **URL**: https://www.youtube.com/watch?v=hnfzT6d7mbo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:49 — auto-descubierto · @mehulmpt
@@ -12956,7 +12956,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `P5dKdZwkC44` · 11:53 · upload NA
 - **URL**: https://www.youtube.com/watch?v=P5dKdZwkC44
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:50 — auto-descubierto · @mehulmpt
@@ -12965,7 +12965,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `oc-89c7GF6U` · 13:42 · upload NA
 - **URL**: https://www.youtube.com/watch?v=oc-89c7GF6U
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:51 — auto-descubierto · @lukas-margerie
@@ -12974,7 +12974,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `1TVsQTtnofM` · 12:33 · upload NA
 - **URL**: https://www.youtube.com/watch?v=1TVsQTtnofM
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:52 — auto-descubierto · @lukas-margerie
@@ -12983,7 +12983,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `75BcEGo80WA` · 10:16 · upload NA
 - **URL**: https://www.youtube.com/watch?v=75BcEGo80WA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:53 — auto-descubierto · @lukas-margerie
@@ -12992,7 +12992,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `VSUHhRypbH4` · 10:12 · upload NA
 - **URL**: https://www.youtube.com/watch?v=VSUHhRypbH4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:54 — auto-descubierto · @lukas-margerie
@@ -13001,7 +13001,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `A0bxjZsLo4k` · 8:42 · upload NA
 - **URL**: https://www.youtube.com/watch?v=A0bxjZsLo4k
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:55 — auto-descubierto · @lukas-margerie
@@ -13010,7 +13010,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `S3K3l0YWOW8` · 13:19 · upload NA
 - **URL**: https://www.youtube.com/watch?v=S3K3l0YWOW8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:56 — auto-descubierto · @lukas-margerie
@@ -13019,7 +13019,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `NxqkRhTD6gM` · 5:22 · upload NA
 - **URL**: https://www.youtube.com/watch?v=NxqkRhTD6gM
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:56 — auto-descubierto · @lukas-margerie
@@ -13028,7 +13028,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `uaEVEgkPeLc` · 8:26 · upload NA
 - **URL**: https://www.youtube.com/watch?v=uaEVEgkPeLc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:57 — auto-descubierto · @lukas-margerie
@@ -13037,7 +13037,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `LJsENfKv6ZU` · 12:09 · upload NA
 - **URL**: https://www.youtube.com/watch?v=LJsENfKv6ZU
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:58 — auto-descubierto · @lukas-margerie
@@ -13046,7 +13046,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `WlvUUo9UMYg` · 7:37 · upload NA
 - **URL**: https://www.youtube.com/watch?v=WlvUUo9UMYg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T12:59 — auto-descubierto · @lukas-margerie
@@ -13055,7 +13055,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `1TGV1QNVcrw` · 13:11 · upload NA
 - **URL**: https://www.youtube.com/watch?v=1TGV1QNVcrw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:00 — auto-descubierto · @lukas-margerie
@@ -13064,7 +13064,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `CPg5UYbYLhA` · 9:11 · upload NA
 - **URL**: https://www.youtube.com/watch?v=CPg5UYbYLhA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:01 — auto-descubierto · @lukas-margerie
@@ -13073,7 +13073,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `EP6NPRV9rzM` · 8:34 · upload NA
 - **URL**: https://www.youtube.com/watch?v=EP6NPRV9rzM
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:02 — auto-descubierto · @lukas-margerie
@@ -13082,7 +13082,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `cu-Qq-47Rk8` · 14:00 · upload NA
 - **URL**: https://www.youtube.com/watch?v=cu-Qq-47Rk8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:03 — auto-descubierto · @lukas-margerie
@@ -13091,7 +13091,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `dNhrP8Qp9Fw` · 11:40 · upload NA
 - **URL**: https://www.youtube.com/watch?v=dNhrP8Qp9Fw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:05 — auto-descubierto · @lukas-margerie
@@ -13100,7 +13100,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `p8F5H-WBdkg` · 15:36 · upload NA
 - **URL**: https://www.youtube.com/watch?v=p8F5H-WBdkg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:06 — auto-descubierto · @lukas-margerie
@@ -13109,7 +13109,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `gqROP-t-_Oc` · 8:08 · upload NA
 - **URL**: https://www.youtube.com/watch?v=gqROP-t-_Oc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:08 — auto-descubierto · @lukas-margerie
@@ -13118,7 +13118,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `kRv5aQhyZvs` · 15:30 · upload NA
 - **URL**: https://www.youtube.com/watch?v=kRv5aQhyZvs
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:10 — auto-descubierto · @lukas-margerie
@@ -13127,7 +13127,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `GSELOwkT0EE` · 8:55 · upload NA
 - **URL**: https://www.youtube.com/watch?v=GSELOwkT0EE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:11 — auto-descubierto · @lukas-margerie
@@ -13136,7 +13136,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `idiGN_rMsyA` · 9:09 · upload NA
 - **URL**: https://www.youtube.com/watch?v=idiGN_rMsyA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:11 — auto-descubierto · @lukas-margerie
@@ -13145,7 +13145,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `QsvRqEkeRss` · 9:32 · upload NA
 - **URL**: https://www.youtube.com/watch?v=QsvRqEkeRss
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:12 — auto-descubierto · @lukas-margerie
@@ -13154,7 +13154,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `56CBij37AF0` · 8:45 · upload NA
 - **URL**: https://www.youtube.com/watch?v=56CBij37AF0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:13 — auto-descubierto · @lukas-margerie
@@ -13163,7 +13163,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `BF2U5uHz4x4` · 7:57 · upload NA
 - **URL**: https://www.youtube.com/watch?v=BF2U5uHz4x4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:14 — auto-descubierto · @lukas-margerie
@@ -13172,7 +13172,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `3DWuhBWQ-Ug` · 18:01 · upload NA
 - **URL**: https://www.youtube.com/watch?v=3DWuhBWQ-Ug
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:16 — auto-descubierto · @lukas-margerie
@@ -13181,7 +13181,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `58h9HdOYTd4` · 14:10 · upload NA
 - **URL**: https://www.youtube.com/watch?v=58h9HdOYTd4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:16 — auto-descubierto · @lukas-margerie
@@ -13190,7 +13190,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `PFO01z7Qe38` · 7:18 · upload NA
 - **URL**: https://www.youtube.com/watch?v=PFO01z7Qe38
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:17 — auto-descubierto · @lukas-margerie
@@ -13199,7 +13199,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `DBqEpIktzwo` · 9:03 · upload NA
 - **URL**: https://www.youtube.com/watch?v=DBqEpIktzwo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:18 — auto-descubierto · @lukas-margerie
@@ -13208,7 +13208,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `82Eo0ZR9aOk` · 11:59 · upload NA
 - **URL**: https://www.youtube.com/watch?v=82Eo0ZR9aOk
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:20 — auto-descubierto · @lukas-margerie
@@ -13217,7 +13217,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `B-V2TNlPlzQ` · 17:50 · upload NA
 - **URL**: https://www.youtube.com/watch?v=B-V2TNlPlzQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:20 — auto-descubierto · @lukas-margerie
@@ -13226,7 +13226,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `VvohlgYmqS4` · 10:00 · upload NA
 - **URL**: https://www.youtube.com/watch?v=VvohlgYmqS4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-05T13:21 — auto-descubierto · @lukas-margerie
@@ -13235,7 +13235,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `A1Y6oGDkLzQ` · 11:18 · upload NA
 - **URL**: https://www.youtube.com/watch?v=A1Y6oGDkLzQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-06T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
@@ -13440,7 +13440,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_boris_cherny · `DW4a1Cm8nG4` · 42:08 · upload ?
 - **URL**: https://www.youtube.com/watch?v=DW4a1Cm8nG4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-06T07:04 — auto-descubierto · github · karpathy
@@ -13533,7 +13533,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_karpathy · `20d5cSkSvcU` · 4:29 · upload ?
 - **URL**: https://www.youtube.com/watch?v=20d5cSkSvcU
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-06T07:04 — auto-descubierto · github · RinDig
@@ -13574,7 +13574,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `_B4Pv9ttFgY` · 22:38 · upload NA
 - **URL**: https://www.youtube.com/watch?v=_B4Pv9ttFgY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-06T07:08 — auto-descubierto · @aiDotEngineer
@@ -13583,7 +13583,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `pmoDeA3RBZY` · 16:44 · upload NA
 - **URL**: https://www.youtube.com/watch?v=pmoDeA3RBZY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-06T07:10 — auto-descubierto · @aiDotEngineer
@@ -13592,7 +13592,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `mFLlVpnGpds` · 25:20 · upload NA
 - **URL**: https://www.youtube.com/watch?v=mFLlVpnGpds
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 - **URL**: https://www.youtube.com/watch?v=Q_K3k_ge8NA  _(manual 2026-06-06)_
 - **URL**: https://www.youtube.com/watch?v=tmnd3M1k5Jw  _(manual 2026-06-06)_
@@ -13844,7 +13844,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_boris_cherny · `M8HuXu_bOco` · 27:53 · upload ?
 - **URL**: https://www.youtube.com/watch?v=M8HuXu_bOco
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:02 — auto-descubierto · github · karpathy
@@ -13969,7 +13969,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `_xIwFcnHqp4` · 16:06 · upload NA
 - **URL**: https://www.youtube.com/watch?v=_xIwFcnHqp4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:05 — auto-descubierto · @aiDotEngineer
@@ -13978,7 +13978,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `QuuIywMG4s8` · 19:04 · upload NA
 - **URL**: https://www.youtube.com/watch?v=QuuIywMG4s8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:06 — auto-descubierto · @aiDotEngineer
@@ -13987,7 +13987,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `KLSuFPj2ld0` · 18:46 · upload NA
 - **URL**: https://www.youtube.com/watch?v=KLSuFPj2ld0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:08 — auto-descubierto · @mehulmpt
@@ -13996,7 +13996,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `csSLKHA2TAo` · 14:20 · upload NA
 - **URL**: https://www.youtube.com/watch?v=csSLKHA2TAo
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:09 — auto-descubierto · @lukas-margerie
@@ -14005,7 +14005,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `Yh6vlU02OhE` · 12:23 · upload NA
 - **URL**: https://www.youtube.com/watch?v=Yh6vlU02OhE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:10 — auto-descubierto · @WorkOS
@@ -14014,7 +14014,7 @@ Update security-guidance plugin</pre>
 - **Source**: workos_youtube · `V0YNHOA9adc` · 6:46 · upload NA
 - **URL**: https://www.youtube.com/watch?v=V0YNHOA9adc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:10 — auto-descubierto · @WorkOS
@@ -14023,7 +14023,7 @@ Update security-guidance plugin</pre>
 - **Source**: workos_youtube · `3sf9AE6baf8` · 5:10 · upload NA
 - **URL**: https://www.youtube.com/watch?v=3sf9AE6baf8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:11 — auto-descubierto · @WorkOS
@@ -14032,7 +14032,7 @@ Update security-guidance plugin</pre>
 - **Source**: workos_youtube · `p9GpBR0lTnI` · 8:03 · upload NA
 - **URL**: https://www.youtube.com/watch?v=p9GpBR0lTnI
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:12 — auto-descubierto · @WorkOS
@@ -14041,7 +14041,7 @@ Update security-guidance plugin</pre>
 - **Source**: workos_youtube · `IVIuZjn15iQ` · 4:38 · upload NA
 - **URL**: https://www.youtube.com/watch?v=IVIuZjn15iQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:14 — auto-descubierto · @WorkOS
@@ -14050,7 +14050,7 @@ Update security-guidance plugin</pre>
 - **Source**: workos_youtube · `EPihCXkyyFA` · 14:04 · upload NA
 - **URL**: https://www.youtube.com/watch?v=EPihCXkyyFA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:15 — auto-descubierto · @WorkOS
@@ -14059,7 +14059,7 @@ Update security-guidance plugin</pre>
 - **Source**: workos_youtube · `sXfV44wDm4s` · 9:16 · upload NA
 - **URL**: https://www.youtube.com/watch?v=sXfV44wDm4s
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:16 — auto-descubierto · @WorkOS
@@ -14068,7 +14068,7 @@ Update security-guidance plugin</pre>
 - **Source**: workos_youtube · `CFAKI00LfII` · 8:50 · upload NA
 - **URL**: https://www.youtube.com/watch?v=CFAKI00LfII
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:17 — auto-descubierto · @WorkOS
@@ -14077,7 +14077,7 @@ Update security-guidance plugin</pre>
 - **Source**: workos_youtube · `nltcDNDwClQ` · 9:21 · upload NA
 - **URL**: https://www.youtube.com/watch?v=nltcDNDwClQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:18 — auto-descubierto · @WorkOS
@@ -14086,7 +14086,7 @@ Update security-guidance plugin</pre>
 - **Source**: workos_youtube · `2gOP_nIX1Z4` · 11:38 · upload NA
 - **URL**: https://www.youtube.com/watch?v=2gOP_nIX1Z4
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:21 — auto-descubierto · @WorkOS
@@ -14095,7 +14095,7 @@ Update security-guidance plugin</pre>
 - **Source**: workos_youtube · `QMUAGH7DnZ8` · 14:58 · upload NA
 - **URL**: https://www.youtube.com/watch?v=QMUAGH7DnZ8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:22 — auto-descubierto · @WorkOS
@@ -14104,7 +14104,7 @@ Update security-guidance plugin</pre>
 - **Source**: workos_youtube · `2GhEF_37qoY` · 11:57 · upload NA
 - **URL**: https://www.youtube.com/watch?v=2GhEF_37qoY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:23 — auto-descubierto · @WorkOS
@@ -14113,7 +14113,7 @@ Update security-guidance plugin</pre>
 - **Source**: workos_youtube · `G3YAh_BLBno` · 10:01 · upload NA
 - **URL**: https://www.youtube.com/watch?v=G3YAh_BLBno
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:25 — auto-descubierto · @WorkOS
@@ -14122,7 +14122,7 @@ Update security-guidance plugin</pre>
 - **Source**: workos_youtube · `Sx7fcMP-HNQ` · 12:11 · upload NA
 - **URL**: https://www.youtube.com/watch?v=Sx7fcMP-HNQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:27 — auto-descubierto · @WorkOS
@@ -14131,7 +14131,7 @@ Update security-guidance plugin</pre>
 - **Source**: workos_youtube · `7-p2Ej5VMOY` · 13:19 · upload NA
 - **URL**: https://www.youtube.com/watch?v=7-p2Ej5VMOY
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-07T07:29 — auto-descubierto · @WorkOS
@@ -14140,7 +14140,7 @@ Update security-guidance plugin</pre>
 - **Source**: workos_youtube · `uT_ALxij_7I` · 10:53 · upload NA
 - **URL**: https://www.youtube.com/watch?v=uT_ALxij_7I
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 - **URL**: https://www.youtube.com/watch?v=kZPmQjvJKYs  _(manual 2026-06-07)_
 - **URL**: https://www.youtube.com/watch?v=qwmmWzPnhog  _(manual 2026-06-07, x-sweep boris)_
@@ -14433,7 +14433,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_karpathy · `KS2opAosVWA` · 4:22 · upload ?
 - **URL**: https://www.youtube.com/watch?v=KS2opAosVWA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-08T07:01 — auto-descubierto · github · RinDig
@@ -14474,7 +14474,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_thariq · `5jSqtOe6TIQ` · 9:08 · upload ?
 - **URL**: https://www.youtube.com/watch?v=5jSqtOe6TIQ
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-08T07:03 — auto-descubierto · @aiDotEngineer
@@ -14483,7 +14483,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `JsCCrBF7F1g` · 16:32 · upload NA
 - **URL**: https://www.youtube.com/watch?v=JsCCrBF7F1g
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-08T07:04 — auto-descubierto · @aiDotEngineer
@@ -14492,7 +14492,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `ILdE7FaAjVA` · 13:26 · upload NA
 - **URL**: https://www.youtube.com/watch?v=ILdE7FaAjVA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-08T07:06 — auto-descubierto · @aiDotEngineer
@@ -14501,7 +14501,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `zTZ0qunQXnM` · 25:26 · upload NA
 - **URL**: https://www.youtube.com/watch?v=zTZ0qunQXnM
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-08T07:07 — auto-descubierto · @mehulmpt
@@ -14510,7 +14510,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `6dDJCzmxI2g` · 13:01 · upload NA
 - **URL**: https://www.youtube.com/watch?v=6dDJCzmxI2g
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-08T07:14 — auto-descubierto · @SeedRocketTV
@@ -14519,7 +14519,7 @@ Update security-guidance plugin</pre>
 - **Source**: seedrocket_tv_youtube · `b8jAZQVW0r0` · 61:50 · upload NA
 - **URL**: https://www.youtube.com/watch?v=b8jAZQVW0r0
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-08T22:55 — auto-descubierto · @claudeai
@@ -14528,7 +14528,7 @@ Update security-guidance plugin</pre>
 - **Source**: claude_anthropic_youtube · `Hth_tLaC2j8` · 18:08 · upload NA
 - **URL**: https://www.youtube.com/watch?v=Hth_tLaC2j8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-08T22:56 — auto-descubierto · github · https://github.com/anthropics/claude-code
@@ -14817,7 +14817,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `TUnPNY4E2fw` · 15:50 · upload NA
 - **URL**: https://www.youtube.com/watch?v=TUnPNY4E2fw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-08T22:58 — auto-descubierto · @aiDotEngineer
@@ -14826,7 +14826,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `EcqMYoIV57A` · 26:27 · upload NA
 - **URL**: https://www.youtube.com/watch?v=EcqMYoIV57A
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-08T23:00 — auto-descubierto · @aiDotEngineer
@@ -14835,7 +14835,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `SKDJo2CopRs` · 24:51 · upload NA
 - **URL**: https://www.youtube.com/watch?v=SKDJo2CopRs
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-08T23:01 — auto-descubierto · @mehulmpt
@@ -14844,7 +14844,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `azAV8BdMgJE` · 21:23 · upload NA
 - **URL**: https://www.youtube.com/watch?v=azAV8BdMgJE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-08T23:02 — auto-descubierto · @lukas-margerie
@@ -14853,7 +14853,7 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `5iZ4VpeIJSg` · 13:52 · upload NA
 - **URL**: https://www.youtube.com/watch?v=5iZ4VpeIJSg
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-08T23:02 — auto-descubierto · web · plane_so_blog
@@ -14863,7 +14863,7 @@ Update security-guidance plugin</pre>
 - **URL**: https://plane.so/blog/introducing-plane-runner-and-scheduled-automations
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **URL**: https://www.youtube.com/watch?v=GIRpQEfYf3U  _(manual 2026-06-08, aidoteng-gap)_
 - **URL**: https://www.youtube.com/watch?v=vNCY9kXXyDQ  _(manual 2026-06-08, aidoteng-gap)_
 - **URL**: https://www.youtube.com/watch?v=-TiET_K-E_g  _(manual 2026-06-08, aidoteng-gap)_
@@ -14874,7 +14874,7 @@ Update security-guidance plugin</pre>
 - **Source**: claude_anthropic_youtube · `LrZHnKS_L6k` · 3:40 · upload NA
 - **URL**: https://www.youtube.com/watch?v=LrZHnKS_L6k
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-09T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
@@ -15164,7 +15164,7 @@ Update security-guidance plugin</pre>
 - **URL**: https://www.anthropic.com/news/claude-fable-5-mythos-5
 - **Tipo**: web_article (sin transcripción — scrape on-demand)
 - **Pista**: [PENDIENTE leer el post y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
 
 ## 2026-06-10T07:08 — auto-descubierto · github · https://github.com/anthropics/claude-code
 
@@ -15449,7 +15449,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `zDGHt0LB-dA` · 20:19 · upload NA
 - **URL**: https://www.youtube.com/watch?v=zDGHt0LB-dA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-10T07:12 — auto-descubierto · @aiDotEngineer
@@ -15458,7 +15458,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `Bc6Ojl2XS1w` · 19:34 · upload NA
 - **URL**: https://www.youtube.com/watch?v=Bc6Ojl2XS1w
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: YA CITADO en wiki (reconciliado 2026-06-13)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-10T07:14 — auto-descubierto · @mehulmpt
@@ -15467,7 +15467,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `8z9WOww4nB8` · 17:04 · upload NA
 - **URL**: https://www.youtube.com/watch?v=8z9WOww4nB8
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-11T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
@@ -15654,7 +15654,7 @@ Update security-guidance plugin</pre>
 - **Source**: youtube_mentions_karpathy · `z02Y-1OvWSM` · 12:43 · upload ?
 - **URL**: https://www.youtube.com/watch?v=z02Y-1OvWSM
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-11T07:08 — auto-descubierto · @sequoiacapital
@@ -15663,7 +15663,7 @@ Update security-guidance plugin</pre>
 - **Source**: sequoiacapital_youtube · `2UpQbeAZuqA` · 41:21 · upload NA
 - **URL**: https://www.youtube.com/watch?v=2UpQbeAZuqA
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-11T07:09 — auto-descubierto · @aiDotEngineer
@@ -15672,7 +15672,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `TNwJ1LMiENk` · 20:56 · upload NA
 - **URL**: https://www.youtube.com/watch?v=TNwJ1LMiENk
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-11T07:12 — auto-descubierto · @aiDotEngineer
@@ -15681,7 +15681,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `SS-A8sE7hkw` · 20:52 · upload NA
 - **URL**: https://www.youtube.com/watch?v=SS-A8sE7hkw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-11T07:13 — auto-descubierto · @aiDotEngineer
@@ -15690,7 +15690,7 @@ Update security-guidance plugin</pre>
 - **Source**: aidotengineer_youtube · `UM6sFg_jdlE` · 11:13 · upload NA
 - **URL**: https://www.youtube.com/watch?v=UM6sFg_jdlE
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-11T07:14 — auto-descubierto · @mehulmpt
@@ -15699,7 +15699,7 @@ Update security-guidance plugin</pre>
 - **Source**: mehulmpt_youtube · `Futwwcn8ZNw` · 9:30 · upload NA
 - **URL**: https://www.youtube.com/watch?v=Futwwcn8ZNw
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
 
 ## 2026-06-11T07:15 — auto-descubierto · @lukas-margerie
@@ -15708,5 +15708,2041 @@ Update security-guidance plugin</pre>
 - **Source**: lukas_margerie_youtube · `MYPlBOvV6kc` · 10:02 · upload NA
 - **URL**: https://www.youtube.com/watch?v=MYPlBOvV6kc
 - **Pista**: [PENDIENTE leer transcripción y resumir]
-- **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-12T07:14 — auto-descubierto · web · anthropic_blog
+
+### claude-corps
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/claude-corps
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
+
+## 2026-06-12T07:14 — auto-descubierto · web · anthropic_blog
+
+### dxc-anthropic-alliance
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/dxc-anthropic-alliance
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.175
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.175
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>enforceAvailableModels</code> managed setting — when enabled, the <code>availableModels</code> allowlist also constrains the Default model (a Default that 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.174
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.174
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>wheelScrollAccelerationEnabled</code> setting to disable mouse-wheel scroll acceleration in fullscreen mode</li>
+<li>Fixed the <code>/model</code> picker h
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.173
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-11
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.173
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed Fable 5 model names with a <code>[1m]</code> suffix not being normalized — Fable 5 includes 1M context by default, so the suffix is now stripped automatically</l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.172
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-10
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.172
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Sub-agents can now spawn their own sub-agents (up to 5 levels deep)</li>
+<li>Amazon Bedrock now reads the AWS region from <code>~/.aws</code> config files when <code>A
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.170
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.170
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use. Fable’s capabilities exceed those of any model we’ve ever made generally availab
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.169
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-08
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.169
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>--safe-mode</code> flag (and <code>CLAUDE_CODE_SAFE_MODE</code>) to start Claude Code with all customizations (CLAUDE.md, plugins, skills, hooks, MCP serve
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.168
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.168
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.167
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.167
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.166
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.166
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>fallbackModel</code> setting to configure up to three fallback models tried in order when the primary model is overloaded or unavailable; <code>--fallback-
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.165
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-05
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.165
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/commit/ee81682a72b07705672332d1dc963927a998c177
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/commit/5754a8bd4fd286e798d9d29658b10f29832ad177
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-11
+- **URL**: https://github.com/anthropics/claude-code/commit/3a7c736101edbd00426fce4615e80b937f6467df
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-10
+- **URL**: https://github.com/anthropics/claude-code/commit/ca34f27543215fa4212872401dff00ba0ff0a034
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/commit/1c5f951a48934b8bb27532ac54b7f877fed3de12
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/commit/6a9c2dbe450466738526c9fa889d989ad48d1300
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-08
+- **URL**: https://github.com/anthropics/claude-code/commit/f967b36c1ba1c068372fa7dcac4fae93030103fb
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/72281753c2af394d35d6950af5980832cbebd322
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/c1b75cba5e990e643ed62db6769a9f9807bdb053
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/6988846f0f7bd570788b2551aeec7854b3c6b11e
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-05
+- **URL**: https://github.com/anthropics/claude-code/commit/feabcc3c2b9abf057a3721cf5427f8f50d75618f
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-10
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-12
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-12
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-06-10
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-12T07:14 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-06-10
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · @claudeai
+
+### `N4efO8viXXo_Code_with_Claude_Tokyo_2026__Opening_Keynote.knowledge`
+- **Source**: claude_anthropic_youtube · `N4efO8viXXo` · 42:25 · upload NA
+- **URL**: https://www.youtube.com/watch?v=N4efO8viXXo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-13T07:01 — auto-descubierto · web · anthropic_blog
+
+### fable-mythos-access
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/fable-mythos-access
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
+
+## 2026-06-13T07:01 — auto-descubierto · web · anthropic_blog
+
+### anthropic-public-record
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/anthropic-public-record
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
+
+## 2026-06-13T07:01 — auto-descubierto · web · anthropic_blog
+
+### tcs-anthropic-partnership
+- **Source**: web `anthropic_blog` · index `https://www.anthropic.com/news`
+- **URL**: https://www.anthropic.com/news/tcs-anthropic-partnership
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: RESUELTO 2026-06-14 web-triage (ver wiki reports/web-triage-2026-06-14.md): duplicado de página existente / company-watch SKIP / Plane intel OUT. Net-new in-scope (~10) QUEUED en el report.
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.177
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-13
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.177
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: No content.
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.176
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.176
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Session titles are now generated in the language of your conversation (set the <code>language</code> setting to pin a specific language)</li>
+<li>Added <code>footerLin
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.175
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.175
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>enforceAvailableModels</code> managed setting — when enabled, the <code>availableModels</code> allowlist also constrains the Default model (a Default that 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.174
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.174
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>wheelScrollAccelerationEnabled</code> setting to disable mouse-wheel scroll acceleration in fullscreen mode</li>
+<li>Fixed the <code>/model</code> picker h
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.173
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-11
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.173
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed Fable 5 model names with a <code>[1m]</code> suffix not being normalized — Fable 5 includes 1M context by default, so the suffix is now stripped automatically</l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.172
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-10
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.172
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Sub-agents can now spawn their own sub-agents (up to 5 levels deep)</li>
+<li>Amazon Bedrock now reads the AWS region from <code>~/.aws</code> config files when <code>A
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.170
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.170
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use. Fable’s capabilities exceed those of any model we’ve ever made generally availab
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.169
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-08
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.169
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>--safe-mode</code> flag (and <code>CLAUDE_CODE_SAFE_MODE</code>) to start Claude Code with all customizations (CLAUDE.md, plugins, skills, hooks, MCP serve
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.168
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.168
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Bug fixes and reliability improvements</li>
+</ul>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/commit/ca9f6045fc90c8244f9e787fb57d54b380f9a27c
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/commit/ee81682a72b07705672332d1dc963927a998c177
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/commit/5754a8bd4fd286e798d9d29658b10f29832ad177
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-11
+- **URL**: https://github.com/anthropics/claude-code/commit/3a7c736101edbd00426fce4615e80b937f6467df
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-10
+- **URL**: https://github.com/anthropics/claude-code/commit/ca34f27543215fa4212872401dff00ba0ff0a034
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/commit/1c5f951a48934b8bb27532ac54b7f877fed3de12
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/commit/6a9c2dbe450466738526c9fa889d989ad48d1300
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-08
+- **URL**: https://github.com/anthropics/claude-code/commit/f967b36c1ba1c068372fa7dcac4fae93030103fb
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:01 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-06
+- **URL**: https://github.com/anthropics/claude-code/commit/72281753c2af394d35d6950af5980832cbebd322
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:02 — auto-descubierto · Fortune Conversations
+
+### `KDOGK4Mbxq0_From_Prompts_to_Power.knowledge`
+- **Source**: youtube_mentions_boris_cherny · `KDOGK4Mbxq0` · 19:58 · upload ?
+- **URL**: https://www.youtube.com/watch?v=KDOGK4Mbxq0
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-13T07:02 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-13
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:02 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-13
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:02 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-13
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:02 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-06-10
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:02 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-06-10
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-13T07:04 — auto-descubierto · @sequoiacapital
+
+### `cMAs8z2dehs_Google_DeepMind's_Logan_Kilpatrick__Why_Google_Isn't_Optimizing_for_Eyeballs.knowledge`
+- **Source**: sequoiacapital_youtube · `cMAs8z2dehs` · 51:09 · upload NA
+- **URL**: https://www.youtube.com/watch?v=cMAs8z2dehs
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-13T07:05 — auto-descubierto · @aiDotEngineer
+
+### `iUWwcG-C8OU_Why_Can't_Anyone_Answer_Questions_About_the_Business__—_Garrett_Galow,_WorkOS.knowledge`
+- **Source**: aidotengineer_youtube · `iUWwcG-C8OU` · 19:06 · upload NA
+- **URL**: https://www.youtube.com/watch?v=iUWwcG-C8OU
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-13T07:05 — auto-descubierto · @aiDotEngineer
+
+### `ghJmWQCIHRM_The_agent-ready_web__Simplify_user_actions_with_WebMCP_—_Tara_Agyemang,_Google.knowledge`
+- **Source**: aidotengineer_youtube · `ghJmWQCIHRM` · 21:34 · upload NA
+- **URL**: https://www.youtube.com/watch?v=ghJmWQCIHRM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-13T07:06 — auto-descubierto · @aiDotEngineer
+
+### `so9l_MwS2yg_The_Hard_Constraint__Building_Around_Human_Attention_in_an_Agent-First_World_—_Zack_Proser,_WorkOS.knowledge`
+- **Source**: aidotengineer_youtube · `so9l_MwS2yg` · 25:17 · upload NA
+- **URL**: https://www.youtube.com/watch?v=so9l_MwS2yg
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-13T07:07 — auto-descubierto · @aiDotEngineer
+
+### `zMiSRliEzv4_Self_Driving_Products__Product_Signals_to_Pull_Requests_—_Joshua_Snyder,_PostHog.knowledge`
+- **Source**: aidotengineer_youtube · `zMiSRliEzv4` · 15:39 · upload NA
+- **URL**: https://www.youtube.com/watch?v=zMiSRliEzv4
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-13T07:07 — auto-descubierto · @mehulmpt
+
+### `sc8W795yp2M_Trump_Shut_Down_Mythos_(WHAT).knowledge`
+- **Source**: mehulmpt_youtube · `sc8W795yp2M` · 10:12 · upload NA
+- **URL**: https://www.youtube.com/watch?v=sc8W795yp2M
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: SKIP 2026-06-13 (ya cubierto / sin net-new)
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-13T07:08 — auto-descubierto · @mehulmpt
+
+### `c-TNhFmthY8_I_Used_Fable_5_(Mythos)_For_48_Hours_-_Here's_My_Review.knowledge`
+- **Source**: mehulmpt_youtube · `c-TNhFmthY8` · 16:12 · upload NA
+- **URL**: https://www.youtube.com/watch?v=c-TNhFmthY8
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: INGESTADO 2026-06-13
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-14T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.177
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-13
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.177
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: No content.
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.176
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.176
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Session titles are now generated in the language of your conversation (set the <code>language</code> setting to pin a specific language)</li>
+<li>Added <code>footerLin
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.175
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.175
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>enforceAvailableModels</code> managed setting — when enabled, the <code>availableModels</code> allowlist also constrains the Default model (a Default that 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.174
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.174
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>wheelScrollAccelerationEnabled</code> setting to disable mouse-wheel scroll acceleration in fullscreen mode</li>
+<li>Fixed the <code>/model</code> picker h
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.173
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-11
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.173
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed Fable 5 model names with a <code>[1m]</code> suffix not being normalized — Fable 5 includes 1M context by default, so the suffix is now stripped automatically</l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.172
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-10
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.172
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Sub-agents can now spawn their own sub-agents (up to 5 levels deep)</li>
+<li>Amazon Bedrock now reads the AWS region from <code>~/.aws</code> config files when <code>A
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.170
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.170
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use. Fable’s capabilities exceed those of any model we’ve ever made generally availab
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.169
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-08
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.169
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>--safe-mode</code> flag (and <code>CLAUDE_CODE_SAFE_MODE</code>) to start Claude Code with all customizations (CLAUDE.md, plugins, skills, hooks, MCP serve
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/commit/ca9f6045fc90c8244f9e787fb57d54b380f9a27c
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/commit/ee81682a72b07705672332d1dc963927a998c177
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/commit/5754a8bd4fd286e798d9d29658b10f29832ad177
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-11
+- **URL**: https://github.com/anthropics/claude-code/commit/3a7c736101edbd00426fce4615e80b937f6467df
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-10
+- **URL**: https://github.com/anthropics/claude-code/commit/ca34f27543215fa4212872401dff00ba0ff0a034
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/commit/1c5f951a48934b8bb27532ac54b7f877fed3de12
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/commit/6a9c2dbe450466738526c9fa889d989ad48d1300
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-08
+- **URL**: https://github.com/anthropics/claude-code/commit/f967b36c1ba1c068372fa7dcac4fae93030103fb
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-13
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-14
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-14
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-06-10
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-06-13
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:00 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-06-14
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-14T07:01 — auto-descubierto · @mehulmpt
+
+### `4MlI_lJkkfk_Kimi_K2.7__New_King_of_Open_Source_AI_.knowledge`
+- **Source**: mehulmpt_youtube · `4MlI_lJkkfk` · 15:31 · upload NA
+- **URL**: https://www.youtube.com/watch?v=4MlI_lJkkfk
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: INGESTADO 2026-06-14 (nugget → ai-coding-tools/tools-comparison.md)
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-14T07:01 — auto-descubierto · @lukas-margerie
+
+### `V7aWDzQyQ8E_The_5_Most_Underrated_Codex_MCPs_Every_Designer_Should_Use.knowledge`
+- **Source**: lukas_margerie_youtube · `V7aWDzQyQ8E` · 9:33 · upload NA
+- **URL**: https://www.youtube.com/watch?v=V7aWDzQyQ8E
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: SKIP 2026-06-14 (synthesis-over-collection: Higgs/Mobbin/MagicPath/Vercel ya en ai-design-tool-landscape-2026)
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-15 — manual (sesión transcribo) · @jevanclief
+
+### `CQyQqX9BrGA_I'll_never_post_one_of_these_videos_on_YouTube_again.knowledge`
+- **Source**: jevanclief_youtube · `CQyQqX9BrGA` · 91:42 · upload 20260614
+- **URL**: https://www.youtube.com/watch?v=CQyQqX9BrGA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive (manual 2026-06-15)
+
+### `UDJmO7xyCSo_What_we_give_away_free_beats_all_the_other_AI_Gurus.knowledge`
+- **Source**: jevanclief_youtube · `UDJmO7xyCSo` · 4:51 · upload 20260614
+- **URL**: https://www.youtube.com/watch?v=UDJmO7xyCSo
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: [PENDIENTE]
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive (manual 2026-06-15)
+
+## 2026-06-15 — manual (sesión transcribo) · @mehulmpt
+
+### `pKW2zJ9tUr0_They_Beat_Fable_5_WHAT.knowledge`
+- **Source**: mehulmpt_youtube · `pKW2zJ9tUr0` · 19:07 · upload NA
+- **URL**: https://www.youtube.com/watch?v=pKW2zJ9tUr0
+- **Estado**: `.knowledge.md` en videoatexto/ + canonical kDrive (manual 2026-06-15)
+
+## 2026-06-15T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.177
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-13
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.177
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: No content.
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.176
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.176
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Session titles are now generated in the language of your conversation (set the <code>language</code> setting to pin a specific language)</li>
+<li>Added <code>footerLin
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.175
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.175
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>enforceAvailableModels</code> managed setting — when enabled, the <code>availableModels</code> allowlist also constrains the Default model (a Default that 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.174
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.174
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>wheelScrollAccelerationEnabled</code> setting to disable mouse-wheel scroll acceleration in fullscreen mode</li>
+<li>Fixed the <code>/model</code> picker h
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.173
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-11
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.173
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed Fable 5 model names with a <code>[1m]</code> suffix not being normalized — Fable 5 includes 1M context by default, so the suffix is now stripped automatically</l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.172
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-10
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.172
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Sub-agents can now spawn their own sub-agents (up to 5 levels deep)</li>
+<li>Amazon Bedrock now reads the AWS region from <code>~/.aws</code> config files when <code>A
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.170
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.170
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use. Fable’s capabilities exceed those of any model we’ve ever made generally availab
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.169
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-08
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.169
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>--safe-mode</code> flag (and <code>CLAUDE_CODE_SAFE_MODE</code>) to start Claude Code with all customizations (CLAUDE.md, plugins, skills, hooks, MCP serve
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/commit/ca9f6045fc90c8244f9e787fb57d54b380f9a27c
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/commit/ee81682a72b07705672332d1dc963927a998c177
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/commit/5754a8bd4fd286e798d9d29658b10f29832ad177
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-11
+- **URL**: https://github.com/anthropics/claude-code/commit/3a7c736101edbd00426fce4615e80b937f6467df
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-10
+- **URL**: https://github.com/anthropics/claude-code/commit/ca34f27543215fa4212872401dff00ba0ff0a034
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/commit/1c5f951a48934b8bb27532ac54b7f877fed3de12
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/commit/6a9c2dbe450466738526c9fa889d989ad48d1300
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-08
+- **URL**: https://github.com/anthropics/claude-code/commit/f967b36c1ba1c068372fa7dcac4fae93030103fb
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-14
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-15
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-15
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-06-10
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-06-13
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · karpathy
+
+### Natural Evolution Strategies (NES) toy example that optimizes a quadratic function
+- **Source**: github `karpathy_gists` · 2026-06-14
+- **URL**: https://gist.github.com/karpathy/77fbb6a8dac5395f1b73e7a89300318d
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/77fbb6a8dac5395f1b73e7a89300318d#file-nes-py">nes.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-nes-py" cla
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:00 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-06-14
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-15T07:01 — auto-descubierto · mh_shortly
+
+### `zCQEmlAwWMs_Make_your_AI_output_more_visual_-_switch_to_HTML.knowledge`
+- **Source**: youtube_mentions_thariq · `zCQEmlAwWMs` · 9:43 · upload ?
+- **URL**: https://www.youtube.com/watch?v=zCQEmlAwWMs
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: SKIP-dup 2026-06-15 (HTML-output tip ya en multimodal-voice-vision-2026.md + workflows-and-patterns.md)
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-15T07:02 — auto-descubierto · web · plane_so_blog
+
+### introducing-enterprise-grid
+- **Source**: web `plane_so_blog` · index `https://plane.so/blog`
+- **URL**: https://plane.so/blog/introducing-enterprise-grid
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: OUT 2026-06-15 (Plane competitive-intel → contexto producto biklabs.ai, no wiki-conocimiento; ruling web-triage 14-jun)
+
+## 2026-06-15T07:02 — auto-descubierto · web · plane_so_blog
+
+### introducing-custom-workflows-and-approval-flows
+- **Source**: web `plane_so_blog` · index `https://plane.so/blog`
+- **URL**: https://plane.so/blog/introducing-custom-workflows-and-approval-flows
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: OUT 2026-06-15 (Plane competitive-intel → contexto producto biklabs.ai; ruling web-triage 14-jun)
+
+## 2026-06-15T07:02 — auto-descubierto · web · plane_so_blog
+
+### introducing-granular-access-control-gac-ldap-idp-group-sync
+- **Source**: web `plane_so_blog` · index `https://plane.so/blog`
+- **URL**: https://plane.so/blog/introducing-granular-access-control-gac-ldap-idp-group-sync
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: OUT 2026-06-15 (Plane competitive-intel → contexto producto biklabs.ai; ruling web-triage 14-jun)
+
+## 2026-06-15T07:02 — auto-descubierto · web · plane_so_blog
+
+### introducing-workspace-work-item-types-hierarchy
+- **Source**: web `plane_so_blog` · index `https://plane.so/blog`
+- **URL**: https://plane.so/blog/introducing-workspace-work-item-types-hierarchy
+- **Tipo**: web_article (sin transcripción — scrape on-demand)
+- **Pista**: [PENDIENTE leer el post y resumir]
+- **Sugerencia ingest**: OUT 2026-06-15 (Plane competitive-intel → contexto producto biklabs.ai; ruling web-triage 14-jun)
+
+## 2026-06-15T07:26 — auto-descubierto · @SeedRocketTV
+
+### `Z3ZvQBZb22M_Cómo_la_IA_está_cambiando_la_medicina___Tertulia_SeedRocket.knowledge`
+- **Source**: seedrocket_tv_youtube · `Z3ZvQBZb22M` · 67:56 · upload NA
+- **URL**: https://www.youtube.com/watch?v=Z3ZvQBZb22M
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: INGESTADO 2026-06-15 → business-finance/healthtech-inversion-espana.md (NUEVA)
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.178
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-15
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.178
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>Tool(param:value)</code> syntax for permission rules to match a tool's input parameters (with <code>*</code> wildcard), e.g. <code>Agent(model:opus)</code>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.177
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-13
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.177
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: No content.
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.176
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.176
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Session titles are now generated in the language of your conversation (set the <code>language</code> setting to pin a specific language)</li>
+<li>Added <code>footerLin
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.175
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.175
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>enforceAvailableModels</code> managed setting — when enabled, the <code>availableModels</code> allowlist also constrains the Default model (a Default that 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.174
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.174
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>wheelScrollAccelerationEnabled</code> setting to disable mouse-wheel scroll acceleration in fullscreen mode</li>
+<li>Fixed the <code>/model</code> picker h
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.173
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-11
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.173
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed Fable 5 model names with a <code>[1m]</code> suffix not being normalized — Fable 5 includes 1M context by default, so the suffix is now stripped automatically</l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.172
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-10
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.172
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Sub-agents can now spawn their own sub-agents (up to 5 levels deep)</li>
+<li>Amazon Bedrock now reads the AWS region from <code>~/.aws</code> config files when <code>A
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.170
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.170
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use. Fable’s capabilities exceed those of any model we’ve ever made generally availab
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-15
+- **URL**: https://github.com/anthropics/claude-code/commit/64ceb97caab3fb898ece9a1b61e337470f805550
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/commit/ca9f6045fc90c8244f9e787fb57d54b380f9a27c
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/commit/ee81682a72b07705672332d1dc963927a998c177
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/commit/5754a8bd4fd286e798d9d29658b10f29832ad177
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-11
+- **URL**: https://github.com/anthropics/claude-code/commit/3a7c736101edbd00426fce4615e80b937f6467df
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-10
+- **URL**: https://github.com/anthropics/claude-code/commit/ca34f27543215fa4212872401dff00ba0ff0a034
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/commit/1c5f951a48934b8bb27532ac54b7f877fed3de12
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-09
+- **URL**: https://github.com/anthropics/claude-code/commit/6a9c2dbe450466738526c9fa889d989ad48d1300
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-15
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-16
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-16
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-06-10
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-06-13
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · karpathy
+
+### Natural Evolution Strategies (NES) toy example that optimizes a quadratic function
+- **Source**: github `karpathy_gists` · 2026-06-14
+- **URL**: https://gist.github.com/karpathy/77fbb6a8dac5395f1b73e7a89300318d
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/77fbb6a8dac5395f1b73e7a89300318d#file-nes-py">nes.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-nes-py" cla
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:00 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-06-15
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-16T07:05 — auto-descubierto · @aiDotEngineer
+
+### `c-2eEv2ou7Y_Why_MCP_and_ChatGPT_Apps_Use_Double_Iframes_—_Frédéric_Barthelet,_Alpic.knowledge`
+- **Source**: aidotengineer_youtube · `c-2eEv2ou7Y` · 20:11 · upload NA
+- **URL**: https://www.youtube.com/watch?v=c-2eEv2ou7Y
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: INGESTADO 2026-06-16 → claude-code/mcp-apps-ui-security.md (NUEVA)
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-16T07:08 — auto-descubierto · @mehulmpt
+
+### `Uwx-Y-yMWlM_AI_Is_Making_Everything_Expensive.knowledge`
+- **Source**: mehulmpt_youtube · `Uwx-Y-yMWlM` · 11:39 · upload NA
+- **URL**: https://www.youtube.com/watch?v=Uwx-Y-yMWlM
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: INGESTADO 2026-06-16 → NUGGET en self-hosted-and-devops-foundations.md (cloud cost IA)
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-16T07:10 — auto-descubierto · @lukas-margerie
+
+### `VqRtONJtehA_Automate_Entire_Design_Workflows_with_Claude_Code_Routines.knowledge`
+- **Source**: lukas_margerie_youtube · `VqRtONJtehA` · 9:09 · upload NA
+- **URL**: https://www.youtube.com/watch?v=VqRtONJtehA
+- **Pista**: [PENDIENTE leer transcripción y resumir]
+- **Sugerencia ingest**: INGESTADO 2026-06-16 → NUGGET en proactive-agent-workflow.md (routine design-review)
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.179
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-16
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.179
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed mid-stream connection drops: partial responses are now preserved instead of showing a raw error, and the spinner no longer gets stuck at "running tool"</li>
+<li>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.178
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-15
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.178
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>Tool(param:value)</code> syntax for permission rules to match a tool's input parameters (with <code>*</code> wildcard), e.g. <code>Agent(model:opus)</code>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.177
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-13
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.177
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: No content.
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.176
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.176
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Session titles are now generated in the language of your conversation (set the <code>language</code> setting to pin a specific language)</li>
+<li>Added <code>footerLin
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.175
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.175
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>enforceAvailableModels</code> managed setting — when enabled, the <code>availableModels</code> allowlist also constrains the Default model (a Default that 
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.174
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.174
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Added <code>wheelScrollAccelerationEnabled</code> setting to disable mouse-wheel scroll acceleration in fullscreen mode</li>
+<li>Fixed the <code>/model</code> picker h
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.173
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-11
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.173
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Fixed Fable 5 model names with a <code>[1m]</code> suffix not being normalized — Fable 5 includes 1M context by default, so the suffix is now stripped automatically</l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### v2.1.172
+- **Source**: github `anthropics_claude_code_releases` · 2026-06-10
+- **URL**: https://github.com/anthropics/claude-code/releases/tag/v2.1.172
+- **Tipo**: github_repo_releases
+- **Autor**: ashwin-ant
+- **Excerpt**: <h2>What's changed</h2>
+<ul>
+<li>Sub-agents can now spawn their own sub-agents (up to 5 levels deep)</li>
+<li>Amazon Bedrock now reads the AWS region from <code>~/.aws</code> config files when <code>A
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-16
+- **URL**: https://github.com/anthropics/claude-code/commit/843959fad9c3e5977c6295397da88df81604c94c
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-16
+- **URL**: https://github.com/anthropics/claude-code/commit/1b7380874c00e7dcde43b8164d258182d0c0ef18
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-15
+- **URL**: https://github.com/anthropics/claude-code/commit/64ceb97caab3fb898ece9a1b61e337470f805550
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/commit/ca9f6045fc90c8244f9e787fb57d54b380f9a27c
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/commit/ee81682a72b07705672332d1dc963927a998c177
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-12
+- **URL**: https://github.com/anthropics/claude-code/commit/5754a8bd4fd286e798d9d29658b10f29832ad177
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-11
+- **URL**: https://github.com/anthropics/claude-code/commit/3a7c736101edbd00426fce4615e80b937f6467df
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · https://github.com/anthropics/claude-code
+
+### chore: Update CHANGELOG.md and feed.xml
+- **Source**: github `anthropics_claude_code_commits` · 2026-06-10
+- **URL**: https://github.com/anthropics/claude-code/commit/ca34f27543215fa4212872401dff00ba0ff0a034
+- **Tipo**: github_repo_commits
+- **Autor**: actions-user
+- **Excerpt**: <pre style='white-space:pre-wrap;width:81ex'>chore: Update CHANGELOG.md and feed.xml</pre>
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · karpathy
+
+### HELLO.md , written by Claude Opus 4.6 when asked to be free in a directory on my computer
+- **Source**: github `karpathy_gists` · 2026-06-15
+- **URL**: https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/fb64880bf1f99d58d6c759c966616922#file-hello-md">HELLO.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-hello-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · karpathy
+
+### llm-wiki
+- **Source**: github `karpathy_gists` · 2026-06-17
+- **URL**: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md">llm-wiki.md</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-l
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · karpathy
+
+### microgpt
+- **Source**: github `karpathy_gists` · 2026-06-17
+- **URL**: https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95#file-microgpt-py">microgpt.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-m
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · karpathy
+
+### Git Commit Message AI
+- **Source**: github `karpathy_gists` · 2026-06-17
+- **URL**: https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/1dd0294ef9567971c1e4348a90d69285#file-add_to_zshrc-sh">add_to_zshrc.sh</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · karpathy
+
+### hacky stablediffusion code for generating videos
+- **Source**: github `karpathy_gists` · 2026-06-13
+- **URL**: https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355#file-stablediffusionwalk-py">stablediffusionwalk.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · karpathy
+
+### Natural Evolution Strategies (NES) toy example that optimizes a quadratic function
+- **Source**: github `karpathy_gists` · 2026-06-14
+- **URL**: https://gist.github.com/karpathy/77fbb6a8dac5395f1b73e7a89300318d
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/77fbb6a8dac5395f1b73e7a89300318d#file-nes-py">nes.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-nes-py" cla
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:00 — auto-descubierto · github · karpathy
+
+### Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy
+- **Source**: github `karpathy_gists` · 2026-06-16
+- **URL**: https://gist.github.com/karpathy/d4dee566867f8291f086
+- **Tipo**: github_user_activity
+- **Autor**: Andrej
+- **Excerpt**: <a href="https://gist.github.com/karpathy/d4dee566867f8291f086#file-min-char-rnn-py">min-char-rnn.py</a>
+  
+<div class="js-gist-file-update-container js-task-list-container">
+      <div id="file-min-c
+- **Pista**: [PENDIENTE leer y resumir]
+- **Sugerencia ingest**: [PENDIENTE — sólo si la actividad es de fondo/insight notable]
+
+## 2026-06-17T07:01 — auto-descubierto · @sequoiacapital
+
+### `lfhFmwcESRw_Simulating_Humans_at_Scale__Simile's_Joon_Sung_Park.knowledge`
+- **Source**: sequoiacapital_youtube · `lfhFmwcESRw` · 38:46 · upload NA
+- **URL**: https://www.youtube.com/watch?v=lfhFmwcESRw
+- **Pista**: Joon Sung Park (Simile) — generative agents Smallville → simular humanos a escala con panel real (Gallup/CVS), 85% accuracy, TVD<0.15.
+- **Sugerencia ingest**: ✅ INGERIDO 2026-06-17 → NUEVA `ai-agents-strategy/generative-agents-simulation.md`. Fidelity-reviewed.
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive · PROCESADO
+
+## 2026-06-17T07:02 — auto-descubierto · @aiDotEngineer
+
+### `gHs5ZiY80PM_You_Might_Not_Need_50_Diffusion_Steps_—_Ziv_Ilan,_Nvidia.knowledge`
+- **Source**: aidotengineer_youtube · `gHs5ZiY80PM` · 18:46 · upload NA
+- **URL**: https://www.youtube.com/watch?v=gHs5ZiY80PM
+- **Pista**: Ziv Ilan (Nvidia) — optimización inferencia diffusion gen-media: quantization/caching/distillation (incremental, stackable).
+- **Sugerencia ingest**: ✅ INGERIDO 2026-06-17 → NUGGET en `claude-code/hardware-inference-2026.md` (15→16). Fidelity-reviewed.
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive · PROCESADO
+
+## 2026-06-17T07:03 — auto-descubierto · @mehulmpt
+
+### `2Ajm36oV01Q_SpaceX_Bought_Cursor_(WHAT).knowledge`
+- **Source**: mehulmpt_youtube · `2Ajm36oV01Q` · 12:52 · upload NA
+- **URL**: https://www.youtube.com/watch?v=2Ajm36oV01Q
+- **Pista**: Reacción YouTuber (con hedges) sobre SpaceX/xAI adquiriendo Cursor. Hecho real, verificado vía prensa.
+- **Sugerencia ingest**: ✅ INGERIDO 2026-06-17 → NUGGET en `ai-coding-tools/tools-comparison.md`. ⚠️ Transcript NO citado como fuente (reacción); facts de CNBC/TechCrunch.
+- **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive · PROCESADO

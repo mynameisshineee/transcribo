@@ -183,7 +183,21 @@ sources:
     priority: 1
     language: en
     backfill_since: "2026-02-12"
-    notes: "Van Clief (autor del paper ICM). Backfill últimos 3 meses + daily forward."
+    notes: "Van Clief (autor del paper ICM). Backfill últimos 3 meses + daily forward. title_denylist: auto-salta en discovery vídeos no-técnicos (la ingesta al wiki es manual por juicio de relevancia)."
+    # Implementado en watch.py filter_by_denylist() — regex case-insensitive sobre el título.
+    # Word-boundaries (\b) en términos cortos para evitar falsos positivos (\baudi\b NO matchea 'audiences').
+    title_denylist:
+      - 'permaculture'
+      - 'farmlife'
+      - '#farm'
+      - 'veo ?3'
+      - '\bsuno\b'
+      - '\bsora\b'
+      - 'rick and morty'
+      - 'watermelon'
+      - '\baudi\b'
+      - 'ship in a bottle'
+      - 'never post one of these'
 
   - id: jevanclief_github
     type: github_user

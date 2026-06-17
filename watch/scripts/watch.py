@@ -216,6 +216,30 @@ def filter_by_duration(items: list[dict], min_s: int, max_s: int) -> list[dict]:
     return out
 
 
+def filter_by_denylist(items: list[dict], patterns: list[str]) -> list[dict]:
+    """Descarta items cuyo título matchea algún patrón regex (case-insensitive).
+    Los patrones vienen de config['title_denylist'] (global) + source['title_denylist'].
+    Usar word-boundaries (\\b) en términos cortos para evitar falsos positivos
+    (p.ej. '\\baudi\\b' NO matchea 'audiences')."""
+    if not patterns:
+        return items
+    compiled = []
+    for p in patterns:
+        try:
+            compiled.append(re.compile(p, re.I))
+        except re.error as e:
+            log(f"  WARN denylist regex inválida {p!r}: {e}")
+    out = []
+    for it in items:
+        title = it.get("title", "")
+        hit = next((c.pattern for c in compiled if c.search(title)), None)
+        if hit:
+            log(f"  skip (denylist /{hit}/): {title[:60]}")
+            continue
+        out.append(it)
+    return out
+
+
 def sanitize_filename(s: str) -> str:
     s = re.sub(r"[/\\:*?\"<>|]", "_", s)
     s = re.sub(r"\s+", "_", s)
@@ -436,6 +460,7 @@ def run(args: argparse.Namespace) -> int:
     min_views = int(config.get("min_views_for_mention", 500))
     max_age_days = int(config.get("max_age_days", 30))
     whisper_model = config.get("whisper_model", "medium")
+    global_deny = config.get("title_denylist", []) or []
 
     known = known_titles_from_wiki()
     log(f"known set: {len(known)} entradas")
@@ -458,6 +483,7 @@ def run(args: argparse.Namespace) -> int:
             if stype == "youtube_channel":
                 discovered = discover_youtube_channel(src, yt_limit, known)
                 discovered = filter_by_duration(discovered, min_dur, max_dur)
+                discovered = filter_by_denylist(discovered, global_deny + (src.get("title_denylist") or []))
                 if args.discover_only:
                     for it in discovered:
                         log(f"  NEW: {it['title']} ({it['duration']}s) {it['url']}")
@@ -483,6 +509,7 @@ def run(args: argparse.Namespace) -> int:
                         continue
                     fresh.append(c)
                 fresh = filter_by_duration(fresh, min_dur, max_dur)
+                fresh = filter_by_denylist(fresh, global_deny + (src.get("title_denylist") or []))
                 if args.discover_only:
                     for it in fresh:
                         log(f"  SEARCH NEW: [{it['views']:,}v] {it['title']} {it['url']}")
