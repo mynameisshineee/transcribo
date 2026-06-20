@@ -18695,3 +18695,8 @@ The workflow has been failing daily since 2026-04-27 with HTTP 422
 - **Pista**: [PENDIENTE leer transcripción y resumir]
 - **Sugerencia ingest**: [PENDIENTE clasificar al wiki]
 - **Estado**: `.knowledge.md` en `videoatexto/` + canonical kDrive
+
+## 2026-06-21 — gap-fill (sesión transcribo, cero-huecos)
+
+- johnkim_youtube · `TgkMXymEbVU` · https://www.youtube.com/watch?v=TgkMXymEbVU · "Anthropic Says That AI is Improving Itself" · kDrive 2026-06-21
+- mehulmpt_youtube · `CEzS_T2mQ-I` · https://www.youtube.com/watch?v=CEzS_T2mQ-I · "This Changes AWS S3 Forever" · kDrive 2026-06-21
