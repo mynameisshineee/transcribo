@@ -78,7 +78,10 @@ def save_state(state: dict) -> None:
         yaml.safe_dump(state, fp, default_flow_style=False, sort_keys=False)
 
 
-def known_titles_from_wiki() -> set[str]:
+_CANONICAL_VID_ID_RE = re.compile(r"^([A-Za-z0-9_-]{11})_")
+
+
+def known_titles_from_wiki(canonical_dir=None) -> set[str]:
     """Devuelve los basenames normalizados de todos los .knowledge.md existentes
     para evitar reprocesar lo que ya está bajado.
 
@@ -115,6 +118,21 @@ def known_titles_from_wiki() -> set[str]:
         # status IDs de X
         for m in re.finditer(r"status[ /](\d{15,20})", text):
             known.add(m.group(1).lower())
+    # fuente 4: kDrive canonical dir — fuente de verdad inmutable (~1682 archivos).
+    # Hace la dedup independiente del root (que se vacía por rm/git-clean externos).
+    # Guard: salta si kDrive no está montado o la ruta es vacía/'.'.
+    if canonical_dir is not None and str(canonical_dir) not in ("", ".") and canonical_dir.exists():
+        for f in canonical_dir.glob("*.knowledge.md"):
+            name = f.stem.replace(".knowledge", "")
+            known.add(name.lower())
+            norm = re.sub(r"[^\w\s]", "", name).lower().strip()
+            norm_compact = re.sub(r"\s+", "_", norm)
+            known.add(norm)
+            known.add(norm_compact)
+            # extraer video ID del patrón VIDEOID_Title para cubrir el check por ID
+            vid_match = _CANONICAL_VID_ID_RE.match(f.name)
+            if vid_match:
+                known.add(vid_match.group(1).lower())
     return known
 
 
@@ -462,7 +480,7 @@ def run(args: argparse.Namespace) -> int:
     whisper_model = config.get("whisper_model", "medium")
     global_deny = config.get("title_denylist", []) or []
 
-    known = known_titles_from_wiki()
+    known = known_titles_from_wiki(canonical_dir)
     log(f"known set: {len(known)} entradas")
 
     selected_sources = []
