@@ -310,6 +310,24 @@ sources:
     language: en
     notes: "Taylor Haren — cold email / outbound sales a escala (deliverability, campañas, Fyxer $32M ARR, etc.). NO es canal Claude Code (solo ~4 de 30 lo tocan); valor = conocimiento sales-marketing para el outreach de BIK. Añadido 2026-06-19 por operador ('bajamos TODO lo que suba ese canal'). Backfill 30 últimos manual 2026-06-19; cron forward, SIN denylist (queremos todos)."
 
+  - id: wesmcdowell_tutorials_youtube
+    type: youtube_channel
+    url: https://www.youtube.com/@wesmcdowelltutorials/videos
+    handle: "@wesmcdowelltutorials"
+    frequency: daily
+    priority: 3
+    language: en
+    notes: "Wes McDowell Tutorials — landing pages / websites / conversión / AI website builders. Valor = sales-marketing + web para BIK. Añadido 2026-06-23 por operador ('ingest de todo este canal + cron'). Backfill completo (14) 2026-06-23, SIN denylist."
+
+  - id: wesmcdowell_inc_youtube
+    type: youtube_channel
+    url: https://www.youtube.com/@WesMcDowellInc/videos
+    handle: "@WesMcDowellInc"
+    frequency: daily
+    priority: 3
+    language: en
+    notes: "Wes McDowell Inc — YouTube para negocios / lead-gen / content strategy / personal brand. Valor = sales-marketing para BIK. Añadido 2026-06-23 por operador ('últimos 20 + cron'). Backfill 20 últimos 2026-06-23, SIN denylist."
+
   # ═══════════════════════════════════════════════════════════════════════════
   # TIER 3 — Casos de uso B2B España (baja frecuencia)
   # ═══════════════════════════════════════════════════════════════════════════
