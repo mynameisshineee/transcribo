@@ -328,6 +328,15 @@ sources:
     language: en
     notes: "Wes McDowell Inc — YouTube para negocios / lead-gen / content strategy / personal brand. Valor = sales-marketing para BIK. Añadido 2026-06-23 por operador ('últimos 20 + cron'). Backfill 20 últimos 2026-06-23, SIN denylist."
 
+  - id: fluxacademy_youtube
+    type: youtube_channel
+    url: https://www.youtube.com/@FluxAcademy/videos
+    handle: "@FluxAcademy"
+    frequency: daily
+    priority: 3
+    language: en
+    notes: "Flux Academy — diseño web / UX / branding / freelance design business. Valor = frontend-ui-design + sales para BIK. Añadido 2026-06-26 por operador ('mañana 30 + al cron'). Backfill 30 = lo hace el PRIMER run del cron (2026-06-27 07:00) automáticamente, porque youtube_scan_limit=30 y el canal está vacío del known-set → descubre los 30 y los procesa. SIN denylist; shorts <3min se auto-filtran."
+
   # ═══════════════════════════════════════════════════════════════════════════
   # TIER 3 — Casos de uso B2B España (baja frecuencia)
   # ═══════════════════════════════════════════════════════════════════════════
