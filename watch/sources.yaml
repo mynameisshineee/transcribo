@@ -337,6 +337,15 @@ sources:
     language: en
     notes: "Flux Academy — diseño web / UX / branding / freelance design business. Valor = frontend-ui-design + sales para BIK. Añadido 2026-06-26 por operador ('mañana 30 + al cron'). Backfill 30 = lo hace el PRIMER run del cron (2026-06-27 07:00) automáticamente, porque youtube_scan_limit=30 y el canal está vacío del known-set → descubre los 30 y los procesa. SIN denylist; shorts <3min se auto-filtran."
 
+  - id: bettatech_youtube
+    type: youtube_channel
+    url: https://www.youtube.com/@BettaTech/videos
+    handle: "@BettaTech"
+    frequency: daily
+    priority: 3
+    language: es
+    notes: "BettaTech — canal dev español (SDD/Claude Code, ingeniería de software, testing, carrera). ESPAÑOL → language: es. Valor = Claude Code workflows + ingeniería en castellano. Añadido 2026-06-27 por operador ('este canal al cron diario'). Backfill ~30 lo hace el primer run del cron; 3 vídeos (ElGlTv2A_bM, DiU2huM9PQU, PQYeWODU8Lo) procesados a mano + sembrados. SIN denylist."
+
   # ═══════════════════════════════════════════════════════════════════════════
   # TIER 3 — Casos de uso B2B España (baja frecuencia)
   # ═══════════════════════════════════════════════════════════════════════════
